@@ -2,6 +2,8 @@
 
 ## Quick Info
 
+| | |
+|-|-|
 | Plugin Title | ACM Certificate Validation |
 | Cloud | AWS |
 | Category | ACM |
