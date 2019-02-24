@@ -16,3 +16,5 @@
 
 ## Detailed Remediation Steps
 
+1. Log into the AWS AutoScaling console
+2. 

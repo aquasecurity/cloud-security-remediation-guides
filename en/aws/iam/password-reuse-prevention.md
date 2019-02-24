@@ -12,7 +12,7 @@
 | **Description** | Ensures password policy prevents previous password reuse |
 | **More Info** | A strong password policy enforces minimum length, expirations, reuse, and symbol usage |
 | **AWS Link** | http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_ManagingPasswordPolicies.html |
-| **Recommended Action** | Increase the minimum previous passwors that can be reused to 24. |
+| **Recommended Action** | Increase the minimum previous passwords that can be reused to 24. |
 
 ## Detailed Remediation Steps
 
