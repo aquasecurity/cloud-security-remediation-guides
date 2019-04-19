@@ -143,10 +143,4 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
 
 ## Contributing
 
-We welcome and encourage contributions from the community. To contribute, please fork this repository and create a pull request with your changes. If you are adding a new security control that CloudSploit does not yet scan for, we would also love if you submitted a pull request to our scans repository as well, but it isn't required.
-
-Please consider the following guidelines:
-
-* Each cloud provider (AWS, Azure, etc) has its own sub-folder.
-* Within each provider, there are sub-folders for the services. For example, `ec2` and `s3` for AWS.
-* Each security guide has its own file with the same format and structure. Please copy an existing one for reference.
+Please see the [contributor's guide](.github/CONTRIBUTING.md).
