@@ -20,8 +20,8 @@
 3. Select the Details tab and check the Availability Zone(s). If Availability Zone(s) value is set to a single Availability Zone(s) (e.g. us-east-1b), it cannot launch Instances to multiple Availabilty Zone(s) hence if one Availability Zone becomes unavailable, Amazon EC2 Auto Scaling cannot launch instances in another one to atone.
 
 ## Corrective Steps
-3a. Select the Auto Scaling Group and go to Actions Option.
-3b. Select the option to Edit the configuration and choose Launch Configuration Option.
-3c. Edit the Subnet(s) and add the Subnet(s) to make Auto Scaling Group available to Multiple Availabilty Zone(s).
-3d. Save the Changes. Go to Details option again and now Availability Zone(s) have multiple regions and subnets as well.
-3e. Repeat the steps number 2 and 3 to establish any other Auto Scaling Group hosted in multiple Availability Zone(s) or not. 
+1. Select the Auto Scaling Group and go to Actions Option.
+2. Select the option to Edit the configuration and choose Launch Configuration Option.
+3. Edit the Subnet(s) and add the Subnet(s) to make Auto Scaling Group available to Multiple Availabilty Zone(s).
+4. Save the Changes. Go to Details option again and now Availability Zone(s) have multiple regions and subnets as well.
+5. Repeat the steps number 2 and 3 to establish any other Auto Scaling Group hosted in multiple Availability Zone(s) or not. 
