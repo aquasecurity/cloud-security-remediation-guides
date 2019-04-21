@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console and choose the desired region where the Auto Scaling Group is hosted.
-2. In the left navigation panel, scroll down and choose Auto Scaling Group(s) option and select the ASG(s) that needs to be modified.[![Step 2](https://github.com/shuklaalok87/security-remediation-guides/resources/aws/autoscaling/Step2.png "Step 2 - ASG")]  
+2. In the left navigation panel, scroll down and choose Auto Scaling Group(s) option and select the ASG(s) that needs to be modified.[![Step 2](https://github.com/shuklaalok87/security-remediation-guides/resources/aws/autoscaling/Step2.png ")]  
 3. Select the Details tab and check the Availability Zone(s). If Availability Zone(s) value is set to a single availability zone (e.g. us-east-1b), it cannot launch instances to multiple Availabilty Zone(s) hence if one Availability Zone becomes unavailable, Amazon EC2 Auto Scaling cannot launch instances in another one to atone.
 4. Select the Auto Scaling Group and go to "Actions" Option.
 5. Select the option to "Edit" the configuration and choose the "Launch Configuration" Option.
