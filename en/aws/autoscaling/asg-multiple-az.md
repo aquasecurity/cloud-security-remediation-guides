@@ -21,5 +21,5 @@
 4. Select the Auto Scaling Group and go to "Actions" Option.![Step 4](/resources/aws/autoscaling/step4.png "Step 4 - Actions") 
 5. Select the option to "Edit" the configuration and choose the "Launch Configuration" Option.![Step 5](/resources/aws/autoscaling/Step5.png "Step 5 - Edit")
 6. Edit the Subnet(s) and add the Subnet(s) to make the Auto Scaling Group available to Multiple Availabilty Zone(s).![Step 6](/resources/aws/autoscaling/step6.png "Step 6 - Subnet(s)")  
-7. Save the changes. Go to "Details" option again and now Availability Zone(s) have multiple regions and subnets as well.![Step 7](/resources/aws/autoscaling/step7.png "Step 7 - Details")  
+7. Save the changes. Go to "Details" option and now Availability Zone(s) have multiple regions and subnets as well.![Step 7](/resources/aws/autoscaling/step7.png "Step 7 - Details")  
 8. Repeat the steps number 2 and 3 to establish any other Auto Scaling Group hosted in multiple Availability Zone(s) or not. 
