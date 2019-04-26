@@ -20,5 +20,6 @@
 3. Select the "CloudFront Distribution" that needs to be verified.</br> 
 4. Click the "Distribution Settings" button from Menu to get into the "CloudFront Distribution" configuration page. </br>
 5. Click the "Edit" button from the  General tab on the top menu. </br>
-6. Choose the "Security Policy" that you want CloudFront to use for HTTPS connections and must use  TLSv1 or later to choose the Security Protocol.</br>
-
+6. Choose the "Security Policy" that you want CloudFront to use for HTTPS connections and must use TLSv1 or later to choose the "Security Protocol".</br>
+7. Scroll down and click on "Yes,Edit" to save the changes.</br>
+8. CloudFront Distribution is now using secure HTTPS SSL/TLS protocols. </br>
