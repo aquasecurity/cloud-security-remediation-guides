@@ -22,4 +22,4 @@
 5. Click the "Edit" button from the  General tab on the top menu. </br>![Step 5](/resources/aws/cloudfront/insecure-cloudfront-protocols/step5.png "Step 5 - Edit")
 6. Scroll down and choose the "Security Policy" that you want CloudFront to use for HTTPS connections and must use TLSv1.1 or higher SSL protocols.</br>![Step 6](/resources/aws/cloudfront/insecure-cloudfront-protocols/step6.png "Step 6 - Security Policy")
 7. Scroll down and click on "Yes,Edit" to save the changes.</br>![Step 7](/resources/aws/cloudfront/insecure-cloudfront-protocols/step7.png "Step 7 - Edit")
-8. Repeat the steps 5 and 6 to establish any other "CloudFront Distribution" is not using an insecure SSL protocol for HTTPS traffic.</br>
+8. Repeat the steps number 5 and 6 to establish any other "CloudFront Distribution" is not using an insecure SSL protocol for HTTPS traffic.</br>
