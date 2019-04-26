@@ -16,9 +16,9 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for CloudFront. </br> ![Step 2](/resources/aws/cloudfront//step2.png "Step 2 - Services")
-3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront/cloudfront-/step3.png "Step 3 - CloudFront Distribution")
-4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront/cloudfront-/step4.png "Step 4 - Distribution Settings")
-5. Click the "Behaviors" button from top menu to get into the "Behaviors" configuration page and select the "Behavior" which needs to be verified.. </br> ![Step 5](/resources/aws/cloudfront/cloudfront-/step5.png "Step 5 - Behaviors ")
-6. Click the "Edit" button from the "Behaviors" tab on the menu.</br> 
+2. Select the "Services" option and search for CloudFront. </br> ![Step 2](/resources/aws/cloudfront/cloudfront-https-only/step2.png "Step 2 - Services")
+3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront/cloudfront-https-only/step3.png "Step 3 - CloudFront Distribution")
+4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront/cloudfront-https-only/step4.png "Step 4 - Distribution Settings")
+5. Click the "Behaviors" button from top menu to get into the "Behaviors" configuration page and select the "Behavior" which needs to be verified.</br> ![Step 5](/resources/aws/cloudfront/cloudfront-https-only/step5.png "Step 5 - Behaviors")
+6. Click the "Edit" button from the "Behaviors" tab on the menu.</br> ![Step 6](/resources/aws/cloudfront/cloudfront-https-only/step6.png "Step 5 - Edit")
 7. 
