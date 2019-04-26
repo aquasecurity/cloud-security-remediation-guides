@@ -15,4 +15,8 @@
 | **Recommended Action** | Remove HTTP-only listeners from distributions. |
 
 ## Detailed Remediation Steps
-
+Log into the AWS Management Console.
+2. Select the "Services" option and search for CloudFront. </br> ![Step 2](/resources/aws/cloudfront//step2.png "Step 2 - Services")
+3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront/cloudfront-/step3.png "Step 3 - CloudFront Distribution")
+4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront/cloudfront-/step4.png "Step 4 - Distribution Settings")
+5. Click the "Behaviors" button from top menu to get into configuration page. </br> ![Step 5](/resources/aws/cloudfront/cloudfront-/step5.png "Step 5 - Behaviors ")
