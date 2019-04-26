@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for CloudFront. </br>
+2. Select the "Services" option and search for CloudFront. </br> ![STEP 1](/resources/aws/cloudfront/insecure-cloudfront-protocols/step2.png - "STEP 2 ")
 3. Select the "CloudFront Distribution" that needs to be verified.</br> 
 4. Click the "Distribution Settings" button from Menu to get into the "CloudFront Distribution" configuration page. </br>
 5. Click the "Edit" button from the  General tab on the top menu. </br>
