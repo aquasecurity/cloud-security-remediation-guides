@@ -15,4 +15,4 @@
 | **Recommended Action** | Create an origin access identity for CloudFront, then make the contents of the S3 bucket private. |
 
 ## Detailed Remediation Steps
-
+1. 
