@@ -23,5 +23,5 @@
 6. Click the "Edit" button from the "Behaviors" tab on the menu.</br> ![Step 6](/resources/aws/cloudfront/cloudfront-https-only/step6.png "Step 6 - Edit")
 7. On the Default Cache Behavior Settings, verify the "Viewer Protocol Policy" and if "HTTP and HTTPS" is selected than CloudFront allows viewers to access your web content using either HTTP or HTTPS. </br> ![Step 6](/resources/aws/cloudfront/cloudfront-https-only/step7.png "Step 7 - Viewer Protocol Policy")
 8. On the "Viewer Protocol Policy" choose "Redirect HTTP to HTTPS" to redirect all HTTP requests to HTTPS.</br>![Step 8](/resources/aws/cloudfront/cloudfront-https-only/step8.png "Step 8 - HTTP to HTTPS")
-9. On the "Viewer Protocol Policy" choose "HTTPS Only" so CloudFront allows viewers to access your content only if they're using HTTPS.![Step 9](/resources/aws/cloudfront/cloudfront-https-only/step9.png "Step 9 - HTTPS Only")
+9. On the "Viewer Protocol Policy" choose "HTTPS Only" so CloudFront allows viewers to access your content only if they're using HTTPS.</br>![Step 9](/resources/aws/cloudfront/cloudfront-https-only/step9.png "Step 9 - HTTPS Only")
 10. Repeat the steps number 5 , 6 and 7 to verify if any other CloudFront Distribution is using HTTP-only listeners.</br>
