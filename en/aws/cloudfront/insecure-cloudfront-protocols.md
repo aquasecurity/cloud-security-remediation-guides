@@ -20,6 +20,6 @@
 3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront/insecure-cloudfront-protocols/step3.png "Step 3 - CloudFront Distribution")
 4. Click the "Distribution Settings" button from Menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront/insecure-cloudfront-protocols/step4.png "Step 4 - Distribution Settings")
 5. Click the "Edit" button from the  General tab on the top menu. </br>![Step 5](/resources/aws/cloudfront/insecure-cloudfront-protocols/step5.png "Step 5 - Edit")
-6. Scroll down and choose the "Security Policy" that you want CloudFront to use for HTTPS connections and must use TLSv1 or later for "Security Policy".</br>![Step 6](/resources/aws/cloudfront/insecure-cloudfront-protocols/step6.png "Step 6 - Security Policy")
+6. Scroll down and choose the "Security Policy" that you want CloudFront to use for HTTPS connections and must use TLSv1 or higher for "Security Policy".</br>![Step 6](/resources/aws/cloudfront/insecure-cloudfront-protocols/step6.png "Step 6 - Security Policy")
 7. Scroll down and click on "Yes,Edit" to save the changes.</br>![Step 7](/resources/aws/cloudfront/insecure-cloudfront-protocols/step7.png "Step 7 - Edit")
 8. CloudFront Distribution is now using secure HTTPS SSL/TLS protocols. </br>
