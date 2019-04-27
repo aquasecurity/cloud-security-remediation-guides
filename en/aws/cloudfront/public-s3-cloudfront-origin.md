@@ -15,4 +15,19 @@
 | **Recommended Action** | Create an origin access identity for CloudFront, then make the contents of the S3 bucket private. |
 
 ## Detailed Remediation Steps
-1. 
+1. 1. Log into the AWS Management Console.
+2. Select the "Services" option and search for CloudFront. </br> ![Step 2](/resources/aws/cloudfront//step2.png "Step 2 - Services")
+3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront//step3.png "Step 3 - CloudFront Distribution")
+4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront//step4.png "Step 4 - Distribution Settings")
+5. Click the "Origins and Origin Groups" button from the top menu to get into the "Origins" configuration page and select the "Origin" which needs to be verified.</br>
+6. Click the "Edit" button from the "Origins" tab on the menu.</br>
+7. On the Origin Settings, verify the "Restrict Bucket Access".If Restrict Bucket Access is set to No then the access to the S3 bucket used as the origin is not secured.</br> 
+8. On the "Restrict Bucket Access" choose "Yes" so it requires that users always access your Amazon S3 content using CloudFront URLs, not Amazon S3 URLs.</br>
+9. On the "Origin Access Identity" choose "Create a New Identity" and if already have an origin access identity, click use an "Existing Identity". Enter a comment that can be used to identify the new origin access identity.</br>
+10. Click on the "Yes, Update Bucket Policy" on "Grant Read Permissions on Bucket" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br>
+11. Click on "Yes,Edit" button to save the changes.</br>
+12. Navigate to S3 bucket dashboard and choose the S3 bucket used to verify the "Permissions" on S3 bucket.</br>
+13. Click the "Permissons" tab from menu to get into the "Public access settings" for the bucket.</br>
+14. Click on the "Edit" button and scroll down to "Manage public access control lists" and "Manage public bucket policies" to verify the "Permissions". Select the "Permissions" and click on "Save" to make the contents of the S3 bucket private.</br>
+15. Repeat the steps number 6 and 7 to verify origin access identity for CloudFront.</br>
+
