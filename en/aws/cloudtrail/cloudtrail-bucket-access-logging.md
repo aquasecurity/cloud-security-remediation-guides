@@ -17,8 +17,8 @@
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for "CloudTrail".</br>![Step 2](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step2.png "Step 2 - Services")
-3. In the "Dashboard" panel click on "View Trails" button.</br> ![Step 3](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step3.png "Step 3 - Trails")
-4. Select the "Trail" that needs to be verified under "Name" column.</br>![Step 4](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step4.png "Step 4 - Name")
+3. In the "Dashboard" panel click on "View trails" button.</br> ![Step 3](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step3.png "Step 3 - Trails")
+4. Select the "trail" that needs to be verified under "Name" column.</br>![Step 4](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step4.png "Step 4 - Name")
 5. Scroll down and under the "Storage location" option check the S3 bucket used to store log data.</br>![Step 5](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step5.png "Step 5 - Storage")
 6. Go to "Services" and search for "S3" to go into S3 buckets dashboard.</br>![Step 6](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step6.png "Step 6 - S3 buckets")
 7. Select the "S3 bucket" used to store log data in CloudTrail.</br>![Step 7](/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step7.png "Step 7 - S3")
