@@ -24,3 +24,4 @@
 6. Go to "Trail Settings" and click on "Yes" checkbox to enable the "Apply trail to all regions" which receive the log files containing event history for the new region without taking any action. Click on the "Save" button to make the changes. </br>![Step 6](/resources/aws/cloudtrail/cloudtrail-enabled/step6.png "Step 6 - Apply trail")
 7. Scroll down and go to "Additional Configuration" settings and click on the pencil icon to make the changes.</br>![Step 7](/resources/aws/cloudtrail/cloudtrail-enabled/step7.png "Step 4 - Additional Configuration")
 8. Click on the "Yes" checkbox corresponding to the "Include global services" and click on "Save" button to make the changes.</br>![Step 8](/resources/aws/cloudtrail/cloudtrail-enabled/step8.png "Step 8 - Global Services")
+9. CloudTrail is enabled for all regions with global service events now.</br>
