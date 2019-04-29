@@ -27,3 +27,4 @@
 10. Select the "S3 bucket" used by CloudTrail and click on "Permissions" tab.</br>![Step 10](/resources/aws/cloudtrail/cloudtrail-bucket-private/step10.png "Step 10 - Permissions")
 11. Select the "Access Control List" from the menu and search for any group with the name "Everyone" and make sure this group has no checkboxes enabled. If this group has one or more checkboxes enabled than the selected S3 bucket is publicly accessible. </br>![Step 11](/resources/aws/cloudtrail/cloudtrail-bucket-private/step11.png "Step 11 - Access Control List")
 12. Check the "Access for other AWS accounts" on the selected S3 bucket for known users.</br>![Step 12](/resources/aws/cloudtrail/cloudtrail-bucket-private/step12.png "Step 12 - Access")
+13. S3 buckets access policy for all "CloudTrail buckets" have access allow only to known users now. 
