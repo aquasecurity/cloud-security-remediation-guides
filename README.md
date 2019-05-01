@@ -140,6 +140,31 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
 	* SageMaker
 	    * [Notebook Data Encrypted](en/aws/sagemaker/notebook-data-encrypted.md)
 	    * [Notebook Direct Internet Access](en/aws/sagemaker/notebook-direct-internet-access.md)
+* Azure
+	* Blob Service
+	    * [Blob Service Immutable](en/azure/blobservice/blob-service-immutable.md)
+	* File Service
+	    * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
+	* Log Alerts
+	    * [SQL Server Firewall Rule Alerts Monitor](en/azure/logalerts/sql-server-firewall-rule-alerts-monitor.md)
+	    * [Virtual Network Alerts Monitor](en/azure/logalerts/virtual-network-alerts-monitor.md)
+	* Queue Service
+	    * [Queue Service All Access ACL](en/azure/queueservice/queue-service-all-access-acl.md)
+	* Resource Groups
+	    * [Resource Groups](en/azure/resourcegroups/resource-groups.md)
+	* Security Center
+	    * [Monitor Disk Encryption](en/azure/securitycenter/monitor-disk-encryption.md)
+	* Storage Accounts
+	    * [Storage Accounts Encryption](en/azure/storageaccounts/storage-accounts-encryption.md)
+	    * [Storage Accounts HTTPS](en/azure/storageaccounts/storage-accounts-https.md)
+	* Table Service
+	    * [Table Service All Access ACL](en/azure/tableservice/table-service-all-access-acl.md)
+	* Virtual Machines
+	    * [VM Agent Enabled](en/azure/virtualmachines/vm-agent-enabled.md)
+	    * [VM Auto Update Enabled](en/azure/virtualmachines/vm-auto-update-enabled.md)
+	    * [VM Data Disk Encryption](en/azure/virtualmachines/vm-data-disk-encryption.md)
+	    * [VM Endpoint Protection](en/azure/virtualmachines/vm-endpoint-protection.md)
+	    * [VM OS Disk Encryption](en/azure/virtualmachines/vm-os-disk-encryption.md)
 
 ## Contributing
 
