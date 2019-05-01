@@ -24,4 +24,3 @@
 7. Click on the "Yes" option next to "Create a new KMS key" and enter a name. Make sure KMS key and S3 bucket must be in the same region.</br>![Step 7](/resources/aws/cloudtrail/cloudtrail-encryption/step7.png "Step 7 - Name")
 8. Click on "No" option next to "Create a new KMS key" if already have "KMS key" available.</br>![Step 8](/resources/aws/cloudtrail/cloudtrail-encryption/step8.png "Step 7 - No")
 9. Scroll down and click on "Save" to enable the CloudTrail log encryption.</br>![Step 9](/resources/aws/cloudtrail/cloudtrail-encryption/step9.png "Step 9 - Save")
-
