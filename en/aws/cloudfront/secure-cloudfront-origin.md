@@ -24,3 +24,4 @@
 7. On the Origin Settings page, verify the "Origin Protocol Policy" is set to "HTTPS Only".![Step 7](/resources/aws/cloudfront/secure-cloudfront-origin/step7.png "Step 7 - Protocol Policy")
 8. Scroll down and click on "Yes,Edit" and save the changes.</br>![Step 8](/resources/aws/cloudfront/secure-cloudfront-origin/step8.png "Step 8 - Edit")
 9. Repeat steps number 5, 6 and 7 to verify another CloudFront Distribution.</br>
+
