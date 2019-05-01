@@ -20,7 +20,7 @@
 3. Select the "CloudFront Distribution" that needs to be verified.</br> ![Step 3](/resources/aws/cloudfront/secure-cloudfront-origin/step3.png "Step 3 - CloudFront Distribution")
 4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br>![Step 4](/resources/aws/cloudfront/secure-cloudfront-origin/step4.png "Step 4 - Distribution Settings")
 5. Select the Origins tab and choose the distribution origin that needs to be verified.</br>![Step 5](/resources/aws/cloudfront/secure-cloudfront-origin/step5.png "Step 5 - Origins")
-6. On the Origin Settings page, ensure TLSv1.1 or higher protocol is enabled.</br>![Step 6](/resources/aws/cloudfront/secure-cloudfront-origin/step6.png "Step 6 - Origin Settings")
+6. On the Origin Settings page, ensure TLSv1.1 or higher protocol is enabled.</br> ![Step 6](/resources/aws/cloudfront/secure-cloudfront-origin/step6.png "Step 6 - Origin Settings")
 7. On the Origin Settings page, verify the "Origin Protocol Policy" is set to "HTTPS Only".![Step 7](/resources/aws/cloudfront/secure-cloudfront-origin/step7.png "Step 7 - Protocol Policy")
 8. Scroll down and click on "Yes,Edit" and save the changes.</br>![Step 8](/resources/aws/cloudfront/secure-cloudfront-origin/step8.png "Step 8 - Edit")
 9. Repeat steps number 5, 6 and 7 to verify another CloudFront Distribution.</br>
