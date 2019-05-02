@@ -24,4 +24,4 @@
 7. In "New or existing log group" enter a name for log group and click on "Continue". </br>![Step 7](/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step7.png "Step 7 - Name")
 8. Create a new "IAM Role" to deliver CloudTrail events to CloudWatch Logs log group. Role Name is defined on it's own once we click on new "IAM Role". </br>![Step 8](/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step8.png "Step 8 - IAM Role")
 9. Click on "View Policy Document" to verify the "CloudTrail_CloudWatchLogs_Role".</br> ![Step 9](/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step9.png "Step 9 - Policy")
-10. Click on "Allow" button to save the changes. "CloudTrail CloudWatch" is now enable for the selected trail.</br>![Step 10](/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step10.png "Step 10 - Allow")
+10. Click "Allow" to save the changes. "CloudTrail CloudWatch" is now enabled for the selected trail.</br>![Step 10](/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step10.png "Step 10 - Allow")
