@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for "Kinesis". </br>![Step 2](/resources/aws/kinesis/kinesis-streams-encrypted/step2.png "Step 2 - Kinesis")
+2. Select the "Services" option and search for "Kinesis". </br>![Step 2](/resources/aws/kinesis/kinesis-streams-encrypted/step.png "Step 2 - Kinesis")
 3. Under the "Amazon Kinesis dashboard" choose "Data Firehose" from the left navigation panel. </br>![Step 3](/resources/aws/kinesis/kinesis-streams-encrypted/step3.png "Step 3 - Data Firehose")
 4. Select the "Firehose Delivery System" that needs to be verified and click on the "Name" to access the delivery stream.</br>![Step 4](/resources/aws/kinesis/kinesis-streams-encrypted/step4.png "Step 4 - Name") 
 5. Select the "Details" tab and scroll down to "Amazon S3 destination". Check the "Encryption" value and if it's set to "Disabled" then the selected "Firehose Delivery System" data is not encrypted. </br>![Step 5](/resources/aws/kinesis/kinesis-streams-encrypted/step5.png "Step 5 - Encryption") 
