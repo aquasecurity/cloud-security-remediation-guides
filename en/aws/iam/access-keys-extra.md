@@ -15,4 +15,5 @@
 | **Recommended Action** | Remove the extra access key for the specified user. |
 
 ## Detailed Remediation Steps
-
+1. Log into the AWS Management Console.
+2. Select the "Services" option and search for IAM. </br> ![Step 2](/resources/aws/iam/access-keys-extra/step2.png "Step 2 - IAM")
