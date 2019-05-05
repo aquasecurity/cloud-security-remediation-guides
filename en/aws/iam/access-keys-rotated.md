@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for IAM. </br> ![Step 2]<img src="/resources/aws/iam/access-keys-rotated/step2.png Step 2 - IAM">
+2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/access-keys-rotated/step2.png"/>
 3. Scroll down the left navigation panel and choose "Users". </br>![Step 3](img src="/resources/aws/iam/access-keys-rotated/step3.png Step 3 - Users")
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br>![Step 4](img src="/resources/aws/iam/access-keys-rotated/step4.png Step 4 - IAM User")
 5. Click on the "Security Credentials" under the configuration page.</br>![Step 5](img src="/resources/aws/iam/access-keys-rotated/step5.png Step 5 - Security Credentials")
