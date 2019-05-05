@@ -15,4 +15,16 @@
 | **Recommended Action** | To rotate an access key, first create a new key, replace the key and secret throughout your app or scripts, then set the previous key to disabled. Once you ensure that no services are broken, then fully delete the old key. |
 
 ## Detailed Remediation Steps
-
+1. Log into the AWS Management Console.
+2. Select the "Services" option and search for IAM. </br> ![Step 2](img src="/resources/aws/iam/access-keys-rotated/step2.png Step 2 - IAM")
+3. Scroll down the left navigation panel and choose "Users". </br>![Step 3](img src="/resources/aws/iam/access-keys-rotated/step3.png Step 3 - Users")
+4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br>![Step 4](img src="/resources/aws/iam/access-keys-rotated/step4.png Step 4 - IAM User")
+5. Click on the "Security Credentials" under the configuration page.</br>![Step 5](img src="/resources/aws/iam/access-keys-rotated/step5.png Step 5 - Security Credentials")
+6. Scroll down and under "Security Credentials" check the "Last used" cloumn in "Access keys" to determine the last date of "Access Key" used.Any key above 180days which is "Active" is old and expired and needs to be updated to reduce accidental exposures.</br>![Step 6](img src="/resources/aws/iam/access-keys-rotated/step6.png Step 6 - Last Used")
+7. Repeat steps number 4 - 6 for the "IAM Users" that need to be verify.</br>
+8. Select the ""Security Credentials"" tab under the configuration page and click on "Create access key" to create a new key.</br>![Step 8](img src="/resources/aws/iam/access-keys-rotated/step8.png Step 8 - Create Access Key")
+9. Click on the "Download .csv file" to download the new "Secret Access Key" and "Access Key ID" for newly created "Access key".</br>![Step 9](img src="/resources/aws/iam/access-keys-rotated/step9.png Step 9 - Access Key")
+10. Use the new "Access Key" for application(s) code and replace the older key with the new one. Make sure that new "Access key" pair is working fine.</br>
+11. To remove the older "Access Key" once you verified that the new "Access Key" is working fine click on the "Security Credentials" under IAM user configuration page and select the older "Access Key ID" which needs to be removed.</br> ![Step 11](img src="/resources/aws/iam/access-keys-rotated/step11.png Step 11 - Access Key")
+12. Click on the cross(×) symbol at the extreme right to remove the selected key. </br> ![Step 12](img src="/resources/aws/iam/access-keys-rotated/step12.png Step 12 - Delete")
+13. Click on "Delete" button under "Delete access key" tab to delete the older "Access Key".</br>![Step 13](img src="/resources/aws/iam/access-keys-rotated/step13.png Step 13 - Delete")
