@@ -24,4 +24,4 @@
 7. Now install the AWS MFA compatible application on mobile device or computer. Once the application is installed click on the "Show QR code" and scan the code with pre-installed application.</br><img src="/resources/aws/iam/root-mfa-enabled/step7.png"/>
 8. Enter two consecutive MFA codes generated from application in "MFA code 1" and "MFA code 2" and click on the "Assign MFA" button.</br><img src="/resources/aws/iam/root-mfa-enabled/step9.png"/>
 9. On successful setup will get the following message "You have successfully assigned virtual MFA". </br><img src="/resources/aws/iam/root-mfa-enabled/step10.png"/>
-10. A multi-factor authentication device is enabled for the root account.</br>
+10. Now "Multi-factor authentication (MFA)" is enabled for the root account.</br>
