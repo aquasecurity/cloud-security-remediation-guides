@@ -27,4 +27,4 @@
 10. Use the new "SSH key" for AWS CodeCommit repositories and replace the older key with the new one. Make sure that the new "Access key" pair is working fine.</br>
 11. To remove the older "SSH key" once you verified that the new "SSH key" is working fine click on "Security Credentials" under IAM user configuration page and select the older "SSH key ID" which needs to be removed.</br> <img src="/resources/aws/iam/ssh-keys-rotated/step11.png"/>
 12. Click on the cross(×) symbol at the extreme right to remove the selected key. </br> <img src="/resources/aws/iam/ssh-keys-rotated/step12.png"/>
-13. Click on "Delete" button under "Delete SSH key" tab to delete the older "SSH Key".</br><img src="/resources/aws/iam/ssh-keys-rotated/step13.png"/>
+13. Click on "Delete" button under the "Delete SSH key" tab to delete the older "SSH Key".</br><img src="/resources/aws/iam/ssh-keys-rotated/step13.png"/>
