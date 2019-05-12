@@ -24,7 +24,7 @@
 7. Repeat steps number 2 - 6 to check other RDS instances. </br>
 8. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-publicly-accessible/step8.png"/>
 9. Scroll down the "Modify DB Instance" page and check for "Public Accessibility" under "Network & Security".</br><img src="/resources/aws/rds/rds-publicly-accessible/step9.png"/>
-10. 10. On the "Public Accessibility" section under "Network & Security" click on the "No" button.</br><img src="/resources/aws/rds/rds-publicly-accessible/step10.png"/>
+10. On the "Public Accessibility" section under "Network & Security" click on the "No" button.</br><img src="/resources/aws/rds/rds-publicly-accessible/step10.png"/>
 11. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-publicly-accessible/step11.png"/>
 12. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-publicly-accessible/step12.png"/>
 13. Repeat steps number 8 - 12 to remove the public endpoint from the RDS instances .</br>
