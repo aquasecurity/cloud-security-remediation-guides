@@ -22,7 +22,7 @@
 5. Click on the "Connectivity & Security" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-publicly-accessible/step5.png"/>
 6. Scroll down the "Connectivity & Security" tab and check the "Security" section.Check the "Public Accessibility" and if it's "Yes" then selected database can launched into the public cloud .</br><img src="/resources/aws/rds/rds-publicly-accessible/step6.png"/>
 7. Repeat steps number 2 - 6 to check other RDS instances. </br>
-8. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-publicly-accessible/step8.png"/>
+8. Select the "Database" on which "Public Accessibility" needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-publicly-accessible/step8.png"/>
 9. Scroll down the "Modify DB Instance" page and check for "Public Accessibility" under "Network & Security".</br><img src="/resources/aws/rds/rds-publicly-accessible/step9.png"/>
 10. On the "Public Accessibility" section under "Network & Security" click on the "No" button.</br><img src="/resources/aws/rds/rds-publicly-accessible/step10.png"/>
 11. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-publicly-accessible/step11.png"/>
