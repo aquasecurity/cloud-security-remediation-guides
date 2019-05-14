@@ -21,4 +21,4 @@
 4. Select the "Cluster" that needs to be verified and click on its identifier(name)from the "Cluster" column.</br> <img src="/resources/aws/redshift/redshift-publicly-accessible/step4.png"/>
 5. Scroll down the "Cluster" configuration page and check the "Publicly Accessible" option under the "Cluster Database Properties". If current status is set to "Yes" than the selected cluster is launched into the public cloud.</br><img src="/resources/aws/redshift/redshift-publicly-accessible/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other clusters. </br>
-7. 
+7. Select the "Cluster" on which "Public Accessibility" needs to be verified.
