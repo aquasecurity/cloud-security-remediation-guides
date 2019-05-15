@@ -15,4 +15,7 @@
 | **Recommended Action** | Enable bucket logging for each S3 bucket. |
 
 ## Detailed Remediation Steps
-
+1. Log into the AWS Management Console.
+2. Select the "Services" option and search for S3. </br> <img src="/resources/aws/s3/s3-bucket-logging/step2.png"/>
+3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-logging/step3.png"/>
+4. 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br>
