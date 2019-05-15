@@ -18,7 +18,7 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for Redshift. </br> <img src="/resources/aws/redshift/redshift-encryption-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Clusters". </br> <img src="/resources/aws/redshift/redshift-encryption-enabled/step3.png"/>
-4. Select the "Cluster" that needs to be verified and click on its identifier(name)from the "Cluster" column.</br> <img src="/resources/aws/redshift/redshift-encryption-enabled/step4.png"/>
+4. Select the "Cluster" that needs to be verified and click on its identifier(name) from the "Cluster" column.</br> <img src="/resources/aws/redshift/redshift-encryption-enabled/step4.png"/>
 5. Scroll down the "Cluster" configuration page and check the "Encrypted" option under the "Cluster Database Properties". If current status is set to "No" then the data stored on the cluster is not encrypted.</br><img src="/resources/aws/redshift/redshift-encryption-enabled/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other clusters. </br>
 7. Scroll down the left navigation panel and choose "Clusters" and click on "Quick launch cluster" button at the top menu to start a new cluster process. </br><img src="/resources/aws/redshift/redshift-encryption-enabled/step7.png"/>
