@@ -25,5 +25,5 @@
 8. Select the "S3 bucket" on which versioning needs to be enabled and click on the "Properties" tab. </br><img src="/resources/aws/s3/s3-bucket-versioning/step8.png"/>
 9. Click on the "Enable versioning" option under "Versioning".</br><img src="/resources/aws/s3/s3-bucket-versioning/step9.png"/>
 10. Click on the "Save" button to make the necessary changes. </br><img src="/resources/aws/s3/s3-bucket-versioning/step10.png"/>
-11. Repeat steps number 8 - 10 to enable logging for other S3 buckets.</br>
+11. Repeat steps number 8 - 10 to enable versioning for other S3 buckets.</br>
 
