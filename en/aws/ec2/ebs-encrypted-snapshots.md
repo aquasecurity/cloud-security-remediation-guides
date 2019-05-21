@@ -23,7 +23,7 @@
 6. Repeat the steps number 2 - 5 to check other "EBS Snapshot" in the AWS region.</br>
 7. Select the unencrypted "EBS Snapshot" that needs to be encrypted and click on the "Actions" button at the top panel and click on the "Copy" option.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step7.png"/>
 8. In the "Copy Snapshot" dialog box select the box "Encrypt this snapshot" next to "Encryption" and choose the "Master key" from the dropdown menu.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step8.png"/>
-9.Click on the "Copy" button to copy the selected "EBS Snapshot". </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step9.png"/>
+9. Click on the "Copy" button to copy the selected "EBS Snapshot". </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step9.png"/>
 10. Select the new EBS snapshot and click on the "Actions" button at the top panel and click on the "Create Volume" option.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step10.png"/>
 11. In the "Create Volume" dialog box verify the "Encryption" option is enabled.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step11.png"/>
 12. Click on the "Create Volume" button to create the new "EBS Encrypted Volume".</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step12.png"/>
