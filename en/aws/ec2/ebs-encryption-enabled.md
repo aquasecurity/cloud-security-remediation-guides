@@ -35,4 +35,4 @@
 18. In the "Detach Volume" dialog box click on the "Yes,Detach" button. </br> <img src="/resources/aws/ec2/ebs-encrypted-enabled/step18.png"/>
 19. Select the newly encrypted EBS volume and click on the "Action" button at the top and click on the "Attach Volume".</br> <img src="/resources/aws/ec2/ebs-encrypted-enabled/step19.png"/>
 20. In the "Attach Volume" dialog box select the EC2 instance and device name for the attachment.</br> <img src="/resources/aws/ec2/ebs-encrypted-enabled/step20.png"/>
-21. Repeat steps number 7 - 17 to ensure "EBS Volume" encryption is enabled.</br>
+21. Repeat steps number 7 - 20 to ensure "EBS Volume" encryption is enabled.</br>
