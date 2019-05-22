@@ -28,3 +28,4 @@
 11. In the "Copy AMI," dialog box select the "Destination region" from the dropdown menu and click on the "Encryption" checkbox to "Encrypt target EBS snapshots" and choose the "Master Key" from the dropdown and click on the "Copy AMI" button.</br> <img src="/resources/aws/ec2/encrypted-ami/step11.png"/>
 12. Select the new "Encrypted AMI" and click on the "Launch" button to create a new EC2 instance with encrypted "EBS volume".</br> <img src="/resources/aws/ec2/encrypted-ami/step12.png"/>
 13. Configure the "Instance Type", "Configure Instance Details", "Add Storage", "Security Group" as per the requirements and click on the "Review and Launch" button to create a new "EC2 Instance" backed by encrypted "EBS Volume".</br> <img src="/resources/aws/ec2/encrypted-ami/step13.png"/>
+14. Repeat steps number 9 - 13 to create an "EC2 Instance" from "Encrypted AMI".</br>
