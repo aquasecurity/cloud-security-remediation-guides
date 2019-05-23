@@ -20,10 +20,8 @@
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/ec2-max-instances/step3.png"/>
 4. Check the total number of EC2 instances at the top right corner available in the selected AWS region. </br> <img src="/resources/aws/ec2/ec2-max-instances/step4.png"/>
 5. Repeat steps number 2 - 4 to check the threshold value for other regions. If the total number of running EC2 instances provisioned in your AWS account is greater than 50, the recommended threshold was exceeded. AWS has different threshold values as well depends on the region. Raise an AWS support ticket to limit the number of instances as per the requirements. </br>
-6. Scroll down the left navigation panel and choose "Instances". Verify all the "Instances" running and terminate any "Instances" which are not required. Raise an AWS support ticket to limit the number of "Instances."</br>
-7. Click on the "Support" option at the top right corner and select the "Support Center".</br> <img src="/resources/aws/ec2/ec2-max-instances/step7.png"/>
-8. In the "Support Center" page click on the "Create Case" button.</br> <img src="/resources/aws/ec2/ec2-max-instances/step8.png"/>
-9. Select the "Service limit increase" tab and choose the "EC2 Instances" from the dropdown in "Limit Type".</br> <img src="/resources/aws/ec2/ec2-max-instances/step9.png"/>
-10. Scroll down the page and select the "Region" and "Primary Instance Type". Provide the "New limit value" as per the requirements. </br> <img src="/resources/aws/ec2/ec2-max-instances/step10.png"/>
-11. Provide a small description to your request in "Case description". </br> <img src="/resources/aws/ec2/ec2-max-instances/step11.png"/>
-12. Select  preferred contact option to the AWS Support team and click on the "Submit" button to limit request to AWS.</br> <img src="/resources/aws/ec2/ec2-max-instances/step12.png"/>
+6. Scroll down the left navigation panel and choose "Instances". Verify all the "Instances" running and terminate any "Instances" which are not required. 
+7. Choose the "EC2 Instances" which are not required from the "Instances" configuration page. </br> <img src="/resources/aws/ec2/ec2-max-instances/step7.png"/>
+8. Click on the "Actions" button at the top panel and choose the "Instance State" and click on "Stop" to stop the selected "EC2 Instance".</br> <img src="/resources/aws/ec2/ec2-max-instances/step8.png"/>
+9. Click on the "Terminate" button to terminate the selected "EC2 Instance". On the "Terminate Instance" dialog box click on the "Yes,Terminate" button.</br> <img src="/resources/aws/ec2/ec2-max-instances/step9.png"/>
+10. Repeat steps number 6 - 9 to remove the "EC2 Instances" which are not required. </br>
