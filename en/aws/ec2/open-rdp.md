@@ -19,7 +19,7 @@
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/open-rdp/step2.png"/>
 3. Scroll down the left navigation panel and choose "Security Group" under "Network & Security".</br> <img src="/resources/aws/ec2/open-rdp/step3.png"/>
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-rdp/step4.png"/>
-5. Scroll down the bottom panel and choose "Inbound". Verify the value for "Source" column for "Custom TCP Rule" under "Type" for port "3389" and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "TCP" port for "RDP" open to the public.</br> <img src="/resources/aws/ec2/open-rdp/step5.png"/>
+5. Scroll down the bottom panel and choose "Inbound". Verify the value for "Source" column for "RDP" under "Type" for port "3389" and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "TCP" port for "RDP" open to the public.</br> <img src="/resources/aws/ec2/open-rdp/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "TCP" port 3389 for "RDP"  to specific ip address. </br> <img src="/resources/aws/ec2/open-rdp/step7.png"/>
 8. Scroll down the page and select the "Inbound" and click on the "Edit" button. </br> <img src="/resources/aws/ec2/open-rdp/step8.png"/>
