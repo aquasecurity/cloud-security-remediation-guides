@@ -23,4 +23,4 @@
 6. Repeat steps number 2 - 5 to verify other "KMS keys" in the selected AWS region.</br>
 7. Navigate to "Customer Managed Keys" under "Key Management Service" and select the "KMS key" that needs to modify to enable yearly rotation for the KMS key.</br> <img src="/resources/aws/kms/kms-key-rotation/step7.png"/>
 8. Scroll down the "Customer managed keys" page and click on the "Key rotation" tab. Enable "Automatically rotate this CMK every year" checkbox and click on the "Save" button to make the necessary changes.</br> <img src="/resources/aws/kms/kms-key-rotation/step8.png"/>
-9. Repeat steps number 6 - 8 to enable yearly rotation for the "KMS key".</br>
+9. Repeat steps number 7 - 8 to enable yearly rotation for the "KMS key".</br>
