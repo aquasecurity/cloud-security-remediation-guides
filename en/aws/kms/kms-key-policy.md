@@ -24,5 +24,5 @@
 7. Repeat step number 2 - 6 to verify other "KMS key" in the region.</br>
 8. Navigate to "Customer Managed Keys" under "Key Management Service" and select the "KMS key" that needs to modify to restrict the he number of users and roles that can perform encrypt and decrypt operation and have any wildcards.</br> <img src="/resources/aws/kms/kms-key-policy/step8.png"/>
 9. On the "Customer managed keys" page scroll down and on the "Key policy" tab click on the "Switch to policy view" button and replace the "Everyone" grantee ("AWS" : * )  from the Principal element value with an "AWS account ID" or "AWS ARN" and click on the "Save" changes button.</br> <img src="/resources/aws/kms/kms-key-policy/step9.png"/>
-10. Restrict the number of users and roles that can use the selected "KMS key" for encrypt and decrypt operations by making each application should use its own key .</br> <img src="/resources/aws/kms/kms-key-policy/step10.png"/>
+10. Restrict the number of users and roles that can use the selected "KMS key" for encrypt and decrypt operations by making each application should use its own key .</br> 
 11. Repeat steps number 7 - 10 to modify the "KMS key" policy of other "KMS keys" in the selected region.</br>
