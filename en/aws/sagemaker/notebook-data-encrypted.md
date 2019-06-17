@@ -25,6 +25,6 @@
 8. On the "Create notebook instance" page provide an unique name under the "Notebook instance name" and select the "Notebook instance type" as per the requirements.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step8.png"/>
 9. Scroll down the "Create notebook instance" page and on the "Permissions and encryption" tab select the "IAM role" by either creating a new "IAM role" or entering the "Custom IAM role ARN". Select the "Encryption key" from the dropdown menu.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step9.png"/>
 10. Click on the "Create notebook instance" button at the bottom to create a new "Notebook instance".</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step10.png"/>
-11. Once the new "Notebook instance" status is "InService" copy all the data from old "Notebook instance" to the new instance.</br>
+11. Once the new "Notebook instance" status is "InService" copy all the data from old "Notebook instance" to the new instance.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step11.png"/>
 12. Repeat steps number 7 - 11 to create the "Notebook instances" with an exisiting "KMS key".</br>
 
