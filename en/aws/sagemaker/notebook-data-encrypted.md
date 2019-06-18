@@ -20,7 +20,7 @@
 3. Scroll down the left navigation panel and choose the "Notebook instances" under "Notebook" in Amazon Sagemaker.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step3.png"/>
 4.  Select the "Notebook instance" that needs to be verified and click on the "Name" to access the selected "Notebook instance" configuration.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step4.png"/>
 5. On the selected "Notebook instance" configuration page scroll down and check the "Permissions and encryption" tab. If "Encryption key" is not showing any value than the selected "Notebook instance" data is not encrypted.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step5.png"/>
-6. Repeat stpe number 2 - 5 to verify other "Notebook instance" in the selected AWS region.</br>
+6. Repeat step number 2 - 5 to verify other "Notebook instances" in the selected AWS region.</br>
 7. Navigate to "Sagemaker" and select the "Notebook instance" under "Notebook" and click on the "Create notebook instance" to create a new "Notebook instance" with data encrypted.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step7.png"/>
 8. On the "Create notebook instance" page provide an unique name under the "Notebook instance name" and select the "Notebook instance type" as per the requirements.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step8.png"/>
 9. Scroll down the "Create notebook instance" page and on the "Permissions and encryption" tab select the "IAM role" by either creating a new "IAM role" or entering the "Custom IAM role ARN". Select the "Encryption key" from the dropdown menu.</br> <img src="/resources/aws/sagemaker/notebook-data-encrypted/step9.png"/>
