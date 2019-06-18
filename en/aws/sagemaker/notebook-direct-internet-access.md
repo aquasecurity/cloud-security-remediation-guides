@@ -15,4 +15,10 @@
 | **Recommended Action** | Disable DirectInternetAccess for each SageMaker notebook. |
 
 ## Detailed Remediation Steps
+1. Log into the AWS Management Console.
+2. Select the "Services" option and search for Sagemaker. </br> <img src="/resources/aws/sagemaker/notebook-direct-internet-access/step2.png"/>
+3. Scroll down the left navigation panel and choose the "Notebook instances" under "Notebook" in Amazon Sagemaker.</br> <img src="/resources/aws/sagemaker/notebook-direct-internet-access/step3.png"/>
+4.  Select the "Notebook instance" that needs to be verified and click on the "Name" to access the selected "Notebook instance" configuration.</br> <img src="/resources/aws/sagemaker/notebook-direct-internet-access/step4.png"/>
+5. On the selected "Notebook instance" configuration page scroll down and check the "Network" tab. If "Direct internet access" is set to "Enabled" then the selected "Notebook instance" is exposed to the Internet. </br> <img src="/resources/aws/sagemaker/notebook-direct-internet-access/step5.png"/>
+6. Repeat step number 2 - 5 to verify other "Notebook instances" in the selected AWS region.</br>
 
