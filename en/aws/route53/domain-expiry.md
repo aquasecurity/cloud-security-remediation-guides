@@ -30,4 +30,3 @@
 13. Scroll down the page and provide the "Subject" as "Domain Reregistraion" and provide necessary details such as "Domain name" for reregistration along with "Account Id".</br> <img src="/resources/aws/route53/domain-expiry/step13.png"/>
 14. Select the "Contact option" to communicate with AWS support of the choice and click on the "Submit" button to open the support case.</br> <img src="/resources/aws/route53/domain-expiry/step14.png"/>
 15. Repeat steps number 7 - 14 for reregistration of the expiring domain.</br>
-
