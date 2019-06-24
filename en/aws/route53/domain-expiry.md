@@ -15,4 +15,3 @@
 | **Recommended Action** | Reregister the expiring domain |
 
 ## Detailed Remediation Steps
-
