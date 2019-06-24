@@ -15,4 +15,3 @@
 | **Recommended Action** | Restrict TCP port 25 to known IP addresses |
 
 ## Detailed Remediation Steps
-
