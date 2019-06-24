@@ -28,4 +28,3 @@
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "SMTP" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-smtp/step11.png"/>
 12. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-smtp/step12.png"/>
 13. Repeat steps number 7 - 12 to restrict TCP port 25 for "SMTP" to known IP address.</br>
-
