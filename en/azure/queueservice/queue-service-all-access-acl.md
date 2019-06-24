@@ -11,7 +11,7 @@
 | **Category** | Queue Service |
 | **Description** | Ensures Queues do not allow full write, delete, or read ACL permissions |
 | **More Info** | Queues can be configured to allow to read, write or delete objects. This option should not be configured unless there is a strong business requirement. |
-| **AZURE Link** | httphttps://docs.microsoft.com/en-us/azure/storage/queues/storage-quickstart-queues-portal |
+| **AZURE Link** | https://docs.microsoft.com/en-us/azure/storage/queues/storage-quickstart-queues-portal |
 | **Recommended Action** | Disable global read/write/detele policies on all Queues and ensure the ACL is configured with least privileges. |
 
 ## Detailed Remediation Steps
