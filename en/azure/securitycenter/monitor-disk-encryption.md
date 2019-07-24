@@ -19,7 +19,7 @@
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step2.png"/>
 3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under "POLICY & COMPLIANCE."</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step3.png"/>
 4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step4.png"/>
-5. On the "Security Policy" page scroll down the "Compute And Apps" section and check the "Disk encryption should be applied on virtual machines". If it's set to "Disabled" then "Disk Encryption monitoring" is not enabled on the selected "Subscription."</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step5.png"/>
+5. On the "Security Policy" page scroll down the "Compute And Apps" section and check the "Disk encryption should be applied on virtual machines". If it's set to "Disabled" then "Disk Encryption monitoring" is not enabled on the selected "Subscription."</br> 
 6. Repeat steps number 2 - 5 to check other "Subscriptions" under the "Security Center."</br>
 7. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Disk Encryption monitoring."</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step7.png"/>
 8. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step8.png"/>
