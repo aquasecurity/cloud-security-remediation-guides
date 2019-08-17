@@ -25,5 +25,5 @@
 8. Navigate to the "Storage accounts", select the "Storage account" and click on the "Name", select the "Overview" options and select the "Queue" by clicking on the "Name" as a link to access the configurations.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step8.png"/>
 9. On the "Queue" configuration click on the "Access Policy" option and select the "Edit" option to make the changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step9.png"/>
 10. Uncheck the global read/write/detele policies under the "Permissions" and click on the "OK" button to make the changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step10.png"/>
-11. Click on the "Save" button at the top to save the configuration changes.</br>
+11. Click on the "Save" button at the top to save the configuration changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step11.png"/>
 12. Repeat steps number 8 - 11 to ensures "Queues" do not allow full write, delete, or read ACL permissions.</br>
