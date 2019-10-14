@@ -9,10 +9,10 @@
 | **Plugin Title** | Monitor SQL Encryption |
 | **Cloud** | AZURE |
 | **Category** | Security Center |
-| **Description** | Ensure that Monitor SQL Encryption is enabled in Security Center. |
-| **More Info** | When this setting is Disabled, Security Center will ignore unencrypted SQL databases, associated backups, and transaction log files. |
+| **Description** | Ensures that Monitor SQL Encryption is enabled in Security Center |
+| **More Info** | When this setting is enabled, Security Center will monitor for unencrypted SQL databases, associated backups, and transaction log files. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/security-center/security-center-policy-definitions |
-| **Recommended Action** | 1. Go to Azure Security Center 2. Click on Security policy 3. Click on your Subscription Name 4. Look for the "Monitor SQL encryption" setting. 5. Ensure that it is not set to Disabled |
+| **Recommended Action** | Ensure SQL encryption monitoring is configured for SQL databases from the Azure Security Center. |
 
 ## Detailed Remediation Steps
 

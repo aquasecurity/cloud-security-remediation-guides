@@ -9,10 +9,10 @@
 | **Plugin Title** | SQL Server Firewall Rule Alerts Monitor |
 | **Cloud** | AZURE |
 | **Category** | Log Alerts |
-| **Description** | Triggers alerts when SQL Server Firewall Rules are created or modified. |
-| **More Info** | Monitoring SQL Server Firewall Rule events gives insight into network access changes and may reduce the risk of data breaches due to malicious alteration to firewall configuration. |
+| **Description** | Ensures Activity Log Alerts for the create or update and delete SQL Server Firewall Rules events are enabled |
+| **More Info** | Monitoring for create or update and delete SQL Server Firewall Rules events gives insight into event changes and may reduce the time it takes to detect suspicious activity. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure |
-| **Recommended Action** | Configure SQL Server Firewall rules to limit access exclusively to those resources that need it. Create activity log alerts to monitor changes to your SQL Server security configuration. |
+| **Recommended Action** | Add a new log alert to the Alerts service that monitors for SQL Server Firewall Rules create or update and delete events. |
 
 ## Detailed Remediation Steps
 

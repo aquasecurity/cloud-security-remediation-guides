@@ -9,10 +9,10 @@
 | **Plugin Title** | Log Profile Archive Data |
 | **Cloud** | AZURE |
 | **Category** | Monitor |
-| **Description** | The Log Profile should be configured to export all activities from the control/management plane in all active locations. |
-| **More Info** | Enabling logging of all activities in a log profile ensures that cloud security best practices, as well as compliance and monitoring standards are followed. |
+| **Description** | Ensures the Log Profile is configured to export all activities from the control and management planes in all active locations |
+| **More Info** | Exporting log activity for control plane activity allows for audited access to the Azure account with event data in the case of a security incident. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/azure-monitor/platform/archive-activity-log |
-| **Recommended Action** | 1. Enter the Monitor category. 2. Select Activity Log from the left hand menu. 3. On the top of activity log select Export to Event Hub to enable activity log archiving and select the storage account or event hub to send the data to. |
+| **Recommended Action** | Ensure that all activity is logged to the Event Hub or storage account for archiving. |
 
 ## Detailed Remediation Steps
 

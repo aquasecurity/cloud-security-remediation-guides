@@ -9,10 +9,10 @@
 | **Plugin Title** | Resources Allowed Locations |
 | **Cloud** | AZURE |
 | **Category** | Azure Policy |
-| **Description** | Ensures deployed resources and resource groups belong to the list set in the Allowed locations for resource groups policy. |
-| **More Info** | Monitoring changes to resources follows Security and Compliance best practices. Being able to track resource location changes adds a level of accountability. |
+| **Description** | Ensures deployed resources and resource groups belong to the list set in the allowed locations for resource groups policy |
+| **More Info** | Setting allowed locations for a service helps ensure the service can only be deployed in expected locations. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal |
-| **Recommended Action** | 1. Navigate to the Policy service. 2. Select the Assignments blade. 3. Click on Assign Policy. 4. Click to search a Policy definition, search for and select: Allowed locations for resource groups. 5. Under Parameters, select your Allowed locations. 6. Click on Assign. |
+| **Recommended Action** | Ensure that all services contain policy definitions that defined allowed locations. |
 
 ## Detailed Remediation Steps
 

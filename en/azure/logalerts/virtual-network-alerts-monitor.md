@@ -9,10 +9,10 @@
 | **Plugin Title** | Virtual Network Alerts Monitor |
 | **Cloud** | AZURE |
 | **Category** | Log Alerts |
-| **Description** | Triggers alerts when Virtual Networks are created or modified. |
-| **More Info** | Monitoring Virtual Network events gives insight into network access changes and may reduce the risk of breaches due to malicious configuration alteration. |
+| **Description** | Ensures Activity Log Alerts for the create or update and delete Virtual Networks events are enabled |
+| **More Info** | Monitoring for create or update and delete Virtual Networks events gives insight into event changes and may reduce the time it takes to detect suspicious activity. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/virtual-network/security-overview |
-| **Recommended Action** | Configure Virtual Networks to limit access exclusively to those resources that need it. Create activity log alerts to monitor changes to your Virtual Networks configuration. |
+| **Recommended Action** | Add a new log alert to the Alerts service that monitors for Virtual Networks create or update and delete events. |
 
 ## Detailed Remediation Steps
 

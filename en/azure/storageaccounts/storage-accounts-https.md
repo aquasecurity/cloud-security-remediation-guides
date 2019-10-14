@@ -9,10 +9,10 @@
 | **Plugin Title** | Storage Accounts HTTPS |
 | **Cloud** | AZURE |
 | **Category** | Storage Accounts |
-| **Description** | Ensures HTTPS-only traffic is allowed to storage account endpoints. |
-| **More Info** | Storage accounts can contain sensitive information and should only be accessed over HTTPS. Enabling the HTTPS-only flag ensures that Azure does not allow HTTP traffic to storage accounts. |
+| **Description** | Ensures HTTPS-only traffic is allowed to storage account endpoints |
+| **More Info** | Storage Accounts can contain sensitive information and should only be accessed over HTTPS. Enabling the HTTPS-only flag ensures that Azure does not allow HTTP traffic to Storage Accounts. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/governance/policy/samples/ensure-https-storage-account |
-| **Recommended Action** | Enable the HTTPS-only option for all storage accounts. |
+| **Recommended Action** | Enable the HTTPS-only option for all Storage Accounts. |
 
 ## Detailed Remediation Steps
 

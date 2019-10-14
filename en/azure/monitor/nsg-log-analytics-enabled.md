@@ -9,10 +9,10 @@
 | **Plugin Title** | NSG Log Analytics Enabled |
 | **Cloud** | AZURE |
 | **Category** | Monitor |
-| **Description** | Ensures Network Security Groups logs are sent to the Log Analytics workspace. |
-| **More Info** | Enabling Log Analytics ensures that logs are shipped to a central repository that can be queried and audited, following cloud security best practices. |
+| **Description** | Ensures Network Security Group logs are sent to the Log Analytics workspace |
+| **More Info** | Enabling Log Analytics for Network Security Groups ensures that logs are shipped to a central repository that can be queried and audited. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/azure-monitor/platform/collect-activity-logs |
-| **Recommended Action** | 1. Go to Azure Monitor. 2. Select Diagnostic setting from the settings tab on the list to the left. 3. Choose the resource. 4. If no diagnostic setting defined, add diagnostic setting and enable Send to Log Analytics, if diagnostic setting are defined, edit the setting to enable Send to Log Analytics. |
+| **Recommended Action** | Enable sending of logs to Log Analytics for each Network Security Group resource in the Azure Monitor. |
 
 ## Detailed Remediation Steps
 

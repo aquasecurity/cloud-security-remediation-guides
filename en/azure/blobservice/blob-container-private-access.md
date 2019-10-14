@@ -9,10 +9,10 @@
 | **Plugin Title** | Blob Container Private Access |
 | **Cloud** | AZURE |
 | **Category** | Blob Service |
-| **Description** | Ensure that all blob containers do not have anonymous public access level. |
-| **More Info** | Blob containers set with public access, enables anonymous users to read blobs within a publicly accessible container without authenticating the request. Ensure that private access is set to all of blob containers. |
+| **Description** | Ensures that all blob containers do not have anonymous public access set |
+| **More Info** | Blob containers set with public access enables anonymous users to read blobs within a publicly accessible container without authentication. All blob containers should have private access configured. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction |
-| **Recommended Action** | Create blob container with public access level. |
+| **Recommended Action** | Ensure each blob container is configured to restrict anonymous access |
 
 ## Detailed Remediation Steps
 

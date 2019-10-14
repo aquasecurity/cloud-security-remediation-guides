@@ -9,10 +9,10 @@
 | **Plugin Title** | Resource Location Matches Resource Group |
 | **Cloud** | AZURE |
 | **Category** | Azure Policy |
-| **Description** | Ensures deployed resources match the resource groups they are in, as well as ensuring the Audit resource location matches resource group location policy is assigned. |
-| **More Info** | Monitoring changes to resources follows Security and Compliance best practices. Being able to track resource location changes adds a level of accountability. |
+| **Description** | Ensures a policy is configured to audit that deployed resource locations match their resource group locations |
+| **More Info** | Using Azure Policy to monitor resource location compliance helps ensure that new resources are not launched into locations that do not match their resource group. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal |
-| **Recommended Action** | 1. Navigate to the Policy service. 2. Select the Assignments blade. 3. Click on Assign Policy. 4. Click to search a Policy definition, search for and select: Audit resource location matches resource group location. 5. Under Parameters, select your Allowed locations. 6. Click on Assign. |
+| **Recommended Action** | Enable the built-in Azure Policy definition: Audit resource location matches resource group location |
 
 ## Detailed Remediation Steps
 

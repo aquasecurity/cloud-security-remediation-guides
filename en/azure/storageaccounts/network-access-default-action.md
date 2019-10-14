@@ -9,10 +9,10 @@
 | **Plugin Title** | Network Access Default Action |
 | **Cloud** | AZURE |
 | **Category** | Storage Accounts |
-| **Description** | Ensure that Storage Account access is restricted to trusted networks. |
-| **More Info** | Storage Accounts should be configured to accept traffic only from trusted networks. By default, all networks are selected but can be changed when creating a new storage account or in firewall settings. |
+| **Description** | Ensures that Storage Account access is restricted to trusted networks |
+| **More Info** | Storage Accounts should be configured to accept traffic only from trusted networks. By default, all networks are selected but can be changed when creating a new storage account or in the firewall settings. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security |
-| **Recommended Action** | Go to your Storage Account, select "Firewalls and virtual networks", ensure that allow access from all networks is not selected. |
+| **Recommended Action** | Configure the firewall of each Storage Account to allow access only from known virtual networks. |
 
 ## Detailed Remediation Steps
 

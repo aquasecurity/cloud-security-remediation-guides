@@ -9,8 +9,8 @@
 | **Plugin Title** | Open All Ports |
 | **Cloud** | AZURE |
 | **Category** | Network Security Groups |
-| **Description** | Determine if all ports are open to the public |
-| **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, services should be restricted to known IP addresses. |
+| **Description** | Ensures Network Security Groups do not expose all ports to the public |
+| **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, almost all services should be restricted to known IP addresses. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group |
 | **Recommended Action** | Restrict ports to known IP addresses |
 
