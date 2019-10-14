@@ -15,6 +15,7 @@
 | **Recommended Action** | Restrict TCP ports 4333 and 3306 to known IP addresses |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-mysql/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-mysql/step3.png"/>

@@ -149,15 +149,32 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [HTTPS Only Enabled](en/azure/appservice/https-only-enabled.md)
         * [Identity Enabled](en/azure/appservice/identity-enabled.md)
         * [Python Version](en/azure/appservice/python-version.md)
+    * Azure Policy
+        * [Resource Location Matches Resource Group](en/azure/azurepolicy/resource-location-matches-resource-group.md)
+        * [Resources Allowed Locations](en/azure/azurepolicy/resources-allowed-locations.md)
     * Blob Service
         * [Blob Container Private Access](en/azure/blobservice/blob-container-private-access.md)
         * [Blob Service Immutable](en/azure/blobservice/blob-service-immutable.md)
+    * CDN
+        * [Detect Insecure Custom Origin](en/azure/cdn/detect-insecure-custom-origin.md)
     * File Service
         * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
+    * Key Vault
+        * [Key Expiration Enabled](en/azure/keyvault/key-expiration-enabled.md)
+    * Kubernetes Service
+        * [RBAC Enabled](en/azure/kubernetesservice/rbac-enabled.md)
     * Log Alerts
         * [SQL Server Firewall Rule Alerts Monitor](en/azure/logalerts/sql-server-firewall-rule-alerts-monitor.md)
         * [Virtual Network Alerts Monitor](en/azure/logalerts/virtual-network-alerts-monitor.md)
+    * Monitor
+        * [Autoscale Enabled](en/azure/monitor/autoscale-enabled.md)
+        * [Log Profile Archive Data](en/azure/monitor/log-profile-archive-data.md)
+        * [NSG Log Analytics Enabled](en/azure/monitor/nsg-log-analytics-enabled.md)
+    * MySQL Server
+        * [Enforce SSL Connection Enabled](en/azure/mysqlserver/enforce-ssl-connection-enabled.md)
     * Network Security Groups
+        * [Default Security Group](en/azure/networksecuritygroups/default-security-group.md)
+        * [Open All Ports](en/azure/networksecuritygroups/open-all-ports.md)
         * [Open CIFS](en/azure/networksecuritygroups/open-cifs.md)
         * [Open DNS](en/azure/networksecuritygroups/open-dns.md)
         * [Open FTP](en/azure/networksecuritygroups/open-ftp.md)
@@ -179,15 +196,19 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open VNC Server](en/azure/networksecuritygroups/open-vnc-server.md)
     * Queue Service
         * [Queue Service All Access ACL](en/azure/queueservice/queue-service-all-access-acl.md)
-    * Resource Groups
-        * [Resource Groups](en/azure/resourcegroups/resource-groups.md)
+    * SQL Server
+        * [TDE Protector Encrypted](en/azure/sqlserver/tde-protector-encrypted.md)
     * Security Center
         * [Application Whitelisting Enabled](en/azure/securitycenter/application-whitelisting-enabled.md)
+        * [Monitor Blob Encryption](en/azure/securitycenter/monitor-blob-encryption.md)
         * [Monitor Disk Encryption](en/azure/securitycenter/monitor-disk-encryption.md)
         * [Monitor SQL Auditing](en/azure/securitycenter/monitor-sql-auditing.md)
         * [Monitor SQL Encryption](en/azure/securitycenter/monitor-sql-encryption.md)
         * [Monitor VM Vulnerability](en/azure/securitycenter/monitor-vm-vulnerability.md)
+        * [Security Configuration Monitoring](en/azure/securitycenter/security-configuration-monitoring.md)
     * Storage Accounts
+        * [Log Container Public Access](en/azure/storageaccounts/log-container-public-access.md)
+        * [Log Storage Encryption](en/azure/storageaccounts/log-storage-encryption.md)
         * [Network Access Default Action](en/azure/storageaccounts/network-access-default-action.md)
         * [Storage Accounts Encryption](en/azure/storageaccounts/storage-accounts-encryption.md)
         * [Storage Accounts HTTPS](en/azure/storageaccounts/storage-accounts-https.md)

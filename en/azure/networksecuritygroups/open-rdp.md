@@ -15,6 +15,7 @@
 | **Recommended Action** | For each VM, open the Networking blade and verify that the Inbound Port Rules do not have a rule for RDP with a source equal to "Any" OR "Internet" |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-rdp/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-rdp/step3.png"/>

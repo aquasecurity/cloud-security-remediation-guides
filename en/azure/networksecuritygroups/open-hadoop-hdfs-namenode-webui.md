@@ -15,6 +15,7 @@
 | **Recommended Action** | Restrict TCP port 50070 and 50470 to known IP addresses for Hadoop/HDFS |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui/step3.png"/>

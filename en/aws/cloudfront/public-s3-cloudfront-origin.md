@@ -15,7 +15,7 @@
 | **Recommended Action** | Create an origin access identity for CloudFront, then make the contents of the S3 bucket private. |
 
 ## Detailed Remediation Steps
-1.Log into the AWS Management Console.
+1. Log into the AWS Management Console.
 2. Select the "Services" option and search for CloudFront. </br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step2.png"/>
 3. Select the "CloudFront Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step3.png"/>
 4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step4.png"/>
