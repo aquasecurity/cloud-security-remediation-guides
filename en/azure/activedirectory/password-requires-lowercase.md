@@ -22,5 +22,5 @@
 5. On the "New User" tab, click on the "Create user."</br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step5.png"/>
 6. Under the "Identity", enter details like "Username","Name", "First Name","Last Name".</br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step6.png"/>
 7. On the "Password" tab, click on the "Let me create the password." </br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step7.png"/>
-8. On the "Initial Tab" enter the password, and if the password doesn't contain any lower case letter than the Azure will automatically show the error message.</br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step8.png"/> 
+8. On the "Initial Tab" enter the password, and if the password doesn't contain any lower case letter than the Azure will automatically show the error message when you will click on "Create User" button at the bottom.</br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step8.png"/> 
 9. Repeat the above steps to create New User with pre-defined "Minimum Password Length."</br>
