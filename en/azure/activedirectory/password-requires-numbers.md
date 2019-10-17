@@ -24,4 +24,4 @@
 6. Under the "Identity", enter details like "Username","Name", "First Name","Last Name".</br> <img src="/resources/azure/activedirectory/password-requires-numbers/step6.png"/>
 7. On the "Password" tab, click on the "Let me create the password." </br> <img src="/resources/azure/activedirectory/password-requires-numbers/step7.png"/>
 8. On the "Initial Tab" enter the password, and if the password doesn't contain any "Number" than the Azure will automatically show the error message when you will click on "Create" button at the bottom.</br> <img src="/resources/azure/activedirectory/password-requires-numbers/step8.png"/>
-9. Repeat the above steps to create New User with pre-defined "Minimum Password Length."</br>
+9. Repeat the above steps to create New User with pre-defined "Password Requires Numbers."</br>
