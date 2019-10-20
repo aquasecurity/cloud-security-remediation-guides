@@ -18,7 +18,7 @@
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for App Services. </br> <img src="/resources/azure/appservice/tls-version-check/step2.png"/>
 3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.</br> <img src="/resources/azure/appservice/tls-version-check/step3.png"/>
-4. Scroll down the selected "App Services" navigation panel and in "Settings" click on the "TLS/SSL settings" option.</br <img src="/resources/azure/appservice/tls-version-check/step4.png"/>    
+4. Scroll down the selected "App Services" navigation panel and in "Settings" click on the "TLS/SSL settings" option.</br> <img src="/resources/azure/appservice/tls-version-check/step4.png"/>    
 5. On the "TLS/SSL settings" page under the Protocol settings tab,scroll down and check the "Minimum TLS Vesrion". It's recommended to use only latest version of the "TLS/SSL" always.</br> <img src="/resources/azure/appservice/tls-version-check/step5.png"/>    
 6. Repeat steps number 2 - 5 to verify other "Apps" using latest TLS/SSL version in the account.</br>    
 7. Navigate to the "App Services", select the "App Service" and click on the "Name" as a link to access the configuration, select the "TLS/SSL settings" under "Settings."</br> <img src="/resources/azure/appservice/tls-version-check/step7.png"/>    
