@@ -23,5 +23,5 @@
 6. Navigate to "Network Watcher" and click on the Overview page. </br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step6.png"/>
 7. On the "Subscription" page click on the 3dots(...) on the extreme right corner.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step7.png"/>
 8. Click on the "Enable Network Watcher in all regions" and save the changes.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step8.png"/>
-9. Repeat steps nu,ber 6 - 8 to enable the Network Watcher service in all locations.</br>
+9. Repeat steps number 6 - 8 to enable the Network Watcher service in all locations.</br>
 
