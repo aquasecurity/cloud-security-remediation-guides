@@ -24,5 +24,5 @@
 7. Repeat steps number 2 - 6 to verify other Azure accounts for "Log Profile Retention Policy".</br>
 8. Navigate to "Monitor" and click on the "Activity Log" under "Monitor page", click on the "Export to Event Hub" and select the "Diagnostic Setting" on which "Log Profile Retention Policy" needs to be set to at least 90 days.</br> <img src="/resources/azure/monitor/log-profile-retention-policy/step8.png"/>
 9. Click on the "Edit Setting" option next to the "Diagnostic setting".</br> <img src="/resources/azure/monitor/log-profile-retention-policy/step9.png"/>
-10. Click on the "Storage Account" and enter the "Retention(days)" to 90 and save the changes.</br> <img src="/resources/azure/monitor/log-profile-retention-policy/step10.png"/>
+10. Click on the "Storage Account", select the "Region" and enter the "Retention(days)" to 90 and save the changes.</br> <img src="/resources/azure/monitor/log-profile-retention-policy/step10.png"/>
 11. Repeat steps number 8 - 10 to ensure that the Activity Log export to Event Hub is configured with a retention policy of at least 90 days. </br>
