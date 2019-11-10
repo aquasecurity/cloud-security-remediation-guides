@@ -15,4 +15,5 @@
 | **Recommended Action** | 1. Login to the Azure CLI. 2. Use the command and change *vaultname* to the vault to enable Soft Delete: 'az resource update --id $(az keyvault show --name *vaultname* -o tsv | awk '{print $1}') --set properties.enableSoftDelete=true'. 3. Use the command and change *vaultname* to the vault to enable Surge Protection: 'az resource update --id $(az keyvault show --name *vaultname* -o tsv | awk '{print $1}') --set properties.enablePurgeProtection=true' |
 
 ## Detailed Remediation Steps
-
+1. Log into the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "Key vault". </br> <img src="/resources/azure/keyvault/key-vault-recovery-enabled/step2.png"/>
