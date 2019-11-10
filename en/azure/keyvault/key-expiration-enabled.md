@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for . </br> <img src="/resources/azure/keyvault/key-expiration-enabled/step2.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for Key Vault . </br> <img src="/resources/azure/keyvault/key-expiration-enabled/step2.png"/>
 3. On the "Key vault" page, select the "Key Vault" for which keys need to be verified.</br> <img src="/resources/azure/keyvault/key-expiration-enabled/step3.png"/>
 4. On the "Key vaults-test-vault-azure" page, scroll down the left navigation panel and choose the "Keys" option.</br> <img src="/resources/azure/keyvault/key-expiration-enabled/step4.png"/>
 5. On the "Key vaults-test-vault-azure - Keys" page, select the key and check for the "Expiration Date". If no "Expiration Date" is showing then the select "Key" do not have "Key Expiration Enabled."</br> <img src="/resources/azure/keyvault/key-expiration-enabled/step5.png"/>
