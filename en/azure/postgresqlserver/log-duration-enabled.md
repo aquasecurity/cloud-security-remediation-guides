@@ -24,4 +24,4 @@
 7. Navigate to "PostgreSQL", select the database by clicking on the "Name" and choose "Server parameters" under "Settings" from the left navigation panel.</br> <img src="/resources/azure/postgresqlserver/log-duration-enabled/step7.png"/>
 8. On "Server Parameter" page, search for "log_duration" paramter using the "Search for filter item search box" and enable it by selecting "ON" from the toggle configuration button.</br> <img src="/resources/azure/postgresqlserver/log-duration-enabled/step8.png"/>
 9. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/postgresqlserver/log-duration-enabled/step9.png"/>
-10. Repeat steps number 7 - 9 to ensure the server parameters for each PostgreSQL server have the connection_throttling setting enabled.</br>
+10. Repeat steps number 7 - 9 to ensure the server parameters for each PostgreSQL server have the log_duration setting enabled.</br>
