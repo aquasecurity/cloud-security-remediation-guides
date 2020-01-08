@@ -23,4 +23,4 @@
 6. Navigate to "VPC network" and choose the "Firewall rules" option under the "Networking" and select the "Firewall rule" which needs to be restricted to known IP addresses.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step6.png"/>
 7. On the "Firewall rules" page, click on the "Edit" button at the top and under the "Source IP ranges" enter the IP addresses as per the requirements.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step7.png"/>
 8. Click on the "Save" button at the bottom to make the changes.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step8.png"/>
-9. Repeat steps number 6 - 8 to restrict ports to known IP addresses.</br> 
+9. Repeat steps number 6 - 8 to restrict TCP port 50070 and 50470 to known IP addresses for Hadoop/HDFS.</br> 
