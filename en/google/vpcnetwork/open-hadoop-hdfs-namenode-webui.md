@@ -15,4 +15,12 @@
 | **Recommended Action** | Restrict TCP port 50070 and 50470 to known IP addresses for Hadoop/HDFS |
 
 ## Detailed Remediation Steps
-
+1. Log into the Google Cloud Platform Console.
+2. Scroll down the left navigation panel and choose the "Networking" to select the "Firewall rules" option under the "VPC network."</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step2.png"/>
+3. On the "Firewall rules" page, select the "Firewall rule" which needs to be verified. </br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step3.png"/>
+4. On the selected "Firewall rules", if TCP port 50070 and 50470 for "Hadoop/HDFS NameNode WebUI service" are open to the public then the selected "Firewall rule" is not as per the best standards. </br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step4.png"/>
+5. Repeat steps number 2 - 4 to verify another "Firewall rule" in the network.</br>
+6. Navigate to "VPC network" and choose the "Firewall rules" option under the "Networking" and select the "Firewall rule" which needs to be restricted to known IP addresses.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step6.png"/>
+7. On the "Firewall rules" page, click on the "Edit" button at the top and under the "Source IP ranges" enter the IP addresses as per the requirement.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step7.png"/>
+8. Click on the "Save" button at the bottom to make the changes.</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step8.png"/>
+9. Repeat steps number 6 - 8 to restrict ports to known IP addresses.</br> 
