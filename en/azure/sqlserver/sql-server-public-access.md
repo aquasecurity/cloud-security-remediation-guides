@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that the firewall of each SQL Server is configured to prohibit traffic from the public 0.0.0.0 global IP address. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/sql-server-public-access/step2.png"/>
 3. On the "SQL server" page, select the SQL server that needs to be examined. </br> <img src="/resources/azure/sqlserver/sql-server-public-access/step3.png"/>

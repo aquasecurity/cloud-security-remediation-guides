@@ -15,6 +15,7 @@
 | **Recommended Action** | Delete old load balancers that no longer have backend resources. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Load balancers. </br> <img src="/resources/azure/loadbalancer/lb-no-instances/step2.png"/>
 3. Select the "Load balancer" by clicking on the "Name" as a link which needs to be checked for active Instances.</br> <img src="/resources/azure/loadbalancer/lb-no-instances/step3.png"/>

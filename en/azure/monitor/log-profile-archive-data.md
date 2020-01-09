@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that all activity is logged to the Event Hub or storage account for archiving. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Log Analytics Workspace. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step2.png"/>
 3. On the "Log Analytics workspaces" page select the resource accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step3.png"/>

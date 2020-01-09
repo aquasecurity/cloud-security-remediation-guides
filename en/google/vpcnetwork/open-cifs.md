@@ -9,12 +9,13 @@
 | **Plugin Title** | Open CIFS |
 | **Cloud** | GOOGLE |
 | **Category** | VPC Network |
-| **Description** | Determine if UDP port 445 for CIFS is open to the public |
+| **Description** | Determines if UDP port 445 for CIFS is open to the public |
 | **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, more sensitive services such as CIFS should be restricted to known IP addresses. |
 | **GOOGLE Link** | https://cloud.google.com/vpc/docs/using-firewalls |
-| **Recommended Action** | Restrict UDP port 445 to known IP addresses |
+| **Recommended Action** | Restrict UDP port 445 to known IP addresses. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose the "Networking" to select the "Firewall rules" option under the "VPC network."</br> <img src="/resources/google/vpcnetwork/open-cifs/step2.png"/>
 3. On the "Firewall rules" page, select the "Firewall rule" which needs to be verified. </br> <img src="/resources/google/vpcnetwork/open-cifs/step3.png"/>

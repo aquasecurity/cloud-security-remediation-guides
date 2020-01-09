@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that a BYOK key is set for the Transparent Data Encryption of each SQL Server. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step2.png"/>
 3. On the "SQL server" page, select the SQL server that needs to be examine. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step3.png"/>

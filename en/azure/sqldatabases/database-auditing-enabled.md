@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that auditing is enabled for each SQL database. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL databases. </br> <img src="/resources/azure/sqldatabases/database-auditing-enabled/step2.png"/>
 3. On the "SQL database" page, select the SQL database that needs to be examine.</br><img src="/resources/azure/sqldatabases/database-auditing-enabled/step3.png"/>

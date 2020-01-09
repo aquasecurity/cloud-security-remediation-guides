@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure the Storage Account used by Activity Logs is configured with a BYOK key. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Monitor. </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step2.png"/>
 3. Select the "Log Activity" on the "Monitor-Overview" page. </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step3.png"/>

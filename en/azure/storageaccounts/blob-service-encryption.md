@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that Blob Service is configured to use a customer-provided key vault key. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Storage account."</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step2.png"/>
 3. On the "Storage account" page, scroll down the left navigation panel and choose "Containers" under the "Blob services." </br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step3.png"/>

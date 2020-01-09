@@ -15,6 +15,7 @@
 | **Recommended Action** | Enable the Network Watcher service in all locations. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network Watcher. </br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step2.png"/>
 3. On the "Network Watcher" page, click on the Overview tab and check the status of the "Network Watcher."</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step3.png"/>

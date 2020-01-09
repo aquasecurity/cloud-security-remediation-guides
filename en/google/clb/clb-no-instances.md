@@ -12,7 +12,8 @@
 | **Description** | Detects CLBs that have no backend instances attached |
 | **More Info** | GCP does not allow for Load Balancers to be configured without backend instances attached. |
 | **GOOGLE Link** | https://cloud.google.com/load-balancing/docs/load-balancing-overview |
-| **Recommended Action** | This Security misconfiguration is Covered by GCP. No actions necessary. |
+| **Recommended Action** | This security misconfiguration is covered by GCP. No action is necessary. |
 
 ## Detailed Remediation Steps
+
 

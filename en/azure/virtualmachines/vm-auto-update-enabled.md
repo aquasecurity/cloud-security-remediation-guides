@@ -15,6 +15,7 @@
 | **Recommended Action** | Enable VM auto update on all virtual machines |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Virtual Machines. </br> <img src="/resources/azure/virtualmachines/vm-auto-update-enabled/step2.png"/>
 3. Select the "Virtual machine" by clicking the "Name" as a link to get into the configuration chanegs. </br> <img src="/resources/azure/virtualmachines/vm-auto-update-enabled/step3.png"/>

@@ -15,6 +15,7 @@
 | **Recommended Action** | Enable sending of logs to Log Analytics for each Network Security Group resource in the Azure Monitor. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network Security Group. </br> <img src="/resources/azure/monitor/nsg-log-analytics-enabled/step2.png"/>
 3. Select the "Network Security Group" which needs to be verified.</br> <img src="/resources/azure/monitor/nsg-log-analytics-enabled/step3.png"/>

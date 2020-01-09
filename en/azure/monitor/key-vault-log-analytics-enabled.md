@@ -15,6 +15,7 @@
 | **Recommended Action** | Send all diagnostic logs for Key Vault from the Azure Monitor service to Log Analytics. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Monitor. </br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step2.png"/>
 3. On the "Monitor - Overview" page scroll down the left navigation panel and click on "Diagnostics" under Settings.</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step3.png"/>

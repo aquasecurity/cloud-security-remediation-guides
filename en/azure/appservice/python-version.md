@@ -15,6 +15,7 @@
 | **Recommended Action** | Select the latest version of Python for all Python-based App Services |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for App Services. </br> <img src="/resources/azure/appservice/python-version/step2.png"/>
 3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.</br> <img src="/resources/azure/appservice/python-version/step3.png"/>

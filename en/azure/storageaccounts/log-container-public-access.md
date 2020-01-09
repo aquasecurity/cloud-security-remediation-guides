@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure the access level for the storage account containing Activity Log data is set to private. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage accounts. </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" as a link to access the configuration.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step3.png"/> 

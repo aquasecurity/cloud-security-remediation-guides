@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that each load balancer only accepts connections on port 443. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Load balancers. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step2.png"/>
 3. Select the "Load balancer" by clicking on the "Name" as a link which needs to be configured only to accept connections on HTTPS ports. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step3.png"/>

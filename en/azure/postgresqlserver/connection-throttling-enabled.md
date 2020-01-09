@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure the server parameters for each PostgreSQL server have the connection_throttling setting enabled. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for PostgreSQL. </br> <img src="/resources/azure/postgresqlserver/connection-throttling-enabled/step2.png"/>
 3. On the "Azure Database for PostgreSQL servers" page, select the database by clicking on the "Name" as a link that needs to be examine.</br> <img src="/resources/azure/postgresqlserver/connection-throttling-enabled/step3.png"/>

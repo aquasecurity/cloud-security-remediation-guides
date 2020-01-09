@@ -15,6 +15,7 @@
 | **Recommended Action** | Add a new log alert to the Alerts service that monitors for SQL Server Firewall Rules create or update and delete events. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Alerts. </br> <img src="/resources/azure/logalerts/sql-server-firewall-rule-alerts-monitor/step2.png"/>
 3. On the "Alerts" page, click on the "Manage alert rules" at the top panel.</br> <img src="/resources/azure/logalerts/sql-server-firewall-rule-alerts-monitor/step3.png"/>

@@ -9,10 +9,11 @@
 | **Plugin Title** | Autoscale Enabled |
 | **Cloud** | GOOGLE |
 | **Category** | Compute |
-| **Description** | Ensures instance groups have auto-scale enabled for high availability. |
-| **More Info** | Enabling auto-scale increases efficiency and improves cost management for resources. |
+| **Description** | Ensures instance groups have autoscale enabled for high availability |
+| **More Info** | Enabling autoscale increases efficiency and improves cost management for resources. |
 | **GOOGLE Link** | https://cloud.google.com/compute/docs/autoscaler/ |
-| **Recommended Action** | 1. Enter the Compute service 2. Enter Instance Groups. 3. Select the Instance Group. 4. Select Edit Group and Enable Autoscaling |
+| **Recommended Action** | Ensure autoscaling is enabled for all instance groups. |
 
 ## Detailed Remediation Steps
+
 

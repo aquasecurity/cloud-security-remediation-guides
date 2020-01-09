@@ -9,12 +9,13 @@
 | **Plugin Title** | Open Hadoop HDFS NameNode WebUI |
 | **Cloud** | GOOGLE |
 | **Category** | VPC Network |
-| **Description** | Determine if TCP port 50070 and 50470 for Hadoop/HDFS NameNode WebUI service is open to the public |
+| **Description** | Determines if TCP port 50070 and 50470 for Hadoop/HDFS NameNode WebUI service is open to the public |
 | **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, more sensitive services such as Hadoop/HDFS should be restricted to known IP addresses. |
 | **GOOGLE Link** | https://cloud.google.com/vpc/docs/using-firewalls |
 | **Recommended Action** | Restrict TCP port 50070 and 50470 to known IP addresses for Hadoop/HDFS |
 
 ## Detailed Remediation Steps
+
 1. Log into the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose the "Networking" to select the "Firewall rules" option under the "VPC network."</br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step2.png"/>
 3. On the "Firewall rules" page, select the "Firewall rule" which needs to be verified. </br> <img src="/resources/google/vpcnetwork/open-hadoop-hdfs-namenode-webui/step3.png"/>

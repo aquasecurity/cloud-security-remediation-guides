@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure JIT Network Access monitoring is configured for compute and apps from the Azure Security Center. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step2.png"/>
 3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under "POLICY & COMPLIANCE."</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step3.png"/>

@@ -15,6 +15,7 @@
 | **Recommended Action** | Configure the firewall of each Storage Account to allow access only from known virtual networks. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/storageaccounts/network-access-default-action/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/storageaccounts/network-access-default-action/step3.png"/>

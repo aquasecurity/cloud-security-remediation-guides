@@ -12,9 +12,10 @@
 | **Description** | Ensures that Log Profiles have a long retention policy. |
 | **More Info** | Log retention policies should be configured with sufficient retention to aid in investigation of prior security incidents and for compliance purposes. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs#export-the-activity-log-with-a-log-profile |
-| **Recommended Action** | Ensure that the Activity Log export to Event Hub is configured with a retention policy of at least 90 days. |
+| **Recommended Action** | Ensure that the Activity Log export to Event Hub is configured with a retention policy of at least 365 days. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Monitor. </br> <img src="/resources/azure/monitor/log-profile-retention-policy/step2.png"/>
 3. Scroll down the left navigation panel and choose "Activity Log" option in the "Monitor" page.</br> <img src="/resources/azure/monitor/log-profile-retention-policy/step3.png"/>

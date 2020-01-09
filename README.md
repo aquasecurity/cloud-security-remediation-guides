@@ -142,7 +142,9 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Notebook Direct Internet Access](en/aws/sagemaker/notebook-direct-internet-access.md)
 * Azure
     * Active Directory
+        * [Ensure No Guest User](en/azure/activedirectory/ensure-no-guest-user.md)
         * [Minimum Password Length](en/azure/activedirectory/minimum-password-length.md)
+        * [No Custom Owner Roles](en/azure/activedirectory/no-custom-owner-roles.md)
         * [Password Requires Lowercase](en/azure/activedirectory/password-requires-lowercase.md)
         * [Password Requires Numbers](en/azure/activedirectory/password-requires-numbers.md)
         * [Password Requires Symbols](en/azure/activedirectory/password-requires-symbols.md)
@@ -167,20 +169,24 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * CDN Profiles
         * [Detect Insecure Custom Origin](en/azure/cdnprofiles/detect-insecure-custom-origin.md)
         * [Endpoint Logging Enabled](en/azure/cdnprofiles/endpoint-logging-enabled.md)
-    * Disks
-        * [Unmanaged Disk Encryption](en/azure/disks/unmanaged-disk-encryption.md)
+    * Container Registry
+        * [ACR Admin User](en/azure/containerregistry/acr-admin-user.md)
     * File Service
         * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
-    * Key Vault
-        * [Key Expiration Enabled](en/azure/keyvault/key-expiration-enabled.md)
-        * [Key Vault Recovery Enabled](en/azure/keyvault/key-vault-recovery-enabled.md)
+    * Key Vaults
+        * [Key Expiration Enabled](en/azure/keyvaults/key-expiration-enabled.md)
+        * [Key Vault Recovery Enabled](en/azure/keyvaults/key-vault-recovery-enabled.md)
+        * [Secret Expiration Enabled](en/azure/keyvaults/secret-expiration-enabled.md)
     * Kubernetes Service
+        * [Kubernetes Latest Version](en/azure/kubernetesservice/kubernetes-latest-version.md)
         * [Kubernetes RBAC Enabled](en/azure/kubernetesservice/kubernetes-rbac-enabled.md)
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
     * Log Alerts
         * [Network Security Groups Logging Enabled](en/azure/logalerts/network-security-groups-logging-enabled.md)
+        * [Network Security Groups Rule Logging Enabled](en/azure/logalerts/network-security-groups-rule-logging-enabled.md)
+        * [Policy Assignment Alerts Enabled](en/azure/logalerts/policy-assignment-alerts-enabled.md)
         * [SQL Server Firewall Rule Alerts Monitor](en/azure/logalerts/sql-server-firewall-rule-alerts-monitor.md)
         * [Security Policy Alerts Enabled](en/azure/logalerts/security-policy-alerts-enabled.md)
         * [Security Solution Logging](en/azure/logalerts/security-solution-logging.md)
@@ -191,9 +197,10 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Log Profile Archive Data](en/azure/monitor/log-profile-archive-data.md)
         * [Log Profile Retention Policy](en/azure/monitor/log-profile-retention-policy.md)
         * [NSG Log Analytics Enabled](en/azure/monitor/nsg-log-analytics-enabled.md)
+    * MySQL Server
+        * [Enforce MySQL SSL Connection](en/azure/mysqlserver/enforce-mysql-ssl-connection.md)
     * Network Security Groups
         * [Default Security Group](en/azure/networksecuritygroups/default-security-group.md)
-        * [Deny SSH Access](en/azure/networksecuritygroups/deny-ssh-access.md)
         * [Excessive Security Groups](en/azure/networksecuritygroups/excessive-security-groups.md)
         * [Network Watcher Enabled](en/azure/networksecuritygroups/network-watcher-enabled.md)
         * [Open All Ports](en/azure/networksecuritygroups/open-all-ports.md)
@@ -219,7 +226,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open VNC Server](en/azure/networksecuritygroups/open-vnc-server.md)
     * PostgreSQL Server
         * [Connection Throttling Enabled](en/azure/postgresqlserver/connection-throttling-enabled.md)
-        * [Enforce SSL Connection Enabled](en/azure/postgresqlserver/enforce-ssl-connection-enabled.md)
+        * [Enforce PostgreSQL SSL Connection](en/azure/postgresqlserver/enforce-postgresql-ssl-connection.md)
         * [Log Checkpoints Enabled](en/azure/postgresqlserver/log-checkpoints-enabled.md)
         * [Log Connections Enabled](en/azure/postgresqlserver/log-connections-enabled.md)
         * [Log Disconnections Enabled](en/azure/postgresqlserver/log-disconnections-enabled.md)
@@ -237,15 +244,18 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * SQL Server
         * [Advanced Data Security Enabled](en/azure/sqlserver/advanced-data-security-enabled.md)
         * [Audit Action Groups Enabled](en/azure/sqlserver/audit-action-groups-enabled.md)
+        * [Audit Retention Policy](en/azure/sqlserver/audit-retention-policy.md)
+        * [Azure Active Directory Admin Enabled](en/azure/sqlserver/azure-active-directory-admin-enabled.md)
+        * [Email Account Admins Enabled](en/azure/sqlserver/email-account-admins-enabled.md)
         * [SQL Server Public Access](en/azure/sqlserver/sql-server-public-access.md)
+        * [Send Alerts Enabled](en/azure/sqlserver/send-alerts-enabled.md)
+        * [Server Auditing Enabled](en/azure/sqlserver/server-auditing-enabled.md)
         * [TDE Protector Encrypted](en/azure/sqlserver/tde-protector-encrypted.md)
-    * SQL Servers
-        * [Audit Retention Policy](en/azure/sqlservers/audit-retention-policy.md)
-        * [Server Auditing Enabled](en/azure/sqlservers/server-auditing-enabled.md)
     * Security Center
         * [Admin Security Alerts Enabled](en/azure/securitycenter/admin-security-alerts-enabled.md)
         * [Application Whitelisting Enabled](en/azure/securitycenter/application-whitelisting-enabled.md)
         * [Auto Provisioning Enabled](en/azure/securitycenter/auto-provisioning-enabled.md)
+        * [High Severity Alerts Enabled](en/azure/securitycenter/high-severity-alerts-enabled.md)
         * [Monitor Blob Encryption](en/azure/securitycenter/monitor-blob-encryption.md)
         * [Monitor Disk Encryption](en/azure/securitycenter/monitor-disk-encryption.md)
         * [Monitor Endpoint Protection](en/azure/securitycenter/monitor-endpoint-protection.md)
@@ -257,6 +267,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Monitor VM Vulnerability](en/azure/securitycenter/monitor-vm-vulnerability.md)
         * [Security Configuration Monitoring](en/azure/securitycenter/security-configuration-monitoring.md)
         * [Security Contacts Enabled](en/azure/securitycenter/security-contacts-enabled.md)
+        * [Standard Pricing Enabled](en/azure/securitycenter/standard-pricing-enabled.md)
     * Storage Accounts
         * [Blob Service Encryption](en/azure/storageaccounts/blob-service-encryption.md)
         * [File Service Encryption](en/azure/storageaccounts/file-service-encryption.md)
@@ -293,25 +304,62 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Autoscale Enabled](en/google/compute/autoscale-enabled.md)
         * [CSEK Encryption Enabled](en/google/compute/csek-encryption-enabled.md)
         * [Connect Serial Ports Disabled](en/google/compute/connect-serial-ports-disabled.md)
+        * [IP Forwarding Disabled](en/google/compute/ip-forwarding-disabled.md)
         * [Instance Level SSH Only](en/google/compute/instance-level-ssh-only.md)
         * [Instances Multi AZ](en/google/compute/instances-multi-az.md)
-        * [Ip Forwarding Disabled](en/google/compute/ip-forwarding-disabled.md)
-        * [VM Instances with No Access](en/google/compute/vm-instances-with-no-access.md)
+        * [OS Login Enabled](en/google/compute/os-login-enabled.md)
+        * [VM Instances Least Privilege](en/google/compute/vm-instances-least-privilege.md)
         * [VM Max Instances](en/google/compute/vm-max-instances.md)
     * Cryptographic Keys
         * [Key Rotation](en/google/cryptographickeys/key-rotation.md)
     * DNS
         * [DNS Security Enabled](en/google/dns/dns-security-enabled.md)
+        * [DNS Security Signing Algorithm](en/google/dns/dns-security-signing-algorithm.md)
     * IAM
+        * [Corporate Emails Only](en/google/iam/corporate-emails-only.md)
+        * [KMS User Separation](en/google/iam/kms-user-separation.md)
+        * [Service Account Admin](en/google/iam/service-account-admin.md)
+        * [Service Account Key Rotation](en/google/iam/service-account-key-rotation.md)
+        * [Service Account Managed Keys](en/google/iam/service-account-managed-keys.md)
+        * [Service Account Separation](en/google/iam/service-account-separation.md)
+        * [Service Account User](en/google/iam/service-account-user.md)
         * [Service Limits](en/google/iam/service-limits.md)
     * Kubernetes
+        * [Alias IP Ranges Enabled](en/google/kubernetes/alias-ip-ranges-enabled.md)
+        * [Automatic Node Repair Enabled](en/google/kubernetes/automatic-node-repair-enabled.md)
+        * [Automatic Node Upgrades Enabled](en/google/kubernetes/automatic-node-upgrades-enabled.md)
+        * [Basic Authentication Disabled](en/google/kubernetes/basic-authentication-disabled.md)
+        * [COS Image Enabled](en/google/kubernetes/cos-image-enabled.md)
+        * [Cluster Labels Added](en/google/kubernetes/cluster-labels-added.md)
+        * [Cluster Least Privilege](en/google/kubernetes/cluster-least-privilege.md)
+        * [Default Service Account](en/google/kubernetes/default-service-account.md)
+        * [Legacy Authorization Disabled](en/google/kubernetes/legacy-authorization-disabled.md)
+        * [Logging Enabled](en/google/kubernetes/logging-enabled.md)
+        * [Master Authorized Network](en/google/kubernetes/master-authorized-network.md)
         * [Monitoring Enabled](en/google/kubernetes/monitoring-enabled.md)
+        * [Network Policy Enabled](en/google/kubernetes/network-policy-enabled.md)
+        * [Pod Security Policy Enabled](en/google/kubernetes/pod-security-policy-enabled.md)
+        * [Private Cluster Enabled](en/google/kubernetes/private-cluster-enabled.md)
         * [Private Endpoint](en/google/kubernetes/private-endpoint.md)
+        * [Web Dashboard Disabled](en/google/kubernetes/web-dashboard-disabled.md)
+    * Logging
+        * [Audit Configuration Logging](en/google/logging/audit-configuration-logging.md)
+        * [Audit Logging Enabled](en/google/logging/audit-logging-enabled.md)
+        * [Custom Role Logging](en/google/logging/custom-role-logging.md)
+        * [Log Sinks Enabled](en/google/logging/log-sinks-enabled.md)
+        * [Project Ownership Logging](en/google/logging/project-ownership-logging.md)
+        * [SQL Configuration Logging](en/google/logging/sql-configuration-logging.md)
+        * [Storage Permissions Logging](en/google/logging/storage-permissions-logging.md)
+        * [VPC Firewall Rule Logging](en/google/logging/vpc-firewall-rule-logging.md)
+        * [VPC Network Logging](en/google/logging/vpc-network-logging.md)
+        * [VPC Network Route Logging](en/google/logging/vpc-network-route-logging.md)
     * SQL
+        * [Any Host Root Access](en/google/sql/any-host-root-access.md)
         * [DB Automated Backups](en/google/sql/db-automated-backups.md)
-        * [DB Multiple Az](en/google/sql/db-multiple-az.md)
+        * [DB Multiple AZ](en/google/sql/db-multiple-az.md)
         * [DB Publicly Accessible](en/google/sql/db-publicly-accessible.md)
         * [DB Restorable](en/google/sql/db-restorable.md)
+        * [Database SSL Enabled](en/google/sql/database-ssl-enabled.md)
     * Storage
         * [Bucket Logging](en/google/storage/bucket-logging.md)
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)

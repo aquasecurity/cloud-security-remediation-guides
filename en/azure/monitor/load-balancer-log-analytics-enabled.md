@@ -15,6 +15,7 @@
 | **Recommended Action** | Send all diagnostic logs for Load Balancers from the Azure Monitor service to Log Analytics. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Load balancer. </br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step2.png"/>
 3. Select the "Load balancer" which needs to be verified.</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step3.png"/>

@@ -9,10 +9,11 @@
 | **Plugin Title** | Monitoring Enabled |
 | **Cloud** | GOOGLE |
 | **Category** | Kubernetes |
-| **Description** | Ensures all Kubernetes clusters have monitoring enabled  |
+| **Description** | Ensures all Kubernetes clusters have monitoring enabled |
 | **More Info** | Kubernetes supports monitoring through Stackdriver. |
 | **GOOGLE Link** | https://cloud.google.com/monitoring/kubernetes-engine/ |
-| **Recommended Action** | 1. Enter the Kubernetes Service. 2. Select Clusters from the left blade. 3. Select edit on the cluster. 4. Enable Stackdriver Kubernetes Engine Monitoring or Legacy Stackdriver Monitoring. |
+| **Recommended Action** | Ensure monitoring is enabled on all Kubernetes clusters. |
 
 ## Detailed Remediation Steps
+
 

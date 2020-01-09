@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure Security Configuration Monitoring is configured for virtual machines from the Azure Security Center. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step2.png"/>
 3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under "POLICY & COMPLIANCE."</br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step3.png"/>

@@ -15,6 +15,7 @@
 | **Recommended Action** | Enable the VM agent for all virtual machines. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/virtualmachines/vm-agent-enabled/step2.png"/>
 3. Click on the "Pricing & Settings" option and choose the "Subscription" and click on the "Name" option as a link to access the configurations. </br> <img src="/resources/azure/virtualmachines/vm-agent-enabled/step3.png"/>

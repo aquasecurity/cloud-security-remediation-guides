@@ -15,6 +15,7 @@
 | **Recommended Action** | Ensure that Advanced Data Security is enabled for all SQL Servers. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/advanced-data-security-enabled/step2.png"/>
 3. On the "SQL server" page, select the SQL server that needs to be examine. </br> <img src="/resources/azure/sqlserver/advanced-data-security-enabled/step3.png"/>

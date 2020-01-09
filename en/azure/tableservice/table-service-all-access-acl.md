@@ -15,6 +15,7 @@
 | **Recommended Action** | Disable global read, write, and delete policies on all tables and ensure the ACL is configured with least privileges. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step3.png"/>

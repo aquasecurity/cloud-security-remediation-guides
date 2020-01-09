@@ -9,10 +9,11 @@
 | **Plugin Title** | Connect Serial Ports Disabled |
 | **Cloud** | GOOGLE |
 | **Category** | Compute |
-| **Description** | Ensure Enable Connecting to Serial Ports is not enabled for VM Instance |
-| **More Info** | The Serial Console does not allow restricting IP Addresses, which allows any IP address to connect to instance. |
+| **Description** | Ensures connecting to serial ports is not enabled for VM instances |
+| **More Info** | The serial console does not allow restricting IP Addresses, which allows any IP address to connect to instance and should therefore be disabled. |
 | **GOOGLE Link** | https://cloud.google.com/compute/docs/instances/interacting-with-serial-console |
-| **Recommended Action** | 1.Enter the Compute Service. 2. Select the Instance. 3. Select Edit then deselect Enable Connecting to Serial Ports. |
+| **Recommended Action** | Ensure the Enable Connecting to Serial Ports option is disabled for all compute instances. |
 
 ## Detailed Remediation Steps
+
 

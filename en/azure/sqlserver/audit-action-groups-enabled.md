@@ -15,6 +15,7 @@
 | **Recommended Action** | If SQL Server Audit Action and Groups is not configured properly when enabling Auditing, these settings must be configured in Powershell. |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/audit-action-groups-enabled/step2.png"/>
 3. On the "SQL server" page, click on the "Cloud shell" button at the top to access "Power Shell" as "Audit Action Groups Enabled" cannot be checked from A"zure UI Console".</br> <img src="/resources/azure/sqlserver/audit-action-groups-enabled/step3.png"/>

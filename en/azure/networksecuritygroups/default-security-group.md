@@ -15,6 +15,7 @@
 | **Recommended Action** | Update the rules for the default security group to deny all traffic by default |
 
 ## Detailed Remediation Steps
+
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step3.png"/>
