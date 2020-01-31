@@ -26,5 +26,5 @@
 9. Scroll down the "Create an Instance" page, click on the "Management, security, disks, networking, sole tenancy" option, choose "Networking" and click on the pencil icon next to the "default" under "Network Interfaces."</br> <img src="/resources/google/compute/ip-forwarding-disabled/step9.png"/>
 10. On the "Network Interfaces" tab, scroll down the page and select "OFF" from the dropdown menu under the "IP Forwarding" option.</br> <img src="/resources/google/compute/ip-forwarding-disabled/step10.png"/>
 11. Click on the "Create" button at the bottom to make the changes.</br> <img src="/resources/google/compute/ip-forwarding-disabled/step11.png"/>
-12. Once the new similar instance is up and running, delete the instance with "IP forwarding" enabled.</br> <img src="/resources/google/compute/ip-forwarding-disabled/step12.png"/>
+12. Once the new similar instance is up and running, delete the instance with "IP forwarding" enabled.</br> 
 13. Repeat steps number 6 - 12 so that IP forwarding settings can only be chosen when creating a new instance. Delete the affected instances and redeploy with IP forwarding disabled.</br>
