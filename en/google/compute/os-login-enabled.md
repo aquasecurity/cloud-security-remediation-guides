@@ -25,4 +25,4 @@
 8. On the "VM instance details - Edit page", scroll down the page and under "Custom metadata" add the key as "enable-oslogin" and value as "TRUE."</br> <img src="/resources/google/compute/os-login-enabled/step8.png"/>
 9. Click on the "Save" button to make the changes.</br> <img src="/resources/google/compute/os-login-enabled/step9.png"/>
 10. Navigate to "Metadata" under the "Compute Engine" to add a project-wide metadata. Click on the "Edit" button at the top and add an entry similar to the step 8 for the key and the value and click on the "Save" button to make the changes.</br> <img src="/resources/google/compute/os-login-enabled/step10.png"/>
-11. Repeat steps number 6 - 10 to Set enable-oslogin in project-wide metadata so that it applies to all of the instances in the project.</br>
+11. Repeat steps number 6 - 10 to set "enable-oslogin" in project-wide metadata so that it applies to all of the instances in the project.</br>
