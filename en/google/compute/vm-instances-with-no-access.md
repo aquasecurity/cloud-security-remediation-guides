@@ -24,6 +24,6 @@
 7. On the "VM instance details" page, select the "CREATE SIMILAR" button at the top.</br> <img src="/resources/google/compute/vm-instances-with-no-access/step7.png"/>
 8. Enter the "Name" of the instance, Region, Choose the "Machine Configuration" as per the previous instance had.</br> <img src="/resources/google/compute/vm-instances-with-no-access/step8.png"/>
 9. Scroll down the "Create an Instance" page, click on the "Access Scopes" option under the "Identity and API access" and choose "Allow default access" option.</br> <img src="/resources/google/compute/vm-instances-with-no-access/step9.png"/>
-10. Click on the "Create" button at the bottom to make the changes.</br> <img src="/resources/google/compute/vm-instances-with-no-access/step11.png"/>
+10. Click on the "Create" button at the bottom to make the changes.</br> <img src="/resources/google/compute/vm-instances-with-no-access/step10.png"/>
 11. Once the new similar instance is up and running, delete the instance with "full access to all Cloud APIs" enabled.</br> 
 12. Repeat steps number 6 - 11 to ensure Allow full access to all Cloud APIs is not selected if selecting the default service account.</br>
