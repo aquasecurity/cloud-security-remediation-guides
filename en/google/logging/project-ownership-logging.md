@@ -27,5 +27,5 @@
 10. On the "Create alert" page, select the "Aggregator" as per the requirement and select the "Configuration" from the dropdown menu accordingly.</br> <img src="/resources/google/logging/project-ownership-logging/step10.png"/>
 11. Enter the "Condition, Threshold and Minute" of the above "Configuration" accordingly and click on the "Save" button to make the changes.</br> <img src="/resources/google/logging/project-ownership-logging/step11.png"/>
 12. Once the settings are "Saved", enter the name of the alarm and select "Policy triggers" condition from the dropdown menu.</br> <img src="/resources/google/logging/project-ownership-logging/step12.png"/>
-13. Click on the "Save" button at the bottom to make the chanes.</br> <img src="/resources/google/logging/project-ownership-logging/step13.png"/>
+13. Click on the "Save" button at the bottom to make the changes.</br> <img src="/resources/google/logging/project-ownership-logging/step13.png"/>
 14. Repeat steps number 6 - 14 to ensure that log alerts exist for project ownership assignments and changes.</br>
