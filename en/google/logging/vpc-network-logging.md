@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and select the "Logging" option under the "STACKDRIVER."</br> <img src="/resources/google/logging/vpc-network-logging/step2.png"/>
-3. On the "Stack driver Logging" page, click on the "Logs-based metrics" option./br> <img src="/resources/google/logging/vpc-network-logging/step3.png"/>
+3. On the "Stack driver Logging" page, click on the "Logs-based metrics" option.</br> <img src="/resources/google/logging/vpc-network-logging/step3.png"/>
 4. On the "Logs-based metric" page, search the "System metrics" and "User-defined metrics" and check whether any metrics is there for "VPC Network Logging." If no such metrics is present then the logging and log alerts does not exist for VPC network changes. </br> <img src="/resources/google/logging/vpc-network-logging/step4.png"/>
 5. Repeat steps number 2 - 4 to check other GCP accounts.</br>
 6. Navigate to the "Logging" option under the "STACKDRIVER", choose the "Logbased metrics" and click on the "CREATE METRIC" button at the top.</br> <img src="/resources/google/logging/vpc-network-logging/step6.png"/>
