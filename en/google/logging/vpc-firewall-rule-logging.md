@@ -15,7 +15,7 @@
 | **Recommended Action** | Ensure that log alerts exist for firewall rule changes. |
 
 ## Detailed Remediation Steps
-1. Log inxto the Google Cloud Platform Console.
+1. Log in to the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and select the "Logging" option under the "STACKDRIVER."</br> <img src="/resources/google/logging/vpc-firewall-rule-logging/step2.png"/>
 3. On the "Stack driver Logging" page, click on the "Logs-based metrics" option./br> <img src="/resources/google/logging/vpc-firewall-rule-logging/step3.png"/>
 4. On the "Logs-based metric" page, search the "System metrics" and "User-defined metrics" and check whether any metrics is there for "Vpc Firewall RuleLogging." If no such metrics is present then the logging and log alerts does not exist for for firewall rule changes.</br> <img src="/resources/google/logging/vpc-firewall-rule-logging/step4.png"/>
