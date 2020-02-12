@@ -28,4 +28,4 @@
 11. Enter the "Condition, Threshold and Minute" of the above "Configuration" accordingly and click on the "Save" button to make the changes.</br> <img src="/resources/google/logging/storage-permissions-logging/step11.png"/>
 12. Once the settings are "Saved", enter the name of the alarm and select "Policy triggers" condition from the dropdown menu.</br> <img src="/resources/google/logging/storage-permissions-logging/step12.png"/>
 13. Click on the "Save" button at the bottom to make the chanes.</br> <img src="/resources/google/logging/storage-permissions-logging/step13.png"/>
-14. Repeat steps number 6 - 14 to ensure that log alerts exist for project ownership assignments and changes.</br>
+14. Repeat steps number 6 - 14 to ensure that log alerts exist for storage permission changes.</br>
