@@ -25,6 +25,6 @@
 8. On the "Node pool details" page, click on the "Edit" button at the top.</br> <img src="/resources/google/kubernetes/automatic-node-upgrades-enabled/step8.png"/>
 9. On the "Edit node pool" page, scroll down and click on the checkbox next to the "Enable auto-upgrade" under the "Management."</br> <img src="/resources/google/kubernetes/automatic-node-upgrades-enabled/step9.png"/>
 10. Click on the "Save" button to make the changes.</br> <img src="/resources/google/kubernetes/automatic-node-upgrades-enabled/step10.png"/>
-11. Reepat steps number 7 - 10 to ensure automatic node upgrades are enabled on all node pools in Kubernetes clusters.</br>
+11. Repeat steps number 7 - 10 to ensure automatic node upgrades are enabled on all node pools in Kubernetes clusters.</br>
 
 
