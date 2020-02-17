@@ -15,7 +15,7 @@
 | **Recommended Action** | Ensure that automatic node repair is enabled on all node pools in Kubernetes clusters |
 
 ## Detailed Remediation Steps
-1. Log into the Google Cloud Platform Console.
+1. Log in to the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose the "Kubernetes Engine" option under the "Compute" and select the "Clusters." </br> <img src="/resources/google/kubernetes/automatic-node-repair-enabled/step2.png"/>
 3. On the "Kubernetes clusters" page , click on the "Name" as a link option to select the cluster.</br> <img src="/resources/google/kubernetes/automatic-node-repair-enabled/step3.png"/>
 4. On the selected "Clusters" page, scroll down and select the "Node pools" by clicking on the "Name" as a link.</br> <img src="/resources/google/kubernetes/automatic-node-repair-enabled/step4.png"/>
