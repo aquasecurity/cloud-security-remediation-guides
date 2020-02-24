@@ -21,7 +21,7 @@
 4. On the "Clusters" page, click on the "Edit" button at the top.</br> <img src="/resources/google/kubernetes/legacy-authorization-disabled/step4.png"/>
 5. Scroll down the "Clusters - Edit" page and check whether "Legacy Authorisation" is enabled or disabled. If it's set to enabled then it's not as per the best recommended method.</br> <img src="/resources/google/kubernetes/legacy-authorization-disabled/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Clusters" in the account.</br>
-7. Navigate to the "Kubernetes Engine" option under the "Compute", choose the "Clusters" and click on the "Edit" button at the top.</br> <img src="/resources/google/legacy-authorization-disabled/step7.png"/>
+7. Navigate to the "Kubernetes Engine" option under the "Compute", choose the "Clusters" and click on the "Edit" button at the top.</br> <img src="/resources/google/kubernetes/legacy-authorization-disabled/step7.png"/>
 8. On the "Clusters - Edit" page, scroll down and choose the "Disabled" option from the dropdown menu next to "Legacy Authorisation."</br> <img src="/resources/google/kubernetes/legacy-authorization-disabled/step8.png"/>
 9. Click on the "Save" button to make the changes.</br> <img src="/resources/google/kubernetes/legacy-authorization-disabled/step9.png"/>
 10. Repeat steps number 7 - 9 to disable legacy authorization on all clusters.</br>
