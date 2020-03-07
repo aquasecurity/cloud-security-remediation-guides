@@ -22,6 +22,6 @@
 5. Repeat steps number 2 - 5 to check other SQL instance in the account.</br> 
 6. Navigate to the "SQL" option under the "Storage", choose the "SQL Instance" and click on the "Edit" button at the top.</br> <img src="/resources/google/sql/db-multiple-az/step6.png"/>
 7. On the "Edit instance" page, scroll down and click on the "Auto backups and high availability" under the "Configuration options."</br> <img src="/resources/google/sql/db-multiple-az/step7.png"/>
-8. On the "db-automated-backups" tab, click on the checkbox next to "High Availability" under the "Availability" section.</br> <img src="/resources/google/sql/db-automated-backups/step8.png"/>
-9. Click on the "Save" button to make the changes.</br> <img src="/resources/google/sql/db-automated-backups/step9.png"/>
+8. On the "db-automated-backups" tab, click on the checkbox next to "High Availability" under the "Availability" section.</br> <img src="/resources/google/sql/db-multiple-az/step8.png"/>
+9. Click on the "Save" button to make the changes.</br> <img src="/resources/google/sql/db-multiple-az/step9.png"/>
 10. Repeat steps number 6 - 9 to ensure that all database instances have a DB replica enabled in a secondary AZ.</br>
