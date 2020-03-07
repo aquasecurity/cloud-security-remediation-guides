@@ -15,7 +15,7 @@
 | **Recommended Action** | 1. Enter the SQL category of the Google Console. 2. Select the instance. 3. Select the Replicas tab. 4. Select Create Failover Replica and follow the prompts. |
 
 ## Detailed Remediation Steps
-1. Log into the Google Cloud Platform Console.
+1. Log in to the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose the "SQL" option under the "Storage." </br> <img src="/resources/google/sql/db-publicly-accessible/step2.png"/>
 3. On the "SQL" page , click on the "Instance ID" as a link option to select the "SQL" instance.</br> <img src="/resources/google/sql/db-publicly-accessible/step3.png"/>
 4. On the "SQL" page, click on the "Replicas" under the "MASTER INSTANCE."</br> <img src="/resources/google/sql/db-publicly-accessible/step4.png"/>
