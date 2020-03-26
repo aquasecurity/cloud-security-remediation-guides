@@ -15,7 +15,7 @@
 | **Recommended Action** | Ensure DNSSEC is enabled for all managed zones in the cloud DNS service. |
 
 ## Detailed Remediation Steps
-1. Log into the Google Cloud Platform Console.
+1. Log in to the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose the "Network Services" option under the "NETWORKING" and select the "Cloud DNS." </br> <img src="/resources/google/dns/dns-security-enabled/step2.png"/>
 3. On the "Cloud DNS" page, select the "Zone name" which needs to be checked for the "DNS Security."</br> <img src="/resources/google/dns/dns-security-enabled/step3.png"/>
 4. On the selected "Zone" check the "DNSSEC" is showing "Off" or "ON". If it's turned off then it cannot authenticates all responses to domain name lookups.</br> <img src="/resources/google/dns/dns-security-enabled/step4.png"/>
