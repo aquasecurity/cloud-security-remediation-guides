@@ -22,7 +22,7 @@
 5. On the "Network Security Groups" page, select the "Security group" by clicking on the "Name" as a link to access the security group.</br> <img src="/resources/oracle/networking/open-all-ports-protocols/step5.png"/>
 6. On the "Network Security Group Details" page, under the "Security Rules" check if security list has all ports or protocols open to the public. </br> <img src="/resources/oracle/networking/open-all-ports-protocols/step6.png"/>
 7. Repeat steps number 2 - 6 to check other "Security Groups" in the account.</br>
-8. Navigate to "Virtual Cloud Networks" under the "Networking", click on the "Name" as a link to access the "Virtual Network", select the "Security Group" in which security list has all ports or protocols open to the public.</br> <img src="/resources/oracle/networking/open-ll-ports-protocols/step8.png"/>
-9. On the "Security Rules" page, click on the checkbox of the "Ingress" and click on the "Edit" button at the top to make the changes.</br> <img src="/resources/oracle/networking/open-ll-ports-protocols/step9.png"/>
-10. On the "Edit Rules" page, enter the "IP Address" as per requirements under the "Source CIDR" and click on the "Save" button to make the changes.</br> <img src="/resources/oracle/networking/open-ll-ports-protocols/step10.png"/>
+8. Navigate to "Virtual Cloud Networks" under the "Networking", click on the "Name" as a link to access the "Virtual Network", select the "Security Group" in which security list has all ports or protocols open to the public.</br> <img src="/resources/oracle/networking/open-all-ports-protocols/step8.png"/>
+9. On the "Security Rules" page, click on the checkbox of the "Ingress" and click on the "Edit" button at the top to make the changes.</br> <img src="/resources/oracle/networking/open-all-ports-protocols/step9.png"/>
+10. On the "Edit Rules" page, enter the "IP Address" as per requirements under the "Source CIDR" and click on the "Save" button to make the changes.</br> <img src="/resources/oracle/networking/open-all-ports-protocols/step10.png"/>
 11. Repeat steps number to restrict security list to specify a specific port and protocol to allow. </br>
