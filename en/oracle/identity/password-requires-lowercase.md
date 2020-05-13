@@ -22,6 +22,6 @@
 5. On the "Edit Authentication Settings" page, make sure "Password requires lowercase" is enabled as per the best practices of Oracle cloud.</br> <img src="/resources/oracle/identity/password-requires-lowercase/step5.png"/>
 6. Repeat steps number 2 - 5 to check other Oracle cloud accounts.</br>
 7. Navigate to "Identity" under the "Governance and Administration" and select the "Authentication" settings to set the "Password requires lowercase".</br> <img src="/resources/oracle/identity/password-requires-lowercase/step7.png"/>
-8. Click on the "Edit" button to open the "Authentication" settings.</br> <img src="/resources/oracle/identitypassword-requires-lowercase/step8.png"/>
+8. Click on the "Edit" button to open the "Authentication" settings.</br> <img src="/resources/oracle/identity/password-requires-lowercase/step8.png"/>
 9. On the "Edit Authentication Settings" page, click on the checkbox next to the "Password requires lowercase" and click on the "Save" button to make the changes.</br> <img src="/resources/oracle/identity/password-requires-lowercase/step9.png"/>
 10. Repeat steps number 7 - 9 to update the password policy to require the use of lowercase letters. </br>
