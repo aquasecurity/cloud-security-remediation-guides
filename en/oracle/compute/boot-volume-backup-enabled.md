@@ -15,4 +15,13 @@
 | **Recommended Action** | 1. Enter the Boot Volume Service. 2. Select the Boot Volume in question. 3. Select Assign next to Backup Policy. 4. Select the best policy for your services. |
 
 ## Detailed Remediation Steps
-
+1. Log in to the Oracle Cloud Platform Console.
+2. Scroll down the left navigation panel and choose the "Instances" under the "Compute." </br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step2.png"/>
+3. On the "Instances" page, scroll down and click on the "Boot Volumes" option at the left.</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step3.png"/>
+4. On the "Boot Volumes" page, click on the "Name" as a link to access the configuration options.</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step4.png"/>
+5. On the "Boot Volume Details" page, scroll down and check on the left whether "Backup Policy" is enabled or not.</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step5.png"/>
+6. Repeat steps number 2 - 5 to check other volumes in the account.</br>
+7. Navigate to "Instances" under the "Compute" and select the "Boot Volumes" option to enable the "Boot Volume Backup".</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step7.png"/> 
+8. On the "Boot Volume Details" page, click on the "Assign" option next to the "Backup Policy."</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step8.png"/>
+9. On the "Assign Backup Policy" page, select the "Backup Policy" type from the dropdown menu as per the requirements and click on the "Assign" button to make the changes.</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step9.png"/>
+10. Repeat steps number 6 - 9 to enable backup policy in Boot Volumes.
