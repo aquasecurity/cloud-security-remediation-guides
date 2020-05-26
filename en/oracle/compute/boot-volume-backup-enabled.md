@@ -24,4 +24,4 @@
 7. Navigate to "Instances" under the "Compute" and select the "Boot Volumes" option to enable the "Boot Volume Backup".</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step7.png"/> 
 8. On the "Boot Volume Details" page, click on the "Assign" option next to the "Backup Policy."</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step8.png"/>
 9. On the "Assign Backup Policy" page, select the "Backup Policy" type from the dropdown menu as per the requirements and click on the "Assign" button to make the changes.</br> <img src="/resources/oracle/compute/boot-volume-backup-enabled/step9.png"/>
-10. Repeat steps number 6 - 9 to enable backup policy in Boot Volumes.
+10. Repeat steps number 7 - 9 to enable backup policy in Boot Volumes.
