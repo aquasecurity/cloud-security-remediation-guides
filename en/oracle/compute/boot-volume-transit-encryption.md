@@ -25,6 +25,6 @@
 8. Navigate to "Instances" under the "Compute" and select the "Boot Volumes" option to enable the "Boot Volume Transit Encryption".</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step8.png"/>
 9. On the "Boot Volume" page, scroll down and choose the "Boot Volume Clones" under the "Resources".</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step9.png"/>
 10. On the "Boot Volume Clones" page, click on the 3dots at the extreme right and choose the "Create Instance" option.</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step10.png"/>
-11.On the "Create Compute Instance" page, scroll down and click on the "Show Shape, Network and Storage Options" to expand the services.</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step11.png"/>
+11. On the "Create Compute Instance" page, scroll down and click on the "Show Shape, Network and Storage Options" to expand the services.</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step11.png"/>
 12. On the expand services under "Shape, Network and Storage Options", scroll down and select the checkbox next to the "USE IN-TRANSIT ENCRYPTION" under the "Boot Volume" and click on the "Create" button to initiate a new Instance.</br> <img src="/resources/oracle/compute/boot-volume-transit-encryption/step12.png"/>
 13. Repeat steps number 8 - 12 to enable in-transit data encryption.</br>
