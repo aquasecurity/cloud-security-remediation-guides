@@ -15,4 +15,13 @@
 | **Recommended Action** | 1. Enter the Block Volume Service. 2. Select the Block Volume in question. 3. Select Block Volume Backups from the lower left blade. 4. Create a manual backup. |
 
 ## Detailed Remediation Steps
-
+1. Log in to the Oracle Cloud Platform Console.
+2. Scroll down the left navigation panel and choose the "Block Volumes" under the "Block Storage." </br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step2.png"/>
+3. Click on the "Name" as a link to access to the "Boot Volume" setting.</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step3.png"/>
+4. On the "Block Volume Details" page, scroll down and select "Block Volume Backups" udner the "Resources."</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step4.png"/>
+5. On the "Block Volume Backups" page, check whether any "Block Volume" backup is there or not which can be restored.</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step5.png"/>
+6. Repeat steps number 2 - 5 to check other Block Volumes in the account.</br>
+7. Navigate to "Block Volumes" under the "Block Storage" and select the "Block Volumes" option to manually create  the "Block Volume Backup".</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step7.png"/>
+8. Click on the "Block Volume Backups" under the Resources and then click on the "Create Block Volume Backup" button at the top.</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step8.png"/>
+9. On the "Create Block Volume Backup" page, enter the name for the "Boot Volume Backup" and choose the "Backup Type" and click on the "Create Block Volume Backup" button to make the changes.</br> <img src="/resources/oracle/blockstorage/block-volume-backup-enabled/step9.png"/>
+10. Repeat steps number 7 - 9 to determine if Block Volumes can be restored to a recent point.</br>
