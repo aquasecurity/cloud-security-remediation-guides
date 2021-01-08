@@ -15,4 +15,17 @@
 | **Recommended Action** | Ensure that log alerts exist for project ownership assignments and changes. |
 
 ## Detailed Remediation Steps
-
+1. Log in to the Google Cloud Platform Console.
+2. Scroll down the left navigation panel and select the "Logging" option under the "STACKDRIVER."</br> <img src="/resources/google/logging/project-ownership-logging/step2.png"/>
+3. On the "Stack driver Logging" page, click on the "Logs-based metrics" option./br> <img src="/resources/google/logging/project-ownership-logging/step3.png"/>
+4. On the "Logs-based metric" page, search the "System metrics" and "User-defined metrics" and check whether any metrics is there for "Project Ownership Logging." If no such metrics is present then the logging and log alerts does not exist for project ownership assignments and changes.</br> <img src="/resources/google/logging/project-ownership-logging/step4.png"/>
+5. Repeat steps number 2 - 4 to check other GCP accounts.</br>
+6. Navigate to the "Logging" option under the "STACKDRIVER", choose the "Logbased metrics" and click on the "CREATE METRIC" button at the top.</br> <img src="/resources/google/logging/project-ownership-logging/step6.png"/>
+7. On the "Metric editor" tab, enter the "Name" and "Description" accordingly and enter the field name under the "Label" as per the requirements and click on the "Done" button to save the "Label."</br> <img src="/resources/google/logging/project-ownership-logging/step7.png"/>
+8. Click on the "Create metric" button at the bottom to make the changes.</br> <img src="/resources/google/logging/project-ownership-logging/step8.png"/>
+9. On the "Logs-based metrics", under the "User-defined metrics" click on the 3 dots next to the newly created "Project Ownership Logging" metric and click on the "create alert from metric."</br> <img src="/resources/google/logging/project-ownership-logging/step9.png"/>
+10. On the "Create alert" page, select the "Aggregator" as per the requirement and select the "Configuration" from the dropdown menu accordingly.</br> <img src="/resources/google/logging/project-ownership-logging/step10.png"/>
+11. Enter the "Condition, Threshold and Minute" of the above "Configuration" accordingly and click on the "Save" button to make the changes.</br> <img src="/resources/google/logging/project-ownership-logging/step11.png"/>
+12. Once the settings are "Saved", enter the name of the alarm and select "Policy triggers" condition from the dropdown menu.</br> <img src="/resources/google/logging/project-ownership-logging/step12.png"/>
+13. Click on the "Save" button at the bottom to make the changes.</br> <img src="/resources/google/logging/project-ownership-logging/step13.png"/>
+14. Repeat steps number 6 - 14 to ensure that log alerts exist for project ownership assignments and changes.</br>
