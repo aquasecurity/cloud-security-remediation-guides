@@ -9,10 +9,10 @@
 | **Plugin Title** | Encrypted AMI |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Checks for encrypted root EBS volume for AMI |
-| **More Info** | Instances that are not based on encrypted EBS root volumes pose a security threat due to potential data snooping. |
-| **AWS Link** | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami-ebs.html |
-| **Recommended Action** | Create an Amazon EC2 instance backed by encrypted EBS volume. |
+| **Description** | Ensures EBS-backed AMIs are configured to use encryption |
+| **More Info** | AMIs with unencrypted data volumes can be used to launch unencrypted instances that place data at risk. |
+| **AWS Link** | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIEncryption.html |
+| **Recommended Action** | Ensure all AMIs have encrypted EBS volumes. |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
