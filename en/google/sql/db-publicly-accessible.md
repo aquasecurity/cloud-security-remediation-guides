@@ -9,10 +9,10 @@
 | **Plugin Title** | DB Publicly Accessible |
 | **Cloud** | GOOGLE |
 | **Category** | SQL |
-| **Description** | Ensures that SQL instances have a failover replica to be cross-AZ for high availability. |
-| **More Info** | Creating SQL instances in with a single AZ creates a single point of failure for all systems relying on that database. All SQL instances should be created in multiple AZs to ensure proper failover. |
-| **GOOGLE Link** | https://cloud.google.com/sql/docs/mysql/instance-settings |
-| **Recommended Action** | 1. Enter the SQL category of the Google Console. 2. Select the instance. 3. Select the Replicas tab. 4. Select Create Failover Replica and follow the prompts. |
+| **Description** | Ensures that SQL instances do not allow public access |
+| **More Info** | Unless there is a specific business requirement, SQL instances should not have a public endpoint and should only be accessed from within a VPC. |
+| **GOOGLE Link** | https://cloud.google.com/sql/docs/mysql/authorize-networks |
+| **Recommended Action** | Ensure that SQL instances are configured to prohibit traffic from the public 0.0.0.0 global IP address. |
 
 ## Detailed Remediation Steps
 1. Log in to the Google Cloud Platform Console.

@@ -12,7 +12,7 @@
 | **Description** | Determines if TCP port 3389 for RDP is open to the public |
 | **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, more sensitive services such as RDP should be restricted to known IP addresses. |
 | **GOOGLE Link** | https://cloud.google.com/vpc/docs/using-firewalls |
-| **Recommended Action** | Restrict TCP port 3389 to known IP addresses |
+| **Recommended Action** | Restrict TCP port 3389 to known IP addresses. |
 
 ## Detailed Remediation Steps
 1. Log into the Google Cloud Platform Console.
