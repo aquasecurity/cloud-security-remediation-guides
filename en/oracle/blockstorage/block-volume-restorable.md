@@ -9,10 +9,10 @@
 | **Plugin Title** | Block Volume Restorable |
 | **Cloud** | ORACLE |
 | **Category** | Block Storage |
-| **Description** | Determine if Block Volumes can be restored to a recent point. |
-| **More Info** | Ensuring that Block Volumes have an active backup prevents data loss in the case of a catastrophe. |
+| **Description** | Ensures block volumes can be restored to a recent point. |
+| **More Info** | Having recent backups on block volumes prevents data loss in the case of a catastrophe. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumebackups.htm |
-| **Recommended Action** | 1. Enter the Block Volume Service. 2. Select the Block Volume in question. 3. Select Block Volume Backups from the lower left blade. 4. Create a manual backup. |
+| **Recommended Action** | Ensure block volumes have recent backups to prevent data loss. |
 
 ## Detailed Remediation Steps
 1. Log in to the Oracle Cloud Platform Console.

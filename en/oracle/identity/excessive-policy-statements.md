@@ -9,7 +9,7 @@
 | **Plugin Title** | Excessive Policy Statements |
 | **Cloud** | ORACLE |
 | **Category** | Identity |
-| **Description** | Determine if there are an excessive number of policy Statements in the account |
+| **Description** | Determine if there are an excessive number of policy statements in the account |
 | **More Info** | Keeping the number of policy statements to a minimum helps reduce the chances of compromised accounts causing catastrophic damage to the account. Common statements should be grouped under the same policy.  |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm |
 | **Recommended Action** | Limit the number of policy statements to prevent accidental authorizations |

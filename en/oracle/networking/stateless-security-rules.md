@@ -10,9 +10,9 @@
 | **Cloud** | ORACLE |
 | **Category** | Networking |
 | **Description** | Ensure all security rules are stateless. |
-| **More Info** | Stateless security rules are one-way-rules that help mitigate DDoS attacks as well as speeding up network traffic. |
+| **More Info** | Stateless security rules are one-way-rules that help mitigate DDoS attacks and speed up network traffic. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securityrules.htm |
-| **Recommended Action** | Update all Security Rules to be stateless. |
+| **Recommended Action** | Update all security rules to be stateless. |
 
 ## Detailed Remediation Steps
 

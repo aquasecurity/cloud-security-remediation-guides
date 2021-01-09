@@ -9,10 +9,10 @@
 | **Plugin Title** | Autoscale Enabled |
 | **Cloud** | ORACLE |
 | **Category** | Compute |
-| **Description** | Ensure Autoscaling is enabled on Instance Pools. |
-| **More Info** | Enabling Autoscale increases efficency and improves cost management for resources. |
+| **Description** | Ensures autoscaling is enabled on instance pools. |
+| **More Info** | Enabling autoscaling increases efficiency and improves cost management for resources. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/autoscalinginstancepools.htm |
-| **Recommended Action** | 1. Enter the Compute service. 2. On the left side select Autoscale Configurations 3. Create an autoscale configuration for all instance pools. |
+| **Recommended Action** | Enable autoscaling on all instance pools |
 
 ## Detailed Remediation Steps
 1. Log in to the Oracle Cloud Platform Console.

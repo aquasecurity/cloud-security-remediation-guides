@@ -9,10 +9,10 @@
 | **Plugin Title** | Block Volume Backup Enabled |
 | **Cloud** | ORACLE |
 | **Category** | Block Storage |
-| **Description** | Determine if Block Volumes have backups enabled. |
-| **More Info** | Enabling Block Volume backup policies ensures that the block volume can be restored following in the event of data loss. |
+| **Description** | Ensures block volumes have backups enabled. |
+| **More Info** | Enabling block volume backup policies ensures that the block volume can be restored following in the event of data loss. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumebackups.htm |
-| **Recommended Action** | 1. Enter the Block Volume Service. 2. Select the Block Volume in question. 3. Select Assign next to Backup Policy. 4. Select the best policy for your services. |
+| **Recommended Action** | Enable backups on each block volume. |
 
 ## Detailed Remediation Steps
 1. Log in to the Oracle Cloud Platform Console.

@@ -9,10 +9,10 @@
 | **Plugin Title** | Boot Volume Transit Encryption |
 | **Cloud** | ORACLE |
 | **Category** | Compute |
-| **Description** | Determine if in-transit data encryption is enabled on boot volumes. |
-| **More Info** | Enabling Boot Volume in-transit data encryption ensures that Boot Volume data is secured and follows Oracle security best practices. |
+| **Description** | Ensures in-transit data encryption is enabled on boot volumes. |
+| **More Info** | Enabling boot volume in-transit data encryption ensures that boot volume data is secured and follows Oracle security best practices. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/bootvolumes.htm |
-| **Recommended Action** | Boot Volume Transit Encryption can only be configured when creating a new instance. Recreate the instance with in-transit encryption enabled. |
+| **Recommended Action** | boot volume transit encryption can only be configured when creating a new instance. Recreate the instance with in-transit encryption enabled. |
 
 ## Detailed Remediation Steps
 1. Log in to the Oracle Cloud Platform Console.
