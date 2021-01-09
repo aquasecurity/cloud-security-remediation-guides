@@ -9,7 +9,7 @@
 | **Plugin Title** | Minimum Password Length |
 | **Cloud** | AWS |
 | **Category** | IAM |
-| **Description** | Ensures password policy requires a password of at least 14 characters |
+| **Description** | Ensures password policy requires a password of at least a minimum number of characters |
 | **More Info** | A strong password policy enforces minimum length, expirations, reuse, and symbol usage |
 | **AWS Link** | http://docs.aws.amazon.com/IAM/latest/UserGuide/Using_ManagingPasswordPolicies.html |
 | **Recommended Action** | Increase the minimum length requirement for the password policy |

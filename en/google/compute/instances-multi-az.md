@@ -12,7 +12,7 @@
 | **Description** | Ensures managed instances are regional for availability purposes. |
 | **More Info** | Creating instances in a single zone creates a single point of failure for all systems in the VPC. All managed instances should be created as Regional to ensure proper failover. |
 | **GOOGLE Link** | https://cloud.google.com/vpc/docs/vpc |
-| **Recommended Action** | Launch new instances as Regional Instance Groups. |
+| **Recommended Action** | Launch new instances as regional instance groups. |
 
 ## Detailed Remediation Steps
 

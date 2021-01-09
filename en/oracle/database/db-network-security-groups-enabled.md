@@ -12,7 +12,7 @@
 | **Description** | Ensures that all databases have network security groups enabled. |
 | **More Info** | Enabling network security groups on database systems allow for fine grain control over network access to the database, ensuring databases are only accessible from trusted entities and following security best practices. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/backingupOS.htm |
-| **Recommended Action** | 1. Enter the database service. 2. Select the database system. 3. In the system information, edit the network security groups and select the appropriate network security group. |
+| **Recommended Action** | Ensure that all databases have network security groups enabled. |
 
 ## Detailed Remediation Steps
 

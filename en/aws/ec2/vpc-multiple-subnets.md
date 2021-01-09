@@ -9,10 +9,10 @@
 | **Plugin Title** | VPC Multiple Subnets |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensures that VPCs have multiple networks to provide a layered architecture |
-| **More Info** | A single network within a VPC increases the risk of a broader blast radius in the event of a compromise. |
+| **Description** | Ensures that VPCs have multiple subnets to provide a layered architecture |
+| **More Info** | VPCs should be designed to have separate public and private subnets, ideally across availability zones, enabling a DMZ-style architecture. |
 | **AWS Link** | https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#SubnetSecurity |
-| **Recommended Action** | Create multiple networks/subnets in each VPC and change the architecture to take advantage of public and private tiers. |
+| **Recommended Action** | Create at least two subnets in each VPC, utilizing one for public traffic and the other for private traffic. |
 
 ## Detailed Remediation Steps
 

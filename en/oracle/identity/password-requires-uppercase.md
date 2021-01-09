@@ -10,8 +10,8 @@
 | **Cloud** | ORACLE |
 | **Category** | Identity |
 | **Description** | Ensures password policy requires at least one uppercase character. |
-| **More Info** | A strong password policy enforces minimum length, expirations, reuse, and symbol usage. |
-| **ORACLE Link** | https://docs.oracle.com/cd/E17904_01/admin.1111/e10029/pwdpolicies.htm#OIDAG2472 |
+| **More Info** | A strong password policy enforces minimum length, expiration, reuse, and symbol usage. |
+| **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingpasswordrules.htm |
 | **Recommended Action** | Update the password policy to require the use of uppercase characters. |
 
 ## Detailed Remediation Steps

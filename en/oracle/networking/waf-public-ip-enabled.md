@@ -9,10 +9,10 @@
 | **Plugin Title** | WAF Public IP Enabled |
 | **Cloud** | ORACLE |
 | **Category** | Networking |
-| **Description** | Determine if Public IPs have WAF enabled |
+| **Description** | Ensures all public IPs have WAF enabled |
 | **More Info** | Every Public IP address should have a firewall enabled to control access to the endpoints. Enabling a Web Application Firewall follows security best practices and helps prevent malicious attempts to access the network. |
 | **ORACLE Link** | https://docs.cloud.oracle.com/iaas/Content/WAF/Concepts/gettingstarted.htm |
-| **Recommended Action** | 1. Enter the WAF Policies service under Security. 2. Create a new WAF Policy with the unprotected public IP address. |
+| **Recommended Action** | Ensure all Public IPs have WAF enabled |
 
 ## Detailed Remediation Steps
 

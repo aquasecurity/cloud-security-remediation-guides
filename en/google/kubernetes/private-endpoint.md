@@ -12,7 +12,7 @@
 | **Description** | Ensures the private endpoint setting is enabled for kubernetes clusters |
 | **More Info** | kubernetes private endpoints can be used to route all traffic between the Kubernetes worker and control plane nodes over a private VPC endpoint rather than across the public internet. |
 | **GOOGLE Link** | https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters |
-| **Recommended Action** | Enable the private endpoint setting for all EKS clusters when creating the cluster. |
+| **Recommended Action** | Enable the private endpoint setting for all GKE clusters when creating the cluster. |
 
 ## Detailed Remediation Steps
 
