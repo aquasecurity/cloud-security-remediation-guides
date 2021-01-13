@@ -13,6 +13,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
 * AWS
     * ACM
         * [ACM Certificate Validation](en/aws/acm/acm-certificate-validation.md)
+        * [ACM Certificate Expiry] (en/aws/acm/acm-certificate-expiry.md)
     * AutoScaling
         * [ASG Multiple AZ](en/aws/autoscaling/asg-multiple-az.md)
     * CloudFront
