@@ -19,6 +19,18 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
        * [Workgroup Enforce Configuration](en/aws/athena/workgroup-enforce-configuration)
     * AutoScaling
         * [ASG Multiple AZ](en/aws/autoscaling/asg-multiple-az.md)
+        * [App-Tier Auto Scaling Group CloudWatch Logs](en/aws/autoscaling/app-tier-auto-scaling-group-cloudwatch-logs-enabled.md)
+        * [App-Tier Launch Configurations IAM Roles](en/aws/autoscaling/app-tier-launch-configurations-iam-roles.md)
+        * [Auto Scaling Group Missing ELB](en/aws/autoscaling/auto-scaling-group-missing-elb.md)
+        * [Auto Scaling Notifications Active](en/aws/autoscaling/auto-scaling-notifications-active.md)
+        * [AutoScaling ELB Same Availability Zone](en/aws/autoscaling/autoscaling-elb-same-availability-zone.md)
+        * [ELB Health Check Active](en/aws/autoscaling/elb-health-check-active.md)
+        * [Empty AutoScaling Group](en/aws/autoscaling/empty-autoscaling-group.md)
+        * [Launch Configuration Referencing Missing Security Groups](en/aws/autoscaling/launch-configuration-referencing-missing-security-groups.md)
+        * [Suspended AutoScaling Groups](en/aws/autoscaling/suspended-autoscaling-groups.md)
+        * [Web-Tier Auto Scaling Group Associated ELB](en/aws/autoscaling/web-tier-auto-scaling-group-associated-elb.md)
+        * [Web-Tier Auto Scaling Group CloudWatch Logs Enabled](web-tier-auto-scaling-group-cloudwatch-logs-enabled.md)
+        * [Web-Tier Launch Configurations IAM Roles](en/aws/autoscaling/web-tier-launch-configurations-iam-roles.md)
     * CloudFront
         * [CloudFront HTTPS Only](en/aws/cloudfront/cloudfront-https-only.md)
         * [CloudFront Logging Enabled](en/aws/cloudfront/cloudfront-logging-enabled.md)
