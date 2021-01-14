@@ -14,6 +14,9 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * ACM
         * [ACM Certificate Validation](en/aws/acm/acm-certificate-validation.md)
         * [ACM Certificate Expiry](en/aws/acm/acm-certificate-expiry.md)
+    * Athena
+       * [Workgroup Encrypted](en/aws/athena/workgroup-encrypted.md)
+       * [Workgroup Enforce Configuration](en/aws/athena/workgroup-enforce-configuration)
     * AutoScaling
         * [ASG Multiple AZ](en/aws/autoscaling/asg-multiple-az.md)
     * CloudFront
