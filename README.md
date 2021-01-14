@@ -31,9 +31,12 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Web-Tier Auto Scaling Group Associated ELB](en/aws/autoscaling/web-tier-auto-scaling-group-associated-elb.md)
         * [Web-Tier Auto Scaling Group CloudWatch Logs Enabled](web-tier-auto-scaling-group-cloudwatch-logs-enabled.md)
         * [Web-Tier Launch Configurations IAM Roles](en/aws/autoscaling/web-tier-launch-configurations-iam-roles.md)
+    * CloudFormation
+        * [CloudFormation Plaintext Parameters](en/aws/cloudformation/cloudformation-plaintext-parameters.md)
     * CloudFront
         * [CloudFront HTTPS Only](en/aws/cloudfront/cloudfront-https-only.md)
         * [CloudFront Logging Enabled](en/aws/cloudfront/cloudfront-logging-enabled.md)
+        * [CloudFront WAF Enabled](en/aws/cloudfront/cloudfront-waf-enabled.md)
         * [Insecure CloudFront Protocols](en/aws/cloudfront/insecure-cloudfront-protocols.md)
         * [Public S3 CloudFront Origin](en/aws/cloudfront/public-s3-cloudfront-origin.md)
         * [Secure CloudFront Origin](en/aws/cloudfront/secure-cloudfront-origin.md)
@@ -45,8 +48,12 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [CloudTrail Encryption](en/aws/cloudtrail/cloudtrail-encryption.md)
         * [CloudTrail File Validation](en/aws/cloudtrail/cloudtrail-file-validation.md)
         * [CloudTrail To CloudWatch](en/aws/cloudtrail/cloudtrail-to-cloudwatch.md)
+        * [Object Lock Enabled](en/aws/cloudtrail/object-lock-enabled.md)
     * CloudWatchLogs
         * [CloudWatch Monitoring Metrics](en/aws/cloudwatchlogs/cloudwatch-monitoring-metrics.md)
+    * Comprehend
+        * [Amazon Comprehend Output Result Encryption](en/aws/comprehend/amazon-comprehend-output-result-encryption.md)
+        * [Amazon Comprehend Volume Encryption](en/aws/comprehend/amazon-comprehend-volume-encryption.md)
     * ConfigService
         * [Config Service Enabled](en/aws/configservice/config-service-enabled.md)
     * EC2
