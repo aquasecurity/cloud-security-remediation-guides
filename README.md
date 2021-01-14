@@ -56,6 +56,11 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Amazon Comprehend Volume Encryption](en/aws/comprehend/amazon-comprehend-volume-encryption.md)
     * ConfigService
         * [Config Service Enabled](en/aws/configservice/config-service-enabled.md)
+    * DMS
+        * [DMS Encryption Enabled](en/aws/dms/dms-encryption-enabled.md)
+    * DynamoDB
+        * [DynamoDB Accelerator Cluster Encryption](en/aws/dynamodb/dynamodb-accelerator-cluster-encryption.md)
+        * [DynamoDB KMS Encryption](en/aws/dynamodb/dynamodb-kms-encryption.md)
     * EC2
         * [Cross VPC Public Private Communication](en/aws/ec2/cross-vpc-public-private-communication.md)
         * [Default Security Group](en/aws/ec2/default-security-group.md)
