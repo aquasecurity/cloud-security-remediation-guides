@@ -115,11 +115,41 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VPC Flow Logs Enabled](en/aws/ec2/vpc-flow-logs-enabled.md)
         * [VPC Multiple Subnets](en/aws/ec2/vpc-multiple-subnets.md)
         * [VPC PrivateLink Endpoint Acceptance Required](en/aws/ec2/vpc-privatelink-endpoint-acceptance-required.md)
+    * ECR
+        * [ECR Repository Policy](en/aws/ecr/ecr-repository-policy.md)
+        * [ECR Repository Tag Immutability](en/aws/ecr/ecr-repository-tag-immutability.md)
+    * EFS
+        * [EFS Encryption Enabled](en/aws/efs/efs-encryption-enabled.md)
+    * EKS
+        * [EKS Kubernetes Version](en/aws/eks/eks-kubernetes-version.md)
+        * [EKS Logging Enabled](en/aws/eks/eks-logging-enabled.md)
+        * [EKS Private Endpoint](en/aws/eks/eks-private-endpoint.md)
+        * [EKS Security Groups](en/aws/eks/eks-security-groups.md)
+    * ElasticBeanStalk
+        * [ElasticBeanstalk Managed Platform Updates](en/aws/elasticbeanstalk/elasticbeanstalk-managed-platform-updates.md)
     * ELB
         * [ELB HTTPS Only](en/aws/elb/elb-https-only.md)
         * [ELB Logging Enabled](en/aws/elb/elb-logging-enabled.md)
         * [ELB No Instances](en/aws/elb/elb-no-instances.md)
         * [Insecure Ciphers](en/aws/elb/insecure-ciphers.md)
+    * ELBv2
+        * [ELBv2 Deletion Protection](elbv2-deletion-protection.md)
+        * [ELBv2 HTTPS Only](en/aws/elbv2/elbv2-https-only.md)
+        * [ELBv2 Logging Enabled](en/aws/elbv2/elbv2-logging-enabled.md)
+        * [ELBv2 No Instances](en/aws/elbv2/elbv2-no-instances.md)
+        * [ELBv2 WAF Enabled](en/aws/elbv2/elbv2-waf-enabled.md)
+    * EMR
+        * [EMR Encryption At Rest](en/aws/emr/emr-encryption-at-rest.md)
+        * [EMR Encryption In Transit](en/aws/emr/emr-encryption-in-transit.md)
+    * ElasticSearch
+        * [ElasticSearch Encrypted Domain](en/aws/es/elasticsearch-encrypted-domain.md)
+        * [ElasticSearch Exposed Domain](en/aws/es/elasticsearch-exposed-domain.md)
+        * [ElasticSearch HTTPS Only](en/aws/es/elasticsearch-https-only.md)
+        * [ElasticSearch IAM Authentication](en/aws/es/elasticsearch-iam-authentication.md)
+        * [ElasticSearch Logging Enabled](en/aws/es/elasticsearch-logging-enabled.md)
+        * [ElasticSearch Node To Node Encryption](en/aws/es/elasticsearch-node-to-node-encryption.md)
+        * [ElasticSearch Public Service Domain](en/aws/es/elasticsearch-public-service-domain.md)
+        * [ElasticSearch Upgrade Available](en/aws/es/elasticsearch-upgrade-available.md)
     * Firehose
         * [Firehose Delivery Streams Encrypted](en/aws/firehose/firehose-delivery-streams-encrypted.md)
     * IAM
