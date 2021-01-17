@@ -152,13 +152,22 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [ElasticSearch Upgrade Available](en/aws/es/elasticsearch-upgrade-available.md)
     * Firehose
         * [Firehose Delivery Streams Encrypted](en/aws/firehose/firehose-delivery-streams-encrypted.md)
+    * Guard Duty
+        * [GuardDuty is Enabled](en/aws/guardduty/guardduty-is-enabled.md)
+        * [GuardDuty Master Account](en/aws/guardduty/guardduty-master-account.md)
     * IAM
         * [Access Keys Extra](en/aws/iam/access-keys-extra.md)
         * [Access Keys Last Used](en/aws/iam/access-keys-last-used.md)
         * [Access Keys Rotated](en/aws/iam/access-keys-rotated.md)
         * [Certificate Expiry](en/aws/iam/certificate-expiry.md)
+        * [Cross-Account Access External ID and MFA](en/aws/iam/cross-account-access-external-id-and-mfa.md)
         * [Empty Groups](en/aws/iam/empty-groups.md)
+        * [Group Inline Policies](group-inline-policies.md)
         * [IAM User Admins](en/aws/iam/iam-user-admins.md)
+        * [IAM User Unauthorized to Edit](en/aws/iam/iam-user-unauthorized-to-edit.md)
+        * [IAM Username Matches Regex](en/aws/iam/iam-username-matches-regex.md)
+        * [IAM Role Last Used](en/aws/iam/iam-role-last-used.md)
+        * [IAM Role Policies](en/aws/iam/iam-role-policies.md)
         * [Maximum Password Age](en/aws/iam/maximum-password-age.md)
         * [Minimum Password Length](en/aws/iam/minimum-password-length.md)
         * [No User IAM Policies](en/aws/iam/no-user-iam-policies.md)
@@ -169,10 +178,13 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Password Requires Uppercase](en/aws/iam/password-requires-uppercase.md)
         * [Password Reuse Prevention](en/aws/iam/password-reuse-prevention.md)
         * [Root Access Keys](en/aws/iam/root-access-keys.md)
+        * [Root Account Active Signing Certificates](en/aws/iam/root-account-active-signing-certificates.md)
         * [Root Account In Use](en/aws/iam/root-account-in-use.md)
+        * [Root Hardware MFA](en/aws/iam/root-hardware-mfa.md)
         * [Root MFA Enabled](en/aws/iam/root-mfa-enabled.md)
         * [SSH Keys Rotated](en/aws/iam/ssh-keys-rotated.md)
         * [Users MFA Enabled](en/aws/iam/users-mfa-enabled.md)
+        * [Users Password And Keys](en/aws/iam/users-password-and-keys.md)
         * [Users Password Last Used](en/aws/iam/users-password-last-used.md)
     * KMS
         * [KMS Default Key Usage](en/aws/kms/kms-default-key-usage.md)
@@ -182,15 +194,28 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Kinesis
         * [Kinesis Streams Encrypted](en/aws/kinesis/kinesis-streams-encrypted.md)
     * Lambda
+        * [Lambda Log Groups](en/aws/lambda/lambda-log-groups.md)
         * [Lambda Old Runtimes](en/aws/lambda/lambda-old-runtimes.md)
+        * [Lambda Public Access](en/aws/lambda/lambda-public-access.md)
+        * [Lambda VPC Config](en/aws/lambda/lambda-vpc-config.md)
+    * Organizations
+        * [Enable All Organization Features](en/aws/organizations/enable-all-organization-features.md)
+        * [Organization Invite](en/aws/organizations/organization-invite.md)
     * RDS
         * [RDS Automated Backups](en/aws/rds/rds-automated-backups.md)
+        * [RDS CMK Encryption](en/aws/rds/rds-cmk-encryption.md)
+        * [RDS DocumentDB Minor Version Upgrade](en/aws/rds/rds-documentdb-minor-version-upgrade.md)
         * [RDS Encryption Enabled](en/aws/rds/rds-encryption-enabled.md)
         * [RDS Multiple AZ](en/aws/rds/rds-multiple-az.md)
         * [RDS Publicly Accessible](en/aws/rds/rds-publicly-accessible.md)
         * [RDS Restorable](en/aws/rds/rds-restorable.md)
+        * [RDS Snapshot Encryption](en/aws/rds/rds-snapshot-encryption.md)
+        * [RDS Transport Encryption Enabled](en/aws/rds/rds-transport-encryption-enabled.md)
+        * [SQL Server TLS Version](en/aws/rds/sql-server-tls-version.md)
     * Redshift
+        * [Redshift Cluster CMK Encryption](en/aws/redshift/redshift-cluster-cmk-encryption.md)
         * [Redshift Encryption Enabled](en/aws/redshift/redshift-encryption-enabled.md)
+        * [Redshift Parameter Group SSL Required](en/aws/redshift/redshift-parameter-group-ssl-required.md)
         * [Redshift Publicly Accessible](en/aws/redshift/redshift-publicly-accessible.md)
     * Route53
         * [Domain Auto Renew](en/aws/route53/domain-auto-renew.md)
