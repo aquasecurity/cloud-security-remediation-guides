@@ -206,6 +206,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [RDS CMK Encryption](en/aws/rds/rds-cmk-encryption.md)
         * [RDS DocumentDB Minor Version Upgrade](en/aws/rds/rds-documentdb-minor-version-upgrade.md)
         * [RDS Encryption Enabled](en/aws/rds/rds-encryption-enabled.md)
+        * [RDS Logging Enabled](en/aws/rds/rds-logging-enabled.md)
         * [RDS Multiple AZ](en/aws/rds/rds-multiple-az.md)
         * [RDS Publicly Accessible](en/aws/rds/rds-publicly-accessible.md)
         * [RDS Restorable](en/aws/rds/rds-restorable.md)
@@ -224,20 +225,41 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * S3
         * [S3 Bucket All Users ACL](en/aws/s3/s3-bucket-all-users-acl.md)
         * [S3 Bucket All Users Policy](en/aws/s3/s3-bucket-all-users-policy.md)
+        * [S3 Bucket Encryption Enforcement](en/aws/s3/s3-bucket-encryption-enforcement.md)
+        * [S3 Bucket Encryption In Transit](en/aws/s3/s3-bucket-encryption-in-transit.md)
+        * [S3 Bucket Encryption](en/aws/s3/s3-bucket-encryption.md)
+        * [S3 Bucket Enforce Object Encryption](en/aws/s3/s3-bucket-enforce-object-encryption.md)
         * [S3 Bucket Logging](en/aws/s3/s3-bucket-logging.md)
+        * [S3 Bucket Public Access Block](en/aws/s3/s3-bucket-public-access-block.md)
         * [S3 Bucket Versioning](en/aws/s3/s3-bucket-versioning.md)
+        * [S3 Bucket Website Enabled](en/aws/s3/s3-bucket-website-enabled.md)
+        * [S3 Secure Transport Enabled](en/aws/s3/s3-secure-transport-enabled.md)
     * SES
         * [Email DKIM Enabled](en/aws/ses/email-dkim-enabled.md)
+    * Shield
+        * [Shield Advanced Enabled](en/aws/shield/shield-advanced-enabled.md)
+        * [Shield Emergency Contacts](en/aws/shield/shield-emergency-contacts.md)
+        * [Shield Protections](en/aws/shield/shield-protections.md)
     * SNS
         * [SNS Topic Policies](en/aws/sns/sns-topic-policies.md)
+        * [SNS Topic CMK Encryption](en/aws/sns/sns-topic-cmk-encryption.md)
+        * [SNS Topic Encrypted](en/aws/sns/sns-topic-encrypted.md)
     * SQS
         * [SQS Cross Account Access](en/aws/sqs/sqs-cross-account-access.md)
         * [SQS Encrypted](en/aws/sqs/sqs-encrypted.md)
+        * [SQS Public Access](en/aws/sqs/sqs-public-access.md)
     * SSM
+        * [SSM Agent Active All Instances](en/aws/ssm/ssm-agent-active-all-instances.md)
+        * [SSM Agent Auto Update Enabled](en/aws/ssm/ssm-agent-auto-update-enabled.md)
+        * [SSM Agent Latest Version](en/aws/ssm/ssm-agent-latest-version.md)
         * [SSM Encrypted Parameters](en/aws/ssm/ssm-encrypted-parameters.md)
     * SageMaker
         * [Notebook Data Encrypted](en/aws/sagemaker/notebook-data-encrypted.md)
         * [Notebook Direct Internet Access](en/aws/sagemaker/notebook-direct-internet-access.md)
+    * Transfer
+        * [Transfer Logging Enabled](en/aws/transfer/transfer-logging-enabled.md)
+    * Xray
+        * [XRay Encryption Enabled](en/aws/xray/xray-encryption-enabled.md)
 * Azure
     * Active Directory
         * [Ensure No Guest User](en/azure/activedirectory/ensure-no-guest-user.md)
