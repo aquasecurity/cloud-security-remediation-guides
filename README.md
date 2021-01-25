@@ -300,6 +300,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Kubernetes Service
         * [Kubernetes Latest Version](en/azure/kubernetesservice/kubernetes-latest-version.md)
         * [Kubernetes RBAC Enabled](en/azure/kubernetesservice/kubernetes-rbac-enabled.md)
+        * [Kubernetes Version For Agent Pools](en/azure/kubernetesservice/kubernetes-version-for-agent-pools.md)
+        * [RBAC Enabled](en/azure/kubernetesservice/rbac-enabled.md)
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
@@ -326,6 +328,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open All Ports](en/azure/networksecuritygroups/open-all-ports.md)
         * [Open CIFS](en/azure/networksecuritygroups/open-cifs.md)
         * [Open DNS](en/azure/networksecuritygroups/open-dns.md)
+        * [Open Docker](en/azure/networksecuritygroups/open-docker.md)
         * [Open FTP](en/azure/networksecuritygroups/open-ftp.md)
         * [Open Hadoop HDFS NameNode Metadata Service](en/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service.md)
         * [Open Hadoop HDFS NameNode WebUI](en/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui.md)
@@ -337,6 +340,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open PostgreSQL](en/azure/networksecuritygroups/open-postgresql.md)
         * [Open RDP](en/azure/networksecuritygroups/open-rdp.md)
         * [Open RPC](en/azure/networksecuritygroups/open-rpc.md)
+        * [Open Salt](en/azure/networksecuritygroups/open-salt.md)
         * [Open SMBoTCP](en/azure/networksecuritygroups/open-smbotcp.md)
         * [Open SMTP](en/azure/networksecuritygroups/open-smtp.md)
         * [Open SQLServer](en/azure/networksecuritygroups/open-sqlserver.md)
