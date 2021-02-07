@@ -25,7 +25,7 @@
 8. Scroll down the page and select the "Inbound" and click on the "Edit" button. </br> <img src="/resources/aws/ec2/open-salt/step8.png"/>
 9. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow TCP ports 4505 or 4506 inbound traffic only from specific IP address.</br> <img src="/resources/aws/ec2/open-salt/step9.png"/>
 10. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements and specify static IP/Elastic IP address of the permitted host along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-salt/step10.png"/>
-11. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-salt/step11.png"/>
+11. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-salt/Step11.png"/>
 12. Repeat steps number 7 - 11 to restrict TCP ports 4505 and 4506 to known IP addresses.</br>
 
 
