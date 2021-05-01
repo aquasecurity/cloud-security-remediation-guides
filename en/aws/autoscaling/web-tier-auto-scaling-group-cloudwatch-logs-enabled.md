@@ -24,7 +24,7 @@
 7. Navigate to the EC2 console using the link https://console.aws.amazon.com/ec2/ .</br>
 8. Scroll down the EC2 console page, select the Auto Scaling groups and select the Auto Scaling group which needs to have CloudWatch logs enabled.</br> <img src="/resources/aws/autoscaling/web-tier-auto-scaling-group-cloudwatch-logs-enabled/step8.png"/>
 9. Click on the "Monitoring" tab, click on the "Enable" checkbox next to the Auto Scaling group metrics collection.</br> <img src="/resources/aws/autoscaling/web-tier-auto-scaling-group-cloudwatch-logs-enabled/step9.png"/>
-10. Repeat steps number 7 - 9 to update app-tier Auto Scaling Group to use CloudWatch Metrics.</br>
+10. Repeat steps number 7 - 9 to update web-tier Auto Scaling Group to use CloudWatch Metrics.</br>
 
 
 
