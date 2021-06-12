@@ -24,8 +24,8 @@
 7. Click on the "Multi-Factor Authentication (MFA)" accordion tab to expand the MFA management panel.</br> <img src="/resources/aws/iam/root-hardware-mfa/step7.png"/>
 8. Click on the "Activate MFA" button to initiate the MFA device setup process.</br> <img src="/resources/aws/iam/root-hardware-mfa/step8.png"/>
 9. In the "Manage MFA device", select the "Other hardware MFA device" and click on the "Continue" button.</br> <img src="/resources/aws/iam/root-hardware-mfa/step9.png"/>
-10. On the "Set up hardware MFA device", enter the "Serial number" and MFA Code 1 and MFA Code 2.</br> <img src="/resources/aws/iam/root-hardware-mfa/step10.png"/>
-11. Click on the "Assign MFA" to complete the process.</br> <img src="/resources/aws/iam/root-hardware-mfa/step11.png"/>
+10. On the "Set up hardware MFA device", enter the "Serial number" and MFA Code 1 and MFA Code 2.</br> 
+11. Click on the "Assign MFA" to complete the process.</br> 
 12. Repeat steps number 6 - 11 to enable a hardware MFA device for the root account and disable any virtual devices.</br>
 
 
