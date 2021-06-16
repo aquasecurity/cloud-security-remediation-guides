@@ -27,4 +27,4 @@
 8. Navigate to the "Network security group" and select the security group that needs to modify for restricting the "TCP" port for "Hadoop/HDFS" on port 50070 and 50470 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui/step9.png"/>
 10. Click on the "Hadoop" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-webui/step10.png"/>
-11. Repeat steps number 8 - 10 to restrict TCP port 50070 and 50470 for Hadoop/HDFS to known IP addresses.</br>
+11. Repeat steps number 8 - 11 to restrict TCP port 50070 and 50470 for Hadoop/HDFS to known IP addresses.</br>
