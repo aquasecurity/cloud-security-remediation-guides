@@ -23,7 +23,7 @@
 5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step5.png"/>
 6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step6.png"/>
 7. In the "Azure Security Benchmark", check for the "Management ports of virtual machines should be protected with Just-In-Time network access control" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step7.png"/>
-8. Repeat steps number 2 - 5 to check other "Subscriptions" under the "Security Center."</br>
+8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
 9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Monitor JIT Network Access."</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step9.png"/>
 10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step10.png"/>
 11. Scroll down the page and under "Network" choose the "Management ports of virtual machines should be protected with Just-In-Time network access control" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-jit-network-access/step11.png"/>
