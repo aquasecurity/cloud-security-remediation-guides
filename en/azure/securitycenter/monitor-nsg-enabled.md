@@ -23,7 +23,7 @@
 5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step5.png"/>
 6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step6.png"/>
 7. In the "Azure Security Benchmark", check for the "Internet-facing virtual machines should be protected with network security groups" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step7.png"/>
-8. Repeat steps number 2 - 5 to check other "Subscriptions" under the "Security Center."</br>
+8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
 9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" seelct the "Subscription" that needs to enable the "Monitor network security groups setting."</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step9.png"/>
 10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step10.png"/>
 11. Scroll down the page and under "Parameter" choose the "Internet-facing virtual machines should be protected with network security groups" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step11.png"/>
