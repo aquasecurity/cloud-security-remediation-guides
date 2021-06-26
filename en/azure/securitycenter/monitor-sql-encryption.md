@@ -25,7 +25,7 @@
 6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step6.png"/>
 7. In the "Azure Security Benchmark", check for the "Transparent data encryption on SQL Databases should be enabled" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step7.png"/>
 8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
-9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "SQL Encryption."</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step5.png"/>
+9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "SQL Encryption."</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step9.png"/>
 10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step10.png"/>
 11. Scroll down the page and under "Parameter" choose the "Transparent data encryption on SQL Databases should be enabled" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step11.png"/>
 12. Repeat steps number 9 - 11 to ensures "Monitor SQL Encryption" is enabled in Security Center.</br>
