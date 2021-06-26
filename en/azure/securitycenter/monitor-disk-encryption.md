@@ -25,7 +25,7 @@
 6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step6.png"/>
 7. In the "Azure Security Benchmark", check for the "Disk encryption should be applied on virtual machines" Parameter and if it's set to "Disable" then the encryption is not enabled.</br>  <img src="/resources/azure/securitycenter/monitor-disk-encryption/step7.png"/>
 8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
-9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Disk Encryption monitoring."</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step7.png"/>
+9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Disk Encryption monitoring."</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step9.png"/>
 10. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark" and click on the "Next" button. </br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step10.png"/>
 11. Scroll down the page and under "Parameter" choose the "Disk encryption should be applied on virtual machines" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step11.png"/>
 12. Repeat steps number 9 - 11 to ensures "Disk Encryption monitoring" is enabled in Security Center.</br>
