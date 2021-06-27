@@ -18,7 +18,7 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step2.png"/>
-3. On the "Security Center" page scroll down the left navigation panel and choose "Pricing and Settings."</br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step3.png"/>
+3. Scroll down the "Security Center" and select the "Security policy" option under "Management" in the left navigation panel.</br>
 4. On the "Security Center - Pricing & settings" page, select the "Subscription" by clicking on the "Name."</br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step4.png"/>
 5. Under the "Settings - Pricing tier", click on the "Email Notifications" options at the left navigaton panel and if the "Email notification settings" are turned off along with "Phone number" then the "Security Contacts" are not enabled.</br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other Azure accounts for "Admin Security Alerts."</br>
