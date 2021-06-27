@@ -18,7 +18,7 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-blob-encryption/step2.png"/>
-3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under the "Management" on left navigation panel.</br> 
+3. Scroll down the "Security Center" and select the "Security policy" option under the "Management" on left navigation panel.</br> 
 4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/monitor-blob-encryption/step4.png"/>
 5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-blob-encryption/step5.png"/>
 6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-blob-encryption/step6.png"/>
