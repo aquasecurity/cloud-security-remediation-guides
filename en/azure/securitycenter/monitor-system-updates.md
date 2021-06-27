@@ -26,5 +26,5 @@
 8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
 9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Monitor System Updates."</br> <img src="/resources/azure/securitycenter/monitor-system-updates/step9.png"/>
 10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-system-updates/step10.png"/>
-11. Scroll down the page and under "Compute and Apps" choose the "System updates should be installed on your machines" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-system-updates/step11.png"/>
+11. Scroll down the page and under "Parameter" choose the "System updates should be installed on your machines" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-system-updates/step11.png"/>
 12. Repeat steps number 9 - 11 to ensure System Update monitoring is configured for virtual machines from the Azure Security Center.</br>
