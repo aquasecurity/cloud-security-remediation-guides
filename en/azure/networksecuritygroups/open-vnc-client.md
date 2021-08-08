@@ -21,10 +21,10 @@
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step3.png"/>
 4. Click on the "Name" of the selected "Network security group" to access the port configurations. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step4.png"/>
-5. In the "Overview" tab scroll down the page and check the "Inbound security rules." </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step5.png"/>
+5. In the "Overview" tab scroll down the page and check the "Inbound security rules" under the "Settings." </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step5.png"/>
 6. If the "VNC-Client" for port 5500 with the protocol "TCP" is showing as "Allow" for all "Source" and "Destination" then the selected  "Network security group" has TCP port 5500 for "VNC-Client" is open to the public. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other "Network security group." </br>
 8. Navigate to the "Network security group" and select the security group that needs to modify for restricting the "TCP" port for "VNC-Client" on port 5500 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step9.png"/>
-10. Click on the "VNC-Client" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step10.png"/>
+10. Click on the "VNC-Client" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the Protocol as TCP/UDP or as needed, Action as "Allow/Deny" and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-client/step10.png"/>
 11. Repeat steps number 8 - 10 to restrict TCP port 5500 for VNC-Client to known IP addresses.</br>
