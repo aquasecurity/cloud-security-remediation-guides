@@ -24,6 +24,5 @@
 7. Navigate to EC2 dashboard at https://console.aws.amazon.com/ec2/.</br> 
 8. On the "EC2" dashboard, scroll down and select the "Load balancers" option from the left navigation panel and select the "Load balancer" in which "Access logs" needs to be enabled.</br> <img src="/resources/aws/elbv2/elbv2-logging-enabled/step8.png"/>
 9. On the Description tab, choose Edit attributes.</br> <img src="/resources/aws/elbv2/elbv2-logging-enabled/step9.png"/>
-10. For Access logs, select "Enable" and for S3 location, enter the name of your S3 bucket, including any prefix If the bucket does not exist, choose Create this location for me. You must specify a name that is unique across all existing bucket names in Amazon S3 and follows the DNS naming conventions. Click on the Save button to make the changes.</br> <img src="/resources/aws/elbv2/elbv2-logging-enabled/step10.png"/>
+10. For Access logs, select "Enable" and for S3 location, enter the name of your S3 bucket, including any prefix. If the bucket does not exist, choose Create this location for me. You must specify a name that is unique across all existing bucket names in Amazon S3 and follows the DNS naming conventions. Click on the Save button to make the changes.</br> <img src="/resources/aws/elbv2/elbv2-logging-enabled/step10.png"/>
 11. Repeat steps number 7 - 10 to enable ELB request logging.</br>
-
