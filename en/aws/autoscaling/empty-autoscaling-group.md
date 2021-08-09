@@ -25,6 +25,5 @@
 8. Select the Auto Scaling group from the left navigation panel and select the Auto Scaling group without any active isntance.</br> <img src="/resources/aws/autoscaling/empty-autoscaling-group/step8.png"/>
 9. Click on the "Delete" button at the top after selecting the Auto Scaling group.</br> <img src="/resources/aws/autoscaling/empty-autoscaling-group/step9.png"/>
 10. On the "Delete Auto Scaling groups" tab, type delete in the box for the confirmation and click on the "Delete" button to make the changes.</br> <img src="/resources/aws/autoscaling/empty-autoscaling-group/step10.png"/>
-11. Repeat steps number 7 - 10 to delete the unused AutoScaling group.</br>
-
+11. Repeat steps number 7 - 10 to delete the unused Auto Scaling group.</br>
 
