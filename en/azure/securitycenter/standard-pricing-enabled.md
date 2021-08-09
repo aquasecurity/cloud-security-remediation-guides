@@ -25,8 +25,7 @@
 7. Navigate to Azure Security Center and choose Pricing & settings to access your Azure account subscriptions in the navigation panel.</br>
 8. Click on the name of the Azure subscription that needs to be examine on the Pricing page.</br>
 9. In the navigation panel, select Pricing tier, then click on the Standard tier box to choose the required tier and click on the Save button to make the changes.</br>
-10. Repeat steps number 7 - 9 to ennsure that standard pricing is enabled in the security center.
-
+10. Repeat steps number 7 - 9 to ensure that standard pricing is enabled in the security center.
 
 
 
