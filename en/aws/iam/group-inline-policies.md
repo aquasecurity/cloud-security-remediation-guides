@@ -23,9 +23,8 @@
 6. Repeat steps 2 - 5 to check other "User groups" in the account.</br>
 7. Navigate to IAM dashboard at https://console.aws.amazon.com/iam/.</br>
 8. In the "IAM dashboard", click on the "User groups" option at the left navigation panel.</br>
-9. In the "User groups" page, select the group name fro which inline policies need to be removed.</br> <img src="/resources/aws/iam/iam-role-last-used/step9.png"/>
+9. In the "User groups" page, select the group name for which inline policies need to be removed.</br> <img src="/resources/aws/iam/iam-role-last-used/step9.png"/>
 10. Select the inline policy by selecting the checkbox and click on the "Remove" button under the "Permissions" tab.</br> <img src="/resources/aws/iam/iam-role-last-used/step10.png"/>
 11. On the "Remove" tab, enter the inline policy name and click on the "Delete" button to remove the inline policy.</br>  <img src="/resources/aws/iam/iam-role-last-used/step11.png"/>
 12. Repeat steps number 7 - 11 to remove inline policies attached to groups.</br>
-
 
