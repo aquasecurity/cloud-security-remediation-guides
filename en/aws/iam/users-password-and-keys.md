@@ -25,6 +25,5 @@
 8. In the "IAM dashboard", click on the "Users" option at the left navigation panel and select the user who have Access key and Console access both.</br> <img src="/resources/aws/iam/users-password-and-keys/step8.png"/>
 9. In the "users - Summary" page, click on the Security Credentials to remove the "Access key" from the selected user.</br> <img src="/resources/aws/iam/users-password-and-keys/step9.png"/>
 10. In the "Security Credential" page, scroll down and click on the (x) button under the Access Keys to remove the access key.</br> <img src="/resources/aws/iam/users-password-and-keys/step10.png"/>
-11. On the "Delete" tab, first click on "Deactivate" the key and then provide the Key Attricute and click on the "Delete" button.</br> <img src="/resources/aws/iam/users-password-and-keys/step11.png"/>
+11. On the "Delete" tab, first click on "Deactivate" the key and then provide the Key Attribute and click on the "Delete" button.</br> <img src="/resources/aws/iam/users-password-and-keys/step11.png"/>
 12. Repeat steps number 7 - 11 to remove access keys from all users with console access. </br>
-
