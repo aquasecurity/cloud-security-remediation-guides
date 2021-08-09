@@ -25,5 +25,5 @@
 7. Repeat steps number 2 - 6 to verify other "Network security group." </br>
 8. Navigate to the "Network security group" and select the security group that needs to modify for restricting the "TCP" port for "Kibana" on port 5601 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-kibana/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-kibana/step9.png"/>
-10. Click on the "Kibana" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the Protocol as TCP/UDP or as needed, Action as "Allow/Deny" and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-kibana/step10.png"/>
+10. Click on the "Kibana" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-kibana/step10.png"/>
 11. Repeat steps number 8 - 10 to restrict TCP port 5601 for Kibana to known IP addresses.</br>
