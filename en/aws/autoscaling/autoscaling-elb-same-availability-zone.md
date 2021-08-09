@@ -27,7 +27,6 @@
 10. Scroll down the EC2 console page, select the Load balancer which needs to have the same Availability Zone as the Auto Scaling group.</br> <img src="/resources/aws/autoscaling/autoscaling-elb-same-availability-zone/step10.png"/>
 11. Click on the "Instance" tab and click on the "Edit Availability Zones" button.</br> <img src="/resources/aws/autoscaling/autoscaling-elb-same-availability-zone/step11.png"/>
 12. Select the "Availability Zone" from the Add and Remove Subnets which is the same as Auto Scaling group and click on the Save button to make the changes.</br> <img src="/resources/aws/autoscaling/autoscaling-elb-same-availability-zone/step12.png"/>
-13. Repeat steps number 9 - 12 to update the ELB to use the same availability zones as the autoscaling group.</br>
-
+13. Repeat steps number 9 - 12 to update the ELB to use the same availability zones as the Auto Scaling group.</br>
 
 
