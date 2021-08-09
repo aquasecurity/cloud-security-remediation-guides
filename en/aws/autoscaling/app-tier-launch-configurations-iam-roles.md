@@ -24,7 +24,7 @@
 7. Navigate to IAM dashboard at https://console.aws.amazon.com/iam/.</br>
 8. In the "IAM dashboard", click on the "Roles" option at the left navigation panel.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step8.png"/>
 9. Click on the "Create Role" button to create a new IAM role.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step9.png"/>
-10. On the "Create role page", select type of trusted entity as "AWS" and and choose EC2 from Choose the service that will use this role list.Click on the next "Permissions" button.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step10.png"/>
+10. On the "Create role page", select type of trusted entity as "AWS" and and choose EC2 from Choose the service that will use this role list. Click on the next "Permissions" button.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step10.png"/>
 11. On the "Permissions" panel, select the "AmazonEC2FullAccess", select one or more policies from the list, then click Next: Tags button to continue the setup process.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step11.png"/>
 12. On the "Add tags" page, add the tag as per the requirement and  click on the "Next: Review" button.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step12.png"/>
 13. Enter the "Role Name" and click on the "Create Role" button to complete the process.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step13.png"/>
@@ -34,5 +34,4 @@
 17. On the "Create launch configuration" page, scroll down and select the "IAM instance profile" from the dropdown under the Additional configuration.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step17.png"/>
 18. Click on the "Create launch configuration" button at the bottom to make the changes.</br> <img src="/resources/aws/autoscaling/app-tier-launch-configurations-iam-roles/step18.png"/>
 19. Repeat steps number 8 - 18 to update App-Tier Auto Scaling launch configuration and attach a customer created App-Tier IAM role.</br>
-
 
