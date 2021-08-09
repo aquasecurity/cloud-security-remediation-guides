@@ -28,4 +28,4 @@
 9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" seelct the "Subscription" that needs to enable the "SQL Auditing."</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step9.png"/>
 10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step10.png"/>
 11. Scroll down the page and under "Parameter" choose the "Azure defender for SQL servers on machine should be enabled" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step11.png"/>
-12. Repeat steps number 9 - 11 to ensures "Monitor SQL Auditing" is enabled in Security Center.</br>
+12. Repeat steps number 9 - 11 to ensure "Monitor SQL Auditing" is enabled in Security Center.</br>
