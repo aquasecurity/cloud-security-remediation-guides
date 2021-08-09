@@ -26,7 +26,6 @@
 9. Click on the "Activity" tab, select the "Create notification" option at the top right corner.</br> <img src="/resources/aws/autoscaling/auto-scaling-notifications-active/step9.png"/>
 10. On the "Create notification" tab, click on the "Create a topic" option if you don't have the SNS topic already configured.</br> <img src="/resources/aws/autoscaling/auto-scaling-notifications-active/step10.png"/>
 11. Enter the "Send a notification to" and email address details to whom you want to send the notifications and click on the "Create" button.</br> <img src="/resources/aws/autoscaling/auto-scaling-notifications-active/step11.png"/>
-12. Repeat steps number 7 - 11 to add a notification endpoint to the auto scaling group.</br> 
-
+12. Repeat steps number 7 - 11 to add a notification endpoint to the Auto Scaling group.</br> 
 
 
