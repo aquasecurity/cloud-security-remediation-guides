@@ -18,12 +18,13 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step2.png"/>
-3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under the "Management" on left navigation panel.</br>
+3. Scroll down the "Security Center" and select the "Security policy" option under "Management" on the left navigation panel.</br>
 4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step4.png"/>
-5. On the "Security Policy" page scroll down the "Compute and Apps" section and check the "Monitor missing Endpoint Protection in Azure Security Center". If it's set to "Disabled" then "Monitor Endpoint Protection" is not enabled on the selected "Subscription."</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step5.png"/>
-6. Repeat steps number 2 - 5 to check other "Subscriptions" under the "Security Center."</br>
-7. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Monitor Endpoint Protection."</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step7.png"/>
-8. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step8.png"/>
-9. Scroll down the page and under "Compute and Apps" choose the "Monitor missing Endpoint Protection in Azure Security Center" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step9.png"/>
-10. Repeat steps number 7 - 9 to enable Adaptive Application Controls for Endpoint Protection from the Azure Security Center by ensuring AuditIfNotExists setting is used to monitor missing Endpoint Protection.</br>
-
+5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step5.png"/>
+6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step6.png"/>
+7. In the "Azure Security Benchmark", check for the "Endpoint protection solution should be installed on virtual machine scale sets" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step7.png"/>
+8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
+9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Monitor Endpoint Protection."</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step9.png"/>
+10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step10.png"/>
+11. Scroll down the page and under "Parameter" choose the "Endpoint protection solution should be installed on virtual machine scale sets" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step11.png"/>
+12. Repeat steps number 9 - 11 to enable Adaptive Application Controls for Endpoint Protection from the Azure Security Center by ensuring AuditIfNotExists setting is used to monitor missing Endpoint Protection.</br>
