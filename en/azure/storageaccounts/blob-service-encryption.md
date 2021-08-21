@@ -18,12 +18,14 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Storage account."</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step2.png"/>
-3. On the "Storage account" page, scroll down the left navigation panel and choose "Encryption" under the "Security + networking". </br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step3.png"/>
-4. On the "Encryption page" scroll down and check whether Encryption type is set to "	Microsoft-managed keys" or "Customer-managed keys".</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step4.png"/>
-5. Repeat steps number 2 - 4 to verify other "Blob Service Encryption" in the Azure account.</br>
-6. Navigate to "Storage account", select the corresponding "Storage account", scroll down the left navigation panel and choose "Encryption."</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step6.png"/>
-7. On the "Encyption page" select the "Customer-managed keys" and click on the "Select from Key Vault".</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step7.png"/>
-8. On the "Key vault" option select the vault accordingly.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step8.png"/>
-9. On the "Encryption key" option select the key accordingly.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step9.png"/>
-10. Click on the "Save" option at the top to make the changes.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step10.png"/>
-11. Repeat steps number 8 - 10 to ensure the Storage Account used by Activity Logs is configured with a BYOK key.</br>
+3. On the "Storage account" page, scroll down the left navigation panel and choose "Containers" under the "Blob services." </br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step3.png"/>
+4. Select the "Container" on the "Containers" page.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step4.png"/>
+5. Scroll down the "Storage account" navigation panel and choose "Encryption" option under the "Settings."</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step5.png"/>
+6. On the "Encryption page" scroll down and check "Use your own key" setting configuration. If "Use your own key" setting checkbox is not checked, then "BYOK encryption" is not configured in the Blob Service Encryption.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step6.png"/>
+7. Repeat steps number 2 - 5 to verify other "Blob Service Encryption" in the Azure account.</br>
+8. Navigate to "Storage account", select the corresponding "Storage account", scroll down the left navigation panel and choose "Encryption."</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step8.png"/>
+9. On the "Encyption page" select the "Use your own key" and click on the "Select from Key Vault".</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step9.png"/>
+10. On the "Key vault" option select the vault accordingly.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step10.png"/>
+11. On the "Encryption key" option select the key accordingly.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step11.png"/>
+12. Click on the "Save" option at the top to make the changes.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step12.png"/>
+13. Repeat steps number 8 - 12 to ensure the Storage Account used by Activity Logs is configured with a BYOK key.</br>
