@@ -20,9 +20,9 @@
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step2.png"/>
 3. On the "SQL server" page, select the SQL server that needs to be examine. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step3.png"/>
 4. On the selected "SQL server" page, scroll down the left navigation panel and select "Transparent data encryption" under the "Security" column.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step4.png"/>
-5. On the "Transparent data encryption" page, if "Use your own key" is set to "NO" then the selected "SQL server TDE protector" is not encrypted with BYOK (Bring Your Own Key).</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step5.png"/>
+5. On the "Transparent data encryption" page, if "Customer-managed key" is set to "NO" then the selected "SQL server TDE protector" is not encrypted with BYOK (Bring Your Own Key).</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "SQL servers" in the account.</br>
 7. Navigate to "SQL servers", on the "SQL servers" page select the "SQL server", scroll down the left navigation panel and choose "Transparent data encryption" under the "Security."</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step7.png"/>
-8. On the "Transparent data encryption" page, click on the "Yes" button next to the "Use your own key". Select the "Key vault" and "Key" accordingly. Click on the checkbox next to "Make the selected key the default TDE protector."</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step8.png"/>
+8. On the "Transparent data encryption" page, click on the "Customer-managed key" toggle. Select the "Key vault" and "Key" accordingly. Click on the checkbox next to "Make the selected key the default TDE protector."</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step8.png"/>
 9. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step9.png"/>
 10. Reepat steps number 7 - 9 to ensure that a BYOK key is set for the Transparent Data Encryption of each SQL Server.</br>
