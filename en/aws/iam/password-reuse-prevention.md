@@ -18,7 +18,8 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/password-reuse-prevention/step2.png"/>
 3. Scroll down the left navigation panel and choose "Account Settings". </br><img src="/resources/aws/iam/password-reuse-prevention/step3.png"/>
-4. Under the "Password Policy" configuration panel scroll down and check the "Prevent password reuse ". If the checkbox is not selected than the password policy does not  prevents the reuse of password.</br><img src="/resources/aws/iam/password-reuse-prevention/step4.png"/>
-5. Repeat steps number 3 and 4 to prevent reuse of password .</br>
-6. Click on the checkbox next to "Prevent password reuse" so "Password Policy" prevents reuse of the older passwords. Enter the "Number of passwords to remember" to 24 . </br> <img src="/resources/aws/iam/password-reuse-prevention/step6.png"/>
-7. Click on the "Apply Password Policy" button to make the necessary changes.</br><img src="/resources/aws/iam/password-reuse-prevention/step7.png"/>
+4. On the Account Settings page, click on the "Change" under the "Password Policy".</br> <img src="/resources/aws/iam/password-reuse-prevention/step4a.png"/>
+5. Under the "Password Policy" configuration panel scroll down and check the "Prevent password reuse ". If the checkbox is not selected than the password policy does not  prevents the reuse of password.</br><img src="/resources/aws/iam/password-reuse-prevention/step4.png"/>
+6. Repeat steps number 3 and 4 to prevent reuse of password .</br>
+7. Click on the checkbox next to "Prevent password reuse" so "Password Policy" prevents reuse of the older passwords. Enter the "Number of passwords to remember" to 24 . </br> <img src="/resources/aws/iam/password-reuse-prevention/step6.png"/>
+8. Click on the "Sav Changes" button to make the necessary changes.</br><img src="/resources/aws/iam/password-reuse-prevention/step7a.png"/>
