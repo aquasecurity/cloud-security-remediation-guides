@@ -28,5 +28,7 @@
 11. Scroll the left navigation panel and choose "Instances".</br> 
 12. Select the "EC2 Instance" whose "Security Group" needs to be updated.</br> <img src="/resources/aws/ec2/default-security-group/step12.png"/>
 13. Click on the "Actions" button at the top and click on "Security" and choose the "Change security group" option.</br> <img src="/resources/aws/ec2/default-security-group/step13.png"/>
-14. Select the new "Security Group" created and click on the "Assign Security Groups" button to attach the selected "Security Group" to the selected "EC2 Instance".</br> <img src="/resources/aws/ec2/default-security-group/step14.png"/>
-15. Repeat steps number 8 - 14 to update the "Security Group" as per the requirements.</br>
+14. Click on the search box under "Associated security groups" section and choose the newly created security group from the dropdown.</br> <img src="/resources/aws/ec2/default-security-group/step14.png"/>
+15. Click on "Add security group" to the selected "EC2 Instance".</br> <img src="/resources/aws/ec2/default-security-group/step15.png"/>
+16. Remove any other security group as needed by clicking on "Remove" button under "Security groups associated with the network interface". </br> <img src="/resources/aws/ec2/default-security-group/step16.png"/>
+17. Repeat steps number 8 - 14 to update the "Security Group" as per the requirements.</br>
