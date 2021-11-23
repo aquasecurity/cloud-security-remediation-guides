@@ -19,7 +19,7 @@
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/default-security-group/step2.png"/>
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/default-security-group/step3.png"/>
 4. Select the "Instance" that needs to be verified and click on its name from the "Name" column.</br> <img src="/resources/aws/ec2/default-security-group/step4.png"/>
-5. Scroll down the page and under "Description" check for "Security Groups". If the "Security Groups" is set to "default" then the EC2 network configuration is not following AWS security best practices.</br> <img src="/resources/aws/ec2/default-security-group/step5.png"/>
+5. Scroll down the page and under "Security" check for "Security Groups". If the "Security Groups" is set to "default" then the EC2 network configuration is not following AWS security best practices.</br> <img src="/resources/aws/ec2/default-security-group/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "EC2 Instances".</br>
 7. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security".</br> <img src="/resources/aws/ec2/default-security-group/step7.png"/>
 8. Click on the "Create Security Group" to create a new group as per our "EC2 Instance" requirements.</br> <img src="/resources/aws/ec2/default-security-group/step8.png"/>
