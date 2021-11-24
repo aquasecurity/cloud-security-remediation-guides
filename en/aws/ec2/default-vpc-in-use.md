@@ -15,7 +15,7 @@
 | **Recommended Action** | Move resources from the default VPC to a new VPC created for that application or resource group. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/default-vpc-in-use/step2.png"/>
 3. Scroll down the left navigation panel and choose "Your VPC" under "VPC Dashboard". </br> <img src="/resources/aws/ec2/default-vpc-in-use/step3.png"/>
 4. Copy the default "VPC ID" from the "VPC" dashboard.</br>  <img src="/resources/aws/ec2/default-vpc-in-use/step4.png"/>
