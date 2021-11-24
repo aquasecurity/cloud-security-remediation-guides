@@ -30,4 +30,4 @@
 13. Once the "AMI" is created click on the "Launch Instance" button at the top panel to create a new "Instance".</br> <img src="/resources/aws/ec2/default-vpc-in-use/step13.png"/>
 14. Click on the "My AMIs" option and choose the "AMI".</br> <img src="/resources/aws/ec2/default-vpc-in-use/step14.png"/>
 15. Provide the other necessary details for the new "EC2-Instance", then click the "Configure Instance Details" and choose the newly created "VPC" instead of default VPC.</br> <img src="/resources/aws/ec2/default-vpc-in-use/step15.png"/>
-16. Click on the "Launch" button once reviewing the necessary configuration to launch the new "EC2-Instance". Once the new "EC2-Instance" is in healthy state remove the older "EC2-Instance" which is using the default VPC.</br>
+16. Click on the "Review and Launch" button once reviewing the necessary configuration to launch the new "EC2-Instance". Once the new "EC2-Instance" is in healthy state remove the older "EC2-Instance" which is using the default VPC.</br>
