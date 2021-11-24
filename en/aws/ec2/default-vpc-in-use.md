@@ -28,6 +28,6 @@
 11. Navigate to the "EC2 dashboard" and select the "EC2 Instance" which is on default VPC. Click on the "Actions" button at the top and choose "Image and templates" and choose "Create image" to create an "Amazon Machine Image" of the selected Instance. </br> <img src="/resources/aws/ec2/default-vpc-in-use/step11.png"/>
 12. Under the "Create Image" panel provide the "Image Name" and "Image Description" and click on the "Create Image" button at the bottom.</br> <img src="/resources/aws/ec2/default-vpc-in-use/step12.png"/>
 13. Once the "AMI" is created click on the "Launch Instance" button at the top panel to create a new "Instance".</br> <img src="/resources/aws/ec2/default-vpc-in-use/step13.png"/>
-14. Clcik on the "My AMIs" option and choose the "AMI".</br> <img src="/resources/aws/ec2/default-vpc-in-use/step14.png"/>
+14. Click on the "My AMIs" option and choose the "AMI".</br> <img src="/resources/aws/ec2/default-vpc-in-use/step14.png"/>
 15. Provide the other necessary details for the new "EC2-Instance" and under the "Configuration Instance" choose the newly created "VPC" instead of default VPC.</br> <img src="/resources/aws/ec2/default-vpc-in-use/step15.png"/>
 16. Click on the "Launch" button once reviewing the necessary configuration to launch the new "EC2-Instance". Once the new "EC2-Instance" is in healthy state remove the older "EC2-Instance" which is using the default VPC.</br>
