@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step2.png"/>
-3. On the EC2 dashboard, check the "Account Attributes".If the supported platform status set to VPC and EC2, then the selected account support both EC2-Classic and EC2-VPC platforms.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step3.png"/>
+3. On the EC2 dashboard, check the "Account Attributes".If the supported platform's status is set to VPC and EC2, then the selected account supports both EC2-Classic and EC2-VPC platforms.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step3.png"/>
 4.  Select the "Instances" option on the left navigation panel to verify whether any instances are lunch under "EC2-Classic."</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step4.png"/>
 5. Select the "EC2 instance" and select the "Description" tab from the bottom panel. If the "VPC Id" parameter has no value assigned, the selected EC2 instance was launched within the EC2-Classic.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "EC2 instances" in the selected region.</br>
