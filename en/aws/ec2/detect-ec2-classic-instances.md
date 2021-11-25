@@ -28,6 +28,6 @@
 11. Select the "Instance Type" as per the requirement and click on the "Next: Configure Instance Details" button at the bottom.</br><img src="/resources/aws/ec2/detect-ec2-classic-instances/step11.png"/>
 12. On the "Configure Instance Details" page, select the "VPC" option under Network and make other changes as per requirement. Click on the "Next: Add Storage" button at the bottom and select the "Storage" as per the need.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step12.png"/>
 13. On the "Security Group" page, enter the same rules which we copied in Step7 and click on the "Review and Lunch" button. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step13.png"/>
-14. Click on the "View Instances" option to return to the Instance page and check whether the new EC2-VPC instance have clear all the status check and is healthy and working fine.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step14.png"/>
+14. Click on the "View Instances" option to return to the Instance page and check whether the new EC2-VPC instance have cleared all the status check and is healthy and working fine.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step14.png"/>
 15. Once the new EC2-VPC instance is working fine, terminate the older EC2-Classic instance.
 16. Repeat steps number 7 - 15 to migrate instances from EC2 Classic to VPC.</br>
