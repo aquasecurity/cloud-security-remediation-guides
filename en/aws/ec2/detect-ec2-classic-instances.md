@@ -15,7 +15,7 @@
 | **Recommended Action** | Migrate instances from EC2 Classic to VPC |
 
 ## Detailed Remediation Steps
-1. Log in to the AWS Management Console.
+1. Log into the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step2.png"/>
 3. On the EC2 dashboard, check the "Account Attributes".If the supported platform status set to VPC and EC2, then the selected account support both EC2-Classic and EC2-VPC platforms.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step3.png"/>
 4.  Select the "Instances" option on the left navigation panel to verify whether any instances are lunch under "EC2-Classic."</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step4.png"/>
