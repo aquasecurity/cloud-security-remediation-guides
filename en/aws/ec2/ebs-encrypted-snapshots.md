@@ -29,7 +29,7 @@
 12. Click on the "Create Volume" button to create the new "EBS Encrypted Volume".</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step12.png"/>
 13. Scroll down the left navigation panel and click on the "Volumes".</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step13.png"/>
 14. Select the volume that is not encrypted and click on the "Action" button at the top and click on the "Detach Volume".</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step14.png"/>
-15. In the "Detach Volume" dialog box click on the "Yes,Detach" button. </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step15.png"/>
+15. In the "Detach Volume" dialog box click on the "Detach" button. </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step15.png"/>
 16. Select the newly encrypted EBS volume and click on the "Action" button at the top and click on the "Attach Volume".</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step16.png"/>
 17. In the "Attach Volume" dialog box select the EC2 instance and device name for the attachment.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step17.png"/> 
 18. Repeat steps number 7 - 17 to ensure "EBS snapshots" are encrypted at rest.
