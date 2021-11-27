@@ -19,7 +19,7 @@
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step2.png"/>
 3. Scroll down the left navigation panel and choose "Snapshots". </br>  <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step3.png"/>
 4. Select the "Snapshot" that needs to be verified and click on its name from the "Name" column.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step4.png"/>
-5. Scroll down the page and under "Description" check for "Encrypted". If the "Encrypted" option is showing "Not Encrypted" then the selected the "EBS Snapshot" is not encrypted.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step5.png"/>
+5. Scroll down the page and under "Details" check for "Encrypted". If the "Encrypted" option is showing "Not Encrypted" then the selected the "EBS Snapshot" is not encrypted.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step5.png"/>
 6. Repeat the steps number 2 - 5 to check other "EBS Snapshot" in the AWS region.</br>
 7. Select the unencrypted "EBS Snapshot" that needs to be encrypted and click on the "Actions" button at the top panel and click on the "Copy" option.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step7.png"/>
 8. In the "Copy Snapshot" dialog box select the box "Encrypt this snapshot" next to "Encryption" and choose the "Master key" from the dropdown menu.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step8.png"/>
