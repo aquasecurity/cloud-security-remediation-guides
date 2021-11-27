@@ -15,7 +15,7 @@
 | **Recommended Action** | Configure volume encryption and delete unencrypted EBS snapshots. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step2.png"/>
 3. Scroll down the left navigation panel and choose "Snapshots". </br>  <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step3.png"/>
 4. Select the "Snapshot" that needs to be verified and click on its name from the "Name" column.</br> <img src="/resources/aws/ec2/ebs-encrypted-snapshots/step4.png"/>
