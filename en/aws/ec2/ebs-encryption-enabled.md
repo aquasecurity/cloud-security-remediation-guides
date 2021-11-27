@@ -25,8 +25,8 @@
 8. Provide the description of the new snapshot in the "Create Snapshot" dialog box and click on the "Create Snapshot" button.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step8.png"/>
 9. Scroll down the left navigation panel and choose "Snapshots".</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step9.png"/>
 10. Select the new "EBS Snapshot" created and click on the "Actions" button at the top panel and click on the "Copy snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step10.png"/>
-11. In the "Copy Snapshot" dialog box select the box "Encrypt this snapshot" next to "Encryption" and choose the "Master key" from the dropdown menu.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step11.png"/>
-12. Click on the "Copy" button to copy the selected "EBS Snapshot". </br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step12.png"/>
+11. In the "Copy Snapshot" dialog box select the box "Encrypt this snapshot" next to "Encryption" and choose the "KMS key" from the dropdown menu.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step11.png"/>
+12. Click on the "Copy snapshot" button to copy the selected "EBS Snapshot". </br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step12.png"/>
 13. Select the new EBS snapshot and click on the "Actions" button at the top panel and click on the "Create Volume" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step13.png"/>
 14. In the "Create Volume" dialog box verify the "Encryption" option is enabled.</br><img src="/resources/aws/ec2/ebs-encryption-enabled/step14.png"/>
 15. Click on the "Create Volume" button to create the new "EBS Encrypted Volume".</br><img src="/resources/aws/ec2/ebs-encryption-enabled/step15.png"/>
