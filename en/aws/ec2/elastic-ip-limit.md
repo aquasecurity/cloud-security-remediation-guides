@@ -15,7 +15,7 @@
 | **Recommended Action** | Contact AWS support to increase the number of EIPs available |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/elastic-ip-limit/step2.png"/>
 3. Scroll down the left navigation panel and choose "Elastic IPs" under "Network & Security". </br> <img src="/resources/aws/ec2/elastic-ip-limit/step3.png"/>
 4. Check the number of "Elastic IPs" associated within the region.If the selected region has already reached the default limit of 5 Elastic IPs then raise an AWS support ticket to increase the number of "Elastic IPs" in the desired region.</br> <img src="/resources/aws/ec2/elastic-ip-limit/step4.png"/>
