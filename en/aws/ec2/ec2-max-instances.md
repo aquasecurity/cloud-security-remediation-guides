@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/ec2-max-instances/step2.png"/>
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/ec2-max-instances/step3.png"/>
-4. Check the total number of EC2 instances at the top right corner available in the selected AWS region. </br> <img src="/resources/aws/ec2/ec2-max-instances/step4.png"/>
+4. Check the total number of EC2 instances at the top left corner available in the selected AWS region. </br> <img src="/resources/aws/ec2/ec2-max-instances/step4.png"/>
 5. Repeat steps number 2 - 4 to check the threshold value for other regions. If the total number of running EC2 instances provisioned in your AWS account is greater than 50, the recommended threshold was exceeded. AWS has different threshold values as well depends on the region. Raise an AWS support ticket to limit the number of instances as per the requirements. </br>
 6. Scroll down the left navigation panel and choose "Instances". Verify all the "Instances" running and terminate any "Instances" which are not required. 
 7. Choose the "EC2 Instances" which are not required from the "Instances" configuration page. </br> <img src="/resources/aws/ec2/ec2-max-instances/step7.png"/>
