@@ -25,5 +25,5 @@
 8. Select the "Service limit increase" tab and choose the "Elastic IPs" from the dropdown in "Limit Type".</br> <img src="/resources/aws/ec2/elastic-ip-limit/step8.png"/>
 9. Scroll down the page and select the "Region" and "Limit" as either "EC2-Classic IP Address Limit" or "New VPC IP Address Limit". Provide the "New limit value" as per the requirements. </br> <img src="/resources/aws/ec2/elastic-ip-limit/step9.png"/>
 10. Provide a small description to your request in "Case description". </br> <img src="/resources/aws/ec2/elastic-ip-limit/step10.png"/>
-11. Select  preferred contact option to the AWS Support team and click on the "Submit" button to increase the "Elastic IPs" request to AWS.</br> <img src="/resources/aws/ec2/elastic-ip-limit/step11.png"/>
+11. Select the contact option to the AWS Support team and click on the "Submit" button to increase the "Elastic IPs" request to AWS.</br> <img src="/resources/aws/ec2/elastic-ip-limit/step11.png"/>
  
