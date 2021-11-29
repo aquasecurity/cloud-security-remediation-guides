@@ -25,4 +25,4 @@
 8. Click on the "Instance State" button at the top panel and click on "Stop instance" to stop the selected "EC2 Instance".</br> <img src="/resources/aws/ec2/ec2-max-instances/step8.png"/>
 9. Click on the "Instance state" button at the top panel and click on "Terminate Instance"  to terminate the selected "EC2 Instance". </br> <img src="/resources/aws/ec2/ec2-max-instances/step9.png"/> 
 10. On the "Terminate Instance" dialog box click on the "Terminate" button.</br> <img src="/resources/aws/ec2/ec2-max-instances/step10.png"/>
-11. Repeat steps number 6 - 9 to remove the "EC2 Instances" which are not required. </br>
+11. Repeat steps number 6 - 10 to remove the "EC2 Instances" which are not required. </br>
