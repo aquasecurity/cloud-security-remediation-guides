@@ -22,7 +22,7 @@
 5. Repeat steps number 2 - 4 to check the threshold value for other regions. If the total number of running EC2 instances provisioned in your AWS account is greater than 50, the recommended threshold was exceeded. AWS has different threshold values as well depends on the region. Raise an AWS support ticket to limit the number of instances as per the requirements. </br>
 6. Scroll down the left navigation panel and choose "Instances". Verify all the "Instances" running and terminate any "Instances" which are not required. 
 7. Choose the "EC2 Instances" which are not required from the "Instances" configuration page. </br> <img src="/resources/aws/ec2/ec2-max-instances/step7.png"/>
-8. Click on the "Instance State" button at the top panel and click on "Stop instance" to stop the selected "EC2 Instance".</br> <img src="/resources/aws/ec2/ec2-max-instances/step8.png"/>
+8. Click on the "Instance State" button at the top panel and click on "Stop instance" if you want to only stop the selected "EC2 Instance" and not terminate. </br> <img src="/resources/aws/ec2/ec2-max-instances/step8.png"/>
 9. Click on the "Instance state" button at the top panel and click on "Terminate Instance"  to terminate the selected "EC2 Instance". </br> <img src="/resources/aws/ec2/ec2-max-instances/step9.png"/> 
 10. On the "Terminate Instance" dialog box click on the "Terminate" button.</br> <img src="/resources/aws/ec2/ec2-max-instances/step10.png"/>
 11. Repeat steps number 6 - 10 to remove the "EC2 Instances" which are not required. </br>
