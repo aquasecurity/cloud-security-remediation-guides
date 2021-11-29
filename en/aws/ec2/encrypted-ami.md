@@ -15,7 +15,7 @@
 | **Recommended Action** | Ensure all AMIs have encrypted EBS volumes. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/encrypted-ami/step2.png"/>
 3. Scroll down the left navigation panel and choose "AMIs" under "Images". </br> <img src="/resources/aws/ec2/encrypted-ami/step3.png"/>
 4. Select the "AMI" that needs to be verified and under "Details" tab copy the "Snapshot ID" from the "Block Devices".</br> <img src="/resources/aws/ec2/encrypted-ami/step4.png"/>
