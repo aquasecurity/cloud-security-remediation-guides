@@ -152,7 +152,6 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * App Service
         * [.NET Framework Version](en/azure/appservice/.net-framework-version.md)
         * [Authentication Enabled](en/azure/appservice/authentication-enabled.md)
-        * [Client Certificates Enabled](en/azure/appservice/client-certificates-enabled.md)
         * [HTTP 2.0 Enabled](en/azure/appservice/http-2.0-enabled.md)
         * [HTTPS Only Enabled](en/azure/appservice/https-only-enabled.md)
         * [Identity Enabled](en/azure/appservice/identity-enabled.md)
