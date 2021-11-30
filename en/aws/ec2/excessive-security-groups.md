@@ -22,5 +22,5 @@
 5. Repeat steps number 2 - 4 to check the "Security Group" threshold value for other regions. If the total number of running "Security Group" provisioned in your AWS account is greater than 50, the recommended threshold was exceeded. AWS has different threshold values as well depends on the region. </br>
 6. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security" and select the unnecessary/unused "Security Groups" that needs to be removed.</br>  <img src="/resources/aws/ec2/excessive-security-groups/step6.png"/>
 7. Click on the "Actions" button at the top and click on the "Delete Security Groups" option. </br>  <img src="/resources/aws/ec2/excessive-security-groups/step7.png"/>
-8. In the "Delete Security Groups" tab click on the "Yes,Delete" button to delete the selected "Security Groups".</br>  <img src="/resources/aws/ec2/excessive-security-groups/step8.png"/>
+8. In the "Delete Security Groups" dialogue box click on the "Delete" button to delete the selected "Security Groups".</br>  <img src="/resources/aws/ec2/excessive-security-groups/step8.png"/>
 9. Repeat steps number 6 - 8 to remove unused "Security Groups" to prevent accidental authorizations. </br>
