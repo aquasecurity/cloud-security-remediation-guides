@@ -15,7 +15,7 @@
 | **Recommended Action** | Contact AWS support to increase the number of instances available |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/instance-limit/step2.png"/>
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/instance-limit/step3.png"/>
 4. Check the total number of EC2 instances at the top right corner available in the selected AWS region. </br> <img src="/resources/aws/ec2/instance-limit/step4.png"/>
