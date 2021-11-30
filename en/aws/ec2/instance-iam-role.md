@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/instance-iam-role/step2.png"/>
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/instance-iam-role/step3.png"/>
-4. Select the "EC2 Instance" that needs to be verified and scroll down and click on the "Description" tab. </br> <img src="/resources/aws/ec2/instance-iam-role/step4.png"/>
+4. Select the "EC2 Instance" that needs to be verified and scroll down and click on the "Details" tab. </br> <img src="/resources/aws/ec2/instance-iam-role/step4.png"/>
 5. On the "Description" tab scroll down and check for "IAM role" attribute value. If no value has assigned then the selected "EC2 Instance" has no "IAM role" assigned. </br> <img src="/resources/aws/ec2/instance-iam-role/step5.png"/>
 6. Repeat steps number 2 - 5 to cross check other "EC2 Instances" in the selected AWS region.</br>
 7. Navigate to "IAM" dashboard using the "Services" option.</br> <img src="/resources/aws/ec2/instance-iam-role/step7.png"/>
