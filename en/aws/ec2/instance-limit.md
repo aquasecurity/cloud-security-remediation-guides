@@ -26,4 +26,4 @@
 9. Select the "Service limit increase" tab and choose the "EC2 Instances" from the dropdown in "Limit Type".</br> <img src="/resources/aws/ec2/instance-limit/step9.png"/>
 10. Scroll down the page and select the "Region" and "Primary Instance Type". Provide the "New limit value" as per the requirements. </br> <img src="/resources/aws/ec2/instance-limit/step10.png"/>
 11. Provide a small description to your request in "Case description". </br> <img src="/resources/aws/ec2/instance-limit/step11.png"/>
-12. Select  preferred contact option to the AWS Support team and click on the "Submit" button to limit request to AWS.</br> <img src="/resources/aws/ec2/instance-limit/step12.png"/>
+12. Select the contact option to the AWS Support team and click on the "Submit" button to limit request to AWS.</br> <img src="/resources/aws/ec2/instance-limit/step12.png"/>
