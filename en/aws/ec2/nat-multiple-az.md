@@ -15,7 +15,7 @@
 | **Recommended Action** | Launch managed NAT instances in multiple AZs. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/nat-multiple-az/step2.png"/>
 3. Scroll down the left navigation panel and choose "Your VPCs". Select the VPC that needs to be verified. </br> <img src="/resources/aws/ec2/nat-multiple-az/step3.png"/>
 4. Scroll down the left navigation panel and choose "NAT Gateways". If there are only a single "NAT Gateway" then all the "EC2 Instances" within private subnet will share the same gateway. </br> <img src="/resources/aws/ec2/nat-multiple-az/step4.png"/>
