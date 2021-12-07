@@ -22,7 +22,7 @@
 5. Scroll down the bottom panel and choose "Inbound". Verify the value for "Source" column and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has one or many ports open to the public.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access to specific ip address. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step7.png"/>
-8. Scroll down the "Security Group" page and select the "Inbound" and click on the "Edit" button. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step8.png"/>
+8. Scroll down the "Security Group" page and select the "Inbound rules" and click on the "Edit inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step8.png"/>
 9. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column of Type "SSH" to allow inbound traffic only from specific IP address.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step9.png"/>
 10. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements and specify the "static IP" address of the permitted host along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step10.png"/>
 11. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step11.png"/>
