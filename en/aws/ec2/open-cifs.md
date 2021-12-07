@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/open-cifs/step2.png"/>
-3. Scroll down the left navigation panel and choose "Security Group" under "Network & Security".</br> <img src="/resources/aws/ec2/open-cifs/step3.png"/>
+3. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security".</br> <img src="/resources/aws/ec2/open-cifs/step3.png"/>
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-cifs/step4.png"/>
 5. Scroll down the bottom panel and choose "Inbound". Verify the value for "Source" column for "Custom UDP Rule" for "CIFS" under "Type" and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "UDP" port for "CIFS" open to the public.</br> <img src="/resources/aws/ec2/open-cifs/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
