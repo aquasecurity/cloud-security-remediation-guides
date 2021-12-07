@@ -17,9 +17,9 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step2.png"/>
-3. Scroll down the left navigation panel and choose "Security Group" under "Network & Security".</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step3.png"/>
+3. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security".</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step3.png"/>
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step4.png"/>
-5. Scroll down the bottom panel and choose "Inbound". Verify the value for "Source" column and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has one or many ports open to the public.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step5.png"/>
+5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has one or many ports open to the public.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access to specific ip address. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step7.png"/>
 8. Scroll down the "Security Group" page and select the "Inbound rules" and click on the "Edit inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step8.png"/>
