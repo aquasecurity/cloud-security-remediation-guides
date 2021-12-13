@@ -26,5 +26,5 @@
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-oracle/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "Oracle" inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-oracle/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "Oracle" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-oracle/step11.png"/>
-12. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-oracle/step12.png"/>
+12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-oracle/step12.png"/>
 13. Repeat steps number 7 - 12 to restrict "TCP" port "1521" for "Oracle" to known IP address.</br>
