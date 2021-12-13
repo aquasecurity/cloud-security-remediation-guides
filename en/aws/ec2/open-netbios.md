@@ -27,5 +27,5 @@
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "NetBIOS" inbound traffic only from your IP address.</br>  <img src="/resources/aws/ec2/open-netbios/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "NetBIOS" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br>  <img src="/resources/aws/ec2/open-netbios/step11.png"/>
 12. Click on the "Save rules" button to make the necessary changes. </br>  <img src="/resources/aws/ec2/open-netbios/step12.png"/>
-13. Repeat steps number 7 - 12 to restrict UDP port 445 for "CIFS" to known IP address.</br>
+13. Repeat steps number 7 - 12 to restrict UDP port "137 or 138" for "NetBIOS".</br>
 
