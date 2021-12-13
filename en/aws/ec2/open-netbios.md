@@ -22,7 +22,7 @@
 5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column for "Custom UDP" under "Type" for port "137 or 138" and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "UDP" port for "NetBIOS" open to the public.</br> <img src="/resources/aws/ec2/open-netbios/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "UDP" port "137 or 138" for "NetBIOS"  to specific ip address. </br> <img src="/resources/aws/ec2/open-netbios/step7.png"/>
-8. Scroll down the page and select the "Inbound" and click on the "Edit" button. </br> <img src="/resources/aws/ec2/open-netbios/step8.png"/>
+8. Scroll down the page and select the "Inbound rules" and click on the "Edit inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-netbios/step8.png"/>
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-netbios/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "NetBIOS" inbound traffic only from your IP address.</br>  <img src="/resources/aws/ec2/open-netbios/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "NetBIOS" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br>  <img src="/resources/aws/ec2/open-netbios/step11.png"/>
