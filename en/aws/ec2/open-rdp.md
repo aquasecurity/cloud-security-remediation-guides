@@ -24,7 +24,7 @@
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "TCP" port 3389 for "RDP"  to specific ip address. </br> <img src="/resources/aws/ec2/open-rdp/step7.png"/>
 8. Scroll down the page and select the "Inbound rules" and click on the "Edit Inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-rdp/step8.png"/>
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-rdp/step9.png"/>
-10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "RDP" inbound traffic only from your IP address, select the required Protocol and Action.</br> <img src="/resources/aws/ec2/open-rdp/step10.png"/>
+10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "RDP" inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-rdp/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "RDP" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-rdp/step11.png"/>
 12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-rdp/step12.png"/>
 13. Repeat steps number 7 - 12 to restrict TCP port 3389 for "RDP" to known IP address.</br>
