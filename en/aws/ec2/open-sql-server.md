@@ -26,5 +26,5 @@
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-sql-server/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "SQL" inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-sql-server/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "SQL" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-sql-server/step11.png"/>
-12. Click on the "Save" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-sql-server/step12.png"/> 
+12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-sql-server/step12.png"/> 
 13. Repeat steps number 7 - 12 to restrict UDP port 1434 and TCP port 1433 for "SQL Server" to known IP address.</br>
