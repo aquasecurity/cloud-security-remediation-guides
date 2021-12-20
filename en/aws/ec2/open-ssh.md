@@ -22,7 +22,7 @@
 5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column for "SSH" under "Type" for port 22 and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "TCP" port for "SSH" open to the public.</br> <img src="/resources/aws/ec2/open-ssh/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "TCP" port 22 for "SSH"  to specific ip address. </br> <img src="/resources/aws/ec2/open-ssh/step7.png"/>
-8. Scroll down the page and select the "Inbound" and click on the "Edit" button. </br> <img src="/resources/aws/ec2/open-ssh/step8.png"/>
+8. Scroll down the page and select the "Inbound rules" and click on the "Edit Inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-ssh/step8.png"/>
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-ssh/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "SSH" inbound traffic only from specific IP address.</br> <img src="/resources/aws/ec2/open-ssh/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "SSH" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-ssh/step11.png"/>
