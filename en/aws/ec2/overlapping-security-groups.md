@@ -15,7 +15,7 @@
 | **Recommended Action** | Structure security groups to provide a single category of access and do not duplicate rules across groups used by the same instances. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/overlapping-security-groups/step2.png"/>
 3. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security". </br>  <img src="/resources/aws/ec2/overlapping-security-groups/step3.png"/>
 4. Select the "Security Group" that needs to be verified and scroll down and click on the "Description" tab and copy "Group ID". </br> <img src="/resources/aws/ec2/overlapping-security-groups/step4.png"/>
