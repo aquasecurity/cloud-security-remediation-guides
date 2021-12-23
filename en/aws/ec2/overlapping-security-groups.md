@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/overlapping-security-groups/step2.png"/>
 3. Scroll down the left navigation panel and choose "Security Groups" under "Network & Security". </br>  <img src="/resources/aws/ec2/overlapping-security-groups/step3.png"/>
-4. Select the "Security Group" that needs to be verified and scroll down and click on the "Description" tab and copy "Group ID". </br> <img src="/resources/aws/ec2/overlapping-security-groups/step4.png"/>
+4. Select the "Security Group" that needs to be verified and scroll down and click on the "Details" tab and copy "Security group ID". </br> <img src="/resources/aws/ec2/overlapping-security-groups/step4.png"/>
 5. Navigate to the "EC2 dashboard" and on the "Filter by tags and attributes or search by keyword" box select for the "Security Group ID" from the dropdown menu and paste the "Group ID" copied above.</br> <img src="/resources/aws/ec2/overlapping-security-groups/step5.png"/>
 6. Check the number of "EC2 Instance(s)" using the Security Group and if there are more than 1 instances sharing the same "Security Group" then it's not according to the standard practice of AWS.</br> <img src="/resources/aws/ec2/overlapping-security-groups/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other "EC2 Instances" using same "Security Group".</br>
