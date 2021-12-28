@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step2.png"/>
-3. Scroll down the left navigation panel and choose "Your VPC" under "VPC Dashboard". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step3.png"/>
+3. Scroll down the left navigation panel and choose "Your VPCs" under "Virtual Private Cloud". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step3.png"/>
 4. Select the "VPC" that needs to be verified for "VPC Flow Logs". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step4.png"/>
 5. Scroll down the bottom dashboard panel and choose "Flow Logs" tab. If there are no flow logs then "You do not have any Flow Logs in this region" message will be displayed. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step5.png"/>
 6. Repeat steps number 2 - 6 to verify "Flow Logs" are enabled or not in other VPCs in the region. </br>
