@@ -19,7 +19,7 @@
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Your VPCs" under "Virtual Private Cloud". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step3.png"/>
 4. Select the "VPC" that needs to be verified for "VPC Flow Logs". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step4.png"/>
-5. Scroll down the bottom dashboard panel and choose "Flow Logs" tab. If there are no flow logs then "You do not have any Flow Logs in this region" message will be displayed. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step5.png"/>
+5. Scroll down the bottom dashboard panel and choose "Flow Logs" tab. If there are no flow logs then "No flow logs found in this Region" message will be displayed. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step5.png"/>
 6. Repeat steps number 2 - 6 to verify "Flow Logs" are enabled or not in other VPCs in the region. </br>
 7. Navigate to "VPC Dashboard" and choose "Your VPC" and click on the "Flow Logs" tab in the bottom dashboard panel.</br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step7.png"/>
 8. Click on the "Create flow log" button to create the "VPC Flow Logs". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step8.png"/>
