@@ -21,7 +21,7 @@
 4. Select the "VPC" that needs to be verified for "VPC Flow Logs". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step4.png"/>
 5. Scroll down the bottom dashboard panel and choose "Flow Logs" tab. If there are no flow logs then "No flow logs found in this Region" message will be displayed. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step5.png"/>
 6. Repeat steps number 2 - 6 to verify "Flow Logs" are enabled or not in other VPCs in the region. </br>
-7. Navigate to "Your VPCs" in the left navigation panel and click on the "Flow Logs" tab in the bottom dashboard panel.</br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step7.png"/>
+7. Navigate to "Your VPCs" in the left navigation panel, select the VPC and click on the "Flow Logs" tab in the bottom dashboard panel.</br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step7.png"/>
 8. Click on the "Create flow log" button to create the "VPC Flow Logs". </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step8.png"/>
 9. In the "Create flow log" dialog box select the "Filter" from the dropdown menu that describes the type of traffic to be logged.</br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step9.png"/>
 10. Select the destination to which the flow log data is to be published from the options.If the "S3 bucket" is selected for the log data to be published than provide the "S3 Bucket ARN" which is the ARN of the Amazon S3 bucket to which the flow log is published and click on the "Create" button at the bottom. </br> <img src="/resources/aws/ec2/vpc-flow-logs-enabled/step10.png"/>
