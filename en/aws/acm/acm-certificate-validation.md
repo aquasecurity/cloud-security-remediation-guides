@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the AWS console and navigate to the ACM service page.
+1. Log in to the AWS console and search for "Certificate Manager".
 2. Click into each certificate that has been requested.
 3. Expand the domains associated with the certificate.
 4. Ensure each domain listed has DNS validation configured. If DNS validation is used, DNS records will be listed for the domain.
