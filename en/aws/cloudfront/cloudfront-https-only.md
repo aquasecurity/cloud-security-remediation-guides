@@ -22,4 +22,4 @@
 5. On the Edit Behavior page scroll down to "Viewer" Settings, verify the "Viewer Protocol Policy" and if "HTTP and HTTPS" is selected than CloudFront allows viewers to access your web content using either HTTP or HTTPS. </br> <img src="/resources/aws/cloudfront/cloudfront-https-only/step5.png"/>
 6. To redirect all HTTP traffic to HTTPS under the "Viewer Protocol Policy" choose "Redirect HTTP to HTTPS" to redirect all HTTP requests to HTTPS.</br><img src="/resources/aws/cloudfront/cloudfront-https-only/step6.png"/>
 7. If you want to drop all HTTP traffic then under the "Viewer Protocol Policy" choose "HTTPS Only" so CloudFront allows viewers to access your content only if they're using HTTPS.</br><img src="/resources/aws/cloudfront/cloudfront-https-only/step7.png"/>
-8. Repeat the steps number 3 to 7 to verify if any other CloudFront Distribution is using HTTP-only listeners.</br>
+8. Repeat steps number 3 to 7 for all other CloudFront Distributions using HTTP-only listeners.</br>
