@@ -24,4 +24,4 @@
 7. In the Edit Web-ASG page  scroll down to "Network" and from the dropdown select the desired multiple availibility zones one by one and add the Subnet(s) to make the Auto Scaling Group available to Multiple Availability Zone(s).</br><img src="/resources/aws/autoscaling/asg-multiple-az/step7.png"/>
 8. Scroll down to the end of the page and click "Update" to save the changes. </br><img src="/resources/aws/autoscaling/asg-multiple-az/step8.png"/>
 9. Go to "Details" tab and under "Network" check if the Availability Zone(s) shows multiple regions and subnets as well.</br><img src="/resources/aws/autoscaling/asg-multiple-az/step9.png"/>
-11. Repeat the steps number 2 to 9 to establish any other Auto Scaling Group hosted in multiple Availability Zone(s) or not. 
+11. Repeat the steps number 2 to 9 to check whether other Auto Scaling Group(s) are hosted in multiple Availability Zone(s) or not. 
