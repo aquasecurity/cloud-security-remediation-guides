@@ -18,8 +18,8 @@
 1. Log in to the AWS Management Console and Search for "EC2" to reach EC2 dashboard.</br><img src="/resources/aws/autoscaling/asg-multiple-az/step1.png"/>
 2. In the left navigation panel, scroll down and choose Auto Scaling Groups option under "Auto Scaling".</br> <img src="/resources/aws/autoscaling/asg-multiple-az/step2.png"/>
 3. Select the Auto Scaling Group(s) that needs to be modified.</br> <img src="/resources/aws/autoscaling/asg-multiple-az/step3.png"/>
-4. Scroll down to select the "Details" tab and check the Availability Zone(s) under "Network". </br> <img src="/resources/aws/autoscaling/asg-multiple-az/step4.png"/>
-5. If Availability Zone(s) value is set to a single availability zone (e.g. us-east-1b), it cannot launch instances to multiple Availability Zone(s) hence if one Availability Zone becomes unavailable, Amazon EC2 Auto Scaling cannot launch instances in another one to atone.</br><img src="/resources/aws/autoscaling/asg-multiple-az/step3.png"/>
+4. Scroll down to select the "Details" tab and check the Availability Zone(s). </br> <img src="/resources/aws/autoscaling/asg-multiple-az/step4.png"/>
+5. If Availability Zone(s) value under "Network" is set to a single availability zone (e.g. us-east-1b), it cannot launch instances to multiple Availability Zone(s) hence if one Availability Zone becomes unavailable, Amazon EC2 Auto Scaling cannot launch instances in another one to atone.</br><img src="/resources/aws/autoscaling/asg-multiple-az/step3.png"/>
 6. Select the Auto Scaling Group and go to "Actions" Option.</br><img src="/resources/aws/autoscaling/asg-multiple-az/step4.png"/>
 7. Select the option to "Edit" the configuration and choose the "Launch Configuration" Option.</br><img src="/resources/aws/autoscaling/asg-multiple-az/Step5.png"/>
 8. Edit the Subnet(s) and add the Subnet(s) to make the Auto Scaling Group available to Multiple Availability Zone(s).</br><img src="/resources/aws/autoscaling/asg-multiple-az/step6.png"/>
