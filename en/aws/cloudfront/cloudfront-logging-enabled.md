@@ -21,7 +21,7 @@
 4. Click on the selected Distribution to get into the CloudFront Distribution configuration page. </br><img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step4.png"/>
 5. In the "General" tab scroll down to settings and verify the "Standard logging" feature configuration status. If Logging is "Off" then it cannot create log files that contain detailed information about every user request that CloudFront receives.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step5.png"/>
 6. To change the status click on "Edit" to get to the "Edit Settings" page. Scroll down to "Standard Logging" and select the "On" option to initiate the Logging feature of CloudFront to log all viewer requests for files in your distribution.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step6.png"/>
-8. Click on "Bucket for Logs" feature and specify the Amazon S3 bucket in which you want CloudFront to save web access logs.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step8.png"/>
-9. Click on Log Prefix which is optional for the names of log files.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step9.png"/>
-10. Scroll down and click on "Yes,Edit" to save the changes.</br><img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step10.png"/>
-11. Repeat the steps number 5 and 6 to establish any other "CloudFront Distribution" has Logging enabled or not.
+7. Click on "Bucket for Logs" feature and specify the Amazon S3 bucket in which you want CloudFront to save web access logs.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step7.png"/>
+8. Click on Log Prefix which is optional for the names of log files.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step8.png"/>
+9. Scroll down and click on "Save changes" to save the new settings.</br><img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step9.png"/>
+10. Repeat the steps number 3 to 9 to establish if any other "CloudFront Distribution" has Logging enabled or not.
