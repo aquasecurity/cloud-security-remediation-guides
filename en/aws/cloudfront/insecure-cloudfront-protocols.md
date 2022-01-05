@@ -15,7 +15,7 @@
 | **Recommended Action** | Ensure that traffic sent between viewers and CloudFront is passed over HTTPS and uses TLSv1.1 or higher. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for CloudFront. </br> <img src="/resources/aws/cloudfront/insecure-cloudfront-protocols/step2.png"/>
 3. Select the "CloudFront Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/insecure-cloudfront-protocols/step3.png"/>
 4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br><img src="/resources/aws/cloudfront/insecure-cloudfront-protocols/step4.png"/>
