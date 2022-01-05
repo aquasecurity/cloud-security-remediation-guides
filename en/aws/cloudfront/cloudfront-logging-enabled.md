@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable CloudFront request logging. |
 
 ## Detailed Remediation Steps
-1. Log in to to the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for CloudFront. </br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step2.png"/>
 3. Select the "CloudFront Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step3.png"/>
 4. Click on the selected Distribution to get into the CloudFront Distribution configuration page. </br><img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step4.png"/>
