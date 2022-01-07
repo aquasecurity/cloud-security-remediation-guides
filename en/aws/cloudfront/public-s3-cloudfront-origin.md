@@ -23,7 +23,7 @@
 6. For the origin having origin type "Custom origin", Click the "Create origin" button.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step6.png"/>
 7. On the "Create Origin" Page type the S3 Bucket name in "Origin Domain" setting and select from dropdown.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
 8. In the "S3 Bucket access" setting select "Yes use OAI (bucket can restrict access to only CloudFront)". </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step8.png"/>
-9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
+9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step9.png"/>
 10. Under the "Bucket policy" if the Bucket policy is set to No then the access to the S3 bucket used as the origin is not secured. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
 11. Click on "Create origin" button at the end of the page to save the changes. Jump to step 17 once you have finished creating new origin.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step11.png"/>
 12. If you are editing an existing S3 origin then click "Edit"
