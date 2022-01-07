@@ -21,19 +21,17 @@
 4. Click the "Distribution Id" to get into the "CloudFront Distribution" configuration page. </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step4.png"/>
 5. Click on the "Origins" tab and select the "Origin" which needs to be verified. Check the origin type and If it is "custom origin" then you would have to create a new origin for the same S3 Bucket. If the origin Type is "S3" then select and edit it  </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step5.png"/>
 6. For the selected origin having origin type "Custom origin", Click the "Create origin" button.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step6.png"/>
-7. On the "Create Origin" Page type the S3 Bucket name and select from dropdown.
-8. In the S3 Bucket access select "Yes use OAI (bucket can restrict access to only CloudFront)"
-9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.
-10. On the Origin Settings, verify the "Restrict Bucket Access".If Restrict Bucket Access is set to No then the access to the S3 bucket used as the origin is not secured.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
-11. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
-14. Click on "Create origin" button to save the changes.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step11.png"/>
-15. If you are editing an existing S3 origin then click "Edit"
-16. In the S3 Bucket access select "Yes use OAI (bucket can restrict access to only CloudFront)"
-9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.
-10. On the Origin Settings, verify the "Restrict Bucket Access".If Restrict Bucket Access is set to No then the access to the S3 bucket used as the origin is not secured.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
-11. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
-
-17. Navigate to "S3 bucket dashboard" and choose the S3 bucket used to verify the "Permissions" on S3 bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step12.png"/>
-18. Click the "Permissons" tab and scroll to the "Block public access (bucket settings)"for the bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step13.png"/>
-19. Click on the "Edit" button and scroll down to "Manage public access control lists" and "Manage public bucket policies" to verify the "Permissions". Select the "Permissions" and click on "Save" to make the contents of the S3 bucket private.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step14.png"/>
-20. Repeat the steps number 6 and 7 to verify origin access identity for CloudFront.</br>
+7. On the "Create Origin" Page type the S3 Bucket name in "Origin Domain" setting and select from dropdown.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
+8. In the "S3 Bucket access" setting select "Yes use OAI (bucket can restrict access to only CloudFront)". </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step8.png"/>
+9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
+10. Under the "Bucket policy" if the Bucket policy is set to No then the access to the S3 bucket used as the origin is not secured. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
+11. Click on "Create origin" button at the end of the page to save the changes. Jump to step 17 once you have finished creating new origin.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step11.png"/>
+12. If you are editing an existing S3 origin then click "Edit"
+13. In the S3 Bucket access select "Yes use OAI (bucket can restrict access to only CloudFront)". </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step8.png"/>
+14. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step7.png"/>
+15. Under the "Bucket policy" if the Bucket policy is set to No then the access to the S3 bucket used as the origin is not secured. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
+16. Click on "Create origin" button at the end of the page to save the changes.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step11.png"/>
+17. Navigate to "S3 bucket dashboard" and choose and click the S3 bucket used to verify the "Permissions" on S3 bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step17.png"/>
+18. Click the "Permissons" tab and scroll to the "Block public access (bucket settings)"for the bucket and click on the "Edit" button.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step18.png"/>
+19. On the "Edit Block public access (bucket settings)" page select "Block all public access" to verify the "Permissions". Click on "Save changes" to make the contents of the S3 bucket private.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step19.png"/>
+20. Repeat the steps to verify origin access identity for other CloudFront distributions.</br>
