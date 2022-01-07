@@ -20,7 +20,7 @@
 3. Select the "CloudFront Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step3.png"/>
 4. Click the "Distribution Id" to get into the "CloudFront Distribution" configuration page. </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step4.png"/>
 5. Click on the "Origins" tab and select the "Origin" which needs to be verified. Check the origin type and If it is "custom origin" then you would have to create a new origin for the same S3 Bucket. If the origin Type is "S3" then select and edit it  </br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step5.png"/>
-6. Click the "Create origin" button.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step6.png"/>
+6. For the selected origin having origin type "Custom origin", Click the "Create origin" button.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step6.png"/>
 7. On the "Create Origin" Page type the S3 Bucket name and select from dropdown.
 8. In the S3 Bucket access select "Yes use OAI (bucket can restrict access to only CloudFront)"
 9. Under the "Origin Access Identity" choose an existing Origin Access Identity else create a new OAI by clicking on "Create new OAI" button.
