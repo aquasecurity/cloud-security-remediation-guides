@@ -34,6 +34,6 @@
 11. Click on the "Yes, update the bucket policy" under "Bucket Policy" so CloudFront updates bucket permissions to grant the specified origin access identity the permission to read files in your bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step10.png"/>
 
 17. Navigate to "S3 bucket dashboard" and choose the S3 bucket used to verify the "Permissions" on S3 bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step12.png"/>
-18. Click the "Permissons" tab from menu to get into the "Public access settings" for the bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step13.png"/>
+18. Click the "Permissons" tab and scroll to the "Block public access (bucket settings)"for the bucket.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step13.png"/>
 19. Click on the "Edit" button and scroll down to "Manage public access control lists" and "Manage public bucket policies" to verify the "Permissions". Select the "Permissions" and click on "Save" to make the contents of the S3 bucket private.</br><img src="/resources/aws/cloudfront/public-s3-cloudfront-origin/step14.png"/>
 20. Repeat the steps number 6 and 7 to verify origin access identity for CloudFront.</br>
