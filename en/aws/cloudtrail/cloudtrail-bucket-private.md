@@ -26,7 +26,7 @@
 9. Click on the "Permissions" tab and scroll down to "Block public access (bucket settings)" and click "Edit".</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step9.png"/>
 10. Select the checkbox "Block all public access" shown under "Block public access (bucket settings)" to make the S3 bucket private.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step10.png"/>
 11. Click on "save changes" to save the settings.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step11.png"/>
-12. On the permissions tab scroll down to "Access control list (ACL) to check the access for other AWS accounts on the selected S3 bucket for known users.Click to add permissions for accounts as desired.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step12.png"/>
-13. On the "Edit access control list (ACL)" page click on "Add grantee" button to grant acess to other AWS accounts as desired.
+12. On the permissions tab scroll down to "Access control list (ACL) to check the access for other AWS accounts on the selected S3 bucket for known users. Click "Edit" to add permissions for accounts as desired.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step12.png"/>
+13. On the "Edit access control list (ACL)" page click on "Add grantee" button to grant acess to other AWS accounts as desired.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step13.png"/>
 14. Under "Access for other AWS accounts" paste the Canonical ID of the desired AWS account and check desired permissions. Review and click "Save changes". </br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step14.png"/>
 15. Repeat steps 4 to 14 for all other Cloudtrail trails.
