@@ -21,7 +21,7 @@
 4. Click on "Edit" under "General details".</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step4.png"/>
 5. Scroll down and under the "Storage location" option check the S3 bucket used to store log data.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step5.png"/>
 6. Go to "Services" and search for "S3" to go into S3 buckets dashboard.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step6.png"/>
-7. Select the "S3 bucket" used to store data log in CloudTrail and check the "Access" option. If "Access" shows "Public" than bucket is publicly accessible </br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step7.png"/>
+7. Select the "S3 bucket" used to store data log in CloudTrail and check the "Access" option. If "Access" shows "Objects can be public" than bucket is publicly accessible </br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step7.png"/>
 8. Click on the Bucket name to get into its configuration page. </br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step8.png"/>
 9. Click on the "Permissions" tab and scroll down to "Block public access (bucket settings)" and click "Edit".</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step9.png"/>
 10. Select the checkbox "Block all public access" shown under "Block public access (bucket settings)" to make the S3 bucket private.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-private/step10.png"/>
