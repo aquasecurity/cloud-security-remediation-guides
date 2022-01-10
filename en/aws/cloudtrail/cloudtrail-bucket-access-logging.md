@@ -24,4 +24,6 @@
 7. Select the "S3 bucket" used to store data log in CloudTrail and click on the bucket name to get to its configuration page.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step7.png"/>
 8. Click the "Properties" tab from panel to get into Properties configuration options.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step8.png"/>
 9. Scroll down to "Server Access Login" and check if its "Enabled" or not. If the "Server access logging" status shows "Disabled" then click "Edit" Button.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step9.png"/>
-10. Click on "Enabled" checkbox and specify the "Target bucket" used to store data log files. Provide a "Prefix" that S3 can assign to all log object keys. Save the changes after review. </br> <img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step10.png"/>
+10. Select "Enabled" and specify the "Target bucket" that will be used to store data log files.</br><img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step10.png"/>
+11. Click on "Save changes" after review.</br> <img src="/resources/aws/cloudtrail/cloudtrail-bucket-access-logging/step11.png"/>
+12. Repeat steps 3 to 11 for all other Cloudtrail Trails.
