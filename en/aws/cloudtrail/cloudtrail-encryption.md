@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for "CloudTrail".</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step2.png"/>
-3. In the "Dashboard" panel click on "View trails" button.</br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step3.png"/>
+3. In the "Dashboard" panel click on the desired trail from the list under "Trails" to get to its configuration page.</br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step3.png"/>
 4. Select the "trail" that needs to be verified under "Name" column.</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step4.png"/>
 5. Scroll down and under the "Storage location" option check for "Encrypt log files with SSE-KMS". If its status is "No" the selected trail does not support log encryption.</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step5.png"/>
 6. Click on the pencil icon to get into "Storage location" configuration settings. Scroll down and click on "Yes" next to "Encrypt log files with SSE-KMS" to enable the "CloudTrail" log encryption. </br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step6.png"/>
