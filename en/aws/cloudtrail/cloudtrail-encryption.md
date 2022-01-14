@@ -20,7 +20,7 @@
 3. In the "Dashboard" panel click on the desired trail from the list under "Trails" to get to its configuration page.</br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step3.png"/>
 4. Click on "Edit" button under "General details".</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step4.png"/>
 5. On the Edit Trail page scroll down and check for "Log file SSE-KMS encryption". If its status is not selected as "Enabled" then the selected trail does not support log encryption.</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step5.png"/>
-6. Select the checkbox to chnage the status as "Enabled under "Log file SSE-KMS encryption" to enable the "CloudTrail" log encryption. </br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step6.png"/>
+6. Select the checkbox to change the status as "Enabled under "Log file SSE-KMS encryption" to enable the "CloudTrail" log encryption. </br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step6.png"/>
 7. If you do not have an existing KMS key then under "Customer managed AWS KMS key" option select "New" and enter a name for "AWS KMS alias". Make sure KMS key and S3 bucket must be in the same region.</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step7.png"/>
 8. If you already have "KMS key" available then under "Customer managed AWS KMS key" option select "Existing" and click to choose an existing key under "AWS KMS alias".
 .</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step8.png"/>
