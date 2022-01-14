@@ -17,8 +17,8 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for "CloudTrail".</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step2.png"/>
-3. In the "Dashboard" panel click on "View trails" button.</br> <img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step3.png"/>
-4. Select the "trail" that needs to be verified under "Name" column.</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step4.png"/>
-5. Scroll down and under the "Storage location" option check for "Enable log file validation". If its status is "No" the selected trail does not support file validation.</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step5.png"/>
-6. Click on the pencil icon to get into "Storage location" configuration settings. Scroll down and click on "Yes" next to "Enable log file validation" to enable the "CloudTrail" file validation to determine whether a log file was modified, deleted or unchanged after "CloudTrail" delivered it. </br> <img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step6.png"/>
-7. Scroll down and click on "Save" to enable the CloudTrail log encryption.</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step7.png"/>
+3. In the "Dashboard" panel click on the desired trail from the list under "Trails" to get to its configuration page.</br> <img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step3.png"/>
+4. Click on "Edit" under "General details". </br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step4.png"/>
+5. Scroll down and under the "Additional settings" option check for "Log file validation". If its status is not selected as "Enabled" then the selected trail does not support file validation.</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step5.png"/>
+6. Click on the checkbox under "Log file validation" to change its status to "Enabled" so that the "CloudTrail" file validation to determine whether a log file was modified, deleted or unchanged after "CloudTrail" delivered it is enabled. </br> <img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step6.png"/>
+7. Scroll down and click on "Save changes" to enable the CloudTrail log encryption.</br><img src="/resources/aws/cloudtrail/cloudtrail-file-validation/step7.png"/>
