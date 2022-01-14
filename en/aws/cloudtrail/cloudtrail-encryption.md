@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable CloudTrail log encryption through the CloudTrail console or API |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for "CloudTrail".</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step2.png"/>
 3. In the "Dashboard" panel click on "View trails" button.</br> <img src="/resources/aws/cloudtrail/cloudtrail-encryption/step3.png"/>
 4. Select the "trail" that needs to be verified under "Name" column.</br><img src="/resources/aws/cloudtrail/cloudtrail-encryption/step4.png"/>
