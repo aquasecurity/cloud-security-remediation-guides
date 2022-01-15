@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for "CloudTrail".</br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step2.png"/>
 3. In the "Dashboard" panel click on the desired trail from the list under "Trails" to get to its configuration page.</br> <img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step3.png"/>
-4. Select the "trail" that needs to be verified under "Name" column.</br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step4.png"/>
+4. Click on "Edit" under "General details".</br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step4.png"/>
 5. Scroll down and under the "CloudWatch Logs" option check for any log groups configuration. If no log groups are there than "CloudWatch" is not enabled for the selected trail. </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step5.png"/>
 6. Click on the "Configure" button under the "CloudWatch Logs" section to configure log groups. </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step6.png"/>
 7. In "New or existing log group" enter a name for log group and click on "Continue". </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step7.png"/>
