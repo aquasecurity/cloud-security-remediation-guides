@@ -15,7 +15,7 @@
 | **Recommended Action** | Remove non-HTTPS listeners from load balancer. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/elb/elb-https-only/step2.png"/>
 3. In the "EC2 Dashboard" scroll down and look for "Load Balancers" and click on "Load Balancers" to get into "Load Balancers" dashboard.</br> <img src="/resources/aws/elb/elb-https-only/step3.png"/>
 4. Select the "Load Balancer" which needs to be verified. </br> <img src="/resources/aws/elb/elb-https-only/step4.png"/>
