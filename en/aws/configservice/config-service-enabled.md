@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable the AWS Config Service for all regions and resources in an account. Ensure that it is properly recording and delivering logs. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for AWS Config. </br> <img src="/resources/aws/configservice/config-service-enabled/step2.png"/>
 3. If the AWS console redirects to "Get Started" page then the Config Service is not enabled in the selected region. </br> <img src="/resources/aws/configservice/config-service-enabled/step3.png"/>
 4. Repeat steps number 2 - 3 to verify "Config Service" is enabled or not in the other regions. </br>
