@@ -21,7 +21,6 @@
 4. Select the "Load Balancer" which needs to be verified. </br> <img src="/resources/aws/elb/elb-logging-enabled/step4.png"/>
 5. Select the "Description" tab from the bottom panel and scroll down to "Attributes" option.</br> <img src="/resources/aws/elb/elb-logging-enabled/step5.png"/>
 6. Check the "Access logs" and if it's "Disabled" than the "Access logs" feature is not enabled on the selected "Load Balancer". Access Logs delivers detailed logs of all requests made to "Elastic Load Balancing".</br><img src="/resources/aws/elb/elb-logging-enabled/step6.png"/>
-7. Click on "Configure access logs" button and select "Enable access logs" checkbox in the pop up. Specify the S3 location and prefix for the S3 bucket to store the log files and click on "Create this location for me" checkbox so AWS can create a new bucket. If you don't click on "Create this location for me" checkbox, provide the name of the existing bucket for the selected "Load Balancer". Access Logs deliver detailed logs of all requests made to "Elastic Load Balancing".</br><img src="/resources/aws/elb/elb-logging-enabled/step7.png"/>
-8. Click on the "Save" button to make the necessary changes.</br><img src="/resources/aws/elb/elb-logging-enabled/step8.png"/>
-9. S3 bucket and Load Balancer needs to exist in the same zone.</br>
-10. Selected "Load Balancer" have request logging enabled now. </br> 
+7. Click on "Configure access logs" button and select "Enable access logs" checkbox in the pop up. Specify the S3 location and prefix for the S3 bucket to store the log files and click on "Create this location for me" checkbox so AWS can create a new bucket. If you don't click on "Create this location for me" checkbox, provide the name of the existing bucket for the selected "Load Balancer". Access Logs deliver detailed logs of all requests made to "Elastic Load Balancing". Click on the "Save" button to make the necessary changes.</br><img src="/resources/aws/elb/elb-logging-enabled/step7.png"/>
+8. S3 bucket and Load Balancer needs to exist in the same zone.</br>
+9. Selected "Load Balancer" has request logging enabled now. </br> 
