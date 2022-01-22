@@ -15,9 +15,9 @@
 | **Recommended Action** | Update your ELBs to use the recommended cipher suites |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/elb/insecure-ciphers/step2.png"/>
-3. In the "EC2 Dashboard" scroll down and look for "Load Balancers" and click on "Load Balancers" to get into "Load Balancers" dashboard.</br> <img src="/resources/aws/elb/insecure-ciphers/step3.png"/>
+3. In the "EC2 Dashboard" scroll down and look for "Load Balancing" and click on "Load Balancers" to get into "Load Balancers" dashboard.</br> <img src="/resources/aws/elb/insecure-ciphers/step3.png"/>
 4. Select the "Load Balancer" which needs to be verified. </br> <img src="/resources/aws/elb/insecure-ciphers/step4.png"/>
 5. Select the "Listeners" tab from the bottom panel and scroll down to the "Cipher" column of HTTPS Listener and click on "Change" option.</br> <img src="/resources/aws/elb/insecure-ciphers/step5.png"/>
 6. If you are using a Predefined Security Policy select the latest from the dropdown.</br><img src="/resources/aws/elb/insecure-ciphers/step6.png"/>
