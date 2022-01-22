@@ -21,5 +21,5 @@
 4. Select the "Load Balancer" which needs to be verified. </br> <img src="/resources/aws/elb/elb-no-instances/step4.png"/>
 5. Select the "Instances" tab from the bottom panel and scroll down to "Edit Availability Zones" option.</br> <img src="/resources/aws/elb/elb-no-instances/step5.png"/>
 6. Check for "Instances Count" under "Edit Availability Zones". If the load balancer "Instance Count" is 0 it means there are no registered instances. </br> <img src="/resources/aws/elb/elb-no-instances/step6.png"/>
-7. Select the unused "Load Balancer" and from "Action" tab from the top panel click on "Delete". </br> <img src="/resources/aws/elb/elb-no-instances/step7.png"/>
+7. Select the unused "Load Balancer" and from "Actions" tab from the top panel click on "Delete". </br> <img src="/resources/aws/elb/elb-no-instances/step7.png"/>
 8. Click on "Yes,Delete" from the "Delete Load Balancer" panel. </br> </br> <img src="/resources/aws/elb/elb-no-instances/step8.png"/>
