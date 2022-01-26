@@ -15,7 +15,7 @@
 | **Recommended Action** | To rotate an access key, first create a new key, replace the key and secret throughout your app or scripts, then set the previous key to disabled. Once you ensure that no services are broken, then fully delete the old key. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/access-keys-rotated/step2.png"/>
 3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/access-keys-rotated/step3.png"/>
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/access-keys-rotated/step4.png"/>
