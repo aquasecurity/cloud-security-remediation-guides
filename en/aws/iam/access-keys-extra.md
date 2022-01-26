@@ -18,10 +18,9 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/access-keys-extra/step2.png"/>
 3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/access-keys-extra/step3.png"/>
-4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/access-keys-extra/step4.png"/>
-5. Click on the "Security Credentials" under the configuration page.</br><img src="/resources/aws/iam/access-keys-extra/step5.png"/>
-6. Scroll down and under "Security Credentials" check the number of "Access Key ID". If there are more than "One Access Key ID" for the selected user than it increases the chance of accidental exposure.</br><img src="/resources/aws/iam/access-keys-extra/step6.png"/>
-7. Repeat the steps number 4 - 6 to check the "Access Keys" for another user.</br>
-8. To remove the extra "Access Key" click on "Security Credentials" under IAM user configuration page and select the "Access Key ID" which needs to be removed.</br> <img src="/resources/aws/iam/access-keys-extra/step8.png"/>
-9. Click on the cross(×) symbol at the extreme right to remove the selected key. </br> <img src="/resources/aws/iam/access-keys-extra/step9.png"/>
-10. Click on "Delete" button under "Delete access key" tab to delete the extra "Access Key".</br><img src="/resources/aws/iam/access-keys-extra/step10.png"/>
+4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User" and go to its configuration page.</br><img src="/resources/aws/iam/access-keys-extra/step4.png"/>
+5. Under "Security Credentials" tab check the number of "Access Key ID". If there are more than "One Access Key ID" for the selected user than it increases the chance of accidental exposure.</br><img src="/resources/aws/iam/access-keys-extra/step5.png"/>
+6. To remove the extra "Access Key" click on the cross(×) symbol at the extreme right to remove the selected key.</br> <img src="/resources/aws/iam/access-keys-extra/step6.png"/>
+7. Click on "Deactivate" button in the delete confirmation popup box.</br><img src="/resources/aws/iam/access-keys-extra/step7.png"/>
+8. Enter "Access key Id" in the text box and press the "Delete" button to delete the extra "Access Key".</br><img src="/resources/aws/iam/access-keys-extra/step8.png"/>
+9. Repeat steps number 4 - 8 to check the "Access Keys" for all other IAM users.</br>
