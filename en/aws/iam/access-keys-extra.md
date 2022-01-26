@@ -23,4 +23,4 @@
 6. To remove the extra "Access Key" click on the cross(×) symbol at the extreme right to remove the selected key.</br> <img src="/resources/aws/iam/access-keys-extra/step6.png"/>
 7. Click on "Deactivate" button in the delete confirmation popup box.</br><img src="/resources/aws/iam/access-keys-extra/step7.png"/>
 8. Enter "Access key Id" in the text box and press the "Delete" button to delete the extra "Access Key".</br><img src="/resources/aws/iam/access-keys-extra/step8.png"/>
-9. Repeat steps number 3 - 5 to check the "Access Keys" for another user.</br>
+9. Repeat steps number 4 - 8 to check the "Access Keys" for all other IAM users.</br>
