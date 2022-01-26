@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/access-keys-extra/step2.png"/>
-3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/access-keys-extra/step3.png"/>
+3. Scroll down the left navigation panel and choose "Users" under "Access Management". </br><img src="/resources/aws/iam/access-keys-extra/step3.png"/>
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User" and go to its configuration page.</br><img src="/resources/aws/iam/access-keys-extra/step4.png"/>
 5. Under "Security Credentials" tab check the number of "Access Key ID". If there are more than "One Access Key ID" for the selected user than it increases the chance of accidental exposure.</br><img src="/resources/aws/iam/access-keys-extra/step5.png"/>
 6. To remove the extra "Access Key" click on the cross(×) symbol at the extreme right to remove the selected key.</br> <img src="/resources/aws/iam/access-keys-extra/step6.png"/>
