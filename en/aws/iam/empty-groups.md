@@ -15,7 +15,7 @@
 | **Recommended Action** | Remove unused groups without users |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/empty-groups/step2.png"/>
 3. Scroll down the left navigation panel and choose "Groups". </br><img src="/resources/aws/iam/empty-groups/step3.png"/>
 4. Under the "Groups" configuration panel check the "Users" column.If the "Users" column won't have any user make sure to delete that "Group" as it could potentially introduce risks in the future. </br><img src="/resources/aws/iam/empty-groups/step4.png"/>
