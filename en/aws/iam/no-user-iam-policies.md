@@ -15,4 +15,10 @@
 | **Recommended Action** | Create groups with the required policies, move the IAM users to the applicable groups, and then remove the inline and directly attached policies from the IAM user. |
 
 ## Detailed Remediation Steps
+1. Log in to the AWS Management Console.
+2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/maximum-password-age/step2.png"/>
+3. Scroll down the left navigation panel and select "Users" under "Access management".</br><img src="/resources/aws/iam/maximum-password-age/step3.png"/>
+4. Click on the IAM User name that you want to inspect.</br><img src="/resources/aws/iam/maximum-password-age/step4.png"/>
+5. Scroll down on the IAM user configuration page and click on the "Permissions" tab.</br><img src="/resources/aws/iam/maximum-password-age/step5.png"/>
+6. 
 
