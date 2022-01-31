@@ -16,3 +16,5 @@
 
 ## Detailed Remediation Steps
 
+1. Log in to the AWS Management Console.
+2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/access-keys-extra/step2.png"/>
