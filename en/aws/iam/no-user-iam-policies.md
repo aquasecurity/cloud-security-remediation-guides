@@ -19,7 +19,7 @@
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/no-user-iam-policies/step2.png"/>
 3. Scroll down the left navigation panel and select "Users" under "Access management".</br><img src="/resources/aws/iam/no-user-iam-policies/step3.png"/>
 4. Click on the IAM User name that you want to inspect.</br><img src="/resources/aws/iam/no-user-iam-policies/step4.png"/>
-5. Scroll down on the IAM user configuration page and click on the "Permissions" tab.</br><img src="/resources/aws/iam/no-user-iam-policiese/step5.png"/>
+5. Scroll down on the IAM user configuration page and click on the "Permissions" tab.</br><img src="/resources/aws/iam/no-user-iam-policies/step5.png"/>
 6. Ensure that there are no policies "Attached directly". </br><img src="/resources/aws/iam/no-user-iam-policies/step6.png"/>
 7. If there are any policies "Attached directly" then they should be removed and assigned through either a group or role.</br><img src="/resources/aws/iam/no-user-iam-policies/step7.png"/>
 8. Repeat steps no. 4 – 7 for all IAM users.
