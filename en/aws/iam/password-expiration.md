@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable password expiration for the account |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/password-expiration/step2.png"/>
 3. Scroll down the left navigation panel and choose "Account Settings". </br><img src="/resources/aws/iam/password-expiration/step3.png"/>
 4. Under the "Password Policy" configuration panel scroll down and check the "Enable password expiration". If the "Enable password expiration" checkbox is not ticked then the password won't expire in any number of days. </br><img src="/resources/aws/iam/password-expiration/step4.png"/>
