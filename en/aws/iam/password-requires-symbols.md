@@ -15,7 +15,7 @@
 | **Recommended Action** | Update the password policy to require the use of symbols |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/password-requires-symbols/step2.png"/>
 3. Scroll down the left navigation panel and choose "Account Settings". </br><img src="/resources/aws/iam/password-requires-symbols/step3.png"/>
 4. Under the "Password Policy" configuration panel scroll down and check the "Require at least one non-alphanumeric character". If the checkbox is not selected than the password policy does not  enforces the use of symbols in password.</br><img src="/resources/aws/iam/password-requires-symbols/step4.png"/>
