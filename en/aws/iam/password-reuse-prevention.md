@@ -15,7 +15,7 @@
 | **Recommended Action** | Increase the minimum previous passwords that can be reused to 24. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/password-reuse-prevention/step2.png"/>
 3. Scroll down the left navigation panel and choose "Account Settings". </br><img src="/resources/aws/iam/password-reuse-prevention/step3.png"/>
 4. Under the "Password Policy" configuration panel scroll down and check the "Prevent password reuse ". If the checkbox is not selected than the password policy does not  prevents the reuse of password.</br><img src="/resources/aws/iam/password-reuse-prevention/step4.png"/>
