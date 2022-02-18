@@ -16,8 +16,8 @@
 
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
-2. Click on the AWS account name at the top on AWS management console and click on the "My Security Credentials" from the menu.</br><img src="/resources/aws/iam/root-mfa-enabled/step2.png"/>
-3. On "Your Security Credentials" page scroll down and click on the "Multi-factor authentication (MFA)". Check the "Multi-factor authentication (MFA)" section for any active devices. If the  "Activate MFA" button is showing then a multi-factor authentication device is not enabled for the root account.</br><img src="/resources/aws/iam/root-mfa-enabled/step3.png"/>
+2. Click on the AWS account name at the top on AWS management console and click on the "Security Credentials" from the menu.</br><img src="/resources/aws/iam/root-mfa-enabled/step2.png"/>
+3. On "My security credentials" page scroll down and click on the "Multi-factor authentication (MFA)". Check the "Multi-factor authentication (MFA)" section for any active devices. If the  "Activate MFA" button is showing then a multi-factor authentication device is not enabled for the root account.</br><img src="/resources/aws/iam/root-mfa-enabled/step3.png"/>
 4. Repeat steps number 2 and 3 to check another AWS account.</br>
 5. On "Your Security Credentials" page scroll down and click on the "Multi-factor authentication (MFA)" and click on the "Activate MFA" button to enable a multi-factor authentication device.</br><img src="/resources/aws/iam/root-mfa-enabled/step5.png"/>
 6. Click on the "Virtual MFA device" and click on "Continue". </br><img src="/resources/aws/iam/root-mfa-enabled/step6.png"/>
