@@ -24,4 +24,4 @@
 7. Enter two consecutive MFA codes generated from application in "MFA code 1" and "MFA code 2" and click on the "Assign MFA" button.</br><img src="/resources/aws/iam/root-mfa-enabled/step7.png"/>
 8. On successful setup you will get the message "You have successfully assigned virtual MFA". </br><img src="/resources/aws/iam/root-mfa-enabled/step8.png"/>
 9. Now "Multi-factor authentication (MFA)" is enabled for the root account.</br>
-10. Repeat steps number 2 and 8 to check another AWS account.</br>
+10. Repeat steps number 2 to 8 to check another AWS account.</br>
