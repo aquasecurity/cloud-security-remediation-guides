@@ -15,7 +15,7 @@
 | **Recommended Action** | Remove access keys for the root account and setup IAM users with limited permissions instead |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Click on the AWS account name at the top on AWS management console and click on the "My Security Credentials" from the menu.</br><img src="/resources/aws/iam/root-access-keys/step2.png"/>
 3. On the "Your Security Credentials" page scroll down and click on the "Access keys (access key ID and secret access key)". Check the "Status" column under "Access Keys" and see if there are any "Active" keys in the root account. If there are one or more active keys than AWS account might get compromised against unauthorized access.</br><img src="/resources/aws/iam/root-access-keys/step3.png"/>
 4. Repeat steps number 2 and 3 for other AWS accounts.</br>
