@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/users-password-last-used/step2.png"/>
 3. Scroll down the left navigation panel and choose "Credential report". Click on the "Download Report" button to download a report that lists all your account's users and the status of their various credentials. </br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
-4. Open the downloaded credentials report and check the "password_last_used_date" column for the root account. If the timestamp value is recorded within the last 7 days the above credentials have been used to access the AWS account.</br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
+4. Open the downloaded credentials report and check the "password_last_used_date" column for the root account. If the timestamp value is recorded within the last 7 days the above credentials have been used to access the AWS account.</br><img src="/resources/aws/iam/users-password-last-used/step4.png"/>
 5. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/users-password-last-used/step5.png"/>
 6. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/users-password-last-used/step6.png"/>
 7. Click on the "Security Credentials" tab under the configuration page.</br><img src="/resources/aws/iam/users-password-last-used/step7.png"/>
