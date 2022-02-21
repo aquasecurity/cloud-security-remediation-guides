@@ -21,7 +21,7 @@
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/users-mfa-enabled/step4.png"/>
 5. Click on the "Security Credentials" under the configuration page.</br><img src="/resources/aws/iam/users-mfa-enabled/step5.png"/>
 6. Scroll down the "Security Credentials" tab and check the "Assigned MFA device".Check the "Multi-factor authentication (MFA)" section for any active devices. If "Not assigned " is showing against "Assigned MFA device" than a multi-factor authentication device is not enabled for the selected user account.</br><img src="/resources/aws/iam/users-mfa-enabled/step6.png"/>
-7. Repeat steps number 2 - 6 to check another IAM user.</br>
+7. Repeat steps number 2 - 6 to check other IAM users.</br>
 8. On "Security Credentials" page scroll down and click on the "Multi-factor authentication (MFA)" and click on the "Manage" link to enable a multi-factor authentication device.</br><img src="/resources/aws/iam/users-mfa-enabled/step8.png"/>
 9. Click on the "Virtual MFA device" and click on "Continue". </br><img src="/resources/aws/iam/users-mfa-enabled/step9.png"/>
 10. Now install the AWS MFA compatible application on mobile device or computer. Once the application is installed click on the "Show QR code" and scan the code with pre-installed application.</br><img src="/resources/aws/iam/users-mfa-enabled/step10.png"/>
