@@ -34,4 +34,5 @@
 17. Now install the AWS MFA compatible application on mobile device or computer. Once the application is installed click on the "Show QR code" and scan the code with pre-installed application.</br><img src="/resources/aws/iam/root-account-in-use/step17.png"/>
 18. Enter two consecutive MFA codes generated from application in "MFA code 1" and "MFA code 2" and click on the "Assign MFA" button.</br><img src="/resources/aws/iam/root-account-in-use/step18.png"/>
 19. On successful setup will get the following message "You have successfully assigned virtual MFA". </br><img src="/resources/aws/iam/root-account-in-use/step19.png"/>
+20. These steps ensure that the root account is not being actively used to administer the AWS services.
 
