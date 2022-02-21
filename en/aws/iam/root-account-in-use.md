@@ -28,10 +28,10 @@
 11. Provide the "Key" and "Value" in the "Add tags (optional)" page. Tags can be used to organize, track, or control access for the user. 
 12. Click on the "Next: Review" button to verify the new IAM user configuration details.</br><img src="/resources/aws/iam/root-account-in-use/step12.png"/>
 13. On the "Review" page click on the "Create user" button to create the new user.</br><img src="/resources/aws/iam/root-account-in-use/step13.png"/>
-15. To assign MFA to new IAM user click on the "User name" column under the "Users" page.</br><img src="/resources/aws/iam/root-account-in-use/step15.png"/>
-16. Click on the "Security Credentials" tab at the menu and check the option for "Assigned MFA device".</br><img src="/resources/aws/iam/root-account-in-use/step16.png"/>
-17. Click on the "Manage" option to assign the "MFA device" of the choice. Click on the "Virtual MFA device" and click on "Continue". </br><img src="/resources/aws/iam/root-account-in-use/step17.png"/>
-18. Now install the AWS MFA compatible application on mobile device or computer. Once the application is installed click on the "Show QR code" and scan the code with pre-installed application.</br><img src="/resources/aws/iam/root-account-in-use/step18.png"/>
-19. Enter two consecutive MFA codes generated from application in "MFA code 1" and "MFA code 2" and click on the "Assign MFA" button.</br><img src="/resources/aws/iam/root-account-in-use/step19.png"/>
-20. On successful setup will get the following message "You have successfully assigned virtual MFA". </br><img src="/resources/aws/iam/root-account-in-use/step20.png"/>
+14. To assign MFA to new IAM user click on the "User name" column under the "Users" page.</br><img src="/resources/aws/iam/root-account-in-use/step14.png"/>
+15. Click on the "Security Credentials" tab at the menu and check the option for "Assigned MFA device".</br><img src="/resources/aws/iam/root-account-in-use/step15.png"/>
+16. Click on the "Manage" option to assign the "MFA device" of the choice. Click on the "Virtual MFA device" and click on "Continue". </br><img src="/resources/aws/iam/root-account-in-use/step16.png"/>
+17. Now install the AWS MFA compatible application on mobile device or computer. Once the application is installed click on the "Show QR code" and scan the code with pre-installed application.</br><img src="/resources/aws/iam/root-account-in-use/step18.png"/>
+18. Enter two consecutive MFA codes generated from application in "MFA code 1" and "MFA code 2" and click on the "Assign MFA" button.</br><img src="/resources/aws/iam/root-account-in-use/step18.png"/>
+19. On successful setup will get the following message "You have successfully assigned virtual MFA". </br><img src="/resources/aws/iam/root-account-in-use/step19.png"/>
 
