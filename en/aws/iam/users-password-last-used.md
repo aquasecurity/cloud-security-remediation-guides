@@ -15,7 +15,7 @@
 | **Recommended Action** | Delete old user accounts that allow password-based logins and have not been used recently. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/users-password-last-used/step2.png"/>
 3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/users-password-last-used/step4.png"/>
