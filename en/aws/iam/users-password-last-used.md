@@ -17,12 +17,12 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/users-password-last-used/step2.png"/>
-3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
-4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/users-password-last-used/step4.png"/>
-5. Click on the "Security Credentials" under the configuration page.</br><img src="/resources/aws/iam/users-password-last-used/step5.png"/>
-6. Scroll down the "Security Credentials" tab and check the "Console password".Check the "Console password" section for "last signed in". If "last signed in" is showing for the period more than 180 days than the password is not been used for a period of time.</br><img src="/resources/aws/iam/users-password-last-used/step6.png"/>
-7. Repeat steps number 2 - 6 to verify for other IAM users.</br>
-8. Go to the "Users" page and select the "User" whose password is not been used for a period of time now. </br><img src="/resources/aws/iam/users-password-last-used/step8.png"/>
-9. Click on the "Delete user" button at the top to delete the selected user. </br><img src="/resources/aws/iam/users-password-last-used/step9.png"/>
-10. On the "Delete user" tab click on the "Yes, delete" button to delete the selected IAM user. </br><img src="/resources/aws/iam/users-password-last-used/step10.png"/>
-11. Repeat steps number 8 - 10 to delete the other IAM users whose passwords are not used for a period of time. </br>
+3. Scroll down the left navigation panel and choose "Credential report". Click on the "Download Report" button to download a report that lists all your account's users and the status of their various credentials. </br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
+4. Open the downloaded credentials report and check the "password_last_used_date" column for the root account. If the timestamp value is recorded within the last 7 days the above credentials have been used to access the AWS account.</br><img src="/resources/aws/iam/users-password-last-used/step3.png"/>
+5. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/users-password-last-used/step5.png"/>
+6. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/users-password-last-used/step6.png"/>
+7. Click on the "Security Credentials" tab under the configuration page.</br><img src="/resources/aws/iam/users-password-last-used/step7.png"/>
+8. Under the "Security Credentials" tab check the "Console password" section for status "Enabled/Disabled". If the status is "Enabled" then the console sign in is enabled and needs to be disabled. </br><img src="/resources/aws/iam/users-password-last-used/step8.png"/>
+9. Click on "Manage" to open "Manage console acess" pop up. </br><img src="/resources/aws/iam/users-password-last-used/step9.png"/>
+10. Select "Disable" for the Console access and click on "Apply" button. </br><img src="/resources/aws/iam/users-password-last-used/step10.png"/>
+11. Repeat steps number 2 - 11 to verify for other IAM users.</br>
