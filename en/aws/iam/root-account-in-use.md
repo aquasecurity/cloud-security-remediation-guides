@@ -15,7 +15,7 @@
 | **Recommended Action** | Create IAM users with appropriate group-level permissions for account access. Create an MFA token for the root account, and store its password and token generation QR codes in a secure place. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/root-account-in-use/step2.png"/>
 3. Scroll down the left navigation panel and choose "Credential report". Click on the "Download Report" button to download a report that lists all your account's users and the status of their various credentials. </br><img src="/resources/aws/iam/root-account-in-use/step3.png"/>
 4. Open the downloaded credentials report and check the "password_last_used_date" column for the root account. If the timestamp value is recorded within the last 7 days the above credentials have been used to access the AWS account.</br>
