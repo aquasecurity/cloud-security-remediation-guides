@@ -27,8 +27,7 @@
 10. On the "Configure key" page select key type as "Symmetric". In the Advanced options select "KMS" in the Key material origin and Regionality as "Single-Region key" and click "Next" button.</br> <img src="/resources/aws/kms/kms-default-key-usage/step10.png"/>
 11. On the "Add labels" page add alias and description page provide the "Alias" and "Description" for the new "KMS key" and click on the "Next" button. </br> <img src="/resources/aws/kms/kms-default-key-usage/step11.png"/>
 12. On the "Define key administrative permissions" page select the "IAM users" and roles who can administer the new "KMS key" through the KMS API. Click on the "Next" button at the bottom to continue the new "KMS key" process.</br> <img src="/resources/aws/kms/kms-default-key-usage/step12.png"/>
-14. Click on the "Next" button at the bottom to continue the new "KMS key" process.</br> <img src="/resources/aws/kms/kms-default-key-usage/step13.png"/>
-15. On the "Define key usage permissions" page select the IAM users and roles that can use the CMK to encrypt and decrypt data with the "AWS KMS API" and click on the "Next" button.<br> <img src="/resources/aws/kms/kms-default-key-usage/step14.png"/>
-16. On the "Review and edit key policy" page review the policy and click on the "Finish" button to create a new "KMS key" which can be used to encrypt/decrypt the data.</br> <img src="/resources/aws/kms/kms-default-key-usage/step15.png"/>
-17. Replace the "Default KMS key" with newly created "Customer managed key".</br>
-18. Repeat steps number 9 - 16 to avoid using the default KMS key.</br>
+13. On the "Define key usage permissions" page select the IAM users and roles that can use the CMK to encrypt and decrypt data with the "AWS KMS API" and click on the "Next" button.<br> <img src="/resources/aws/kms/kms-default-key-usage/step13.png"/>
+14. On the "Review and edit key policy" page review the policy and click on the "Finish" button to create a new "KMS key" which can be used to encrypt/decrypt the data.</br> <img src="/resources/aws/kms/kms-default-key-usage/step14.png"/>
+15. Replace the "Default KMS key" with newly created "Customer managed key".</br>
+16. Repeat steps number 9 - 16 to avoid using the default KMS key.</br>
