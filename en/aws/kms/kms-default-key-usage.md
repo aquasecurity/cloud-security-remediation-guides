@@ -20,7 +20,7 @@
 3. Scroll down the left navigation panel and choose "AWS managed keys" under "Key Management Service".</br> <img src="/resources/aws/kms/kms-default-key-usage/step3.png"/>
 4. Select the "KMS key" that needs to be verified by clicking on the alias of the key under "Alias".</br> <img src="/resources/aws/kms/kms-default-key-usage/step4.png"/>
 5. On the "AWS managed keys" page verify the "General configuration" and check the "Description" tab. If "Default master key"(for e.g. aws/ebs) is showing than the selected "Amazon KMS key" is a default master key.</br> <img src="/resources/aws/kms/kms-default-key-usage/step5.png"/>
-6. Naviagte to the "EC2 dashboard" and select the "Snapshots" under "ELASTIC BLOCK STORE".</br> <img src="/resources/aws/kms/kms-default-key-usage/step6.png"/>
+6. Naviagte to the "EC2 dashboard" and select the "Snapshots" under "Elastic Block Store".</br> <img src="/resources/aws/kms/kms-default-key-usage/step6.png"/>
 7. Select the "Snapshot" that needs to be verified and check the "Description" tab from the bottom panel. Check the "KMS Key Aliases" and if the value is set to "aws/ebs then the selected EBS volume is using the default master key.</br> <img src="/resources/aws/kms/kms-default-key-usage/step7.png"/>
 8. Repeat steps number 2 - 7 to verify other "KMS Default keys Usage" in the selected region.</br>
 9. Navigate to "KMS key" dashbaord and click on the "Create key" button at the top panel to create a new "KMS key".</br> <img src="/resources/aws/kms/kms-default-key-usage/step9.png"/>
