@@ -15,7 +15,7 @@
 | **Recommended Action** | Avoid using the default KMS key |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for KMS. </br> <img src="/resources/aws/kms/kms-default-key-usage/step2.png"/>
 3. Scroll down the left navigation panel and choose "AWS managed keys" under "Key Management Service".</br> <img src="/resources/aws/kms/kms-default-key-usage/step3.png"/>
 4. Select the "KMS key" that needs to be verified by clicking on the alias of the key under "Alias".</br> <img src="/resources/aws/kms/kms-default-key-usage/step4.png"/>
