@@ -15,7 +15,7 @@
 | **Recommended Action** | Modify the KMS key policy to remove any wildcards and limit the number of users and roles that can perform encrypt and decrypt operations using the key. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for KMS. </br> <img src="/resources/aws/kms/kms-key-policy/step2.png"/>
 3. Scroll down the left navigation panel and choose "Customer managed keys" under "Key Management Service".</br> <img src="/resources/aws/kms/kms-key-policy/step3.png"/>
 4. Select the "KMS key" that needs to be verified.</br> <img src="/resources/aws/kms/kms-key-policy/step4.png"/>
