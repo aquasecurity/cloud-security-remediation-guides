@@ -33,4 +33,4 @@
 12. Click on the "Enable" button next to the "S3 encryption" to enable the encryption. </br><img src="/resources/aws/kinesis/kinesis-streams-encrypted/step8.png"/>
 13. Choose the "KMS master key" from the dropdown list. Choose either the ("Default( aws/s3 )") KMS key or an AWS KMS Customer Master Key (CMK).</br><img src="/resources/aws/kinesis/kinesis-streams-encrypted/step9.png"/>
 14. Click on the "Save" button to make the necessary changes. On the successful configuration changes, one will get "Successfully updated delivery stream" message. </br> <img src="/resources/aws/kinesis/kinesis-streams-encrypted/step10.png"/>
-15. Repeat steps number 4 and 7 to verify all other "Firehose Delivery System".</br>
+15. Repeat steps number 4 and 7 to verify all other "Firehose Delivery System"..</br>
