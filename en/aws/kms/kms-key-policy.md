@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for KMS. </br> <img src="/resources/aws/kms/kms-key-policy/step2.png"/>
 3. Scroll down the left navigation panel and choose "Customer managed keys" under "Key Management Service".</br> <img src="/resources/aws/kms/kms-key-policy/step3.png"/>
-4. Select the "KMS key" that needs to be verified.</br> <img src="/resources/aws/kms/kms-key-policy/step4.png"/>
+4. Select the "KMS key" that needs to be verified. Click on the Alias of the selected KMS key to reach its configuration page. </br> <img src="/resources/aws/kms/kms-key-policy/step4.png"/>
 5. On the "Customer managed keys" page scroll down and on the "Key policy" tab click on the "Switch to policy view" button.</br> <img src="/resources/aws/kms/kms-key-policy/step5.png"/>
 6. In the "key policy" tab if the "Principal" element value is set to ("AWS" : * ) and there are no Condition clauses to filter the access then the selected "KMS policy" is using wildcards.</br> <img src="/resources/aws/kms/kms-key-policy/step6.png"/>
 7. Repeat step number 2 - 6 to verify other "KMS key" in the region.</br>
