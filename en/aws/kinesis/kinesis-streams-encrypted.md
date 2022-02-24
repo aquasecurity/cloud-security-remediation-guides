@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable encryption using KMS for all Kinesis Streams. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for "Kinesis". </br><img src="/resources/aws/kinesis/kinesis-streams-encryption/step2.png"/>
 3. Under the "Amazon Kinesis dashboard" choose "Data Firehose" from the left navigation panel. </br><img src="/resources/aws/kinesis/kinesis-streams-encryption/step3.png"/>
 4. Select the "Firehose Delivery System" that needs to be verified and click on the "Name" to access the delivery stream.</br><img src="/resources/aws/kinesis/kinesis-streams-encryption/step4.png"/>
