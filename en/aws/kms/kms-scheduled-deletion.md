@@ -15,7 +15,7 @@
 | **Recommended Action** | Disable the key deletion before the scheduled deletion time. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for KMS. </br> <img src="/resources/aws/kms/kms-scheduled-deletion/step2.png"/>
 3. Scroll down the left navigation panel and choose "Customer Managed Keys" under "Key Management Service".</br> <img src="/resources/aws/kms/kms-scheduled-deletion/step3.png"/>
 4. Verify the "KMS keys" that are scheduled for deletion and "Status" is shown as "Pending deletion" under the "Customer managed keys".</br> <img src="/resources/aws/kms/kms-scheduled-deletion/step4.png"/>
