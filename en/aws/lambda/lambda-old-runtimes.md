@@ -24,5 +24,5 @@
 7. To update the "Runtime settings" click on "Edit". </br> <img src="/resources/aws/lambda/lambda-old-runtimes/step7.png"/>
 8. On the "Edit runtime settings" open the "Runtime" dropdown.</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step8.png"/>
 9. From the "Runtime" dropdown verify that the function is using the latest version of runtime environment.</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step9.png"/>
-10. If the "Runtime" is not at the latest version then select the latest version from the "Runtime" environment for the selected "Lambda fucntion" and click on the "Save" button at the bottom.</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step10.png"/>
+10. If the "Runtime" is not at the latest version then select the latest version from the "Runtime" environment for the selected "Lambda function" and click on the "Save" button at the bottom.</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step10.png"/>
 11. Repeat steps number 4 - 10 to modify "Runtime" environment for other "Lambda functions" in the selected region.</br>
