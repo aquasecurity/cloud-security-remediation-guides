@@ -18,7 +18,7 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for Lambda. </br> <img src="/resources/aws/lambda/lambda-old-runtimes/step2.png"/>
 3. Scroll down the left navigation panel and choose "Functions".</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step3.png"/>
-4. Select the Lambda function that needs to be verify from "Functions name".</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step4.png"/>
+4. Select the Lambda function that needs to be verified from "Functions name".</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step4.png"/>
 5. On the "Lambda Functions" page scroll down and choose "Configuration".</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step5.png"/>
 6. Scroll down and click on the "Code" tab.</br> <img src="/resources/aws/lambda/lambda-old-runtimes/step6.png"/>
 7. In the "Code" tab scroll down to check the "Runtime settings" and click on "Edit". </br> <img src="/resources/aws/lambda/lambda-old-runtimes/step7.png"/>
