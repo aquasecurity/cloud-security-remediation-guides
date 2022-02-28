@@ -26,5 +26,4 @@
 9. On the "Multi-AZ deployment" section under "Availability & durability" select "Create a standby instance" option.</br><img src="/resources/aws/rds/rds-multiple-az/step9.png"/>
 10. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-multiple-az/step10.png"/>
 11. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-multiple-az/step11.png"/>
-12. Repeat steps number 8 - 12 to enable scaling across multiple availability zones.</br>
-13. Repeat steps number 2 - 6 to check other RDS instances. </br>
+12. Repeat steps number 7 - 11 to enable scaling across multiple availability zones.</br>
