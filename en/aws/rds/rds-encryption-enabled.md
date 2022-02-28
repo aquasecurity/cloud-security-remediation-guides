@@ -26,7 +26,7 @@
 8. Click on the "Actions" button at the top panel and click on "Take snapshot". </br><img src="/resources/aws/rds/rds-encryption-enabled/step8.png"/>
 9. On "Take DB snapshot" page provide a "Snapshot name" which will act as an identifier for the "DB Snapshot" and click on "Take Snapshot" button.</br><img src="/resources/aws/rds/rds-encryption-enabled/step9.png"/>
 10. Select the new created "Snapshot" and click on the "Actions" button at the top menu and click on the "Copy Snapshot" option.</br><img src="/resources/aws/rds/rds-encryption-enabled/step10.png"/>
-11. Under the "Make Copy of DB Snapshot?" configuration page select the "Destination Region" and provide the "New DB Snapshot Identifier" for the new snapshot. </br><img src="/resources/aws/rds/rds-encryption-enabled/step11.png"/>
+11. Under the "Copy snapshot" configuration page select the "Destination Region" and provide the "New DB Snapshot Identifier" for the new snapshot. </br><img src="/resources/aws/rds/rds-encryption-enabled/step11.png"/>
 12. Scroll down the "Make Copy of DB Snapshot?" configuration page and click on "Enable encryption" under Encryption section. Select the "Master key" from dropdown menu and click on the "Copy Snapshot" button.</br><img src="/resources/aws/rds/rds-encryption-enabled/step12.png"/>
 13. Select the new created "Snapshot" and click on the "Actions" button at the top menu and click on the "Restore Snapshot" option.</br><img src="/resources/aws/rds/rds-encryption-enabled/step13.png"/>
 14. On "Restore DB Instance" configuration page review all the configuration settings and provide a unique name to the "DB Instance" under "DB Instance Identifier".</br><img src="/resources/aws/rds/rds-encryption-enabled/step14.png"/>
