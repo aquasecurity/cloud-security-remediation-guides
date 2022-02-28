@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-multiple-az/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-multiple-az/step3.png"/>
-4. Select the "Database" that needs to be verified and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-multiple-az/step4.png"/>
+4. Select the "Database" that needs to be verified and click on the  selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-multiple-az/step4.png"/>
 5. Click on the "Configuration" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-multiple-az/step5.png"/>
 6. Scroll down the "Configuration" tab and check the "Availability" section. Check the "Multi AZ" and if its status is "No " then selected database cannot scale across multiple availability zones .</br><img src="/resources/aws/rds/rds-multiple-az/step6.png"/>
 7. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-multiple-az/step7.png"/>
