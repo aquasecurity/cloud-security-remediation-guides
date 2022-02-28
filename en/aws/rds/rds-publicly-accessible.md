@@ -26,4 +26,4 @@
 9. On the "Public Access" section under "Connectivity" select the "Not publicly accessible" option.</br><img src="/resources/aws/rds/rds-publicly-accessible/step9.png"/>
 10. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-publicly-accessible/step10.png"/>
 11. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-publicly-accessible/step11.png"/>
-12. Repeat steps number 7 - 11 to remove the public endpoint from the RDS instances .</br>
+12. Repeat steps number 7 - 11 to remove the public access from all other RDS instances .</br>
