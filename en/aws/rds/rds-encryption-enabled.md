@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-encryption-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-encryption-enabled/step3.png"/>
 4. Select the "Database" that needs to be verified and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-encryption-enabled/step4.png"/>
