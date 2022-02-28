@@ -19,7 +19,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-encryption-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-encryption-enabled/step3.png"/>
-4. Select the "Database" that needs to be verified and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-encryption-enabled/step4.png"/>
+4. Select the "Database" that needs to be verified and click on the  selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-encryption-enabled/step4.png"/>
 5. Click on the "Configuration" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-encryption-enabled/step5.png"/>
 6. Scroll down the "Configuration" tab and check the "Storage" section.Check the "Encryption" and if it's "Not Enabled" then encryption is not setup for selected RDS instance.</br><img src="/resources/aws/rds/rds-encryption-enabled/step6.png"/>
 7. Select the "Database" on which "Encryption" needs to be enabled.</br><img src="/resources/aws/rds/rds-encryption-enabled/step7.png"/>
