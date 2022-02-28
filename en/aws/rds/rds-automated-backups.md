@@ -21,10 +21,10 @@
 4. Select the "Database" that needs to be verified and click on the  selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-automated-backups/step4.png"/>
 5. Click on the "Maintenance & backups" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-automated-backups/step5.png"/>
 6. Scroll down the "Maintenance & backups" tab and check the "Backup".If the status for "Automated backups" shows "Disabled " than automated backups are not enabled for selected RDS instances.</br><img src="/resources/aws/rds/rds-automated-backups/step6.png"/>
-7. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-automated-backups/step8.png"/>
-8. Scroll down the "Modify DB Instance" page and check for "Backup" section.</br><img src="/resources/aws/rds/rds-automated-backups/step9.png"/>
-9. On the "Backup" section under "Backup retention period" select number of days between 1 to 35. Select the "Start Time" during which the automated backups are created. </br><img src="/resources/aws/rds/rds-automated-backups/step10.png"/>
-10. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-automated-backups/step11.png"/>
-11. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-automated-backups/step12.png"/>
-12. Once the automated backups are enabled,the Automated Backups status should change to "Enabled".</br><img src="/resources/aws/rds/rds-automated-backups/step13.png"/>
+7. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-automated-backups/step7.png"/>
+8. Scroll down the "Modify DB Instance" page and check for "Backup" section.</br><img src="/resources/aws/rds/rds-automated-backups/step8.png"/>
+9. On the "Backup" section under "Backup retention period" select number of days between 1 to 35. Select the "Start Time" during which the automated backups are created. </br><img src="/resources/aws/rds/rds-automated-backups/step9.png"/>
+10. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-automated-backups/step10.png"/>
+11. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-automated-backups/step11.png"/>
+12. Once the automated backups are enabled,the Automated Backups status should change to "Enabled".</br><img src="/resources/aws/rds/rds-automated-backups/step12.png"/>
 13. Repeat steps number 7 - 12 to enable automated backups for other RDS Instances. </br>
