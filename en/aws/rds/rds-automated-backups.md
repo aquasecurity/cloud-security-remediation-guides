@@ -18,9 +18,9 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-automated-backups/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-automated-backups/step3.png"/>
-4. Select the "Database" that needs to be verified and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-automated-backups/step4.png"/>
+4. Select the "Database" that needs to be verified and click on the  selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-automated-backups/step4.png"/>
 5. Click on the "Maintenance & backups" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-automated-backups/step5.png"/>
-6. Scroll down the "Maintenance & backups" tab and check the "Backup".Check the "Automated backups" and if "Disabled " is showing than automated backups are not enabled for selected RDS instances.</br><img src="/resources/aws/rds/rds-automated-backups/step6.png"/>
+6. Scroll down the "Maintenance & backups" tab and check the "Backup".If the status for "Automated backups" shows "Disabled " than automated backups are not enabled for selected RDS instances.</br><img src="/resources/aws/rds/rds-automated-backups/step6.png"/>
 7. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-automated-backups/step8.png"/>
 8. Scroll down the "Modify DB Instance" page and check for "Backup" section.</br><img src="/resources/aws/rds/rds-automated-backups/step9.png"/>
 9. On the "Backup" section under "Backup retention period" select number of days between 1 to 35. Select the "Start Time" during which the automated backups are created. </br><img src="/resources/aws/rds/rds-automated-backups/step10.png"/>
