@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable object versioning for buckets with                         sensitive contents at a minimum and for all buckets                         ideally. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for S3. </br> <img src="/resources/aws/s3/s3-bucket-versioning/step2.png"/>
 3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-versioning/step3.png"/>
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-versioning/step4.png"/>
