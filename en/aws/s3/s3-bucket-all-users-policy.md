@@ -20,7 +20,7 @@
 3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step3.png"/>
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-all-users-policy/step4.png"/>
 5. Click on the "Permissions" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-all-users-policy/step5.png"/>
-6. Check the "Bucket Policy" option under "Properties" abd check the "Effect" and "Principal" value.If the "Effect" element value is set to "Allow" and the "Principal" element value is set to everyone ( * ) then the selected S3 bucket is publicly accessible. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step6.png"/>
+6. Check the "Bucket Policy" option under "Permissions" abd check the "Effect" and "Principal" value.If the "Effect" element value is set to "Allow" and the "Principal" element value is set to everyone ( * ) then the selected S3 bucket is publicly accessible. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other S3 buckets in the region. </br>
 8. Select the publicly accessible S3 bucket that needs to configure and click on the "Permissions" tab and click on the "Bucket Policy" option. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step8.png"/>
 9. In the "Bucket Policy" option either remove the public accessibility by deleting the policy for the selected S3 bucket. Click on the "Delete" option at the top and click on "Delete" button on the "Delete Bucket Policy" tab.</br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step9.png"/>
