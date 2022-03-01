@@ -20,7 +20,7 @@
 3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-logging/step3.png"/>
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-logging/step4.png"/>
 5. Click on the "Properties" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-logging/step5.png"/>
-6. Check the "Server access logging" option under "Properties" and if it's set to "Disable logging" then S3 bucket logging is not enabled for the selected S3 bucket. </br><img src="/resources/aws/s3/s3-bucket-logging/step6.png"/>
+6. Check the "Server access logging" option under "Properties" and if it's set to "Disabled" then S3 bucket logging is not enabled for the selected S3 bucket. </br><img src="/resources/aws/s3/s3-bucket-logging/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other S3 buckets in the region. </br>
 8. Select the "S3 bucket" on which "Logging" needs to be enabled and click on the "Properties" tab. </br><img src="/resources/aws/s3/s3-bucket-logging/step8.png"/>
 9. Click on the "Enable logging" option under "Server access logging" and choose the "Target bucket" from the dropdown menu for storing the logs and provide a unique name under "Target prefix" for the subdirectory where S3 logs will be stored. </br><img src="/resources/aws/s3/s3-bucket-logging/step9.png"/> 
