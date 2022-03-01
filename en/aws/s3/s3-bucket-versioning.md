@@ -21,9 +21,6 @@
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-versioning/step4.png"/>
 5. Click on the "Properties" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-versioning/step5.png"/>
 6. Check the "Bucket Versioning" option under "Properties" and if it's set to "Disabled" then S3 bucket versioning is not enabled for the selected S3 bucket. </br><img src="/resources/aws/s3/s3-bucket-versioning/step6.png"/>
-7. 
-8. Select the "S3 bucket" on which versioning needs to be enabled and click on the "Properties" tab. </br><img src="/resources/aws/s3/s3-bucket-versioning/step8.png"/>
-9. Click on the "Enable versioning" option under "Versioning".</br><img src="/resources/aws/s3/s3-bucket-versioning/step9.png"/>
-10. Click on the "Save" button to make the necessary changes. </br><img src="/resources/aws/s3/s3-bucket-versioning/step10.png"/>
-11. Repeat steps number 8 - 10 to enable versioning for other S3 buckets.</br>
-
+7. To enable ""Bucket Versioning" click on the "Edit" button under "Bucket Versioning". On the "Edit Bucket Versioning" page select "Enable". </br><img src="/resources/aws/s3/s3-bucket-versioning/step7.png"/>
+8. Click on the "Save changes" button to make the necessary changes. </br><img src="/resources/aws/s3/s3-bucket-versioning/step10.png"/>
+9. Repeat steps number 4 - 8 to enable versioning for other S3 buckets.</br>
