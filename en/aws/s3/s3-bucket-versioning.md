@@ -23,4 +23,4 @@
 6. Check the "Bucket Versioning" option under "Properties" and if it's set to "Disabled" then S3 bucket versioning is not enabled for the selected S3 bucket. </br><img src="/resources/aws/s3/s3-bucket-versioning/step6.png"/>
 7. To enable ""Bucket Versioning" click on the "Edit" button under "Bucket Versioning". On the "Edit Bucket Versioning" page select "Enable". </br><img src="/resources/aws/s3/s3-bucket-versioning/step7.png"/>
 8. Click on the "Save changes" button to make the necessary changes. </br><img src="/resources/aws/s3/s3-bucket-versioning/step8.png"/>
-9. Repeat steps number 4 - 8 to enable versioning for other S3 buckets.</br>
+9. Repeat steps number 4 - 8 to enable versioning for other S3 buckets. </br>
