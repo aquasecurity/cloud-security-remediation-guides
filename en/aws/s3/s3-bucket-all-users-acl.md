@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for S3. </br> <img src="/resources/aws/s3/s3-bucket-all-users-acl/step2.png"/>
-3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-logging/step3.png"/>
+3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-all-users-acl/step3.png"/>
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-all-users-acl/step4.png"/>
 5. Click on the "Permissions" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-all-users-acl/step5.png"/>
 6. Check the "Acess Control List" option under "Permissions" and scroll down the configuration page and check the "Block public access (bucket settings). If 
