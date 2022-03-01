@@ -23,4 +23,4 @@
 6. Check the "Server access logging" option under "Properties" and if it's set to "Disabled" then S3 bucket logging is not enabled for the selected S3 bucket. </br><img src="/resources/aws/s3/s3-bucket-logging/step6.png"/>
 7. To enable Server access logging click on the "Edit " button  under "Server access logging" option. On the "Edit server access logging" page select "Enable" and choose the "Target bucket" from the dropdown menu for storing the logs.</br><img src="/resources/aws/s3/s3-bucket-logging/step7.png"/>
 8. Click on the "Save changes" button to make the necessary changes. </br><img src="/resources/aws/s3/s3-bucket-logging/step8.png"/>
-9. Repeat steps number 8 - 10 to enable "Logging" for other S3 buckets.</br>
+9. Repeat steps number 4 - 8 to enable "Logging" for other S3 buckets.</br>
