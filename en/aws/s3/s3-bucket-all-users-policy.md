@@ -23,4 +23,4 @@
 6. Check the "Bucket Policy" option under "Permissions" and check the "Effect" and "Principal" value. If the "Effect" element value is set to "Allow" and the "Principal" element value is set to everyone ( * ) then the selected S3 bucket is publicly accessible. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step6.png"/>
 7. Under the "Bucket policy" click "Edit" and replace the Principal element current value with the Amazon Resource Name (ARN) ( e.g. { "AWS": "arn:aws:iam::102604298007:role/aws-elasticbeanstalk-ec2-role" } ) of the AWS account that should have access to the selected S3 bucket.</br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step7.png"/>
 8. Click on the "Save changes" to make the necessary changes. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step8.png"/>
-9. Repeat steps number 4-8 to remove wildcard principals for other S3 buckets. </br>
+9. Repeat steps number 4-8 to remove wildcard principals for other S3 buckets.</br>
