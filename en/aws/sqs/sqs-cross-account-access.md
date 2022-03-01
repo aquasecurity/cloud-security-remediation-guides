@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for SQS. </br> <img src="/resources/aws/sqs/sqs-cross-account-access/step2.png"/>
-3. Select the "SQS" queue that needs to be verify from "Name".</br> <img src="/resources/aws/sqs/sqs-cross-account-access/step3.png"/>
+3. Select the "SQS" queue that needs to be verified by clicking on its "Name".</br> <img src="/resources/aws/sqs/sqs-cross-account-access/step3.png"/>
 4. Scroll down the page and click on the "Access Policy" tab from the bottom panel.</br> <img src="/resources/aws/sqs/sqs-cross-account-access/step4.png"/>
 5. Check the "Principal" key under "Access policy (Permissions)" and if set to "*" or an "AWS Account ID" which does not match any of the trusted AWS accounts then the selected "SQS" queue cross-account access is not secured.</br> <img src="/resources/aws/sqs/sqs-cross-account-access/step5.png"/>
 6. To edit the selected "SQS" queue permission click on "Edit button.  </br> <img src="/resources/aws/sqs/sqs-cross-account-access/step6.png"/>
