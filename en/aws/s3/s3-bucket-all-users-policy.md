@@ -15,7 +15,7 @@
 | **Recommended Action** | Remove wildcard principals from the bucket policy statements. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for S3. </br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step2.png"/>
 3. Scroll down the left navigation panel and choose "Buckets".</br> <img src="/resources/aws/s3/s3-bucket-all-users-policy/step3.png"/>
 4. Select the "Bucket" that needs to be verified and click on its identifier(name) from the "Bucket name" column.</br><img src="/resources/aws/s3/s3-bucket-all-users-policy/step4.png"/>
