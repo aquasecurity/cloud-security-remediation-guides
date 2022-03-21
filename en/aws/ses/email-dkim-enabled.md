@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable DKIM for all domains and addresses in all regions used to send email through SES. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for SES. </br> <img src="/resources/aws/ses/email-dkim-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Domains/Email Addresses" under "Identity Management".</br> <img src="/resources/aws/ses/email-dkim-enabled/step3.png"/>
 4. Select the identity either "Domains/Email Addresses" which needs to be verified and click on the "View Details" button at the top.</br> <img src="/resources/aws/ses/email-dkim-enabled/step4.png"/>
