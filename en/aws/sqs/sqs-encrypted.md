@@ -15,7 +15,7 @@
 | **Recommended Action** | Enable encryption using KMS for all SQS queues. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for SQS. </br> <img src="/resources/aws/sqs/sqs-encrypted/step2.png"/>
 3. Select the "SQS" queue that needs to be verify from "Name".</br> <img src="/resources/aws/sqs/sqs-encrypted/step3.png"/>
 4. Scroll down the page and click on the "Encryption" tab from the bottom panel.</br> <img src="/resources/aws/sqs/sqs-encrypted/step4.png"/>
