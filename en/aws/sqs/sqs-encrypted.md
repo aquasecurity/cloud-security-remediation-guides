@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for SQS. </br> <img src="/resources/aws/sqs/sqs-encrypted/step2.png"/>
-3. Select the "SQS" queue that needs to be verify from "Name".</br> <img src="/resources/aws/sqs/sqs-encrypted/step3.png"/>
+3. Select the "SQS" queue that needs to be verified and click on its "Name".</br> <img src="/resources/aws/sqs/sqs-encrypted/step3.png"/>
 4. Scroll down the page and click on the "Encryption" tab from the bottom panel.</br> <img src="/resources/aws/sqs/sqs-encrypted/step4.png"/>
 5. Check the "Server Side Encryption" status for the selected "SQS" queue. If the "Server Side Encryption" is not configured then the following message is  displayed "No server-side encryption is set for this queue". SSE protects the content of messages in Amazon SQS queues using keys managed in the AWS Key Management Service (AWS KMS)".</br> <img src="/resources/aws/sqs/sqs-encrypted/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "SQS" queue in the selected AWS region.</br>
