@@ -21,4 +21,4 @@
 4. Select the identity "Email Address" which needs to be verified and click on the "Identiy".</br> <img src="/resources/aws/ses/email-dkim-enabled/step4.png"/>
 5. In the identity configuration page, you will see this message at the top of the page "Verify ownership of this identity, check your inbox for a verification request email and click the link provided.</br> <img src="/resources/aws/ses/email-dkim-enabled/step5.png"/>
 6. Once the email is verified via link provided your status will change to "Verified" on the "Verified identities" page.</br> <img src="/resources/aws/ses/email-dkim-enabled/step6.png"/>
-7. Repeat step number 3 - 5 to verify all other Email Address identities ".</br>
+7. Repeat step number 3 - 5 to verify all other Email Address identities.</br>
