@@ -15,4 +15,6 @@
 | **Recommended Action** | Adjust the topic policy to only allow authorized AWS users in known accounts to subscribe. |
 
 ## Detailed Remediation Steps
+1. Log in to the AWS Management Console.
+2. Select the "Services" option and search for SNS. </br> <img src="/resources/aws/sns/sns-topic-policies/step2.png"/>
 
