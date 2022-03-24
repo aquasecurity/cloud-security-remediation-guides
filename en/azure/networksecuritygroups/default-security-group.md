@@ -18,7 +18,7 @@
 
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step2.png"/>
-3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step3.png"/>
+3. Select the "Network security group" that needs to be verified and click on its "Name". </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step3.png"/>
 4. Scroll down the left navigation panel and select the "Inbound security rules" under "Settings." </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step4.png"/>
 5. Under the "Inbound security rules" please make sure traffic is "Deny" for all ports for the best practice. If not, then the selected "Default security group" is not as per the best practices recommended by Azure.</br> <img src="/resources/azure/networksecuritygroups/default-security-group/step5.png"/>
 6. Repeat step number 5 for the "Outbound security rules" as well. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step6.png"/>
