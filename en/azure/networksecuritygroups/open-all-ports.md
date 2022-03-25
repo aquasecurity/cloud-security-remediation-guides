@@ -26,5 +26,5 @@
 8. Navigate to the "Network security group" and select the security group that needs to modify for restricting the other ports to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step9.png"/>
 10. Click on "Name" column of the "SSH or any" protocol you want to modify. </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step10.png"/>
-11. In the right pane, under "Source" select the "IP Addresses" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action, enter the priority and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step11.png"/>
+11. In the right pane, under "Source" select the "IP Addresses" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action, enter the priority and click on the "Save" option at the top of the pane. </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step11.png"/>
 12. Repeat steps number 8 - 11 to restrict ports to known IP addresses .</br>
