@@ -29,6 +29,7 @@
 11. Click on the newly created "Network Security Group" and select the "Inbound security rules" under Security.</br>  <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
 12. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step12.png"/>
 13. Once the new security group has all the same rules, navigate to the "Resources" using those Security Groups and change the groups accordingly.</br>
-14. Navigate to "Network Security Group" and delete the old "Security Groups" to prevent accidental authorizations.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step13.png"/>
-15. Repeat steps number 8 - 13 to limit the number of security groups to prevent accidental authorizations.</br>
+14. Navigate to "Network Security Groups" and  select the old "Security Groups" by clicking on its name and delete it by clicking "Delete" at the top of the page to prevent accidental authorizations.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step14.png"/>
+15. In the "Delete network security group" dialougue box click "Yes" to finish deletion process..</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step15.png"/>
+16. Repeat steps number 8 - 15 to limit the number of security groups to prevent accidental authorizations.</br>
 
