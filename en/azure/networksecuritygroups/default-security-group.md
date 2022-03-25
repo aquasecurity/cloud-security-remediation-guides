@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step2.png"/>
+2. In the search box at the top search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step2.png"/>
 3. Select the "Network security group" that needs to be verified and click on its "Name". </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step3.png"/>
 4. Scroll down the left navigation panel and select the "Inbound security rules" under "Settings." </br> <img src="/resources/azure/networksecuritygroups/default-security-group/step4.png"/>
 5. Under the "Inbound security rules" check "Name" "DenyAllInBound" is present and traffic status is set to "Deny" under "Action" column. If it is not present, then the selected "Default security group" is not as per the best practices recommended by Azure.</br> <img src="/resources/azure/networksecuritygroups/default-security-group/step5.png"/>
