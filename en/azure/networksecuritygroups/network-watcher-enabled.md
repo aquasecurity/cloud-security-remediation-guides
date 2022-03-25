@@ -21,9 +21,8 @@
 3. On the "Network Watcher" page, click on the Overview tab and check the status of the "Network Watcher."</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step3.png"/>
 4. On the "Overveiw" tab if you do not see any Network watcher listed then you do not have any Network Watcher enabled. </br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step4.png"/>
 5. Repeat steps number 2 - 4 to check the status of Network Watcher in other Azure accounts.</br> 
-6. Navigate to "Network Watcher" and click on the Overview page. </br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step6.png"/>
-7. Click on the "Add" button at the top to create a Network watcher.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step7.png"/>
-8. On the "Add network watcher" pane that opens on the right, choose the "Subscription" and then click on  "Select All" to select all locations under "Region".</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step7.png"/>
-9. Click "Add" button at the bottom of the screen to create your Network watcher.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step7.png"/>
-12. Now we have a Network Watcher service Enabled for all locations.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step12.png"/>
+6. Navigate to "Network Watcher" and click on the Overview page. Click on the "Add" button at the top to create a Network watcher. </br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step6.png"/>
+7. On the "Add network watcher" pane that opens on the right, choose the "Subscription" and then click on  "Select All" to select all locations under "Region".</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step7.png"/>
+8. Click "Add" button at the bottom of the screen to create your Network watcher.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step8.png"/>
+9. Now we have a Network Watcher service Enabled for all locations.</br> <img src="/resources/azure/networksecuritygroups/network-watcher-enabled/step9.png"/>
 
