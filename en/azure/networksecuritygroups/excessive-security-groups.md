@@ -25,9 +25,10 @@
 7. Repeat steps number 2 - 6 to verify other "Security Groups" in the account.</br>
 8. Navigate to the "Network security groups" and click on the "Create" button at the top to add new security groups having common security rules.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step8.png"/>
 9. On the "Create a network security group" page enter the details Resource Group, Name, Details and click on the "Review+Create" button to make the changes.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step9.png"/>
-10. Click on the newly created "Network Security Group" and select the "Inbound security rules" under Security.</br>  <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step10.png"/>
-11. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
-12. Once the new security group has all the same rules, navigate to the "Resources" using those Security Groups and change the groups accordingly.</br>
-13. Navigate to "Network Security Group" and delete the old "Security Groups" to prevent accidental authorizations.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step13.png"/>
-14. Repeat steps number 8 - 13 to limit the number of security groups to prevent accidental authorizations.</br>
+10. On the Review page, click on the "Create" button to proceed. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step10.png"/>
+11. Click on the newly created "Network Security Group" and select the "Inbound security rules" under Security.</br>  <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
+12. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
+13. Once the new security group has all the same rules, navigate to the "Resources" using those Security Groups and change the groups accordingly.</br>
+14. Navigate to "Network Security Group" and delete the old "Security Groups" to prevent accidental authorizations.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step13.png"/>
+15. Repeat steps number 8 - 13 to limit the number of security groups to prevent accidental authorizations.</br>
 
