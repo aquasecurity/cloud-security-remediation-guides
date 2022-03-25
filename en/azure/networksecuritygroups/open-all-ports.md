@@ -22,7 +22,7 @@
 4. Click on the "Name" of the selected "Network security group" to access the port configurations. </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step4.png"/>
 5. In the "Overview" tab scroll down the page and check the "Inbound security rules." </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step5.png"/>
 6. On the "Inbound security rules" page under the "Settings", please verify all the ports apart from HTTP/HTTPS are not open to public and if any port such as SSH is open to the public then it's not as per the recommendation of Azure best practices.</br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step6.png"/>
-7. Repeat steps number 2 - 6 to verify other "Network security group." </br>
+7. Repeat steps number 2 - 6 to verify other "Network security groups". </br>
 8. Navigate to the "Network security group" and select the security group that needs to modify for restricting the other ports to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step9.png"/>
 10. Click on "Name" column of the "SSH or any" protocol you want to modify. </br> <img src="/resources/azure/networksecuritygroups/open-all-ports/step10.png"/>
