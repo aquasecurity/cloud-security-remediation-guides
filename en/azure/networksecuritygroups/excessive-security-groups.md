@@ -27,7 +27,7 @@
 9. On the "Create a network security group" page enter the details Resource Group, Name, Details and click on the "Review+Create" button to make the changes.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step9.png"/>
 10. On the Review page, click on the "Create" button to proceed. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step10.png"/>
 11. Click on the newly created "Network Security Group" and select the "Inbound security rules" under Security.</br>  <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
-12. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
+12. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step12.png"/>
 13. Once the new security group has all the same rules, navigate to the "Resources" using those Security Groups and change the groups accordingly.</br>
 14. Navigate to "Network Security Group" and delete the old "Security Groups" to prevent accidental authorizations.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step13.png"/>
 15. Repeat steps number 8 - 13 to limit the number of security groups to prevent accidental authorizations.</br>
