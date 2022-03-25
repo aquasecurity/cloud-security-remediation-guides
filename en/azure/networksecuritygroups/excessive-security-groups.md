@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step2.png"/>
+2. Select the Search bar at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step2.png"/>
 3. Verify the number of Security Groups which are having the same security rules and used separately. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step3.png"/>
 4. Click on the "Name" of the selected "Network security group" to access the port configurations. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step4.png"/>
 5. In the "Overview" tab scroll down the page and check the "Inbound security rules." </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step5.png"/>
