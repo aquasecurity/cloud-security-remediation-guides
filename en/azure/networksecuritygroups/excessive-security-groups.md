@@ -23,7 +23,7 @@
 5. In the "Overview" tab scroll down the page and check the "Inbound security rules." </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step5.png"/>
 6. Copy the Inbound and Outbound "security rules" which are in common in both the security groups.</br>
 7. Repeat steps number 2 - 6 to verify other "Security Groups" in the account.</br>
-8. Navigate to the "Network security group" and click on the "Add" button at the top to add new security groups having common security rules.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step8.png"/>
+8. Navigate to the "Network security groups" and click on the "Create" button at the top to add new security groups having common security rules.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step8.png"/>
 9. On the "Create a network security group" page enter the details Resource Group, Name, Details and click on the "Review+Create" button to make the changes.</br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step9.png"/>
 10. Click on the newly created "Network Security Group" and select the "Inbound security rules" under Security.</br>  <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step10.png"/>
 11. Click on the "Add" button at the top and paste the rules copied in Step 6. </br> <img src="/resources/azure/networksecuritygroups/excessive-security-groups/step11.png"/>
