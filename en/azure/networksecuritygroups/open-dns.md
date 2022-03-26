@@ -24,7 +24,7 @@
 5. In the "Overview" tab scroll down the page and check the "Inbound security rules" under the "Settings". </br> <img src="/resources/azure/networksecuritygroups/open-dns/step5.png"/>
 6. If the "DNS" for port 53 with the protocol "TCP/UDP" is showing as "Allow" in column "Action" for all "Source" and "Destination" then the selected  "Network security group" has TCP/UDP port 53 for DNS open to the public. </br> <img src="/resources/azure/networksecuritygroups/open-dns/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other "Network security groups." </br>
-8. Navigate to the "Network security group" and select the security group that needs to be modified for restricting the "TCP/UDP" port for DNS on port 53 to specific IP Address.</br><img src="/resources/azure/networksecuritygroups/open-dns/step8.png"/>
+8. Navigate to the "Network security groups" and select the security group that needs to be modified for restricting the "TCP/UDP" port for DNS on port 53 to specific IP Address.</br><img src="/resources/azure/networksecuritygroups/open-dns/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-dns/step9.png"/>
 10. Click on the "DNS" protocol in the "Name" column and under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action and click on the "Save" option at the top panel. </br> <img src="/resources/azure/networksecuritygroups/open-dns/step10.png"/>
 11. Repeat steps number 8 - 10 to restrict TCP and UDP port 53 to known IP addresses.</br>
