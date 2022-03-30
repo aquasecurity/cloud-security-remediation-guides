@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-postgresql/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-postgresql/step3.png"/>
 4. Click on the "Name" of the selected "Network security group" to access the port configurations. </br> <img src="/resources/azure/networksecuritygroups/open-postgresql/step4.png"/> 
