@@ -27,4 +27,4 @@
 8. Navigate to the "Network security group" and select the security group that needs to be modified for restricting the "TCP" port for "Oracle" on port 1521 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-oracle/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-oracle/step9.png"/>
 10. Click on the "Oracle" protocol in the "Name" column and in the right pane under "Source" select the "IP Address" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action and click on the "Save" option at the top of the pane. </br> <img src="/resources/azure/networksecuritygroups/open-oracle/step10.png"/>
-11. Repeat steps number 8 - 10 to restrict TCP port 1521 for Oracle to known IP addresses.</br>
+11. Repeat steps number 8 - 10 to restrict TCP port 1521 for Oracle to known IP addresses. </br>
