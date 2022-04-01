@@ -22,7 +22,7 @@
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step3.png"/>
 4. Click on the "Name" of the selected "Network security group" to access the port configurations. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step4.png"/>
 5. In the "Overview" tab scroll down the page and check the "Inbound security rules" under the "Settings". </br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step5.png"/>
-6. If the "VNC-Server" for port 5900 with the protocol "TCP" is showing as "Allow" under column "Action" for all "Source" and "Destination" then the selected  "Network security group" has TCP port 5900 for "VNC-Server" is open to the public. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step6.png"/>
+6. If the "VNC-Server" for port 5900 with the protocol "TCP" is showing as "Allow" under column "Action" for all "Source" and "Destination" then the selected  "Network security group" has TCP port 5900 for "VNC-Server" open to the public. </br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step6.png"/>
 7. Repeat steps number 2 - 6 to verify other "Network security groups". </br>
 8. Navigate to the "Network security group" and select the security group that needs to be modified for restricting the "TCP" port for "VNC-Server" on port 5900 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-vnc-server/step9.png"/>
