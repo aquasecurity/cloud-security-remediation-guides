@@ -17,11 +17,12 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step2.png"/>
-3. Select the "Azure Active Directory."  On the navigation panel, select the "Users" under Manage option.</br><img src="/resources/azure/activedirectory/password-requires-uppercase/step3.png"/>
-4. On the "Users" tab click on the "New User" option at the top.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step4.png"/>
-5. On the "New User" tab, click on the "Create user."</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step5.png"/>
-6. Under the "Identity", enter details like "Username","Name", "First Name","Last Name".</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step6.png"/>
-7. On the "Password" tab, click on the "Let me create the password." </br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step7.png"/>
-8. On the "Initial Tab" enter the password, and if the password doesn't contain any "Symbols such as @, #"   than the Azure will automatically show the error message.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step8.png"/>
-9. Repeat the above steps to create New User with pre-defined "Password Requires Uppercase."</br>
+2. Find the search bar at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step2.png"/>
+3. Select the "Azure Active Directory" and on the left navigation panel, select the "Users" under "Manage".</br><img src="/resources/azure/activedirectory/password-requires-uppercase/step3.png"/>
+4. On the "Users" tab click on "New User" option at the top.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step4.png"/>
+5. On the "New User" page, select "Create user."</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step5.png"/>
+6. Under "Identity", enter details like "Username","Name", "First Name","Last Name".</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step6.png"/>
+7. Under "Password", select "Let me create the password".</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step7.png"/>
+8. In the "Initial password" textbox enter the password, and if the password doesn't contain any uppercase characters then the Azure will automatically show the error message "Unable to create user" when you click on "Create" button at the botton.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step8.png"/>
+9. If you click on the information bubble next to "Initial password" you will find the password combinations you can make.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step9.png"/>
+10. Repeat the above steps to create New User with pre-defined "Password Requires Uppercase."</br>
