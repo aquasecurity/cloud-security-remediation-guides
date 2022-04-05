@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step2.png"/>
 3. Select the "Azure Active Directory."  On the navigation panel, select the "Users" under Manage option.</br><img src="/resources/azure/activedirectory/password-requires-uppercase/step3.png"/>
 4. On the "Users" tab click on the "New User" option at the top.</br> <img src="/resources/azure/activedirectory/password-requires-uppercase/step4.png"/>
