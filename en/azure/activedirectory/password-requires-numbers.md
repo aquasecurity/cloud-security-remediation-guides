@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/password-requires-numbers/step2.png"/>
 3.  Select the "Azure Active Directory."  On the navigation panel, select the "Users" under Manage option.</br>
 <img src="/resources/azure/activedirectory/password-requires-numbers/step3.png"/>
