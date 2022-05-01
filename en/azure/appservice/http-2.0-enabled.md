@@ -24,4 +24,4 @@
 6. If the "HTTP version" is not set to the latest version 2.0 then select version 2.0 from the dropdown.</br> <img src="/resources/azure/appservice/http-2.0-enabled/step6.png"/>
 7. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/appservice/http-2.0-enabled/step7.png"/>
 8. Click "Continue" in the confirmation pop up to save the changes.</br> <img src="/resources/azure/appservice/http-2.0-enabled/step8.png"/>
-9. Repeat steps number 3 - 8 to verify all other "Apps" are using latest Stack version in the account.</br>
+9. Repeat steps number 3 - 8 to verify all other "Apps" are using latest HTTP protocol version in the account.</br>
