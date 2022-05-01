@@ -23,4 +23,4 @@
 5. On the "TLS/SSL settings" page select the Bindings tab, scroll down and under the "Protocol Settings" check the "Minimum TLS Version". It’s recommended to use only latest version (1.2) of TLS.</br> <img src="/resources/azure/appservice/tls-version-check/step5.png"/>
 6. If the "App Service" is not using the latest version of the TLS then select 1.2 from the slider.</br> <img src="/resources/azure/appservice/tls-version-check/step6.png"/>
 7. Wait for the confirmation box to save changes.</br> <img src="/resources/azure/appservice/tls-version-check/step7.png"/>
-8. Repeat steps number 3 - 7 to verify all other "Apps" are using latest Stack version in the account.</br>
+8. Repeat steps number 3 - 7 to verify all other "Apps" are using latest TLS version in the account.</br>
