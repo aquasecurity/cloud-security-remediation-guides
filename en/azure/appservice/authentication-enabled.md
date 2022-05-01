@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for App Services. </br> <img src="/resources/azure/appservice/authentication-enabled/step2.png"/>
 3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.</br> <img src="/resources/azure/appservice/authentication-enabled/step3.png"/>
 4. Scroll down the selected "App Services" navigation panel and in "Settings" click on the "Authentication / Authorization" option.</br> <img src="/resources/azure/appservice/authentication-enabled/step4.png"/>
