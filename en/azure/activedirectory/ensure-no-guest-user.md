@@ -17,6 +17,8 @@
 ## Detailed Remediation Steps
 
 
-
+1. Log in to the Microsoft Azure Management Console.
+2. Find the search bar at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/ensure-no-guest-user/step2.png"/>
+3.  Select the "Azure Active Directory" and on the left navigation panel, select the "Users" under "Manage".</br> <img src="/resources/azure/activedirectory/ensure-no-guest-user/step3.png"/>
 
 
