@@ -26,5 +26,5 @@
 8. In the "Edit policy" popup, open the "Permissions" dropdown.</br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step8.png"/>
 9. Uncheck the all the permissions and only leave the desired permissions checked and click on the "OK" button to make the changes.</br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step9.png"/>
 10. Click "Save" at the top of the pane to save the changes. </br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step10.png"/>
-11. Wait for confirmation message on the top right.
+11. Wait for confirmation message on the top right.</br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step11.png"/>
 12. Repeat steps 4 - 11 for all containers so they do not allow full write, delete, or read ACL permissions.</br>
