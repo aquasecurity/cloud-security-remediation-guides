@@ -21,7 +21,7 @@
 3. Select the "App Service" by clicking on "Name" to go to its configuration.</br> <img src="/resources/azure/appservice/authentication-enabled/step3.png"/>
 4. Scroll down the selected "App Services" navigation panel and under "Settings" click on "Authentication".</br> <img src="/resources/azure/appservice/authentication-enabled/step4.png"/>
 5. On the "Authentication" page check if "App Service Authentication" is "Disabled". If it's "Disabled", then all unauthenticated requests to the app will not be redirected to the login page. It is recommended to have authentication enabled for all requests.</br> <img src="/resources/azure/appservice/authentication-enabled/step5.png"/>
-6. If the "App Service Authentication" is "Disabled", then click on "Enable authentication" button to enable authentication.</br> <img src="/resources/azure/appservice/authentication-enabled/step6.png"/>
+6. If the "App Service Authentication" is "Disabled", then click on "Enable authentication" button to enable authentication.</br> <img src="/resources/azure/appservice/authentication-enabled/step5.png"/>
 7. Wait for the confirmation message on top right to ensure authentication is now enabled.</br> <img src="/resources/azure/appservice/authentication-enabled/step7.png"/>
 8. If there is no "Identity provider" then you will see the "Add identity provider" button. </br> <img src="/resources/azure/appservice/authentication-enabled/step8.png"/>
 9. Now choose your desired "Identity provider" by selecting the relevant provider's name.</br> <img src="/resources/azure/appservice/authentication-enabled/step9.png"/>
