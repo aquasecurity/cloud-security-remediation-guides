@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step2.png"/>
+2. Find the search bar at the top and search for Storage. </br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step3.png"/>
 4. Click on the "Overveiw" in the selected "Storage account" and scroll down the right side of the settings and click on the "Files" option.</br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step4.png"/>
 5. Select the "File Share" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/fileservice/file-service-all-access-acl/step5.png"/>
