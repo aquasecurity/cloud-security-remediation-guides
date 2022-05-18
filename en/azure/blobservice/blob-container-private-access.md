@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step2.png"/>
+2. Find the search bar at the top and search for Storage account. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step3.png"/>
 4. Click on the "Overveiw" in the selected "Storage account" and scroll down the right side of the settings and click on the "Blobs" option. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step4.png"/>
 5. Under the "Blobs" check for the "Public Access" and if it's set to Blob/Container then the selected "Blob" have anonymous public access level.</br> <img src="/resources/azure/blobservice/blob-container-private-access/step5.png"/>
