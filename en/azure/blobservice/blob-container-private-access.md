@@ -19,10 +19,8 @@
 1. Log into the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for Storage account. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step3.png"/>
-4. Click on the "Overveiw" in the selected "Storage account" and scroll down to find the "Properties" tab and click on the "Blob Service" option. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step4.png"/>
-5. Under the "Blobs" check for the "Public Access" and if it's set to Blob/Container then the selected "Blob" have anonymous public access level.</br> <img src="/resources/azure/blobservice/blob-container-private-access/step5.png"/>
-6. Repeat steps number 2 - 5 to verify other Blobs in the "Storage accounts." </br>
-7. Navigate to the "Storage accounts", select the "Storage account" and click on the "Name", select the "Overview" options and select the "Blob" which needs to have "Private access".</br> <img src="/resources/azure/blobservice/blob-container-private-access/step7.png"/>
-8. Select the "Blob" and click on the "Change access level" at the top panel. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step8.png"/>
-9. On the "Change access level" tab, select the "Private (no anonymous access)" and click on the "OK" button to make the necessary changes.</br> <img src="/resources/azure/blobservice/blob-container-private-access/step9.png"/>
-10. Repeat steps number 7 - 9 to ensure that all blob containers do not have anonymous public access level.</br>
+4. In the left navigation panel click on "Containers" under "Data storage".</br> <img src="/resources/azure/blobservice/blob-container-private-access/step4.png"/>
+5. In the Containers List, select the container for which the column "Public access level" shows "Blob" or "Container" and click on "Change access level" button at the top.</br> <img src="/resources/azure/blobservice/blob-container-private-access/step5.png"/>
+6. In the "Change access level" pop up the "Public access level" dropdown should be set to "Private(no anonymous access)". If it is set to "Blob" or "Container" then anonymous requests are allowed at the service level and this is against azure best practices.<img src="/resources/azure/blobservice/blob-container-private-access/step6.png"/>
+7. In the "Change access level" pop up click on the "Public access level" dropdown and select "Private(no anonymous access)" and click "OK" to make the necessary changes.<img src="/resources/azure/blobservice/blob-container-private-access/step7.png"/>
+8. Repeat steps number 5 - 7 to ensure that all blob containers have private access level.</br>
