@@ -15,5 +15,7 @@
 | **Recommended Action** | Enable HTTPS and disable HTTP for each custom origin endpoint for each CDN profile. |
 
 ## Detailed Remediation Steps
-
+1. Log into the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for CDN.
+3. 
 
