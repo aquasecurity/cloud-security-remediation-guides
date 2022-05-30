@@ -16,7 +16,9 @@
 
 ## Detailed Remediation Steps
 
-
-
+1. Log into the Microsoft Azure Management Console.
+2. In the search bar at the top search for App Services. </br> <img src=“/resources/azure/appservice/.net-framework-version/step2.png”/>
+3. Select the “App Services” by clicking on the “Name” link to access the configuration changes.</br> <img src=“/resources/azure/appservice/.net-framework-version/step3.png”/>
+4. 
 
 
