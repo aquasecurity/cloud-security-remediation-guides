@@ -16,6 +16,32 @@
 
 ## Detailed Remediation Steps
 
+[![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
+
+# AZURE / Load Balancer / LB No Instances
+
+## Quick Info
+
+| | |
+|-|-|
+| **Plugin Title** | LB No Instances |
+| **Cloud** | AZURE |
+| **Category** | Load Balancer |
+| **Description** | Detects load balancers that have no backend instances attached |
+| **More Info** | All load balancers should have backend server resources. Those without any are consuming costs without providing any functionality. Additionally, old load balancers with no instances pose a security concern if new instances are accidentally attached. |
+| **AZURE Link** | https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview |
+| **Recommended Action** | Delete old load balancers that no longer have backend resources. |
+
+## Detailed Remediation Steps
+
+1. Log into the Microsoft Azure Management Console.
+2. In search bar at the top search for Mysql and select "Azure Database for MySQL Servers". </br> <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step2.png"/>
+3. Select a server by clicking on the "Name" link to load the configuration pane.</br> <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step3.png"/>
+4. On the configuration pane that opens, scroll down the left navigation panel and choose the "Connection security" option. </br>  <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step4.png"/>
+5. On the "Connection security" pane that opens, scroll down to "SSL settings". If "Enforce SSL connection" is set to "Disabled" then insecure traffic is allowed to the server. This is a security risk and should be disabled.</br>  <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step5.png"/>
+6. Click "Enabled" next to "Enforce SSL connection" to enable SSL. Under "TLS setting" select the highest version for "Minimum TLS version" (1.2) as of this writing.</br>  <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step6.png"/>
+7. Click on "Save" button at the top to complete the changes.</br>  <img src="/resources/azure/mysqlserver/enforce-mysql-ssl-connection/step7.png"/>
+8. Repeat steps number 3 - 7 to check all other MySQL servers for secure traffic.
 
 
 
