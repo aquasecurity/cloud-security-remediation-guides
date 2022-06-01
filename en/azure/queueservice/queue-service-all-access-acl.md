@@ -25,4 +25,4 @@
 7. Click the triple dot (...) and click "Edit" option to make changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step7.png"/>
 8. In the "Edit policy" popup that opens, click the "Permissions" dropdown, uncheck the global read and update policies then click on the "OK" button to save the changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step8.png"/>
 9. Click on the "Save" button at the top to save the configuration changes.</br> <img src="/resources/azure/queueservice/queue-service-all-access-acl/step9.png"/>
-12. Repeat steps number 8 - 11 to ensures "Queues" do not allow full write, delete, or read ACL permissions.</br>
+12. Repeat steps number 4 - 9 to check all other "Queues" do not allow full write, delete, or read ACL permissions.</br>
