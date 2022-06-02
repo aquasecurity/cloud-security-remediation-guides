@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step3.png"/>
 4. Click on the "Overveiw" in the selected "Storage account" and scroll down the right side of the settings and click on the "Tables" option.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step4.png"/>
