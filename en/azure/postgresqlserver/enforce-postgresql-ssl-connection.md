@@ -21,7 +21,7 @@
 4. Scroll down the left navigation panel and choose "Connection Security" under "Settings."</br> <img src="/resources/azure/postgresqlserver/enforce-postgresql-ssl-connection/step4.png"/>
 5. On the "Connection Security" page, search for "SSL settings". If the Enforce SSL connection is set to "DISABLED" this is a security risk as data is transmitted unencrypted. This is against azure best practices.</br> <img src="/resources/azure/postgresqlserver/enforce-postgresql-ssl-connection/step5.png"/>
 6. To Enable the "SSL Connection" select "ENABLED" from the toggle configuration button. In the "TLS setting" select the highest version "1.2" as of now.</br> <img src="/resources/azure/postgresqlserver/enforce-postgresql-ssl-connection/step6.png"/>
-7. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/postgresqlserver/connection-throttling-enabled/step7.png"/>
+7. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/postgresqlserver/enforce-postgresql-ssl-connection/step7.png"/>
 8. Repeat steps number 3 - 7 to ensure the server parameters for each PostgreSQL server have the connection_throttling setting enabled.</br>
 
 
