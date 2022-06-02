@@ -21,7 +21,7 @@
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step3.png"/>
 4. In the left navigation panel, scroll down and click on "Tables" under "Data storage".</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step4.png"/>
 5. On the "tables" page, select the "Table" by clicking on three dot (...) options at the right corner to goto "Access policy." </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step5.png"/>
-6. In the selected "Table",check the "Permissions" assosciated with the "Table". If the "Table" allows full write, update, delete, or read ACL permissions then the selected "Table" is not as per the standard configurations.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step6.png"/>
+6. In the selected "Table",check the "Permissions" assosciated with the "Table". If the "Table" allows full Read, Add, Update, Delete ACL permissions then the selected "Table" is not as per the standard configurations.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step6.png"/>
 7. To make changes click on the three dot(...) at the right corner and select the "Edit" option.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step9.png"/>
 8. Uncheck the global read/update/detele policies under the "Permissions" and click on the "OK" button to make the changes.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step10.png"/>
-9. Repeat steps number 3 - 8 to ensures "Tables" do not allow full write, update, delete, or read ACL permissions. </br>
+9. Repeat steps number 3 - 8 to ensures "Tables" do not allow full Read, Update, Delete ACL permissions. </br>
