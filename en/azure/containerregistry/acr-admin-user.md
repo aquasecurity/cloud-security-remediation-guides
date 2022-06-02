@@ -16,7 +16,13 @@
 
 ## Detailed Remediation Steps
 
-
+1. Login to the Azure portal.
+2. In the search bar at the top search for container registries and click on "Conatiner registries".<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step2.png"/>
+3. On the conatiner registries page click on the "Name" link to goto the configuration page.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step3.png"/>
+4. On the container registry pane that opens, click on "Access keys" under "Settings" in the left navigation panel.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step4.png"/>
+5. In the keys panel, if you see "Enabled" next to "Admin user" then the admin user is enabled for the container registry. This is a security risk and against the Azure recommended practices.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step5.png"/>
+6. Click on the slider to "Disable" the admin user.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step6.png"/>
+7. Repeat steps 3 - 6 for all other container registries.
 
 
 
