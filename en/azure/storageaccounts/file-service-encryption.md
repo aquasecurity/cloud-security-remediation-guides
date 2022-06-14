@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Storage account."</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step2.png"/>
 3. On the "Storage account" page, scroll down the left navigation panel and choose "File shares" under the "File Service." </br> <img src="/resources/azure/storageaccounts/file-service-encryption/step3.png"/>
 4. Select the "File share" on the "File sharing" page and check the storage account name at the top.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step4.png"/>
