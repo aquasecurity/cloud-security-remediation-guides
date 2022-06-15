@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage accounts. </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" as a link to access the configuration.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step3.png"/> 
 4. On the "Storage accounts- test12diag647" page, select the "Containers" option. </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step4.png"/> 
