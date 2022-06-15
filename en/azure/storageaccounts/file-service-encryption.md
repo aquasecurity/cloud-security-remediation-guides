@@ -26,5 +26,5 @@
 8. In the "Key Vault and key" click on the blue hughlighted text "Select a key vault and key".<img src="/resources/azure/storageaccounts/file-service-encryption/step8.png"/></br>
 9. On the "Select a key" page, select "Key store type" as "Key vault". In the "Key vault" and "key" options select the key vault and key from the dropdown or you can create your own key vault and key. Click "Select" button at the end to save the selected options.<img src="/resources/azure/storageaccounts/file-service-encryption/step9.png"/></br>
 10. Click on the "Save" button at the end to make the changes.<img src="/resources/azure/storageaccounts/file-service-encryption/step10.png"/></br>
-11. Repeat steps number 8 - 12 to ensure that data encryption is enabled for each File Service.</br>
+11. Repeat steps number 5 - 10 to ensure that data encryption is enabled for each File Service.</br>
 
