@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Storage accounts. </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step2.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for "Storage accounts". </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step2.png"/>
 3. Select the "Storage account" by clicking on its "Name" to get into its configuration page.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step3.png"/> 
 4. On the "Storage accounts" page, select the "Containers" under "Data storage". </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step4.png"/> 
 5. On the "Containers" page select the "Activity Log Container" and check the "Public Access" column. If it's not set to "Private" then the Activity Log Container has public read access.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step5.png"/> 
