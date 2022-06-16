@@ -31,4 +31,4 @@
 13. On the "Key vault" option select the vault accordingly.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step13.png"/>
 14. On the "Encryption key" option select the key accordingly.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step14.png"/>
 15. Click on the "Save" option at the top to make the changes.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step15.png"/>
-16. Repeat steps number 11 - 15 to ensure the Storage Account used by Activity Logs is configured with a BYOK key.</br>
+16. Repeat steps number  11 - 15 to ensure the Storage Account used by Activity Logs is configured with a BYOK key.</br>
