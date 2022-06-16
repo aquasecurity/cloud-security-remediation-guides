@@ -17,9 +17,9 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Monitor. </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step2.png"/>
-3. Select the "Log Activity" on the "Monitor-Overview" page. </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step3.png"/>
-4. On the "Activity Log" page, click on the "Diagnostics Settigns" at the top.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step4.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for "Monitor". </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step2.png"/>
+3. On the left navigation panel, click on "Diagnostics Settigns" under "Settings".</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step4.png"/>
+4. 
 5. On the "Diagnostics settings" page, copy the "Storage account" name for the "Activity Log".</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step5.png"/>
 6. Select the "Search resources, services, and docs" option at the top and search for "Storage account."</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step6.png"/>
 7. Paste the "Storage account" name on the "Filter" option at the top, copied in Step 5 and select the corresponding "Storage account."</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step7.png"/>
