@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/storageaccounts/network-access-default-action/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/storageaccounts/network-access-default-action/step3.png"/>
 4. Scroll down the selected "Storage account" navigation panel and in "Settings" click on the "Firewalls and virtual networks."</br> <img src="/resources/azure/storageaccounts/network-access-default-action/step4.png"/>
