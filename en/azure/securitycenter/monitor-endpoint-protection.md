@@ -27,3 +27,4 @@
 9. To enable "Endpoint Protection monitoring" click to open the dropdown of "Endpoint protection solution should be installed on virtual machine scale sets" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-endpoint-protection/step10.png"/>
 11. Repeat steps number 3 - 10 to ensure enable Adaptive Application Controls for Endpoint Protection from the Azure Security Center by ensuring AuditIfNotExists setting is used to monitor missing Endpoint Protection.</br>
+
