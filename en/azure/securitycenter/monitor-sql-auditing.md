@@ -16,16 +16,14 @@
 
 ## Detailed Remediation Steps
 
-
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step2.png"/>
-3. Scroll down the "Security Center" and select the "Security policy" option under the "Management" on left navigation panel. </br> 
-4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step4.png"/>
-5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step5.png"/>
-6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step6.png"/>
-7. In the "Azure Security Benchmark", check for the "Azure defender for SQL servers on machine should be enabled" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step7.png"/>
-8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
-9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" seelct the "Subscription" that needs to enable the "SQL Auditing."</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step9.png"/>
-10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step10.png"/>
-11. Scroll down the page and under "Parameter" choose the "Azure defender for SQL servers on machine should be enabled" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step11.png"/>
-12. Repeat steps number 9 - 11 to ensure "Monitor SQL Auditing" is enabled in Security Center.</br>
+2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step2.png"/>
+3. Scroll down the left navigation panel and select the "Environment Settings" under "Management".</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step3.png"/>
+4. On the "Microsoft Defender for Cloud | Environment settings" page under "Name" column select the "Subscription Name" that needs to be verified by clicking on its Name.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step4.png"/>
+5. On the "Settings" page scroll down the "Policy settings" section and select "Security Policy".</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step5.png"/>
+6. On the "Settings | Security policy" page, Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step6.png"/>
+7. On the Settings page, select the "Parameters" tab and uncheck "Only show parameters that need input or review". It will show you a list of parameters.</br>  <img src="/resources/azure/securitycenter/monitor-sql-auditing/step7.png"/>
+8. In the list search for the setting "Azure defender for SQL Database servers should be enabled". If it's set to "Disabled" then "SQL Auditing" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step8.png"/>
+9. To enable "SQL Auditing" click to open the dropdown of "Azure defender for SQL Database servers should be enabled" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step9.png"/>
+10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-sql-auditing/step10.png"/>
+11. Repeat steps number 3 - 10 to ensure SQL Auditing is enabled from Azure Security Center</br>
