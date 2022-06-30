@@ -26,4 +26,4 @@
 8. In the list search for the setting "Internet-facing virtual machines should be protected with network security groups". If it's set to "Disabled" then "Network Security Group monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step8.png"/>
 9. To enable "Network Security Group monitoring" click to open the dropdown of "Internet-facing virtual machines should be protected with network security groups" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure ensure Network Security Group monitoring is configured from the Azure Security Center.</br>
+11. Repeat steps number 3 - 10 to ensure Network Security Group monitoring is configured from the Azure Security Center.</br>
