@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step2.png"/>
 3. Scroll down the "Security Center" and select the "Security policy" option under "Management" in the left navigation panel.</br>
 4. On the "Security Center - Pricing & settings" page, select the "Subscription" by clicking on the "Name."</br> <img src="/resources/azure/securitycenter/security-contacts-enabled/step4.png"/>
