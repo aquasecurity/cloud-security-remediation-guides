@@ -18,7 +18,7 @@
 
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Monitor". </br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step2.png"/>
-3. On the "Monitor - Overview" page scroll down the left navigation panel and click on "Diagnostics setting" under Settings.</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step3.png"/>
+3. On the "Monitor - Overview" page scroll down the left navigation panel and click on "Diagnostics settings" under Settings.</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step3.png"/>
 4. On the "Monitor - Diagnostics settings" page select the resource you want to verify for "Key Vault Log Analystics."</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step4.png"/>
 5. Check the "Diagnostics Status" of the chosen resource and if it's set to "Disabled" then the  "Key Vault Log Analytics" logs are not being properly delivered to Azure Monitor.</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step5.png"/>
 6. To enable "Key Vault Log Anaytics" on the selected resource click on the resource name to reach its configuration settings page </br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step7.png"/>
