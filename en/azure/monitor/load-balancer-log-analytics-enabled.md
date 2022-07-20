@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Load balancer. </br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step2.png"/>
 3. Select the "Load balancer" which needs to be verified.</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step3.png"/>
 4. On the "Load balancer" page, scroll down the left navigation panel and choose "Diagnostics Settings" under "Monitoring".</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step4.png"/>
