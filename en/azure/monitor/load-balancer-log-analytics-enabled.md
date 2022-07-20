@@ -18,7 +18,7 @@
 
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Load balancers". </br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step2.png"/>
-3. Select the "Load balancer" which needs to be verified and click on its Name to reach its configuration settings paage..</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step3.png"/>
+3. Select the "Load balancer" which needs to be verified and click on its Name to reach its configuration settings page.</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step3.png"/>
 4. On the "Load balancer" page, scroll down the left navigation panel and choose "Diagnostics Settings" under "Monitoring".</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step4.png"/>
 5. On the "Load balancer - Diagnostic Setting" page if "No diagnostic settings defined" is showing then the selected "Load balancer" logs are not sent to the Log Analytics workspace.</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step5.png"/>
 6. To enabling "Send to Log Analytics" click on the "Add diagnostic setting" option.</br> <img src="/resources/azure/monitor/load-balancer-log-analytics-enabled/step6.png"/>
