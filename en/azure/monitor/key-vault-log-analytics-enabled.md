@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Monitor. </br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step2.png"/>
 3. On the "Monitor - Overview" page scroll down the left navigation panel and click on "Diagnostics" under Settings.</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step3.png"/>
 4. On the "Monitor - Diagnostics settings" page select the resource you want to verify for "Key Vault Log Analystics."</br> <img src="/resources/azure/monitor/key-vault-log-analytics-enabled/step4.png"/>
