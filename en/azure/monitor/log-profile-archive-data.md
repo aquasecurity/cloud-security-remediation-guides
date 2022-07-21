@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Log Analytics Workspace. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step2.png"/>
 3. On the "Log Analytics workspaces" page select the resource accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step3.png"/>
 4. On the "Log Analytics workspaces - resource" page, scroll down the left navigation panel and choose "Activity Log".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step4.png"/>
