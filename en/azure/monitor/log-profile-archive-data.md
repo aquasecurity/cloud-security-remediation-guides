@@ -26,5 +26,5 @@
 8. Under the "Diagnostics Setting" page, enter the "Diagnostic setting name" and under "Destination details", click the checkbox for "Send to Log Analytics workspace", select a "Subscription" and an existing "Log Analytics workspace". </br> <img src="/resources/azure/monitor/log-profile-archive-data/step8.png"/>
 9. Next, select the checkbox next to "Archive to a storage account" and select the "Subscription" and "Storage account" from the respective dropdowns.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step9.png"/>
 10. Choose the categories under "logs" accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step10.png"/>
-11. Click on the "Save" button at the top to make the newpopcessary changes. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step11.png"/>
+11. Click on the "Save" button at the top to make the necessary changes. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step11.png"/>
 12. Repeat steps number 5 - 11 to ensure that all activity is logged to the Event Hub or storage account for archiving.
