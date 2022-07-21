@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Network Security Group. </br> <img src="/resources/azure/monitor/nsg-log-analytics-enabled/step2.png"/>
 3. Select the "Network Security Group" which needs to be verified.</br> <img src="/resources/azure/monitor/nsg-log-analytics-enabled/step3.png"/>
 4. On the "Network security groups" page, scroll down the left navigation panel and choose "Diagnostics Settings" under "Monitoring".</br> <img src="/resources/azure/monitor/nsg-log-analytics-enabled/step4.png"/>
