@@ -17,16 +17,14 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Log Analytics Workspace. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step2.png"/>
-3. On the "Log Analytics workspaces" page select the resource accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step3.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for "Log Analytics Workspaces". </br> <img src="/resources/azure/monitor/log-profile-archive-data/step2.png"/>
+3. On the "Log Analytics workspaces" page select the resource and click on its Name to reach its configuration page.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step3.png"/>
 4. On the "Log Analytics workspaces - resource" page, scroll down the left navigation panel and choose "Activity Log".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step4.png"/>
-5. Click on the "Export to Event Hub" at the top of "Activity Log" page to ensures the "Log Profile" is configured.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step5.png"/>
-6. Under "Export to Event Hub" page, if there are no Diagnostic settings are defined, then the Log Profile is not configured to export all activities from the control and management planes in all active locations. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step6.png"/>
-7. Repeat steps number 2 - 6 to verify "Log Profiles" of another Azure account.</br>
-8. Navigate to "Log Analytics Workspace" and select the resource, and choose "Activity Log" from the left navigation panel and click on the "Export to Event Hub".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step8.png"/>
-9. On the "Export to Event Hub" page, click on the "Add diagnostic setting".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step9.png"/>
-10. Under the "Diagnostics Setting" page, enter the Name, select the checkbox next to "Archive to a storage account" option and click on the "Configure" under "Storage account".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step10.png"/>
-11. On the "Storage account" select the "Subscription" and "Storage account" from the respective dropdown and click on "OK" at the bottom of the page.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step11.png"/>
-12. On the "Diagnostics Settings" page enter the Name, click the checkbox for "Send to Log Analytics", select an existing Log Analytics workspace, or create a workspace and select the log type accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step12.png"/>
-13. Click on the "Save" button at the top to make the necessary changes. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step13.png"/>
-14. Repeat steps number 8 - 13 to ensure that all activity is logged to the Event Hub or storage account for archiving.
+5. Click on the "Export Activity Logs" at the top of "Activity Log" page to ensures the "Log Profile" is configured.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step5.png"/>
+6. Under "Export Activity Logs" page, if no Diagnostic settings are defined, then the Log Profile is not configured to export all activities from control and management planes in all active locations. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step6.png"/>
+7. To ensure that all activity is logged to the Event Hub or storage account for archiving, on the "Export Activity Logs" page, click on the "Add diagnostic setting".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step7.png"/>
+8. Under the "Diagnostics Setting" page, enter the "Diagnostic setting name" and under "Destination details", click the checkbox for "Send to Log Analytics workspace", select a "Subscription" and an existing "Log Analytics workspace". </br> <img src="/resources/azure/monitor/log-profile-archive-data/step8.png"/>
+9. Next, select the checkbox next to "Archive to a storage account" and select the "Subscription" and "Storage account" from the respective dropdowns.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step9.png"/>
+10. Choose the categories under "logs" accordingly.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step10.png"/>
+11. Click on the "Save" button at the top to make the newpopcessary changes. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step11.png"/>
+12. Repeat steps number 5 - 11 to ensure that all activity is logged to the Event Hub or storage account for archiving.
