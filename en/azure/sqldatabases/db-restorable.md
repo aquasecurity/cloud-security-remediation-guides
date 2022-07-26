@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL databases. </br> <img src="/resources/azure/sqldatabases/db-restorable/step2.png"/>
 3. On the "SQL database" page, select the SQL database that needs to be examine.</br> <img src="/resources/azure/sqldatabases/db-restorable/step3.png"/>
 4. On the selected "SQL database" page, scroll down the left navigation panel and select "Overview" option.</br> <img src="/resources/azure/sqldatabases/db-restorable/step4.png"/>
