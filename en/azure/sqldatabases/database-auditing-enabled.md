@@ -22,5 +22,5 @@
 4. On the selected "SQL database" page, scroll down the left navigation panel and select "Auditing" under "Security."</br> <img src="/resources/azure/sqldatabases/database-auditing-enabled/step4.png"/>
 5. On the "Auditing configuration page", verify the "Enable Azure SQL Auditing" staus. If it's set to "OFF" then "SQL database Auditing" is not enabled for the selected "SQL database." </br> <img src="/resources/azure/sqldatabases/database-auditing-enabled/step5.png"/>
 6. To enable Auditing for SQL database, on the "Auditing configuration page", turn the toggle status to "ON" and under "Audit log destination select from the "Storage /Log Analytics/ Event Hub" as per the availability.</br>  <img src="/resources/azure/sqldatabases/database-auditing-enabled/step6.png"/>
-9. Click on the "Save" button at the top to make the necessary changes.</br>  <img src="/resources/azure/sqldatabases/database-auditing-enabled/step9.png"/>
-10. Repeat steps number 3 - 9 to ensure that auditing is enabled for each SQL database.</br>
+7. Click on the "Save" button at the top to make the necessary changes.</br>  <img src="/resources/azure/sqldatabases/database-auditing-enabled/step7.png"/>
+8. Repeat steps number 3 - 7 to ensure that auditing is enabled for each SQL database.</br>
