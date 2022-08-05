@@ -23,6 +23,6 @@
 6. On the "Server settings" page, scroll down to "ADVANCED THREAT PROTECTION SETTINGS" and click on "Add your contact details to the subscription's email settings in Defender for Cloud".</br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step6.png"/>
 7. On the "Email notifications" page if there is no email address configured and no roles are selected then send alerts are not enabled.</br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step7.png"/>
 8. To enable send alerts, under "Email receipients" select "Owner", "AccountAdmin". ServiceAdmin" from the dropdown and assign an email for "Additional emal addresses". </br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step8.png"/>
-9. In the "Notification types" checkmark "Notify about alerts with the following severity (or higher)" and selectv "High" from the dropdown.</br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step9.png"/>
+9. In the "Notification types" checkmark "Notify about alerts with the following severity (or higher)" and select "High" from the dropdown.</br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step9.png"/>
 10. Click "Save" at the top to make the necessary changes.</br> <img src="/resources/azure/sqlserver/send-alerts-enabled/step9.png"/>
 11. Repeat steps 3-10 to ensure that an email address is activated under send alerts for all SQL servers.
