@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
+1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/sql-server-public-access/step2.png"/>
 3. On the "SQL server" page, select the SQL server that needs to be examined. </br> <img src="/resources/azure/sqlserver/sql-server-public-access/step3.png"/>
 4. On the selected "SQL server" page, scroll down the left navigation panel and select " Firewalls and virtual networks" under the "Security" column.</br> <img src="/resources/azure/sqlserver/sql-server-public-access/step4.png"/>
