@@ -15,6 +15,8 @@
 | **Recommended Action** | Ensure that an email address is activated under send alerts in advanced data security for all SQL servers. |
 
 ## Detailed Remediation Steps
+1. Log in to the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "SQL servers". </br> <img src="/resources/azure/sqlserver/advanced-data-security-enabled/step2.png"/>
 
 
 
