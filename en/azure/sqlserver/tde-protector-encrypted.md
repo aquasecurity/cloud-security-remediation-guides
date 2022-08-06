@@ -17,8 +17,8 @@
 ## Detailed Remediation Steps
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for SQL servers. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step2.png"/>
-3. On the "SQL server" page, select the SQL server that needs to be examine. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step3.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for "SQL servers". </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step2.png"/>
+3. On the "SQL server" page, select the SQL server that needs to be examined. </br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step3.png"/>
 4. On the selected "SQL server" page, scroll down the left navigation panel and select "Transparent data encryption" under the "Security" column.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step4.png"/>
 5. On the "Transparent data encryption" page, if "Transparent data encryption" is set to "Service-managed key" then the selected "SQL server TDE protector" is not encrypted with BYOK (Bring Your Own Key).</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step5.png"/>
 6. To ensure that a custom BYOK is used, select "Customer-managed key" for "Transparent data encryption".</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step6.png"/>
