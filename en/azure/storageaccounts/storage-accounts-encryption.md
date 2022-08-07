@@ -24,5 +24,5 @@
 6. To ensure the selected storage Account is configured with a BYOK encryption select "Customer-managed keys". </br>  <img src="/resources/azure/storageaccounts/storage-accounts-encryption/step6.png"/>
 7. Under "Key Selection" select "Encryption key" as "Select from key vault". In the "Key vault and key" click on "Select a key vault and key".</br>  <img src="/resources/azure/storageaccounts/storage-accounts-encryption/step7.png"/>
 8. On the "Select a key" page, select "Key store type" as "Key vault" and select "Key vault" and "key" from the dropdown. Click "Select" at the bottom.</br>  <img src="/resources/azure/storageaccounts/storage-accounts-encryption/step8.png"/>
-9. Click "Save" button at the bottom.
+9. Click "Save" button at the bottom.</br>  <img src="/resources/azure/storageaccounts/storage-accounts-encryption/step9.png"/>
 10. Repeat steps 3 - 9 to ensure all Storage Accounts are configured with a BYOK key.
