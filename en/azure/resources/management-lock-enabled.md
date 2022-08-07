@@ -15,5 +15,8 @@
 | **Recommended Action** | 1. Go to Resources. 2. Select the resource. 3. Select the Locks blade under settings on the left side. 4. Add a lock 5. Enter the Tags Blade and  add cloudsploitLock as a tag with true as its value. |
 
 ## Detailed Remediation Steps
-
+1. Log in to the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "Storage accounts". </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step2.png"/>
+3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step3.png"/>
+4. In the left navigation panel, click on the "Tables" under "Data Storage".</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step4.png"/>
 
