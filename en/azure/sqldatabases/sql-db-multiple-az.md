@@ -21,9 +21,9 @@
 4. In the box that opens at the bottom, select "PowerShell".</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step4.png"/>
 5. In the next screen, select the desired Azure Subscription & click on "Create storage" button.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step5.png"/>
 6. Run "Get-AzSqlServer" PowerShell command in the PowerShell prompt, to list all the "SQL servers" in the selected subscription. Note the "ResourceGroupName" and "ServerName" of the desired SQL server.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step6.png"/>
-7. Run "Get-AzSqlDatabase -ResourceGroupName your_resource_groupname -ServerName your_server_name -DatabaseName your_DB_Name" PowerShell command.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step7.png"/>
+7. Run "Get-AzSqlDatabase -ResourceGroupName your_resource_group_name -ServerName your_server_name -DatabaseName your_DB_Name" PowerShell command.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step7.png"/>
 8. If the value of property "ZoneReduntant" is "false" in the result then the database is not zone reduntant.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step8.png"/>
-9. If the value of ZoneReduntant is False then we need to restore the affected Database with a minimum of "Premium" grade database.
+9. If the value of ZoneReduntant is False then we need to restore the affected Database with a minimum of "Premium" grade "Compute + storage".
 10. On the Azure UI Dashboard, goto to the configuration of the affected database and click on "Restore" button at the top.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step10.png"/>
 11. On the "Create SQL Database - Restore database" page, select the "Earliest restore point" and click on "Configure database" next to "Compute + storage".</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step11.png"/>
 12. On the Configure page, select "Premium" or higher Service tier type in the "Service tier" dropdown.Then select "yes" for "Would you like to make this database zone redundant?" and click "Apply" button at the bottom.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step12.png"/>
