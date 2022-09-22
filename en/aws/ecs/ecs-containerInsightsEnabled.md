@@ -11,7 +11,7 @@
 | **Category** | ECS |
 | **Description** | Ensure that ECS clusters have CloudWatch Container Insights feature enabled. |
 | **More Info** | CloudWatch Container Insights provides monitoring and troubleshooting solution for containerized applications and microservices that collects, aggregates and summarizes resource utilization such as CPU, memory, disk, and network.|
-| **AWS Link** | http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-security-policy-options.html |
+| **AWS Link** | https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html |
 | **Recommended Action** | Enabled container insights feature for ECS clusters. |
 
 ## Detailed Remediation Steps
