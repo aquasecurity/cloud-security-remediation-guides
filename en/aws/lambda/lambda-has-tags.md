@@ -9,7 +9,7 @@
 | **Plugin Title** | Lambda Has Tags |
 | **Cloud** | AWS |
 | **Category** | Lambda |
-| **Description** | Ensures AWS Lambda functions have tags. |
+| **Description** | Ensure AWS Lambda function have tags. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/lambda/latest/dg/configuration-tags.html |
 | **Recommended Action** | Modify Lambda function configurations and new tags |
