@@ -18,9 +18,9 @@
 
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for EFS.</br> <img src="/resources/aws/efs/efs-has-tags/step2.png"/>
-3. Select the EFS file system for which you want to add tags from "Name".</br> <img src="/resources/aws/efs/efs-has-tags/step3.png"/>
-4. Select the Tags tab from navigation pane on the page.</br> <img src="/resources/aws/efs/efs-has-tags/step4.png"/>
-5. Click on "Manage Tags" button.</br> <img src="/resources/aws/efs/efs-has-tags/step5.png"/>
-6. On the popup modal Click on "Add Tag". Then enter the key and value for your tag and click save.</br> <img src="/resources/aws/efs/efs-has-tags/step6.png"/>
+3. Select the EFS file system for which you want to add tags.".</br> <img src="/resources/aws/efs/efs-has-tags/step3.png"/>
+4. Select the "Tags" tab from navigation pane on the page.</br> <img src="/resources/aws/efs/efs-has-tags/step4.png"/>
+5. Click on "Manage Tag" button.</br> <img src="/resources/aws/efs/efs-has-tags/step5.png"/>
+6. On the popup modal click on "Add Tag". Then enter the key and value for your tag and click Save.</br> <img src="/resources/aws/efs/efs-has-tags/step6.png"/>
 
 
