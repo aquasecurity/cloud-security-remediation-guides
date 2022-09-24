@@ -12,7 +12,7 @@
 | **Description** | Ensure AWS Lambda function have tags. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/lambda/latest/dg/configuration-tags.html |
-| **Recommended Action** | Modify Lambda function configurations and new tags |
+| **Recommended Action** | Modify Lambda function configurations and tags |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
@@ -20,7 +20,7 @@
 3. Scroll down the left navigation panel and choose "Functions".</br> <img src="/resources/aws/lambda/lambda-has-tags/step3.png"/>
 4. Select the Lambda function that needs to have tags.</br> <img src="/resources/aws/lambda/lambda-has-tags/step4.png"/>
 5. On the "Lambda Functions" page scroll down and choose "Configuration".</br> <img src="/resources/aws/lambda/lambda-has-tags/step5.png"/>
-6. Scroll down the "Configuration" tab and choose Tags tab in left navigation panel and click on "Manage Tags".</br> <img src="/resources/aws/lambda/lambda-has-tags/step6.png"/>
-7. On Manage tags page click on "Add new tag" button and enter you tag's key and value then click on save.</br> <img src="/resources/aws/lambda/lambda-has-tags/step7.png"/>
+6. Scroll down the "Configuration" tab and choose "Tags" tab in left navigation panel and Click on "Manage Tags".</br> <img src="/resources/aws/lambda/lambda-has-tags/step6.png"/>
+7. On Manage tags page Click on "Add new tag" button and enter key and value for tag then Click on Save.</br> <img src="/resources/aws/lambda/lambda-has-tags/step7.png"/>
 
 
