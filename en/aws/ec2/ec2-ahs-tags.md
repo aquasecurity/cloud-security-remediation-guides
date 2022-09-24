@@ -9,10 +9,10 @@
 | **Plugin Title** | Instance Has Tags |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensure EFS File systems have tags |
+| **Description** | Ensure EC2 Instances have tags |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html |
-| **Recommended Action** | Add tags for ec2 instance |
+| **Recommended Action** | Add tags to ec2 instance |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
