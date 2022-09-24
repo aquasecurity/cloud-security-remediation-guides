@@ -21,4 +21,4 @@
 4. Select the "Bucket" for which you want to add "Tags".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step4.png"/>
 5. Click on the "Properties" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-has-tags/step5.png"/>
 6. On Properties tab scroll down and in "Tags" section Click on "Edit" button.</br><img src="/resources/aws/s3/s3-bucket-has-tags/step6.png"/>
-7. On "Edit bucket tagging" page Click on "Add a tag" button and enter tag's key,value and Click "Save".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step7.png"/>
+7. On "Edit bucket tagging" page Click on "Add a tag" button and enter tag's key,value and Click "Save Changes".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step7.png"/>
