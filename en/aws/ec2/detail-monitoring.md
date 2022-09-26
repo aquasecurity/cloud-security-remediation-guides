@@ -18,8 +18,9 @@
 
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/detail-monitoring/step2.png"/>
-3. Scroll down the left navigation panel and choose "Instances" under the "Instances" <img src="/resources/aws/ec2/detail-monitoring/step3.png"/>
-4. Select the "EC2 Instance" that needs to have detailed monitoring enable. <img src="/resources/aws/ec2/detail-monitoring/step4.png"/>
-5. In the tab down below switch to "Monitoring" Tab, and click on "Manage Detailed Monitoring" on the top right corner. <img src="/resources/aws/ec2/detail-monitoring/step5.png"/>
-6. Enable the detailed monitoring on the pop-up and hit confirm <img src="/resources/aws/ec2/detail-monitoring/step6.png"/>
-7. Repeat the steps 4,5,6 for each instance.
+3. Scroll down the left navigation panel and choose "Instances" under the "Instances" 
+<img src="/resources/aws/ec2/detail-monitoring/step3.png"/>
+5. Select the "EC2 Instance" that needs to have detailed monitoring enable. <img src="/resources/aws/ec2/detail-monitoring/step4.png"/>
+6. In the tab down below switch to "Monitoring" Tab, and click on "Manage Detailed Monitoring" on the top right corner. <img src="/resources/aws/ec2/detail-monitoring/step5.png"/>
+7. Enable the detailed monitoring on the pop-up and hit confirm <img src="/resources/aws/ec2/detail-monitoring/step6.png"/>
+8. Repeat the steps 4,5,6 for each instance.
