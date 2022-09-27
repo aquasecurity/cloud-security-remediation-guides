@@ -21,4 +21,4 @@
 4. Select the "Database" that needs to have tags and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-instance-has-tags/step4.png"/>
 5. On Database details Choose "Tags" from navigation panel in middle of page.</br><img src="/resources/aws/rds/rds-instance-has-tags/step5.png"/>
 6. Under "Tags" tab and Click on "Add Tags" button</br><img src="/resources/aws/rds/rds-instance-has-tags/step6.png"/>
-7. On the pop up screen enter key-svalue pair for tag and Click on "Add" button to save the changes.</br><img src="/resources/aws/rds/rds-instance-has-tags/step7.png"/>
+7. On the pop up screen enter key-value pair for tag and Click on "Add" button to save the changes.</br><img src="/resources/aws/rds/rds-instance-has-tags/step7.png"/>
