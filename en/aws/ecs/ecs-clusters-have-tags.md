@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / ECS / ECS Container Insights Enabled
+# AWS / ECS / ECS Clusters Have Tags
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Container Insights Enabled |
+| **Plugin Title** | ECS Clusters Have Tags |
 | **Cloud** | AWS |
 | **Category** | ECS |
 | **Description** | Ensure ECS clusters have tags. |
