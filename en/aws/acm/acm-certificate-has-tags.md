@@ -16,8 +16,8 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for "ACM" and Click on "Amazon Certificate Manager".</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step2.png"/>
-3. On "Amazon Certificate Manager" page Click on "list certificates" from left navigation panel.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step3.png"/>
-4. On ACM certificate list page Click on the certificate Name which needs to have tags.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step4.png"/>
+2. Select the "Services" option and search for "ACM" and Click on "Certificate Manager".</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step2.png"/>
+3. On "Amazon Certificate Manager" page Click on "List certificates" from left navigation panel.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step3.png"/>
+4. On ACM certificate list page Click on the certificate id which needs to have tags.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step4.png"/>
 5. On certificate details page scroll down to "Tags" section and Click on "Manage Tags" button.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step5.png"/>
 6. On "Manage Tags" page Click on "Add Tag" button enter the Key value of tag and Click "Submit" button.</br> <img src="/resources/aws/acm/acm-certificate-has-tags/step6.png"/>
