@@ -15,4 +15,9 @@
 | **Recommended Action** | Modify ACM certificate and add tags |
 
 ## Detailed Remediation Steps
-
+1. Log into the AWS Management Console.
+2. Select the "Services" option and search for "ACM" and Click on "Amazon Certificate Manager".
+3. On "Amazon Certificate Manager" page Click on "list certificates" from left navigation panel.
+4. On ACM certificate list page Click on the certificate Name which needs to have tags.
+5. On certificate details page scroll down to "Tags" section and Click on "Manage Tags" button.
+6. On "Manage Tags" page Click on "Add Tag" button enter the Key value of tag and Click "Submit" button.
