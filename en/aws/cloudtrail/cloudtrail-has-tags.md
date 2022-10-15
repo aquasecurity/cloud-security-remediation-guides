@@ -6,7 +6,7 @@
 
 | | |
 |-|-|
-| **Plugin Title** | CloudTrail Has =Tags |
+| **Plugin Title** | CloudTrail Has Tags |
 | **Cloud** | AWS |
 | **Category** | CloudTrail |
 | **Description** |Ensure that Cloudtrail have tags |
