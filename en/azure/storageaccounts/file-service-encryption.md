@@ -20,11 +20,11 @@
 2. Select the "Search resources, services, and docs" option at the top and search for "Storage account."</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step2.png"/>
 3. On the "Storage account" page, scroll down the left navigation panel and choose "File shares" under the "File Service." </br> <img src="/resources/azure/storageaccounts/file-service-encryption/step3.png"/>
 4. Select the "File share" on the "File sharing" page and check the storage account name at the top.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step4.png"/>
-5. Scroll down the "Storage account" navigation panel and choose "Encryption" option under the "Settings."</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step5.png"/>
-6. On the "Encryption page" scroll down and check "Use your own key" setting configuration. If "Use your own key" setting checkbox is not checked, then "BYOK encryption" is not configured in the File Service Encryption.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step6.png"/>
+5. On the "Storage account" page, scroll down the left navigation panel and choose "Encryption" under the "Security + networking".</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step5a.png"/>
+6. On the "Encryption page" scroll down and check whether Encryption type is set to " Microsoft-managed keys" or "Customer-managed keys".</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step6a.png"/>
 7. Repeat steps number 2 - 5 to verify other "File Service Encryption" in the Azure account.</br>
-8. Navigate to "Storage account", select the corresponding "Storage account", scroll down the left navigation panel and choose "Encryption."</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step8.png"/>
-9. On the "Encyption page" select the "Use your own key" and click on the "Select from Key Vault".</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step9.png"/>
+8. Navigate to "Storage account", select the corresponding "Storage account", scroll down the left navigation panel and choose "Encryption".</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step8.png"/>
+9. On the "Encyption page" select the "Customer-managed keys" and click on the "Select from Key Vault".</br>.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step9.png"/>
 10. On the "Key vault" option select the vault accordingly.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step10.png"/>
 11. On the "Encryption key" option select the key accordingly.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step11.png"/>
 12. Click on the "Save" option at the top to make the changes.</br> <img src="/resources/azure/storageaccounts/file-service-encryption/step12.png"/>
