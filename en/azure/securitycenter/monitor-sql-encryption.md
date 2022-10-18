@@ -26,4 +26,4 @@
 8. In the list search for the setting "Transparent data encryption on SQL Databases should be enabled". If it's set to "Disabled" then data encryption on SQL Databases is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step8.png"/>
 9. To enable "SQL Encryption monitoring" click to open the dropdown of "Transparent data encryption on SQL Databases should be enabled" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-sql-encryption/step10.png"/>
-11. Repeat steps number 9 - 10 to ensure Monitor SQL Encryption is configured from the Azure Security Center.</br>
+11. Repeat step number 9 - 10 to ensure Monitor SQL Encryption is configured from the Azure Security Center.</br>
