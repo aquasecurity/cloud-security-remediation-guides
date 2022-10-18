@@ -26,4 +26,4 @@
 8. In the list search for the setting "Vulnerabilities in security configuration on your machines should be remediated". If it's set to "Disabled" then "Security Configuration Monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step8.png"/>
 9. To enable "Security Configuration Monitoring" click to open the dropdown of "Vulnerabilities in security configuration on your machines should be remediated" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure Security Configuration Monitoring is configured from the Azure Security Center.</br>
+11. Repeat step number 3 - 10 to ensure Security Configuration Monitoring is configured from the Azure Security Center.</br>
