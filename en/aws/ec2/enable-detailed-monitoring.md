@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / EC2 /Enable Detailed Monitoring
+# AWS / EC2 / Enable Detailed Monitoring
 
 # Quick Info
 
