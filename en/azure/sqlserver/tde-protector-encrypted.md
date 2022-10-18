@@ -23,6 +23,6 @@
 5. On the "Transparent data encryption" page, if "Transparent data encryption" is set to "Service-managed key" then the selected "SQL server TDE protector" is not encrypted with BYOK (Bring Your Own Key).</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step5.png"/>
 6. To ensure that a custom BYOK is used, select "Customer-managed key" for "Transparent data encryption".</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step6.png"/>
 7. Under "Key selection method" choose "Select a key" and click on "Change key" under "Key".</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step7.png"/>
-8. In the "Select a key" page, select the "Key vault" under "Key store type" and then select desired "Key" and "version" accordingly. Click on "Select" button at the bottom.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step8.png"/>
+8. In the "Select a key" page, select the "Key vault" under "Key store type" and then select desired "Key" and "version" accordingly. Click on "Select" button at the bottom to proceed.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step8.png"/>
 9. Click on the "Save" button at the top to make the necessary changes.</br> <img src="/resources/azure/sqlserver/tde-protector-encrypted/step9.png"/>
 10. Reepat steps number 3 - 9 to ensure that a BYOK key is set for the Transparent Data Encryption of each SQL Server.</br>
