@@ -4,7 +4,7 @@
 
 # Quick Info
 
-|                        |                                                                                                                                                                                                                                            |
+| | |                                                                                                                                                                                                                       
 | - | - |
 | **Plugin Title**       | Instance Detailed Monitoring                                                                                                                                                                                                               |
 | **Cloud**              | AWS                                                                                                                                                                                                                                        |
