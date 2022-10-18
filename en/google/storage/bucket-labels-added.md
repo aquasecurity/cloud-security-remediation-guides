@@ -10,7 +10,7 @@
 | **Cloud** | GOOGLE |
 | **Category** | Storage |
 | **Description** | Ensure that all Cloud Storage buckets have labels added. |
-| **More Info** | Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage.Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage. |
+| **More Info** | Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage. |
 | **GOOGLE Link** | https://cloud.google.com/storage/docs/using-bucket-labels |
 | **Recommended Action** | Ensure labels are added to all storage buckets. |
 

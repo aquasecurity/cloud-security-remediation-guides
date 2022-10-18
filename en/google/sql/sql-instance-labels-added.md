@@ -10,7 +10,7 @@
 | **Cloud** | GOOGLE |
 | **Category** | SQL |
 | **Description** | Ensures SQL database instances have labels added. |
-| **More Info** | Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage.Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage. |
+| **More Info** | Labels are a lightweight way to group resources together that are related to or associated with each other. It is a best practice to label cloud resources to better organize and gain visibility into their usage. |
 | **GOOGLE Link** | https://cloud.google.com/sql/docs/mysql/label-instance |
 | **Recommended Action** | Ensure labels are added for all SQL databases. |
 
