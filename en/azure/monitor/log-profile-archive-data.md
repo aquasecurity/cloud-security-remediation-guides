@@ -19,7 +19,7 @@
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Log Analytics Workspaces". </br> <img src="/resources/azure/monitor/log-profile-archive-data/step2.png"/>
 3. On the "Log Analytics Workspaces" page select the resource and click on its Name to reach its configuration page.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step3.png"/>
-4. On the "Log Analytics workspaces - resource" page, scroll down the left navigation panel and choose "Activity Log".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step4.png"/>
+4. On the "Log Analytics Workspaces - resource" page, scroll down the left navigation panel and choose "Activity Log".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step4.png"/>
 5. Click on the "Export Activity Logs" at the top of "Activity Log" page to ensures the "Log Profile" is configured.</br> <img src="/resources/azure/monitor/log-profile-archive-data/step5.png"/>
 6. Under "Export Activity Logs" page, if no Diagnostic settings are defined, then the Log Profile is not configured to export all activities from control and management planes in all active locations. </br> <img src="/resources/azure/monitor/log-profile-archive-data/step6.png"/>
 7. To ensure that all activity is logged to the Event Hub or storage account for archiving, on the "Export Activity Logs" page, click on the "Add diagnostic setting".</br> <img src="/resources/azure/monitor/log-profile-archive-data/step7.png"/>
