@@ -24,7 +24,7 @@
 7. Run "Get-AzSqlDatabase -ResourceGroupName your_resource_group_name -ServerName your_server_name -DatabaseName your_DB_Name" PowerShell command.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step7.png"/>
 8. If the value of property "ZoneReduntant" is "false" in the result then the database is not zone reduntant.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step8.png"/>
 9. If the value of ZoneReduntant is False then we need to restore the affected Database with a minimum of "Premium" grade "Compute + storage".
-10. On the Azure UI Dashboard, goto to the configuration of the affected database and click on "Restore" button at the top.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step10.png"/>
+10. On the Azure UI Dashboard, go to the configuration of the affected database and click on "Restore" button at the top.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step10.png"/>
 11. On the "Create SQL Database - Restore database" page, select the "Earliest restore point" and click on "Configure database" next to "Compute + storage".</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step11.png"/>
 12. On the Configure page, select "Premium" or higher Service tier type in the "Service tier" dropdown.Then select "yes" for "Would you like to make this database zone redundant?" and click "Apply" button at the bottom.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step12.png"/>
 13. Now click "Review + create" and "Create" on the "Create SQL Database - Restore database" page to complete the restoration.</br> <img src="/resources/azure/sqldatabases/sql-db-multiple-az/step13.png"/>
