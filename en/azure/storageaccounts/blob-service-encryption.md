@@ -27,4 +27,4 @@
 9. In the "Key Vault and key" click on the blue hughlighted text "Select a key vault and key". </br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step9.png"/>
 10. On the "Select a key" page, select "Key store type" as "Key vault". In the "Key vault" and "key" options, select the key vault and key from the dropdown or you can create your own key vault and key. Click "Select" button at the end to save the selected options.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step10.png"/>
 11. Click on the "Save" button at the end to make the changes.</br> <img src="/resources/azure/storageaccounts/blob-service-encryption/step11.png"/>
-12. Repeat step number 3 - 11 to ensure the Storage Account used by Blog Services is configured with a BYOK key.</br>
+12. Repeat step number 3 - 11 to ensure the Storage Account used by Blob Services is configured with a BYOK key.</br>
