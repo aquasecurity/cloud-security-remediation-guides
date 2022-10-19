@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Login to the Azure portal.
+1. Login to the Microsoft Azure Management Console.
 2. In the search bar at the top search for container registries and click on "Conatiner registries".<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step2.png"/>
 3. On the container registries page, click on the "Name" link to go to the configuration page.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step3.png"/>
 4. On the container registry pane that opens, click on "Access keys" under "Settings" in the left navigation panel.<br/> <img src="/resources/azure/containerregistry/acr-admin-user/step4.png"/>
