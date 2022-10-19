@@ -23,4 +23,4 @@
 5. On the "Server parameters" page, search for "log_retention_days" paramter using the "Search for filter item search box." If the value is set to less than "3 days" then the "log_retention_days" is not as per best practices for PostgreSQL servers.</br> <img src="/resources/azure/postgresqlserver/log-retention-period/step5.png"/>
 6. To increase the value of log_retention_days set the "log_retention_days" by typing the "Value" to more than "4" days in the textbox.</br> <img src="/resources/azure/postgresqlserver/log-retention-period/step6.png"/>
 7. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/postgresqlserver/log-retention-period/step7.png"/>
-8. Repeat steps number 3 - 7 to ensure the server parameters for each PostgreSQL server have the log_retention_days setting set to 4 or more days.</br>
+8. Repeat step number 3 - 7 to ensure the server parameters for each PostgreSQL server have the log_retention_days setting set to 4 or more days.</br>
