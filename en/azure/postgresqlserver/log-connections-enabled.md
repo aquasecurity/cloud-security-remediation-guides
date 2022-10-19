@@ -23,4 +23,4 @@
 5. On the "Server parameters" page, search for "log_connections" paramter using the "Search for filter item search box." If the value is set to "OFF" then the "Log Connections" are not enabled for PostgreSQL servers. This is against Azure best practices.</br> <img src="/resources/azure/postgresqlserver/log-connections-enabled/step5.png"/>
 6. To enable "log_connections" select "ON" from the toggle configuration button.</br> <img src="/resources/azure/postgresqlserver/log-connections-enabled/step6.png"/>
 7. Click on the "Save" button at the top to make the changes.</br> <img src="/resources/azure/postgresqlserver/log-connections-enabled/step7.png"/>
-8. Repeat steps number 3 - 7 to ensure the server parameters for each PostgreSQL server have the log_connections setting enabled.</br>
+8. Repeat step number 3 - 7 to ensure the server parameters for each PostgreSQL server have the log_connections setting enabled.</br>
