@@ -24,4 +24,4 @@
 6. In the selected "Table",check the "Permissions" associated with the "Table". If the "Table" allows full Read, Add, Update, Delete ACL permissions then the selected "Table" is not as per the standard configurations.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step6.png"/>
 7. To make changes click on the three dots (...) at the right corner and select the "Edit" option.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step7.png"/>
 8. Uncheck the global read/update/detele policies under the "Permissions" and click on the "OK" button to make the changes.</br> <img src="/resources/azure/tableservice/table-service-all-access-acl/step8.png"/>
-9. Repeat steps number 3 - 8 to ensures "Tables" do not allow full Read, Update, Delete ACL permissions. </br>
+9. Repeat step number 3 - 8 to ensures "Tables" do not allow full Read, Update, Delete ACL permissions. </br>
