@@ -23,5 +23,4 @@
 5. On the "Backend pools" pane that opens, if there are no backend instances then we should delete it as a security best practice.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step5.png"/>
 6. In the left navigation panel click on "Overview" and click on "Delete" button at the top to delete the load balancer.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step6.png"/>
 7. In the confimation box that opens, click "Yes" to confirm deletion of this load balancer.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step7.png"/>
-10. Repeat steps number 3 - 7 to check and delete old load balancers that no longer have backend resources.
-
+10. Repeat step number 3 - 7 to check and delete old load balancers that no longer have backend resources.
