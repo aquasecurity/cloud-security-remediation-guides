@@ -18,7 +18,7 @@
 
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for PostgreSQL. </br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step2.png"/>
-3. On the "Azure Database for PostgreSQL servers" page, select the database by clicking on the "Name" as a link that needs to be examine.</br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step3.png"/>
+3. On the "Azure Database for PostgreSQL servers" page, select the database by clicking on the "Name" as a link that needs to be examined.</br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step3.png"/>
 4. Scroll down the left navigation panel and choose "Server parameters" under "Settings."</br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step4.png"/>
 5. On the "Server parameters" page, search for "log_disconnections" paramter using the "Search for filter item search box." If the value is set to "OFF" then the "log-disconnections" is not enabled for PostgreSQL servers. This is against Azure best practices.</br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step5.png"/>
 6. To enable "log_disconnections" select "ON" from the toggle configuration button.</br> <img src="/resources/azure/postgresqlserver/log-disconnections-enabled/step6.png"/>
