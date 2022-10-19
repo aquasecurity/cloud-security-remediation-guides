@@ -25,4 +25,3 @@
 7. Repeat step 3 - 6 for all other container registries.
 
 
-
