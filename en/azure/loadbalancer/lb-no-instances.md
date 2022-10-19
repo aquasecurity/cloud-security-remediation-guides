@@ -17,13 +17,10 @@
 ## Detailed Remediation Steps
 
 1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Load balancers. </br> <img src="/resources/azure/loadbalancer/lb-no-instances/step2.png"/>
+2. In search bar at the top search for Load balancers and select "Load Balancers". </br> <img src="/resources/azure/loadbalancer/lb-no-instances/step2.png"/>
 3. Select the "Load balancer" by clicking on the "Name" as a link which needs to be checked for active Instances.</br> <img src="/resources/azure/loadbalancer/lb-no-instances/step3.png"/>
 4. On the "Load balancer" page, scroll down the left navigation panel and choose the "Backend pools" option. </br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step4.png"/>
-5. On the "Load balancers- Backend pools" page, check whether it has any active Instances or not. If load balancers have no backend instances attached then we can delete it for security concerns.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step5.png"/>
-6. Repeat steps number 2 - 5 to verify "Load balancer" with no instances.</br>
-7. Navigate to "Load balancers", select the load balancer which needs to be deleted. </br> <img src="/resources/azure/loadbalancer/lb-no-instances/step7.png"/>
-8. On the selected "Load balancer" click on the "... (three dots)" at extreme right and select "Delete" option.</br> <img src="/resources/azure/loadbalancer/lb-no-instances/step8.png"/>
-9. On the "Delete load balancer" tab, click on the "Yes" button to make the changes.</br> <img src="/resources/azure/loadbalancer/lb-no-instances/step9.png"/>
-10. Repeat steps number 7 - 9 to delete old load balancers that no longer have backend resources as they are consuming costs without providing any functionality and old load balancers with no instances pose a security concern if new instances are accidentally attached.
-
+5. On the "Backend pools" pane that opens, if there are no backend instances then we should delete it as a security best practice.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step5.png"/>
+6. In the left navigation panel click on "Overview" and click on "Delete" button at the top to delete the load balancer.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step6.png"/>
+7. In the confimation box that opens, click "Yes" to confirm deletion of this load balancer.</br>  <img src="/resources/azure/loadbalancer/lb-no-instances/step7.png"/>
+10. Repeat step number 3 - 7 to check and delete old load balancers that no longer have backend resources.
