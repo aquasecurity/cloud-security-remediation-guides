@@ -20,7 +20,7 @@
 2. Select the "Search resources, services, and docs" option at the top and search for "Storage accounts". </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step2.png"/>
 3. Select the "Storage account" by clicking on its "Name" to get into its configuration page.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step3.png"/> 
 4. On the "Storage accounts" page, select the "Containers" under "Data storage". </br> <img src="/resources/azure/storageaccounts/log-container-public-access/step4.png"/> 
-5. On the "Containers" page select the "Activity Log Container" and check the "Public Access" column. If it's not set to "Private" then the Activity Log Container has public read access.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step5.png"/> 
+5. On the "Containers" page, select the "Activity Log Container" and check the "Public Access" column. If it's not set to "Private" then the Activity Log Container has public read access.</br> <img src="/resources/azure/storageaccounts/log-container-public-access/step5.png"/> 
 6. Select the "Actvity Log Container" which needs to be set to private. Click on the "Change access level" option at the top.</br>  <img src="/resources/azure/storageaccounts/log-container-public-access/step6.png"/> 
 7. On the "Change access level" page, click on the dropdown menu under "Public access level" and select the "Private (no anonymous access)" option.</br>  <img src="/resources/azure/storageaccounts/log-container-public-access/step7.png"/> 
 8. Click on the "OK" button to save the changes.</br>  <img src="/resources/azure/storageaccounts/log-container-public-access/step8.png"/> 
