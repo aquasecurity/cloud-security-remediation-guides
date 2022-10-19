@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / BigTable / Instance Labels Added
+# GOOGLE / BigTable / Big Table Labels Added
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Instance Labels Added |
+| **Plugin Title** | Big Table Labels Added |
 | **Cloud** | GOOGLE |
 | **Category** | BigTable |
 | **Description** | Ensure that all BigTable instances have labels added. |
