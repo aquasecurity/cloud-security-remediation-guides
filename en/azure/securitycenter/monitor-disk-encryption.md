@@ -27,4 +27,4 @@
 8. In the list search for the setting "Virtual machines should encrypt temp disks, caches and data flows between Compute and Storage resources". If it's set to "Disabled" then "Disk Encryption monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step8.png"/>
 9. To enable "Disk Encryption monitoring" click to open the dropdown of "Virtual machines should encrypt temp disks, caches and data flows between Compute and Storage resources" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-disk-encryption/step10.png"/>
-11. Repeat steps number 3 - 10 to ensures "Disk Encryption monitoring" is enabled in Security Center.</br>
+11. Repeat step number 3 - 10 to ensures "Disk Encryption monitoring" is enabled in Security Center.</br>
