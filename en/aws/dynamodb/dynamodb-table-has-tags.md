@@ -15,9 +15,8 @@
 | **Recommended Action** | Modify dynamoDB table and add tags |
 
 ## Detailed Remediation Steps 
-
 1. Log into the AWS Management Console.
-2. Select the "Services" option and search for "DynamoDB" and Click on "DynamoDB".</br> <img src="/resources/aws/dynamodb/dynamodb-table-has-tags/step2.png"/>
+2. Select the "Services" option and search for "DynamoDB" and click on "DynamoDB".</br> <img src="/resources/aws/dynamodb/dynamodb-table-has-tags/step2.png"/>
 3. On "DynamoDB Dashboard" page Click on "Tables" from left navigation panel.</br> <img src="/resources/aws/dynamodb/dynamodb-table-has-tags/step3.png"/>
 4. On dynamodb tables list page Click on the table Name which needs to have tags.</br> <img src="/resources/aws/dynamodb/dynamodb-table-has-tags/step4.png"/>
 5. On Table details page choose "Additional Settings" tab from navigation panel on the top.</br> <img src="/resources/aws/dynamodb/dynamodb-table-has-tags/step5.png"/>
