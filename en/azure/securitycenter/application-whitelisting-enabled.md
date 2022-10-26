@@ -26,4 +26,4 @@
 8. In the list search for the setting "Adaptive Application Controls for defining safe applications should be enabled on your machines". If it's set to "Disabled" then "Adaptive Application Whitelisting" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step8.png"/>
 9. To enable ""Adaptive Application Whitelisting" click to open the dropdown of "Adaptive Application Controls should be enabled on virtual machines" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom. </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step9.png"/>
 10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step10.png"/>
-11. Repeat steps number 3 - 10 to ensures "Adaptive Application Whitelisting" is enabled for Subscriptions.</br>
+11. Repeat step number 3 - 10 to ensures "Adaptive Application Whitelisting" is enabled for Subscriptions.</br>
