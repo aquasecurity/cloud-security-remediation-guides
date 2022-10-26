@@ -15,7 +15,6 @@
 | **Recommended Action** | Modify ElastiCache cluster and add tags. |
 
 ## Detailed Remediation Steps
-
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for "ElastiCache" and Click on "ElastiCache". </br> <img src="/resources/aws/elasticache/elasticache-cluster-has-tags/step2.png"/>
 3. On "ElastiCache Dashboard" page Click on Redis or MemCached Cluster according to your cluster type from left navigation panel. </br> <img src="/resources/aws/elasticache/elasticache-cluster-has-tags/step3.png"/>
