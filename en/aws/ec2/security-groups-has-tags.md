@@ -6,10 +6,10 @@
 
 | | |
 |-|-|
-| **Plugin Title** | Security Groups Have Tags |
+| **Plugin Title** | Security Group has Tags |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensure Security Groups have tags |
+| **Description** | Ensure that AWS Security Groups have tags associated. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-ec2-adds-resource-identifiers-tags-vpc-security-groups-rules/ |
 | **Recommended Action** | Update Security Group and add Tags |
