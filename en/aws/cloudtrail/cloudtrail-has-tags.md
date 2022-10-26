@@ -12,7 +12,7 @@
 | **Description** |Ensure that Cloudtrail have tags |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_AddTags.html |
-| **Recommended Action** | Modify cloudtrail and tags |
+| **Recommended Action** | Modify cloud trail and add tags |
     
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
