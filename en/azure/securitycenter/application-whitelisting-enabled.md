@@ -16,14 +16,14 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step2.png"/>
-3. Scroll down the "Security Center" navigation panel and select the "Security policy" option under "POLICY & COMPLIANCE."</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step3.png"/>
-4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step4.png"/>
-5. On the "Security Policy" page scroll down the "Compute And Apps" section and check the "Adaptive Application Controls should be enabled on virtual machines". If it's set to "Disabled" then "Adaptive Application Whitelisting" is not enabled on the selected "Subscription."</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step5.png"/>
-6. Repeat steps number 2 - 5 to check other "Subscriptions" under the "Security Center."</br>
-7. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" select the "Subscription" that needs to enable the "Adaptive Application Whitelisting."</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step7.png"/>
-8. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step8.png"/>
-9. Scroll down the page and under "Parameter" choose the "Adaptive Application Controls should be enabled on virtual machines" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step9.png"/>
-10. Repeat steps number 7 - 9 to ensures "Disk Encryption monitoring" is enabled in Security Center.</br>
-
+1. Log in to the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step2.png"/>
+3. Scroll down the left navigation panel and select the "Environment Settings" under "Management".</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step3.png"/>
+4. On the "Microsoft Defender for Cloud | Environment settings" page under "Name" column, select the "Subscription Name" that needs to be verified by clicking on its Name.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step4.png"/>
+5. On the "Settings" page scroll down the "Policy settings" section and select "Security Policy".</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step5.png"/>
+6. On the "Settings | Security policy" page, Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step6.png"/>
+7. On the Settings page, select the "Parameters" tab and uncheck "Only show parameters that need input or review". It will show you a list of parameters.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step7.png"/>
+8. In the list search for the setting "Adaptive Application Controls for defining safe applications should be enabled on your machines". If it's set to "Disabled" then "Adaptive Application Whitelisting" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step8.png"/>
+9. To enable ""Adaptive Application Whitelisting" click to open the dropdown of "Adaptive Application Controls should be enabled on virtual machines" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom. </br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step9.png"/>
+10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/application-whitelisting-enabled/step10.png"/>
+11. Repeat step number 3 - 10 to ensures "Adaptive Application Whitelisting" is enabled for Subscriptions.</br>
