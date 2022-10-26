@@ -6,10 +6,10 @@
 
 | | |
 |-|-|
-| **Plugin Title** | EBS Volumes have tags |
+| **Plugin Title** | EBS Volume has tags |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensure that EBS Volumes have tags |
+| **Description** | Ensure that EBS Volumes have tags associated |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://aws.amazon.com/blogs/aws/new-tag-ec2-instances-ebs-volumes-on-creation/ |
 | **Recommended Action** | Modify EBS volumes and add tags |

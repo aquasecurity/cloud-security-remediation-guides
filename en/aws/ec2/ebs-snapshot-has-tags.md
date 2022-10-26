@@ -9,7 +9,7 @@
 | **Plugin Title** | EBS Snapshot Has Tags |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensure that EBS snapshots have tags |
+| **Description** | Ensure that EBS snapshots have tags associated |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://aws.amazon.com/blogs/compute/tag-amazon-ebs-snapshots-on-creation-and-implement-stronger-security-policies/ |
 | **Recommended Action** | Modify EBS snapshots and add tags. |
