@@ -10,7 +10,7 @@
 | **Cloud** | AWS |
 | **Category** | ELBv2 |
 | **Description** | Ensure that ELBs have tags. |
-| **More Info** |Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
+| **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_AddTags.html |
 | **Recommended Action** | Modify ELB and Add tags. |
 
