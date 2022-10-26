@@ -24,4 +24,4 @@
 6. On the "Firewalls and virtual networks" tab check the option selected under "Public network access". If "Enabled from all networks" is selected then the selected "Storage account" access is not restricted to trusted networks. </br> <img src="/resources/azure/storageaccounts/network-access-default-action/step6.png"/>
 7. To restrict the selected storage account's access to all networks, under "Public network access" select option "Enabled from selected virtual networks and IP addresses" and choose the trusted "Virtual Network".</br> <img src="/resources/azure/storageaccounts/network-access-default-action/step7.png"/>
 8. Click on "Save" button at the top to make the changes.</br> <img src="/resources/azure/storageaccounts/network-access-default-action/step8.png"/>
-9. Repeat steps number 3 - 8 to ensure that "Storage account" access is restricted to trusted networks.</br>
+9. Repeat step number 3 - 8 to ensure that "Storage account" access is restricted to trusted networks.</br>
