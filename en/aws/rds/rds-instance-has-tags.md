@@ -1,15 +1,15 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / RDS / RDS Instance Have Tags
+# AWS / RDS / RDS Instance Has Tags
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | RDS Instance Have Tags |
+| **Plugin Title** | RDS Instance Has Tags |
 | **Cloud** | AWS |
 | **Category** | RDS |
-| **Description** | Ensure RDS instances have tags |
+| **Description** | Ensure that AWS RDS instances have tags associated. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html |
 | **Recommended Action** | Modify the RDS instance to add tags |
