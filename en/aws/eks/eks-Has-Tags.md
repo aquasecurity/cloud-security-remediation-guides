@@ -12,10 +12,9 @@
 | **Description** | Ensure EKS Cluster have tags |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/eks/latest/userguide/eks-using-tags.html |
-| **Recommended Action** | Modify EKS Cluster and tags. |
+| **Recommended Action** | Modify EKS Cluster and add tags. |
 
 ## Detailed Remediation Steps
-
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for "EKS" and Click on "Elastic Kubernetes Services". </br> <img src="/resources/aws/eks/eks-cluster-has-tags/step2.png"/>
 3. On "Elastic Kubernetes Services" page Click on Cluster from left navigation panel. </br> <img src="/resources/aws/eks/eks-cluster-has-tags/step3.png"/>
