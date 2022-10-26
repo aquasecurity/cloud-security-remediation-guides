@@ -1,15 +1,15 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / IAM / IAM Roles Have Tags
+# AWS / IAM / IAM Roles Has Tags
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | IAM Roles Have Tags |
+| **Plugin Title** | IAM Roles Has Tags |
 | **Cloud** | AWS |
 | **Category** | IAM |
-| **Description** | Ensure IAM roles have tags |
+| **Description** | Ensure that AWS IAM Roles have tags associated. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html |
 | **Recommended Action** | Modify IAM Role and add tags |
