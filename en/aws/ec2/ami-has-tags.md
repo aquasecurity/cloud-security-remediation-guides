@@ -12,7 +12,7 @@
 | **Description** | Ensure that AMIs have tags |
 | **More Info** |Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-machine-images-support-tag-on-create-tag-based-access-control/ |
-| **Recommended Action** | Modify AMI and add new tags. |
+| **Recommended Action** | Modify AMI and add tags. |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
