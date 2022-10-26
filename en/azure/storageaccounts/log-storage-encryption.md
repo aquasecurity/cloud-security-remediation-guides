@@ -29,4 +29,4 @@
 11. In the "Key Vault and key" click on the blue hughlighted text "Select a key vault and key". </br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step11.png"/>
 12. On the "Select a key" page, select "Key store type" as "Key vault". In the "Key vault" and "key" options select the key vault and key from the dropdown or you can create your own key vault and key. Click "Select" button at the end to save the selected options.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step12.png"/>
 13. Click on the "Save" button at the end to make the changes.</br> <img src="/resources/azure/storageaccounts/log-storage-encryption/step13.png"/>
-14. Repeat steps number  4 - 13 to ensure the Storage Account used by Activity Logs is configured with a BYOK key for all resources with Diagnostic Status "Enabled".</br>
+14. Repeat step number  4 - 13 to ensure the Storage Account used by Activity Logs is configured with a BYOK key for all resources with Diagnostic Status "Enabled".</br>
