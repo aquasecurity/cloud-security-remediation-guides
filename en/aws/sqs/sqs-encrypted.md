@@ -32,4 +32,4 @@
 15. On the "Edit TestQueue" page scroll down to "Encryption" and under the "Server-Side Encryption" select "Enabled". </br> <img src="/resources/aws/sqs/sqs-encrypted/step15.png"/>
 16. Under the "Encryption key type" select "AWS Key Management Service key (SSE-KMS)" and from the dropdown under "Customer master key" select the key that you have created for SQS.</br> <img src="/resources/aws/sqs/sqs-encrypted/step16.png"/>
 17. Click on the "Save" button to make the necessary changes.</br> <img src="/resources/aws/sqs/sqs-encrypted/step17.png"/>
-18. Repeat steps number 7 - 17 to enable encryption using KMS for all SQS queues.</br>
+18. Repeat step number 7 - 17 to enable encryption using KMS for all SQS queues.</br>
