@@ -15,8 +15,6 @@
 | **Recommended Action** | Restrict TCP port 8020 to known IP addresses for Hadoop/HDFS. |
 
 ## Detailed Remediation Steps
-
-
 1. Log in to the Microsoft Azure Management Console.
 2. Click the search bar at the top and search for Network security groups. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service/step2.png"/>
 3. Select the "Network security group" that needs to be verified. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service/step3.png"/>
@@ -27,4 +25,4 @@
 8. Navigate to the "Network security group" and select the security group that needs to modified for restricting the "TCP" port for "Hadoop/HDFS" on port 8020 to specific IP Address.</br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service/step8.png"/>
 9. Scroll down the left navigation panel and choose "Inbound security rules" under "Settings."</br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service/step9.png"/>
 10.  Click on the "Hadoop" protocol in the "Name" column and in the right pane under "Source" select the "IP Addresses" from the dropdown menu and enter the "Source IP addresses/CIDR ranges" as per the requirement, select the required Protocol and Action and click on the "Save" option at the top of the pane. </br> <img src="/resources/azure/networksecuritygroups/open-hadoop-hdfs-namenode-metadata-service/step10.png"/>
-11. Repeat steps number 8 - 10 to restrict TCP port 8020 for Hadoop/HDFS to known IP addresses.</br>
+11. Repeat step number 8 - 10 to restrict TCP port 8020 for Hadoop/HDFS to known IP addresses.</br>
