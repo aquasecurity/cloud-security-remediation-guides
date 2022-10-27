@@ -23,4 +23,4 @@
 6. Navigate to "Customer Managed Keys" under "Key Management Service" and select the "KMS key" that needs to be modified to disable the scheduled key deletion.</br> <img src="/resources/aws/kms/kms-scheduled-deletion/step6.png"/>
 7. Click on the "Key actions" button at the top and select the "Cancel key deletion" option to disable the scheduled deletion.</br> <img src="/resources/aws/kms/kms-scheduled-deletion/step7.png"/>
 8. Click on the "Disable" option under "Key actions" to disable the selected "KMS key" instead of deleting the key.</br> <img src="/resources/aws/kms/kms-scheduled-deletion/step8.png"/>
-9. Repeat steps number 6 - 8 to disable the key deletion before the scheduled deletion time.</br>
+9. Repeat step number 6 - 8 to disable the key deletion before the scheduled deletion time.</br>
