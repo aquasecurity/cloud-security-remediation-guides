@@ -20,7 +20,7 @@
 3. Select the "SQS" queue that needs to be verified and click on its "Name".</br> <img src="/resources/aws/sqs/sqs-encrypted/step3.png"/>
 4. Scroll down the page and click on the "Encryption" tab from the bottom panel.</br> <img src="/resources/aws/sqs/sqs-encrypted/step4.png"/>
 5. Check the "Server Side Encryption" status for the selected "SQS" queue. If the "Server Side Encryption" is not configured then the following message is  displayed "No server-side encryption is set for this queue". SSE protects the content of messages in Amazon SQS queues using keys managed in the AWS Key Management Service (AWS KMS)".</br> <img src="/resources/aws/sqs/sqs-encrypted/step5.png"/>
-6. Repeat steps number 2 - 5 to verify other "SQS" queue in the selected AWS region.</br>
+6. Repeat step number 2 - 5 to verify other "SQS" queue in the selected AWS region.</br>
 7. To enable the "SQS" encryption navigate to KMS services to create a "KMS CMK customer-managed key".</br> <img src="/resources/aws/sqs/sqs-encrypted/step7.png"/>
 8. Scroll down the left navigation panel and choose "Customer managed keys" under "Key Management Service" and click on the "Create key" button at the top panel.</br> <img src="/resources/aws/sqs/sqs-encrypted/step8.png"/>
 9. On the "Configure key" page select key type as "Symmetric". In the advanced options select "Key material origin" as "KMS" and "Regionality" as "Single-Region key" and proceed by clicking "Next" button.</br> <img src="/resources/aws/sqs/sqs-encrypted/step9.png"/>
