@@ -21,6 +21,6 @@
 4. Scroll down and under the "CloudWatch Logs" option check for any log groups configuration. If no log groups are there than "CloudWatch" is not enabled for the selected trail. Click on the "Edit" button under the "CloudWatch Logs" section to configure log groups. </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step4.png"/>
 5. On the Edit page select and check mark the CloudWatch Logs as "Enabled" </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step5.png"/>
 6. In "New or existing "log group" enter a "Log group name" for log group. </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step6.png"/>
-7. Create a new "IAM Role" or select an existing "IAM Role" to deliver CloudTrail events to CloudWatch Logs log group. Role Name is defined on it's own once we click on new "IAM Role". </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step7.png"/>
+7. Create a new "IAM Role" or select an existing "IAM Role" to deliver CloudTrail events to CloudWatch Logs group. Role Name is defined on it's own once we click on new "IAM Role". </br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step7.png"/>
 8. Click on "Policy Document" to verify the "CloudTrail_CloudWatchLogs_Role".</br> <img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step8.png"/>
 9. Scroll down and click "Save changes". "CloudTrail CloudWatch" is now enabled for the selected trail.</br><img src="/resources/aws/cloudtrail/cloudtrail-to-cloudwatch/step9.png"/>
