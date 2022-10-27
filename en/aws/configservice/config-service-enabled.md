@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for AWS Config. </br> <img src="/resources/aws/configservice/config-service-enabled/step2.png"/>
 3. If the AWS console redirects to "Get Started" page then the Config Service is not enabled in the selected region. </br> <img src="/resources/aws/configservice/config-service-enabled/step3.png"/>
-4. Repeat steps number 2 - 3 to verify "Config Service" is enabled or not in the other regions. </br>
+4. Repeat step number 2 - 3 to verify "Config Service" is enabled or not in the other regions. </br>
 5. Navigate on "AWS Config" and click on the "Get Started" button. </br> <img src="/resources/aws/configservice/config-service-enabled/step5.png"/>
 6. On the "Settings" page under the "Resource types to record" select both "Record all resources supported in this region" to track configuration changes for all AWS resource and "Include global resources" to include any type of global AWS resource such as "AWS IAM resource".</br> <img src="/resources/aws/configservice/config-service-enabled/step6.png"/>
 7. Under the "AWS Config role" choose the "Use an existing AWS Config service-linked role".</br> <img src="/resources/aws/configservice/config-service-enabled/step7.png"/>
@@ -26,4 +26,4 @@
 9. On the "Amazon SNS topic" choose either of the options available as "Create a topic" to create a new simple notification service topic, "Choose a topic from your account" to choose the existing SNS topic and "Choose a topic from another account" to choose the "SNS Topic" from the another AWS account and in the "Topic Name" field enter an unique name for the "SNS Topic". Then click on the "Next" button. </br> <img src="/resources/aws/configservice/config-service-enabled/step9.png"/>
 10. On the Rules page select all the "AWS Config rules" from all available pages to check the configuration of the resources against rules that are defined and click on the "Next" button. </br> <img src="/resources/aws/configservice/config-service-enabled/step10.png"/>
 11. Review the changes and click on the "Confirm" button to make the necessary changes. </br> <img src="/resources/aws/configservice/config-service-enabled/step11.png"/>
-12. Repeat steps number 5 - 11 to enable the AWS Config Service for all regions and resources in an account.
+12. Repeat step number 5 - 11 to enable the AWS Config Service for all regions and resources in an account.
