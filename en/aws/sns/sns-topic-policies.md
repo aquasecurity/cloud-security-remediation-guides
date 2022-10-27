@@ -24,5 +24,4 @@
 7. To change the access policy, click on the "Edit" button at the top of the page. </br> <img src="/resources/aws/sns/sns-topic-policies/step7.png"/>
 8. On the "Edit topic" page, scroll down to "Access policy" and in the "JSON editor" change the "Principal" key with the correct IAM role ARN eg. arn:aws:iam::066531304300:user/dev27. </br> <img src="/resources/aws/sns/sns-topic-policies/step8.png"/>
 9. Click on "Save changes" button at the bottom of the page.</br> <img src="/resources/aws/sns/sns-topic-policies/step9.png"/>
-10. Repeat steps 3-9 for all other SNS Topics across all regions.
-
+10. Repeat step 3-9 for all other SNS Topics across all regions.
