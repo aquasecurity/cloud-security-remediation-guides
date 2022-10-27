@@ -15,7 +15,6 @@
 | **Recommended Action** | RDS does not currently allow modifications to encryption after the instance has been launched, so a new instance will need to be created with encryption enabled. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-encryption-enabled/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-encryption-enabled/step3.png"/>
