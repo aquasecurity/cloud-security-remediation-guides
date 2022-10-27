@@ -33,4 +33,4 @@
 15. Scroll down and click on the "Restore DB Instance" button. </br><img src="/resources/aws/rds/rds-encryption-enabled/step15.png"/>
 16. Update the "Database Endpoint" as soon as the new instance provisioning process is completed and the database instance is available. </br><img src="/resources/aws/rds/rds-encryption-enabled/step16.png"/>
 17. Remove the unencrypted database instance by selecting the database and clicking on the "Actions" button at the top menu and clicking on the "Delete" button under "Delete" panel. </br><img src="/resources/aws/rds/rds-encryption-enabled/step17.png"/>
-18. Repeat steps 7 to 17 for all other RDS databases. 
+18. Repeat step 7 to 17 for all other RDS databases. 
