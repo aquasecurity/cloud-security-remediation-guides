@@ -25,4 +25,4 @@
 8. Under the "Security Credentials" tab check the "Console password" section for status "Enabled/Disabled". If the status is "Enabled" then the console sign in is enabled and needs to be disabled. </br><img src="/resources/aws/iam/users-password-last-used/step8.png"/>
 9. Click on "Manage" to open "Manage console acess" pop up. </br><img src="/resources/aws/iam/users-password-last-used/step9.png"/>
 10. Select "Disable" for the Console access and click on "Apply" button. </br><img src="/resources/aws/iam/users-password-last-used/step10.png"/>
-11. Repeat steps number 2 - 11 to verify for other IAM users.</br>
+11. Repeat step number 2 - 11 to verify for other IAM users.</br>
