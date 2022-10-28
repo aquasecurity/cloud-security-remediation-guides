@@ -20,12 +20,11 @@
 3. Scroll down the left navigation panel and choose "Security Group" under "Network & Security".</br> <img src="/resources/aws/ec2/open-rpc/step3.png"/>
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-rpc/step4.png"/>
 5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column for "Custom TCP Rule" under "Type" for port "135" and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "TCP" port for "RPC" open to the public.</br> <img src="/resources/aws/ec2/open-rpc/step5.png"/>
-6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
+6. Repeat step number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
 7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "TCP" port 135 for "RPC"  to specific ip address. </br> <img src="/resources/aws/ec2/open-rpc/step7.png"/>
 8. Scroll down the page and select the "Inbound rules" and click on the "Edit Inbound rules" button. </br> <img src="/resources/aws/ec2/open-rpc/step8.png"/>
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-rpc/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "RPC" inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-rpc/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "RPC" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-rpc/step11.png"/>
 12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-rpc/step12.png"/>
-13. Repeat steps number 7 - 12 to restrict TCP port 135 for "RPC" to known IP address.</br>
-
+13. Repeat step number 7 - 12 to restrict TCP port 135 for "RPC" to known IP address.</br>
