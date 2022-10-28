@@ -30,4 +30,4 @@
 13. On the "Change Security Groups" tab select the new "Security Group" under "Associated security groups" and click on "Add security group" button.</br> <img src="/resources/aws/ec2/overlapping-security-groups/step13.png"/>
 14. Click on the "Save" button to assign the selected "Security Group" to the "EC2 Instance".</br> <img src="/resources/aws/ec2/overlapping-security-groups/step14.png"/>
 15. Remove any security group which may not be needed as required from the instance.
-16. Repeat steps number 8 - 15 to structure security groups and to avoid twin rules across "EC2 Instances".</br>
+16. Repeat steps number 8 - 15 to structure security groups and to avoid their overlapping in "EC2 Instances".</br>
