@@ -21,7 +21,7 @@
 4. Select the "AMI" that needs to be verified. </br> <img src="/resources/aws/ec2/public-ami/step4.png"/>
 5. Scroll down the page and select the "Permissions" tab from the dashboard bottom panel and check the AMI permission. If the selected AMI is publicly accessible it will show "This image is publicly available". This can potentially expose sensitive information stored on the host.</br> <img src="/resources/aws/ec2/public-ami/step5.png"/>
 6. Repeat steps number 2 - 6 to verify other "AMIs" permissions in the region.</br>
-7. Navigate to "AMIs" under "Images" and select the "AMI" that needs to modify to restrict the publicly shared image to private image.</br> <img src="/resources/aws/ec2/public-ami/step7.png"/>
+7. Navigate to "AMIs" under "Images" and select the "AMI" that needs to be modified to restrict the publicly shared image to private image.</br> <img src="/resources/aws/ec2/public-ami/step7.png"/>
 8. Click on the "Permissions" tab from the dashboard bottom panel and click on the "Edit AMI permissions" button.</br> <img src="/resources/aws/ec2/public-ami/step8.png"/>
 9. In the "Edit AMI Permissions" choose "Private" and click on the "Save changes" button to make the necessary changes.</br> <img src="/resources/aws/ec2/public-ami/step9.png"/>
 10. Repeat steps number 7 - 9 to change "Public AMI" to the "Private AMI" in the selected AWS region.</br>
