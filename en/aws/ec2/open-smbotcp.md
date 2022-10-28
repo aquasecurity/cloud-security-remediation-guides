@@ -27,5 +27,4 @@
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "Windows SMB" over TCP inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-smbotcp/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "SMBoTCP" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-smbotcp/step11.png"/>
 12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-smbotcp/step12.png"/>
-13. Repeat steps number 7 - 12 to restrict TCP port 445 for "Windows SMB" over TCP to known IP address.</br>
-
+13. Repeat step number 7 - 12 to restrict TCP port 445 for "Windows SMB" over TCP to known IP address.
