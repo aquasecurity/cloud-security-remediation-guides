@@ -18,6 +18,6 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/network-acl-has-tags/step2.png"/>
 3. Scroll down the left navigation panel and choose "Network ACL" under "Security". </br> <img src="/resources/aws/ec2/network-acl-has-tags/step3.png"/>
-4. Select the "Network ACL" that needs to have tags and choose the "Tags" tab from navigation panel on the bottom of page. </br> <img src="/resources/aws/ec2/network-acl-has-tags/step.png"/>
-5. Under Tags click on "Manage Tags" button . </br></br> <img src="/resources/aws/ec2/network-acl-has-tags/step5.png"/>
+4. Select the "Network ACL" that needs to have tags and choose the "Tags" tab from navigation panel on the bottom of page. </br> <img src="/resources/aws/ec2/network-acl-has-tags/step5.png"/>
+5. Under Tags click on "Manage Tags" button . </br></br> <img src="/resources/aws/ec2/network-acl-has-tags/step6.png"/>
 6. On Manage Tags page Click on "Add new Tags" button. Enter the key value for tags and click "Save".</br> <img src="/resources/aws/ec2/network-acl-has-tags/step7.png"/>
