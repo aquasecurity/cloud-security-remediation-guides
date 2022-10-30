@@ -18,8 +18,9 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br><img src="/resources/aws/iam/minimum-password-length/step2.png"/>
 3. Scroll down the left navigation panel and choose "Account Settings". </br><img src="/resources/aws/iam/minimum-password-length/step3.png"/>
-4. Under the "Password Policy" configuration panel scroll down and check the "Minimum Password Length". If the password length is set less than 8 characters than the password security is at risk. </br><img src="/resources/aws/iam/minimum-password-length/step4.png"/>
-5. Click on the "Minimum Password Length" checkbox and mention the minimum characters required to 14. Click the checkbox against "Require at least one uppercase letter" and "Require at least one lowercase letter" to make the password more secure. </br><img src="/resources/aws/iam/minimum-password-length/step5.png"/>
-6. Click on the "Apply Password Policy" button to make the necessary changes.</br><img src="/resources/aws/iam/minimum-password-length/step6.png"/>
-7. Now "Password Policy" requires at least 14 characters with one uppercase and one lowercase character for a strong and secure password.</br>
+4. On the Account Settings page, click on the "Change" under the "Password Policy".</br> <img src="/resources/aws/iam/minimum-password-length/step4a.png"/>
+5. Under the "Password Policy" configuration panel scroll down and check the "Minimum Password Length". If the password length is set less than 8 characters than the password security is at risk. </br><img src="/resources/aws/iam/minimum-password-length/step4.png"/>
+6. Click on the "Minimum Password Length" checkbox and mention the minimum characters required to 14. Click the checkbox against "Require at least one uppercase letter" and "Require at least one lowercase letter" to make the password more secure. </br><img src="/resources/aws/iam/minimum-password-length/step5.png"/>
+7. Click on the "Save Changes" button to make the necessary changes.</br><img src="/resources/aws/iam/minimum-password-length/step8a.png"/>
+8. Now "Password Policy" requires at least 14 characters with one uppercase and one lowercase character for a strong and secure password.</br>
 
