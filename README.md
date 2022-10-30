@@ -48,6 +48,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Instance IAM Role](en/aws/ec2/instance-iam-role.md)
         * [Instance Limit](en/aws/ec2/instance-limit.md)
         * [NAT Multiple AZ](en/aws/ec2/nat-multiple-az.md)
+        * [Network Acl Has Tags](en/aws/ec2/network-acl-has-tags.md)
         * [Open All Ports Protocols](en/aws/ec2/open-all-ports-protocols.md)
         * [Open CIFS](en/aws/ec2/open-cifs.md)
         * [Open DNS](en/aws/ec2/open-dns.md)
