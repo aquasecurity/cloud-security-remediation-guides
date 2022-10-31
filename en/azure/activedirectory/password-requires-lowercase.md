@@ -15,7 +15,6 @@
 | **Recommended Action** | No action necessary. Azure handles password requirement settings. |
 
 ## Detailed Remediation Steps
-
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Azure Active Directory. </br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step2.png"/>
 3.  Select the "Azure Active Directory".  On the navigation panel, select the "Users" under Manage option. </br> <img src="/resources/azure/activedirectory/password-requires-lowercase/step3.png"/>
