@@ -20,7 +20,7 @@
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step3.png"/>
 4. Scroll down the selected "Storage account" navigation panel and in "Security + networking" click on the "Networking".</br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step4a.png"/>
-5. On the "Networking" tab scroll down and cross-check whether the "Trusted Microsoft Services Access is enabled on Storage Accounts" or not under "Exceptions." </br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step5a.png"/>
+5. On the "Networking" tab scroll down and cross-check whether the "Trusted Microsoft Services Access is enabled on Storage Accounts" or not under "Exceptions". </br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step5a.png"/>
 6. Repeat steps number 2 - 5 to check other "Storage account" in the account. </br>
 7. Navigate to the "Storage accounts", select the "Storage account" and click on the "Name", select the "Networking" under "Security + networking" that needs to disable  the "Allow access for all networks."</br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step7.png"/>
 8. On the "Firewalls and virtual networks" tab under "Exceptions" choose the option of "Allow trusted Microsoft services to access this storage account" and click on the "Save" button at the top to make the changes. </br> <img src="/resources/azure/storageaccounts/trusted-ms-access-enabled/step8.png"/>
