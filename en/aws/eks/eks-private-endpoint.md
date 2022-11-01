@@ -15,7 +15,11 @@
 | **Recommended Action** | Enable the private endpoint setting for all EKS clusters. |
 
 ## Detailed Remediation Steps
-
+1. Open the Amazon EKS console at https://console.aws.amazon.com/eks/home#/clusters. </br>
+2. Choose the name of the cluster to display your cluster information. </br>
+3. Choose the Networking tab and Click Manage Networking. </br>
+4. Under Cluster endpoint access select Private. </br>
+5. Click Save. </br>
 
 
 
