@@ -16,6 +16,12 @@
 
 ## Detailed Remediation Steps
 
-
+1. Log into the AWS Management Console. </br>
+2. Search for EKS. </br>
+3. In the navigation pane click on clusters. </br>
+4. Click on the cluster you need to check if it has latest EKS Kubernetes version. </br>
+5. If there is a new Kubernetes versions available for this cluster, it will show on top with UPDATE NOW button. </br>
+6. Click on UPDATE NOW, a pop-up screen will show from which you can choose the Kubernetes version. the default version will be automatically selected. </br>
+7. Click Update.
 
 

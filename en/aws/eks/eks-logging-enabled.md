@@ -15,7 +15,14 @@
 | **Recommended Action** | Enable all EKS cluster logs to be sent to CloudWatch with proper log retention limits. |
 
 ## Detailed Remediation Steps
-
+1. Log into the AWS Management Console. </br>
+2. Navigate to the EKS page. </br>
+3. In the navigation pane click on clusters. </br>
+4. Click the cluster name you need to enable logging for. </br>
+5. Click on logging tab. </br>
+6. Click on Manage logging. </br>
+7. Enable logs for the all cluster logs: API serverLogs, AuditLogs, AuthenticatorLogs, Controller managerLogs , SchedulerLogs. </br>
+8. Click save. </br>
 
 
 
