@@ -21,9 +21,9 @@
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step4.png"/>
 5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has one or many ports open to the public.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
-7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access to specific ip address. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step7.png"/>
+7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to be modified to restrict the access to specific IP address. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step7.png"/>
 8. Scroll down the "Security Group" page and select the "Inbound rules" and click on the "Edit inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step8.png"/>
-9. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column of Type "SSH" to allow inbound traffic only from your current IP address.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step9.png"/>
+9. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column of type "SSH" to allow inbound traffic only from your current IP address.</br> <img src="/resources/aws/ec2/open-all-ports-protocols/step9.png"/>
 10. In the "Edit inbound rules" tab select the "Custom" from the "Source" column if you want to specify a "static IP" address of the permitted host along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step10.png"/>
 11. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-all-ports-protocols/step11.png"/>
-12. Repeat steps number 7 - 11 to modify the security group to specify a specific port and protocol to allow.</br>
+12. Repeat steps number 7 - 11 to modify the security group to add a specific port and protocol to allow.</br>
