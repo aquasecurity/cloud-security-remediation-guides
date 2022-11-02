@@ -34,12 +34,18 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * ConfigService
         * [Config Service Enabled](en/aws/configservice/config-service-enabled.md)
     * EC2
+        * [Amazon EBS Public Snapshots](en/aws/ec2/amazon-ebs-public-snapshots.md)
+        * [App-Tier EC2 Instance IAM Role](en/aws/ec2/app-tier-ec2-instance-iam-role.md)
+        * [Automate EBS Snapshot Lifecycle](en/aws/ec2/automate-ebs-snapshot-lifecycle.md)
+        * [Cross Organization VPC Peering Connections](en/aws/ec2/cross-organization-vpc-peering-connections.md)
         * [Cross VPC Public Private Communication](en/aws/ec2/cross-vpc-public-private-communication.md)
         * [Default Security Group](en/aws/ec2/default-security-group.md)
         * [Default VPC In Use](en/aws/ec2/default-vpc-in-use.md)
         * [Detect EC2 Classic Instances](en/aws/ec2/detect-ec2-classic-instances.md)
+        * [EBS Backup Enabled](en/aws/ec2/ebs-backup-enabled.md)
         * [EBS Encrypted Snapshots](en/aws/ec2/ebs-encrypted-snapshots.md)
         * [EBS Encryption Enabled](en/aws/ec2/ebs-encryption-enabled.md)
+        * [EBS Volumes Too Old Snapshots](en/aws/ec2/ebs-volumes-too-old-snapshots.md)
         * [EC2 Instance Key Based Login](en/aws/ec2/ec2-instance-key-based-login.md)
         * [EC2 Max Instances](en/aws/ec2/ec2-max-instances.md)
         * [Elastic IP Limit](en/aws/ec2/elastic-ip-limit.md)
@@ -70,6 +76,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Public AMI](en/aws/ec2/public-ami.md)
         * [Subnet IP Availability](en/aws/ec2/subnet-ip-availability.md)
         * [VPC Elastic IP Limit](en/aws/ec2/vpc-elastic-ip-limit.md)
+        * [VPC Endpoint Cross Account Access](en/aws/ec2/vpc-endpoint-cross-account-acess.md)
+        * [VPC Endpoint Exposed](en/aws/ec2/vpc-endpoint-exposed.md)
         * [VPC Flow Logs Enabled](en/aws/ec2/vpc-flow-logs-enabled.md)
         * [VPC Multiple Subnets](en/aws/ec2/vpc-multiple-subnets.md)
     * ELB
@@ -102,7 +110,10 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Users MFA Enabled](en/aws/iam/users-mfa-enabled.md)
         * [Users Password Last Used](en/aws/iam/users-password-last-used.md)
     * KMS
+        * [App-Tier KMS Customer Master Key (CMK)](en/aws/kms/app-tier-kms-customer-master-key-(cmk).md)
         * [KMS Default Key Usage](en/aws/kms/kms-default-key-usage.md)
+        * [KMS Duplicate Grants](en/aws/kms/kms-duplicate-grants.md)
+        * [KMS Grant Least Privilege](en/aws/kms/kms-grant-least-privilege.md)
         * [KMS Key Policy](en/aws/kms/kms-key-policy.md)
         * [KMS Key Rotation](en/aws/kms/kms-key-rotation.md)
         * [KMS Scheduled Deletion](en/aws/kms/kms-scheduled-deletion.md)
@@ -110,6 +121,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Kinesis Streams Encrypted](en/aws/kinesis/kinesis-streams-encrypted.md)
     * Lambda
         * [Lambda Old Runtimes](en/aws/lambda/lambda-old-runtimes.md)
+        * [Lambda Tracing Enabled](en/aws/lambda/lambda-tracing-enabled.md)
     * RDS
         * [RDS Automated Backups](en/aws/rds/rds-automated-backups.md)
         * [RDS Encryption Enabled](en/aws/rds/rds-encryption-enabled.md)
@@ -481,6 +493,10 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Object Store Policy Protection](en/oracle/objectstore/object-store-policy-protection.md)
         * [Pre-Authenticated Requests Access](en/oracle/objectstore/pre-authenticated-requests-access.md)
         * [Pre-Authenticated Requests Expiry](en/oracle/objectstore/pre-authenticated-requests-expiry.md)
+    * WAF
+        * [AWS WAF In Use](en/aws/waf/aws-waf-in-use.md) 
+    * WAFV2
+        * [AWS WAFV2 In Use](en/aws/wafv2/aws-wafv2-in-use.md) 
 
 
 ## Contributing
