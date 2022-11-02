@@ -12,7 +12,7 @@
 | **Description** | Determine if TCP port 20 or 21 for FTP is open to the public |
 | **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, more sensitive services such as FTP should be restricted to known IP addresses. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group |
-| **Recommended Action** | Restrict TCP port 20 or 21 to known IP addresses |
+| **Recommended Action** | Restrict TCP port 20 or 21 to known IP addresses. |
 
 ## Detailed Remediation Steps
 1. Log in to the Microsoft Azure Management Console.
