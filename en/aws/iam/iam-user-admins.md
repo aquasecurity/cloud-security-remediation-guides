@@ -15,7 +15,6 @@
 | **Recommended Action** | Keep two users with admin permissions but ensure other IAM users have more limited permissions. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/iam-user-admins/step2.png"/>
 3. In the left navigation panel, select "Users" under "Access management".</br> <img src="/resources/aws/iam/iam-user-admins/step3.png"/>
