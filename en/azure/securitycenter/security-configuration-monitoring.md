@@ -15,7 +15,6 @@
 | **Recommended Action** | Ensure Security Configuration Monitoring is configured for virtual machines from the Azure Security Center. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step2.png"/>
 3. Scroll down the left navigation panel and select the "Environment Settings" under "Management".</br> <img src="/resources/azure/securitycenter/security-configuration-monitoring/step3.png"/>
