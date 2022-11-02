@@ -18,9 +18,9 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for RDS. </br> <img src="/resources/aws/rds/rds-restorable/step2.png"/>
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-restorable/step3.png"/>
-4. Select the "Database" that needs to be verified and click on the  selected "Databse" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-restorable/step4.png"/>
+4. Select the "Database" that needs to be verified and click on the selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-restorable/step4.png"/>
 5. Click on the "Maintenance & backups" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-restorable/step5.png"/>
-6. Scroll down the "Maintenance & backups" tab and check the "Backup". Check the "Automated backups" and "Latest restore time". If "Automated backups" are enabled and "Latest restore time" is showing the latest timestamp than the selected database can be restored. </br><img src="/resources/aws/rds/rds-restorable/step6.png"/>
+6. Scroll down the "Maintenance & backups" tab and check the "Backup". Check the "Automated backups" and "Latest restore time". If "Automated backups" are enabled and "Latest restore time" is showing the latest timestamp then the selected database can be restored. </br><img src="/resources/aws/rds/rds-restorable/step6.png"/>
 7. If the "Latest restore time" is showing timestamp from past than click on the "Support (?)" symbol on the top right and click on "Support Center".</br><img src="/resources/aws/rds/rds-restorable/step7.png"/>
 8. Click on the "Create case" button under "My support cases".</br><img src="/resources/aws/rds/rds-restorable/step8.png"/>
 9. Click on the "Technical Support" and open a support ticket with AWS for RDS.</br><img src="/resources/aws/rds/rds-restorable/step9.png"/>
