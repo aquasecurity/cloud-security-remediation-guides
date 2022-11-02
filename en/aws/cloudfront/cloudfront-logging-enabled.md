@@ -24,4 +24,4 @@
 7. Click on "Bucket for Logs" feature and specify the Amazon S3 bucket in which you want CloudFront to save web access logs.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step7.png"/>
 8. Click on Log Prefix which is optional for the names of log files.</br> <img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step8.png"/>
 9. Scroll down and click on "Save changes" to save the new settings.</br><img src="/resources/aws/cloudfront/cloudfront-logging-enabled/step9.png"/>
-10. Repeat the steps number 3 to 9 to establish if any other "CloudFront Distribution" has Logging enabled or not.
+10. Repeat the steps number 3 to 9 to verify if any other "CloudFront Distribution" has Logging enabled or not.
