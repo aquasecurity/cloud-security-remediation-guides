@@ -18,7 +18,7 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step2.png"/>
 3. On the EC2 dashboard, check the "Account Attributes".If the supported platform's status is set to VPC and EC2, then the selected account supports both EC2-Classic and EC2-VPC platforms.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step3.png"/>
-4.  Select the "Instances" option on the left navigation panel to verify whether any instances are launched under "EC2-Classic."</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step4.png"/>
+4.  Select the "Instances" option on the left navigation panel to verify whether any instances are launched under "EC2-Classic".</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step4.png"/>
 5. Select the "EC2 instance" and select the "Details" tab from the bottom panel. If the "VPC Id" parameter has no value assigned, the selected EC2 instance was launched within the EC2-Classic.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "EC2 instances" in the selected region.</br>
 7. Navigate to "Instances" under the EC2 dashboard and copy all the Security Group settings of your selected instance.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step7.png"/>
@@ -27,7 +27,7 @@
 10. Go back to EC2 dashboard and click "Launch instances". Navigate to "My AMIs" and select the "EC2-Classic" AMI by clicking "Select" button on the right.</br></br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step10.png"/>
 11. Select the "Instance Type" as per the requirement and click on the "Next: Configure Instance Details" button at the bottom.</br><img src="/resources/aws/ec2/detect-ec2-classic-instances/step11.png"/>
 12. On the "Configure Instance Details" page, select the "VPC" option under Network and make other changes as per requirement. Click on the "Next: Add Storage" button at the bottom and select the "Storage" as per the need.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step12.png"/>
-13. On the "Security Group" page, enter the same rules which we copied in Step7 and click on the "Review and Lunch" button. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step13.png"/>
-14. Click on the "View Instances" option to return to the Instance page and check whether the new EC2-VPC instance have cleared all the status check and is healthy and working fine.</br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step14.png"/>
+13. On the "Security Group" page, enter the same rules which we copied in Step7 and click on the "Review and Launch" button. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step13.png"/>
+14. Click on the "View Instances" option to return to the Instance page and check whether the new EC2-VPC instance have cleared all the status checks. </br> <img src="/resources/aws/ec2/detect-ec2-classic-instances/step14.png"/>
 15. Once the new EC2-VPC instance is working fine, terminate the older EC2-Classic instance.
 16. Repeat steps number 7 - 15 to migrate instances from EC2 Classic to VPC.</br>
