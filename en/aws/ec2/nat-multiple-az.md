@@ -18,9 +18,9 @@
 1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for VPC. </br> <img src="/resources/aws/ec2/nat-multiple-az/step2.png"/>
 3. Scroll down the left navigation panel and choose "Your VPCs". Select the VPC that needs to be verified. </br> <img src="/resources/aws/ec2/nat-multiple-az/step3.png"/>
-4. Scroll down the left navigation panel and choose "NAT Gateways". If there are only a single "NAT Gateway" then all the "EC2 Instances" within private subnet will share the same gateway. </br> <img src="/resources/aws/ec2/nat-multiple-az/step4.png"/>
+4. Scroll down the left navigation panel and choose "NAT Gateways". If there is only a single "NAT Gateway" then all the "EC2 Instances" within private subnet will share the same gateway. </br> <img src="/resources/aws/ec2/nat-multiple-az/step4.png"/>
 5. On the "Details" tab under the "NAT Gateway" click on the subnet id link next to "Subnet" attribute to verify where the selected NAT gateway was created. </br> <img src="/resources/aws/ec2/nat-multiple-az/step5.png"/>
-6. Check the "Availability Zone" to verify where the selected "NAT Gateway" subnets located. </br>  <img src="/resources/aws/ec2/nat-multiple-az/step6.png"/>
+6. Check the "Availability Zone" to verify where the selected "NAT Gateway" subnets are located. </br>  <img src="/resources/aws/ec2/nat-multiple-az/step6.png"/>
 7. Repeat steps number 2 - 6 to verify "Availability Zone" for other "NAT Gateways" in the selected AWS region. </br> 
 8. Navigate to "VPC Dashboard" and click on the "NAT Gateways" under the "Virtual Private Cloud" on the left navigation panel.</br> <img src="/resources/aws/ec2/nat-multiple-az/step8.png"/>
 9. Click on the "Create NAT Gateway" button at the top panel to create a new "NAT Gateway" in different "Availabilty Zone".</br> <img src="/resources/aws/ec2/nat-multiple-az/step9.png"/>
