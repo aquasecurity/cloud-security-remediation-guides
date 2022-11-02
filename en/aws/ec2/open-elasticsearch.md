@@ -21,11 +21,10 @@
 4. Select the "EC2 Security Group" that needs to be verified. </br> <img src="/resources/aws/ec2/open-elasticsearch/step4.png"/>
 5. Scroll down the bottom panel and choose "Inbound rules". Verify the value for "Source" column for "TCP" under "Protocol" with port 9200 and if any rule have value set to "0.0.0.0/0" or "::/0 " then the selected "Security Group" has "TCP" port for "Elasticsearch" open to the public.</br> <img src="/resources/aws/ec2/open-elasticsearch/step5.png"/>
 6. Repeat steps number 2 - 5 to verify other "Security Groups" in the selected AWS region.</br> 
-7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to modify to restrict the access of "TCP" port 9200 for "Elasticsearch"  to specific ip address. </br> <img src="/resources/aws/ec2/open-elasticsearch/step7.png"/>
+7. Navigate to "Security Groups" under "Network & Security" and select the "Security Group" that needs to be modified to restrict the access of "TCP" port 9200 for "Elasticsearch"  to your IP address. </br> <img src="/resources/aws/ec2/open-elasticsearch/step7.png"/>
 8. Scroll down the page and select the "Inbound rules" and click on the "Edit inbound rules" button to the right. </br> <img src="/resources/aws/ec2/open-elasticsearch/step8.png"/>
 9. In the "Edit inbound rules" tab select either the "MyIP" or "Custom" from the "Source" column.</br> <img src="/resources/aws/ec2/open-elasticsearch/step9.png"/>
 10. In the "Edit inbound rules" tab select the "MyIP" from the "Source" column to allow "Elasticsearch" inbound traffic only from your IP address.</br> <img src="/resources/aws/ec2/open-elasticsearch/step10.png"/>
 11. In the "Edit inbound rules" tab select the "Custom" from the "Source" column as per the requirements for "Elasticsearch" and specify static IP/Elastic IP address along with "Description" for the "Security Group" rule. </br> <img src="/resources/aws/ec2/open-elasticsearch/step11.png"/>
 12. Click on the "Save rules" button to make the necessary changes. </br> <img src="/resources/aws/ec2/open-elasticsearch/step12.png"/>
 13. Repeat steps number 7 - 12 to restrict "TCP" port 9200 for "Elasticsearch" to known IP address.</br>
-
