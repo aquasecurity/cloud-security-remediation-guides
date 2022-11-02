@@ -20,10 +20,10 @@
 3. Scroll down the left navigation panel and choose "Databases". </br> <img src="/resources/aws/rds/rds-multiple-az/step3.png"/>
 4. Select the "Database" that needs to be verified and click on the  selected "Database" from the "DB identifier" column to access the database.</br><img src="/resources/aws/rds/rds-multiple-az/step4.png"/>
 5. Click on the "Configuration" under the selected database configuration page.</br><img src="/resources/aws/rds/rds-multiple-az/step5.png"/>
-6. Scroll down the "Configuration" tab and check the "Availability" section. Check the "Multi AZ" and if its status is "No " then selected database cannot scale across multiple availability zones .</br><img src="/resources/aws/rds/rds-multiple-az/step6.png"/>
+6. Scroll down the "Configuration" tab and check the "Availability" section. Check the "Multi-AZ" and if its status is "No" then selected database cannot scale across multiple availability zones .</br><img src="/resources/aws/rds/rds-multiple-az/step6.png"/>
 7. Select the "Database" on which automated backup needs to be enabled. Click the "Modify" button at the top to make the necessary changes.</br><img src="/resources/aws/rds/rds-multiple-az/step7.png"/>
 8. Scroll down the "Modify DB Instance" page and check for "Multi-AZ deployment" under "Availability & durability".</br><img src="/resources/aws/rds/rds-multiple-az/step8.png"/>
 9. On the "Multi-AZ deployment" section under "Availability & durability" select "Create a standby instance" option.</br><img src="/resources/aws/rds/rds-multiple-az/step9.png"/>
 10. Scroll down the "Modify DB Instance" page and click on "Continue" button. </br><img src="/resources/aws/rds/rds-multiple-az/step10.png"/>
-11. On the "Scheduling of modifications" choose "Apply immediately" so that it will made the above changes applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-multiple-az/step11.png"/>
+11. On the "Scheduling of modifications" choose "Apply immediately" so that changes will be applied as soon as possible and click on the "Modify DB Instance" button. </br><img src="/resources/aws/rds/rds-multiple-az/step11.png"/>
 12. Repeat steps number 7 - 11 to enable scaling across multiple availability zones.</br>
