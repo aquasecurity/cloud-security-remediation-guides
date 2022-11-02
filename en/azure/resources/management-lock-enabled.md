@@ -9,7 +9,7 @@
 | **Plugin Title** | Management Lock Enabled |
 | **Cloud** | AZURE |
 | **Category** | Resources |
-| **Description** | Ensures that resources tagged as locked are actually locked |
+| **Description** | Ensures that resources tagged as locked are actually locked. |
 | **More Info** | Enabling Management Locks ensures that critical resources cannot be inadvertently modified or deleted. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources |
 | **Recommended Action** | Ensure that critical resources such as storage, VMs etc have management lock enabled. |
