@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log into the Google Cloud Platform Console.
-2. Scroll down the left navigation panel and choose "Dataproc" to select the "Clusters" option.. </br> <img src="/resources/google/dataproc/dataproc-cluster-labels-added/step2.png">
+2. Scroll down the left navigation panel and choose "Dataproc" to select the "Clusters" option. </br> <img src="/resources/google/dataproc/dataproc-cluster-labels-added/step2.png">
 3. On the "Clusters" page, select the cluster which needs to be verified whether it has labels added or not by clicking on the checkbox next to its name.</br> <img src="/resources/google/dataproc/dataproc-cluster-labels-added/step3.png"/>
 4. From the panel on the right side, select "Labels" and check if there are any labels shown. If not, the cluster does not have labels added.</br> <img src="/resources/google/dataproc/dataproc-cluster-labels-added/step4.png"/>
 5. Repeat steps number 3-4 to check other clusters in the project.</br>
