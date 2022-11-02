@@ -15,7 +15,6 @@
 | **Recommended Action** | Configure ACM managed certificates to use DNS validation. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the AWS console and search for "Certificate Manager".</br> <img src="/resources/aws/acm/acm-certificate-validation/step1.png"/>
 2. Click into each certificate that has been requested. </br> <img src="/resources/aws/acm/acm-certificate-validation/step2.png"/>
 3. Expand the domains associated with the certificate.</br> <img src="/resources/aws/acm/acm-certificate-validation/step3.png"/>
