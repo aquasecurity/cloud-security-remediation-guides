@@ -9,10 +9,10 @@
 | **Plugin Title** | S3 Bucket Has Tags |
 | **Cloud** | AWS |
 | **Category** | S3 |
-| **Description** | Ensure S3 Buckets have tags |
+| **Description** | Ensure S3 Bucket have tags associated. |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/AmazonS3/latest/userguide/CostAllocTagging.html |
-| **Recommended Action** | Add tags to S3 bucket |
+| **Recommended Action** | Modify S3 buckets and add tags. |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
@@ -21,4 +21,4 @@
 4. Select the "Bucket" for which you want to add "Tags".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step4.png"/>
 5. Click on the "Properties" tab on the top menu. </br><img src="/resources/aws/s3/s3-bucket-has-tags/step5.png"/>
 6. On Properties tab scroll down and in "Tags" section Click on "Edit" button.</br><img src="/resources/aws/s3/s3-bucket-has-tags/step6.png"/>
-7. On "Edit bucket tagging" page Click on "Add a tag" button and enter tag's key,value and Click "Save Changes".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step7.png"/>
+7. On "Edit bucket tagging" page Click on "Add a tag" button and enter tag's key, value and Click "Save Changes".</br><img src="/resources/aws/s3/s3-bucket-has-tags/step7.png"/>
