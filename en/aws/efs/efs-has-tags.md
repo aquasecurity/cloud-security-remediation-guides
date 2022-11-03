@@ -22,4 +22,3 @@
 5. Click on "Manage Tag" button.</br> <img src="/resources/aws/efs/efs-has-tags/step5.png"/>
 6. On the popup, click on "Add Tag". Then enter the key and value for your tag and, click "Save".</br> <img src="/resources/aws/efs/efs-has-tags/step6.png"/>
 7. Repeat step number 3 - 6 to ensure tags on remaining EFS file systems. </br>
-
