@@ -16,10 +16,10 @@
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console. </br>
-2. Select the "Services" option and search for S3 Glacier. </br> 
-3. On the navigation pane to the left, click on vaults. </br>
-4. Click the vault name that you need you need to edit its policy to block public access. </br>
-5. Select Vault Policies tab. </br>
-6. Click on Edit vault access policy. </br>
+2. Select the "Services" option and search for S3 Glacier. </br> <img src="/resources/aws/glacier/s3-glacier-vault-public-access/step2.png" />
+3. On the navigation pane to the left, click on vaults. </br><img src="/resources/aws/glacier/s3-glacier-vault-public-access/step3.png" />
+4. Click the vault name that you need you need to edit its policy to block public access. </br><img src="/resources/aws/glacier/s3-glacier-vault-public-access/step4.png" />
+5. Select Vault Policies tab. </br><img src="/resources/aws/glacier/s3-glacier-vault-public-access/step5.png" />
+6. Click on Edit vault access policy. </br><img src="/resources/aws/glacier/s3-glacier-vault-public-access/step6.png" />
 7. Edit the policy by removing public access (e.g. "Resource": "*" or "Principal": "*", and "Effect": "Allow") and make sure the policy grant access only to fixed values (values that don't contain a wildcard or an AWS Identity and Access Management Policy Variable). </br>
 8. See this resource to understand when a policy considered public: https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html#access-control-block-public-access-policy-status </br>
