@@ -13,6 +13,17 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
 * AWS
     * ACM
         * [ACM Certificate Validation](en/aws/acm/acm-certificate-validation.md)
+    * APIGateway
+        * [API Gateway Certificate Rotation](en/aws/apigateway/api-gateway-certificate-rotation.md)
+        * [API Gateway Client Certificate](en/aws/apigateway/api-gateway-client-certificate.md)
+        * [API Gateway CloudWatch Logs](en/aws/apigateway/api-gateway-cloudwatch-logs.md)
+        * [API Gateway Content Encoding](en/aws/apigateway/api-gateway-content-encoding.md)
+        * [API Gateway Detailed CloudWatch Metrics](en/aws/apigateway/api-gateway-detailed-cloudwatch-metrics.md)
+        * [API Gateway Private Endpoints](en/aws/apigateway/api-gateway-private-endpoints.md)
+        * [API Gateway Response Caching](en/aws/apigateway/api-gateway-response-caching.md)
+        * [API Gateway Tracing Enabled](en/aws/apigateway/api-gateway-tracing-enabled.md)
+        * [API Gateway WAF Enabled](en/aws/apigateway/api-gateway-waf-enabled.md)
+        * [API Stage-Level Cache Encryption](en/aws/apigateway/api-stage-level-cache-encryption.md)
     * AutoScaling
         * [ASG Multiple AZ](en/aws/autoscaling/asg-multiple-az.md)
     * CloudFront
@@ -31,6 +42,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [CloudTrail To CloudWatch](en/aws/cloudtrail/cloudtrail-to-cloudwatch.md)
     * CloudWatchLogs
         * [CloudWatch Monitoring Metrics](en/aws/cloudwatchlogs/cloudwatch-monitoring-metrics.md)
+    * CodeBuild
+        * [Project Artifacts Encrypted](en/aws/codebuild/project-artifacts-encrypted.md)
     * ConfigService
         * [Config Service Enabled](en/aws/configservice/config-service-enabled.md)
     * EC2
@@ -45,6 +58,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [EBS Backup Enabled](en/aws/ec2/ebs-backup-enabled.md)
         * [EBS Encrypted Snapshots](en/aws/ec2/ebs-encrypted-snapshots.md)
         * [EBS Encryption Enabled](en/aws/ec2/ebs-encryption-enabled.md)
+        * [EBS Encryption Enabled By Default](en/aws/ec2/ebs-encryption-enabled-by-default.md)
         * [EBS Volumes Too Old Snapshots](en/aws/ec2/ebs-volumes-too-old-snapshots.md)
         * [EC2 Instance Key Based Login](en/aws/ec2/ec2-instance-key-based-login.md)
         * [EC2 Max Instances](en/aws/ec2/ec2-max-instances.md)
@@ -53,6 +67,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Excessive Security Groups](en/aws/ec2/excessive-security-groups.md)
         * [Instance IAM Role](en/aws/ec2/instance-iam-role.md)
         * [Instance Limit](en/aws/ec2/instance-limit.md)
+        * [Managed NAT Gateway In Use](en/aws/ec2/managed-nat-gateway-in-use.md)
         * [NAT Multiple AZ](en/aws/ec2/nat-multiple-az.md)
         * [Open All Ports Protocols](en/aws/ec2/open-all-ports-protocols.md)
         * [Open CIFS](en/aws/ec2/open-cifs.md)
@@ -72,21 +87,44 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open Telnet](en/aws/ec2/open-telnet.md)
         * [Open VNC Client](en/aws/ec2/open-vnc-client.md)
         * [Open VNC Server](en/aws/ec2/open-vnc-server.md)
+        * [Outdated Amazon Machine Images](en/aws/ec2/outdated-amazon-machine-images.md)
         * [Overlapping Security Groups](en/aws/ec2/overlapping-security-groups.md)
         * [Public AMI](en/aws/ec2/public-ami.md)
         * [Subnet IP Availability](en/aws/ec2/subnet-ip-availability.md)
+        * [Unrestricted Network ACL Outbound Traffic](en/aws/ec2/unrestricted-network-acl-outbound-traffic.md)
+        * [Unused Amazon Machine Images](en/aws/ec2/unused-amazon-machine-images.md)
+        * [Unused Elastic Network Interfaces](en/aws/ec2/unused-elastic-network-interfaces.md)
+        * [Unused Virtual Private Gateway](en/aws/ec2/unused-virtual-private-gateway.md)
+        * [Unused VPC Internet Gateways](en/aws/ec2/unused-vpc-internet-gateways.md)
         * [VPC Elastic IP Limit](en/aws/ec2/vpc-elastic-ip-limit.md)
         * [VPC Endpoint Cross Account Access](en/aws/ec2/vpc-endpoint-cross-account-acess.md)
         * [VPC Endpoint Exposed](en/aws/ec2/vpc-endpoint-exposed.md)
         * [VPC Flow Logs Enabled](en/aws/ec2/vpc-flow-logs-enabled.md)
         * [VPC Multiple Subnets](en/aws/ec2/vpc-multiple-subnets.md)
+        * [VPC Subnet Instances Present](en/aws/ec2/vpc-subnet-instances-present.md)
+        * [VPN Tunnel State](en/aws/ec2/vpn-tunnel-state.md)
+        * [Web-Tier EC2 Instance IAM Role](en/aws/ec2/web-tier-ec2-instance-iam-role.md)
+    * EFS
+        * [EFS CMK Encrypted](en/aws/efs/efs-cmk-encrypted.md)
+        * [EFS Encryption Enabled](en/aws/efs/efs-encryption-enabled.md)
+    * EKS
+        * [EKS Kubernetes Version](en/aws/eks/eks-kubernetes-version.md)
+        * [EKS Latest Platform Version](en/aws/eks/eks-latest-platform-version.md)
+        * [EKS Logging Enabled](en/aws/eks/eks-logging-enabled.md)
+        * [EKS Private Endpoint](en/aws/eks/eks-private-endpoint.md)
+        * [EKS Secrets Encrypted](en/aws/eks/eks-secrets-encrypted.md)
+        * [EKS Security Groups](en/aws/eks/eks-security-groups.md)
     * ELB
         * [ELB HTTPS Only](en/aws/elb/elb-https-only.md)
         * [ELB Logging Enabled](en/aws/elb/elb-logging-enabled.md)
         * [ELB No Instances](en/aws/elb/elb-no-instances.md)
         * [Insecure Ciphers](en/aws/elb/insecure-ciphers.md)
-    * Firehose
+   * EventBridge
+        * [EventBridge Event Rules In Use](en/aws/eventbridge/eventbridge-event-rules-in-use.md)
+   * Firehose
         * [Firehose Delivery Streams Encrypted](en/aws/firehose/firehose-delivery-streams-encrypted.md)
+    * Glacier
+        * [S3 Glacier Vault Public Access](en/aws/glacier/S3-glacier-vault-public-access.md)
     * IAM
         * [Access Keys Extra](en/aws/iam/access-keys-extra.md)
         * [Access Keys Last Used](en/aws/iam/access-keys-last-used.md)
@@ -118,10 +156,13 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [KMS Key Rotation](en/aws/kms/kms-key-rotation.md)
         * [KMS Scheduled Deletion](en/aws/kms/kms-scheduled-deletion.md)
     * Kinesis
+        * [Kinesis Data Streams Encrypted](en/aws/kinesis/kinesis-data-streams-encrypted.md)
         * [Kinesis Streams Encrypted](en/aws/kinesis/kinesis-streams-encrypted.md)
     * Lambda
         * [Lambda Old Runtimes](en/aws/lambda/lambda-old-runtimes.md)
         * [Lambda Tracing Enabled](en/aws/lambda/lambda-tracing-enabled.md)
+    * Neptune
+       * [Neptune Database Instance Encrypted](en/aws/neptune/neptune-database-instance-encrypted.md)
     * RDS
         * [RDS Automated Backups](en/aws/rds/rds-automated-backups.md)
         * [RDS Encryption Enabled](en/aws/rds/rds-encryption-enabled.md)
@@ -141,6 +182,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [S3 Bucket Logging](en/aws/s3/s3-bucket-logging.md)
         * [S3 Bucket Versioning](en/aws/s3/s3-bucket-versioning.md)
         * [S3 Bucket Lifecycle Configuration](en/aws/s3/s3-bucket-lifecycle-configuration.md)
+        * [S3 Bucket Policy CloudFront OAI](en/aws/s3/s3-bucket-policy-cloudfront-oai.md)
         * [S3 DNS Compliant Bucket Names](en/aws/s3/s3-dns-compliant-bucket-names.md)
         * [S3 Transfer Acceleration Enabled](en/aws/s3/s3-transfer-acceleration-enabled.md)
         * [S3 Versioned Buckets Lifecycle Configuration](en/aws/s3/s3-versioned-buckets-lifecycle-configuration.md)
@@ -156,6 +198,10 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * SageMaker
         * [Notebook Data Encrypted](en/aws/sagemaker/notebook-data-encrypted.md)
         * [Notebook Direct Internet Access](en/aws/sagemaker/notebook-direct-internet-access.md)
+    * WAF
+        * [AWS WAF In Use](en/aws/waf/aws-waf-in-use.md) 
+    * WAFV2
+        * [AWS WAFV2 In Use](en/aws/wafv2/aws-wafv2-in-use.md) 
 * Azure
     * Active Directory
         * [Ensure No Guest User](en/azure/activedirectory/ensure-no-guest-user.md)
@@ -493,10 +539,6 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Object Store Policy Protection](en/oracle/objectstore/object-store-policy-protection.md)
         * [Pre-Authenticated Requests Access](en/oracle/objectstore/pre-authenticated-requests-access.md)
         * [Pre-Authenticated Requests Expiry](en/oracle/objectstore/pre-authenticated-requests-expiry.md)
-    * WAF
-        * [AWS WAF In Use](en/aws/waf/aws-waf-in-use.md) 
-    * WAFV2
-        * [AWS WAFV2 In Use](en/aws/wafv2/aws-wafv2-in-use.md) 
 
 
 ## Contributing
