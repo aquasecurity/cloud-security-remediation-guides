@@ -23,4 +23,3 @@
 6. Scroll down the "Configuration" tab and choose "Tags" tab in left navigation panel and Click on "Manage Tags".</br> <img src="/resources/aws/lambda/lambda-has-tags/step6.png"/>
 7. On Manage tags page, click on "Add new tag" button. Enter key and value for tag then, click on "Save".</br> <img src="/resources/aws/lambda/lambda-has-tags/step7.png"/>
 8. Repeat step number 4-7 to ensure tags on remaining Lambda functions.
-
