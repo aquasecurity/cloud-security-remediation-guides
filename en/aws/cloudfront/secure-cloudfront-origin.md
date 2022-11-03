@@ -15,12 +15,13 @@
 | **Recommended Action** | Ensure that traffic sent between CloudFront and its origin is passed over HTTPS and uses TLSv1.1 or higher. Do not use the match-viewer option. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for CloudFront. </br> <img src="/resources/aws/cloudfront/secure-cloudfront-origin/step2.png"/>
-3. Select the "CloudFront Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/secure-cloudfront-origin/step3.png"/>
-4. Click the "Distribution Settings" button from menu to get into the "CloudFront Distribution" configuration page. </br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step4.png"/>
-5. Select the Origins tab and choose the distribution origin that needs to be verified.</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step5.png"/>
-6. On the Origin Settings page, ensure TLSv1.1 or higher protocol is enabled.</br> <img src="/resources/aws/cloudfront/secure-cloudfront-origin/step6.png"/>
-7. On the Origin Settings page, verify the "Origin Protocol Policy" is set to "HTTPS Only".<img src="/resources/aws/cloudfront/secure-cloudfront-origin/step7.png"/>
-8. Scroll down and click on "Yes,Edit" and save the changes.</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step8.png"/>
-9. Repeat steps number 5, 6 and 7 to verify another CloudFront Distribution.</br>
+3. Select the "Distribution" that needs to be verified.</br> <img src="/resources/aws/cloudfront/secure-cloudfront-origin/step3.png"/>
+4. Click the "Distribution id" to get into the Distribution's configuration page. </br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step4.png"/>
+5. Select the "General" tab and click on "Edit" button under settings.</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step5.png"/>
+6. On the Edit Settings page, Scroll to the "Custom SSL certificate - optional" settings and ensure that you have a valid certificate selected from the dropdown if you are using your own certificate.</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step6.png"/>
+7. Under "Security policy" ensure TLSv1.2(recommended) or higher protocol is selected.</br> <img src="/resources/aws/cloudfront/secure-cloudfront-origin/step7.png"/>
+8. Scroll down and click on "Save changes".</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step8.png"/>
+9. Repeat steps number 5, 6 and 7 to verify other CloudFront Distributions.</br>
+10. For distributions not using HTTPS and only using HTTP create a new distribution with similar source but set Viewer Protocol Policy to either HTTP to HTTPS or HTTPS only.</br><img src="/resources/aws/cloudfront/secure-cloudfront-origin/step10.png"/>
