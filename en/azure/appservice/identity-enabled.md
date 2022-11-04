@@ -15,7 +15,6 @@
 | **Recommended Action** | Enable system or user-assigned identities for all App Services and avoid storing credentials in code. |
 
 ## Detailed Remediation Steps
-
 1. Log into the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for App Services. </br> <img src="/resources/azure/appservice/identity-enabled/step2.png"/>
 3. Select the "App Service" by clicking on "Name" to go to its configuration.</br> <img src="/resources/azure/appservice/identity-enabled/step3.png"/>
@@ -24,4 +23,4 @@
 6. If the "Status" is set to "Off" then select the "On" option next to "Status" to turn on Identity management. </br> <img src="/resources/azure/appservice/identity-enabled/step6.png"/> 
 7. Click on the "Save" button at the top to ensure identity is authenticated to all services that supports Azure AD authentication, without having to include any credentials in code. </br> <img src="/resources/azure/appservice/identity-enabled/step6.png"/> 
 8. Click "Yes" in the confirmation popup to complete the change.</br> <img src="/resources/azure/appservice/identity-enabled/step8.png"/> 
-9. Repeat steps 3 - 8 to ensures a system or user assigned managed identity is enabled for all "App services" in the account. </br>
+9. Repeat steps 3 - 8 to ensure a system or user assigned managed identity is enabled for all "App services" in the account. </br>
