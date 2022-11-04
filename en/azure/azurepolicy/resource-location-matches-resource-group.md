@@ -15,7 +15,6 @@
 | **Recommended Action** | Enable the built-in Azure Policy definition: Audit resource location matches resource group location |
 
 ## Detailed Remediation Steps
-
 1. Log into the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for Policy. </br> <img src="/resources/azure/azurepolicy/resource-location-matches-resource-group/step2.png"/>
 3. On the "Policy" page, scroll down the left navigation panel and choose "Assignments" under "Authoring".</br> <img src="/resources/azure/azurepolicy/resource-location-matches-resource-group/step3.png"/>
@@ -26,4 +25,4 @@
 8. Once back on the "Assign Policy" page, provide a "Description" and click on the "Next" button at the bottom. Now select "Allowed locations" on "Parameters" tab and click Next at the bottom.</br> <img src="/resources/azure/azurepolicy/resource-location-matches-resource-group/step8.png"/>
 9. On the "Remediation" tab, click on the checkbox next to the "Create a Managed Identity" and select desired "Managed Identity Location". Click "Review + create" button at the bottom.</br> <img src="/resources/azure/azurepolicy/resource-location-matches-resource-group/step9.png"/>
 10. On the "Review + Create" tab, click "Create" button at the bottom to create the specific "Resource Location Matches Resource Group" policy.</br> <img src="/resources/azure/azurepolicy/resource-location-matches-resource-group/step10.png"/>
-11. Repeat steps number 6 - 10 to enable the built-in Azure Policy definition: Audit resource location matches resource group location for all directories.</br>
+11. Repeat steps number 6 - 10 to enable the built-in "Azure Policy definition: Audit resource location matches resource group location" for all directories.</br>
