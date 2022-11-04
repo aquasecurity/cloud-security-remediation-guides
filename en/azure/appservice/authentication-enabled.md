@@ -26,4 +26,4 @@
 9. Click on the "Add identity provider" button and choose your desired "Identity provider" by selecting the relevant provider's name.</br> <img src="/resources/azure/appservice/authentication-enabled/step9.png"/>
 10. Now configure the behavior and click "Add" to complete the setup.</br> <img src="/resources/azure/appservice/authentication-enabled/step10.png"/>
 11. Verify that "Authentication" is now enabled.</br> <img src="/resources/azure/appservice/authentication-enabled/step11.png"/>
-12. Repeat steps 3 to 11 for enabling "Authentication" across all "App Services" in the account.</br>
+12. Repeat steps 3 to 11 to enable "Authentication" across all "App Services" in the account.</br>
