@@ -15,7 +15,6 @@
 | **Recommended Action** | Ensure each blob container is configured to restrict anonymous access |
 
 ## Detailed Remediation Steps
-
 1. Log into the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for Storage account. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/blobservice/blob-container-private-access/step3.png"/>
