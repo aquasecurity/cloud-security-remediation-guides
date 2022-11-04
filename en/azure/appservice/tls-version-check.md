@@ -15,7 +15,6 @@
 | **Recommended Action** | Set the minimum TLS version to 1.2 for all App Services. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for App Services. </br> <img src="/resources/azure/appservice/tls-version-check/step2.png"/>
 3. Select the "App Service" by clicking on "Name" to go to its configuration.</br> <img src="/resources/azure/appservice/tls-version-check/step3.png"/>
