@@ -21,10 +21,10 @@
 4. Select the "Volume" that needs to be verified and click on its name from the "Name" column.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step4.png"/>
 5. Scroll down the page and under "Details" check for "Encryption". If the "Encryption" option is showing "Not Encrypted" then the selected EBS Volume is not encrypted.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step5.png"/>
 6. Repeat the steps number 2 - 5 to check other EBS Volumes in the AWS region.</br>
-7. Select the unencrypted "EBS Volume" that needs to be encrypted and click on the "Actions" button at the top panel and click on the "Create Snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step7.png"/>
+7. Select the unencrypted "EBS Volume" that needs to be encrypted and click on the "Actions" button, on the top panel and click on the "Create Snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step7.png"/>
 8. Provide the description of the new snapshot in the "Create Snapshot" dialog box and click on the "Create Snapshot" button.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step8.png"/>
 9. Scroll down the left navigation panel and choose "Snapshots".</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step9.png"/>
-10. Select the new "EBS Snapshot" created and click on the "Actions" button at the top panel and click on the "Copy snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step10.png"/>
+10. Select the new "EBS Snapshot" created and click on the "Actions" button, on the top panel and click on the "Copy snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step10.png"/>
 11. In the "Copy Snapshot" dialog box select the box "Encrypt this snapshot" next to "Encryption" and choose the "KMS key" from the dropdown menu.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step11.png"/>
 12. Click on the "Copy snapshot" button to copy the selected "EBS Snapshot". </br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step12.png"/>
 13. Select the new EBS snapshot and click on the "Actions" button at the top panel and click on the "Create Volume from snapshot" option.</br> <img src="/resources/aws/ec2/ebs-encryption-enabled/step13.png"/>
