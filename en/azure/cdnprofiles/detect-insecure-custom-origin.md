@@ -25,4 +25,3 @@
 8. Ensure that the checkbox for "Redirect" is selected to "Redirect all traffic to use HTTPS".</br> <img src="/resources/azure/cdnprofiles/detect-insecure-custom-origin/step7.png"/>
 9. Click "Update" at the bottom of the page to save the changes.
 10. Repeat steps 4 - 9 for all other CDN endpoints.
-
