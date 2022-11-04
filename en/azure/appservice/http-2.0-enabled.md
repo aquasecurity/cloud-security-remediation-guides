@@ -12,7 +12,7 @@
 | **Description** | Ensures the latest HTTP version is enabled for App Services |
 | **More Info** | Enabling HTTP2.0 ensures that the App Service has the latest technology which improves server performance |
 | **AZURE Link** | https://azure.microsoft.com/en-us/blog/announcing-http-2-support-in-azure-app-service/ |
-| **Recommended Action** | Enable HTTP 2.0 support in the general settings for all App Services |
+| **Recommended Action** | Enable HTTP 2.0 support in the general settings for all App Services. |
 
 ## Detailed Remediation Steps
 1. Log in to the Microsoft Azure Management Console.
