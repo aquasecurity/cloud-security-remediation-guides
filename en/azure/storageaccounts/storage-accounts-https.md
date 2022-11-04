@@ -15,7 +15,6 @@
 | **Recommended Action** | Enable the HTTPS-only option for all Storage Accounts. |
 
 ## Detailed Remediation Steps
-
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/storageaccounts/storage-accounts-https/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/storageaccounts/storage-accounts-https/step3.png"/>
