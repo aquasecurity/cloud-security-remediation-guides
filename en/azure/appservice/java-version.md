@@ -15,7 +15,6 @@
 | **Recommended Action** | Select the latest version of Java for all Java-based App Services |
 
 ## Detailed Remediation Steps
-
 1. Log in to the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for App Services. </br> <img src="/resources/azure/appservice/java-version/step2.png"/>
 3. Select the "App Service" by clicking on "Name" to go to its configuration.</br> <img src="/resources/azure/appservice/java-version/step3.png"/>
