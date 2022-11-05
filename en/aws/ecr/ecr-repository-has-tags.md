@@ -10,7 +10,7 @@
 | **Cloud** | AWS |
 | **Category** | ECR |
 | **Description** | Ensure that ECR repositories have tags |
-| **More Info** | ECR repositories should be configured to prevent overwriting of image tags to avoid potentially-malicious images from being deployed to live environments. |
+| **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AWS Link** | https://docs.aws.amazon.com/AmazonECR/latest/userguide/ecr-using-tags.html |
 | **Recommended Action** | Modify ECR repository and add tags |
 
