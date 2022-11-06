@@ -6,7 +6,7 @@
 
 | | |
 |-|-|
-| **Plugin Title** | Secre Has Tags |
+| **Plugin Title** | Secret Has Tags |
 | **Cloud** | AWS |
 | **Category** | Secrets Manager |
 | **Description** | Ensure that Secrets have tags. |
