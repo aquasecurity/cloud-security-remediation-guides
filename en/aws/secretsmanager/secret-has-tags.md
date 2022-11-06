@@ -19,7 +19,8 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for Secrets Manager. </br> <img src="/resources/aws/secretsmanager/secret-has-tags/step2.png"/>
 3. Click on "Secrets" from navigation panel on the left.</br> <img src="/resources/aws/secretsmanager/secret-has-tags/step3.png"/>
-4. Select the secret which needs to have tags by Clicking on the secret name.</br> <img src="/resources/aws/secretsmanager/secret-has-tags/step4.png"/></br> <img src="/resources/aws/secretsmanager/secret-has-tags/step5.png"/><img src="/resources/"/>
+4. Select the secret which needs to have tags by Clicking on the secret name.</br> <img src="/resources/aws/secretsmanager/secret-has-tags/step4.png"/>
+5. On the Secret details page, under the "Tags" section Click on "Edit tags" button.</br></br> <img src="/resources/aws/secretsmanager/secret-has-tags/step5.png"/>
 6. Enter the key value pair for the tag and Click save.</br> <img src="/resources/aws/secretsmanager/secret-has-tags/step6.png"/>
 
 
