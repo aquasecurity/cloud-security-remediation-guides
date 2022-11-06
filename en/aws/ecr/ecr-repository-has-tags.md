@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / ECR / ECR Repository Tag Immutability
+# AWS / ECR / ECR Repository Has Tags
 
 ## Quick Info
 
