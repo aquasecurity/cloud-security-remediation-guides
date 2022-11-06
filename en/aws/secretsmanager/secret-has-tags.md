@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / Secrets Manager / Secret Manager Has Tags
+# AWS / Secrets Manager / Secret Has Tags
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Secret Manager Has Tags |
+| **Plugin Title** | Secre Has Tags |
 | **Cloud** | AWS |
 | **Category** | Secrets Manager |
 | **Description** | Ensure that Secrets have tags. |
