@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / VM Daily Backup Retention
+# AZURE / Virtual Machines / VM Daily Backup Retention Period
 
 ## Quick Info
 
