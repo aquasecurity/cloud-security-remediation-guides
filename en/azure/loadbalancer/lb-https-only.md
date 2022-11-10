@@ -17,13 +17,11 @@
 ## Detailed Remediation Steps
 
 1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Load balancers. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step2.png"/>
-3. Select the "Load balancer" by clicking on the "Name" as a link which needs to be configured only to accept connections on HTTPS ports. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step3.png"/>
+2. In the search bar at the top search for Load balancers and select the "Load balancer" from the results. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step2.png"/>
+3. Select the "Load balancer" by clicking on the "Name" link that needs to be configured to accept HTTPS connections only. </br> <img src="/resources/azure/loadbalancer/lb-https-only/step3.png"/>
 4. On the "load balancer" page, scroll down the left navigation panel and choose the "Load balancing rules" option under "Settings".</br> <img src="/resources/azure/loadbalancer/lb-https-only/step4.png"/>
 5. On the "Load balancing rules" page if the "Load balancing rule" is showing as "TCP/80" then the selected "Load balancer" is configured to accept connections on HTTP ports.</br> <img src="/resources/azure/loadbalancer/lb-https-only/step5.png"/>
-6. Repeat steps number 2 - 5 to verify other "Load balancers" in the account.</br>
-7. Navigate to "Load Balancer", select the "Load balancer" by clicking on the "Name" as a link, scroll down the left navigation panel and choose "Load balancing rule."</br> <img src="/resources/azure/loadbalancer/lb-https-only/step7.png"/>
-8. On the "Load balancing rule" page click on the "Name" as a link to access the configuration changes.</br> <img src="/resources/azure/loadbalancer/lb-https-only/step8.png"/>
-9. Scroll down the "Load balancing rule" page and select the "Port" and "Backend Port" as 443 and save the changes.</br> <img src="/resources/azure/loadbalancer/lb-https-only/step9.png"/>
-10. Repeat the steps number 7 - 9 to ensure that each load balancer only accepts connections on port 443.</br>
+6. Click on the triple dots (...) at the end of HTTP rule row and click on "Delete".</br> <img src="/resources/azure/loadbalancer/lb-https-only/step6.png"/>
+7. Click "Yes" in the confirmation box that opens.</br> <img src="/resources/azure/loadbalancer/lb-https-only/step7.png"/>
+8. Repeat the step number 3 - 7 to ensure that each load balancer only accepts HTTPS connections on port 443.</br>
 

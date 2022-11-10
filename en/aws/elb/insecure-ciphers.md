@@ -15,11 +15,11 @@
 | **Recommended Action** | Update your ELBs to use the recommended cipher suites |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for EC2. </br> <img src="/resources/aws/elb/insecure-ciphers/step2.png"/>
-3. In the "EC2 Dashboard" scroll down and look for "Load Balancers" and click on "Load Balancers" to get into "Load Balancers" dashboard.</br> <img src="/resources/aws/elb/insecure-ciphers/step3.png"/>
+3. In the "EC2 Dashboard" scroll down and look for "Load Balancing" and click on "Load Balancers" to get into "Load Balancers" dashboard.</br> <img src="/resources/aws/elb/insecure-ciphers/step3.png"/>
 4. Select the "Load Balancer" which needs to be verified. </br> <img src="/resources/aws/elb/insecure-ciphers/step4.png"/>
 5. Select the "Listeners" tab from the bottom panel and scroll down to the "Cipher" column of HTTPS Listener and click on "Change" option.</br> <img src="/resources/aws/elb/insecure-ciphers/step5.png"/>
-6. From "Select a Cipher" panel select either of "Predefined Security Policy" and "Custom Security Policy".</br><img src="/resources/aws/elb/insecure-ciphers/step6.png"/>
-7. Scan the "SSL Cipher Section" from selected "Security Policy" for any insecure ciphers. Refer to the link for all secure ciphers. https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-ssl-security-policy.html#ssl-ciphers </br><img src="/resources/aws/elb/insecure-ciphers/step7.png"/>
+6. If you are using a "Predefined Security Policy" select the latest from the dropdown.</br><img src="/resources/aws/elb/insecure-ciphers/step6.png"/>
+7. If you are using "Custom Security Policy" then ensure that only the recommended ciphers are used. Refer to the link for all secure ciphers. https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-ssl-security-policy.html#ssl-ciphers </br><img src="/resources/aws/elb/insecure-ciphers/step7.png"/>
 8. Scroll down and click on "Save" button to make the changes. </br><img src="/resources/aws/elb/insecure-ciphers/step8.png"/>
