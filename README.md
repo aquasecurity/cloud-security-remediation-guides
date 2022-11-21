@@ -225,6 +225,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open Telnet](en/azure/networksecuritygroups/open-telnet.md)
         * [Open VNC Client](en/azure/networksecuritygroups/open-vnc-client.md)
         * [Open VNC Server](en/azure/networksecuritygroups/open-vnc-server.md)
+        * [Open SNMP](en/azure/networksecuritygroups/open-snmp.md)
     * PostgreSQL Server
         * [Connection Throttling Enabled](en/azure/postgresqlserver/connection-throttling-enabled.md)
         * [Enforce PostgreSQL SSL Connection](en/azure/postgresqlserver/enforce-postgresql-ssl-connection.md)
