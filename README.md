@@ -181,6 +181,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Kubernetes Service
         * [Kubernetes Latest Version](en/azure/kubernetesservice/kubernetes-latest-version.md)
         * [Kubernetes RBAC Enabled](en/azure/kubernetesservice/kubernetes-rbac-enabled.md)
+        * [AKS Data Encryption at Rest with CMK](en/azure/kubernetesservice/aks-encryption-at-rest-CMK.md)
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
