@@ -6,7 +6,7 @@
 
 | | |
 |-|-|
-| **Plugin Title** | Defender For DNS |
+| **Plugin Title** | Enable Defender For DNS |
 | **Cloud** | AZURE |
 | **Category** | Security |
 | **Description** | Ensures that Microsoft Defender for DNS is enabled. |
