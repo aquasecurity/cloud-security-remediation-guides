@@ -233,6 +233,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Log Disconnections Enabled](en/azure/postgresqlserver/log-disconnections-enabled.md)
         * [Log Duration Enabled](en/azure/postgresqlserver/log-duration-enabled.md)
         * [Log Retention Period](en/azure/postgresqlserver/log-retention-period.md)
+        * [PostgreSQL Server Has Tags](en/azure/postgresqlserver/postgresql-server-has-tags.md)
     * Queue Service
         * [Queue Service All Access ACL](en/azure/queueservice/queue-service-all-access-acl.md)
     * Resources
