@@ -1,7 +1,7 @@
 
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / SQL Servers / SQL Server Has Tags
+# AZURE / Kubernetes Service / Kubernetes Service Has Tags
 
 ## Quick Info
 
@@ -9,7 +9,7 @@
 |-|-|
 | **Plugin Title** | Azure Kubernetes Service Has Tags |
 | **Cloud** | AZURE |
-| **Category** | SQL Servers |
+| **Category** | Containers |
 | **Description** | Ensures the Azure Kubernetes Service Has Tags |
 | **More Info** | Tags help you to group resources together that are related to or associated with each other. It is a best practice to tag cloud resources to better organize and gain visibility into their usage. |
 | **AZURE Link** | https://learn.microsoft.com/en-us/azure/aks/use-tags |
