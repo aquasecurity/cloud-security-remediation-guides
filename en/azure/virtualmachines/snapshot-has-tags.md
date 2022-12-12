@@ -18,6 +18,6 @@
 ## Detailed Remediation Steps
 1. Log into the Microsoft Azure Management Console.
 2. In search bar at the top search for snapshots and select "Snapshots". </br> <img src="/resources/azure/virtualmachines/snapshot-has-tags/step2.png"/>
-3. Select a db by clicking on the "Name" link to load the configuration pane.</br> <img src="/resources/azure/virtualmachines/snapshot-has-tags/step3.png"/>
+3. Select a load balancer by clicking on the "Name" link to load the configuration pane.</br> <img src="/resources/azure/virtualmachines/snapshot-has-tags/step3.png"/>
 4. On the configuration pane, choose "Tags" from the left navigation panel. </br>  <img src="/resources/azure/virtualmachines/snapshot-has-tags/step4.png"/>
 5. On "Tags" page enter the name/value of the tag you want to add and click "Apply" on the bottom of the page" </br> <img src="/resources/azure/virtualmachines/snapshot-has-tags/step5.png"/>
