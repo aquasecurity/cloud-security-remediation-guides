@@ -1,7 +1,7 @@
 
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / Virtual Machines Has Tags
+# AZURE / Virtual Machines / Snapshot Has Tags
 
 ## Quick Info
 
