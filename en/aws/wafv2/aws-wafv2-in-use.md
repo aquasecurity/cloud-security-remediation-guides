@@ -8,8 +8,8 @@
 |-|-|
 | **Plugin Title** | AWS WAFV2 In Use |
 | **Cloud** | AWS |
-| **Category** | WAFV2 |
-| **Description** | Ensure that AWS Web Application Firewall V2 (WAFV2) is in use to achieve availability and security for AWS-powered web applications |
+| **Category** | WAF |
+| **Description** | Ensure that AWS Web Application Firewall V2 (WAFV2) is in use to achieve availability and security for AWS-powered web applications. |
 | **More Info** | Using WAF for your web application running in AWS environment can help you against common web-based attacks, SQL injection attacks, DDOS attacks and more |
 | **AWS Link** | https://docs.aws.amazon.com/waf/latest/developerguide/getting-started.html |
 | **Recommended Action** | Create one or more WAF ACLs with proper actions and rules |
