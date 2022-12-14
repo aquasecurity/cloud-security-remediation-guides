@@ -12,7 +12,7 @@
 | **Description** | Ensures that performance diagnostics is enabled on virtual machines. |
 | **More Info** | The performance diagnostics tool helps in troubleshooting performance issues that can affect a Windows or Linux virtual machine (VM). |
 | **AZURE Link** | https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/performance-diagnostics |
-| **Recommended Action** | Enable performance diagnostics on Azure virtual machines. |
+| **Recommended Action** | Enable performance diagnostics on Azure virtual machines |
 
 ## Detailed Remediation Steps
 
