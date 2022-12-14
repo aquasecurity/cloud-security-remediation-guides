@@ -9,8 +9,8 @@
 | **Plugin Title** | VPC Endpoint Cross Account Access |
 | **Cloud** | AWS |
 | **Category** | EC2 |
-| **Description** | Ensures that Amazon VPC endpoints do not allow unknown cross account access |
-| **More Info** | VPC endpoints should not allow unknown cross account access to avoid any unsigned requests made to the services inside VPC |
+| **Description** | Ensures that Amazon VPC endpoints do not allow unknown cross account access. |
+| **More Info** | VPC endpoints should not allow unknown cross account access to avoid any unsigned requests made to the services inside VPC. |
 | **AWS Link** | https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints-access.html |
 | **Recommended Action** | Update VPC endpoint access policy in order to remove untrusted cross account access |
 
