@@ -295,6 +295,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VM OS Disk Encryption](en/azure/virtualmachines/vm-os-disk-encryption.md)
     * Virtual Networks
         * [Multiple Subnets](en/azure/virtualnetworks/multiple-subnets.md)
+        * [Route Table Has Tags](en/azure/virtualnetworks/routeTable-has-tags)
 * Google
     * CLB
         * [CLB CDN Enabled](en/google/clb/clb-cdn-enabled.md)
