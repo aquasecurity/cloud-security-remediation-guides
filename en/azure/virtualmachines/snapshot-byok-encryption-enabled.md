@@ -17,3 +17,8 @@
 ## Detailed Remediation Steps
 
 
+1. Log into the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for Snapshots. </br> <img src="/resources/azure/virtualmachines/snapshot-byok-encryption-enabled/step2.png"/>
+3. Select the "Snapshot" by clicking the "Name" as a link to get into the configuration changes. </br> <img src="/resources/azure/virtualmachines/snapshot-byok-encryption-enabled/step3.png"/>
+4. On "Snapshot" navigation panel and choose "Encryption" under the settings section. </br> <img src="/resources/azure/virtualmachines/snapshot-byok-encryption-enabled/step4.png"/>
+5. Click on "Key Management" dropdown then select "Customer-managed key" and Click save from top navigation panel.</br> <img src="/resources/azure/virtualmachines/snapshot-byok-encryption-enabled/step5.png"/>
