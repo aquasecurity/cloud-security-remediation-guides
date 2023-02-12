@@ -11,7 +11,7 @@
 | **Category** | EC2 |
 | **Description** | Determine if TCP port 80 for HTTPS is open to the public |
 | **More Info** | Network security groups should be periodically evaluated for port misconfigurations. Where certain ports and protocols may be exposed to the Internet, they should be evaluated for necessity and restricted wherever they are not explicitly required and narrowly configured. |
-| **AWS Link** | https://docs.microsoft.com/en-us/azure/virtual-network/manage-network-security-group |
+| **AWS Link** | http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/authorizing-access-to-an-instance.html |
 | **Recommended Action** | Restrict TCP port 80 to known IP addresses. |
 
 ## Detailed Remediation Steps
