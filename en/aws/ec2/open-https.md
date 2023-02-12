@@ -5,7 +5,7 @@
 ## Quick Info
 
 | | |
-|-|-|b b n
+|-|-|
 | **Plugin Title** | Open HTTPS |
 | **Cloud** | AWS |
 | **Category** | EC2 |
