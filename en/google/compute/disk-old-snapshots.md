@@ -19,3 +19,5 @@
 2. In the left navigation panel choose "Compute Engine" and then select the "Snapshots" option.
 3. Select the snapshots that are older than the specified number of days.
 4. At the top of the Snapshots page, click Delete.
+
+**These configuration changes may incur additional costs**
