@@ -22,3 +22,5 @@
 5. Use the Snapshot schedule drop-down menu to add the schedule to the disk. Or create a new schedule.
 6. If you created a new schedule, click Create.
 7. Click Save to complete the task.
+
+**These configuration changes may incur additional costs**
