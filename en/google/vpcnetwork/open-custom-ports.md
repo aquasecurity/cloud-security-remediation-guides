@@ -10,9 +10,9 @@
 | **Cloud** | GOOGLE |
 | **Category** | VPC Network |
 | **Description** | Ensure that defined custom ports are not open to public. |
-| **More Info** | Security groups should restrict access to ports from known networks. |
+| **More Info** | To prevent attackers from identifying and exploiting the services running on your instances, make sure the VPC Network custom ports are not open to public. |
 | **GOOGLE Link** | https://cloud.google.com/vpc/docs/firewalls |
-| **Recommended Action** | Modify the security group to ensure the defined custom ports are not exposed publicly. |
+| **Recommended Action** | Ensure that your VPC Network firewall rules do not allow inbound traffic for a range of ports. |
 
 ## Detailed Remediation Steps
 1. Log into the Google Cloud Platform Console.
