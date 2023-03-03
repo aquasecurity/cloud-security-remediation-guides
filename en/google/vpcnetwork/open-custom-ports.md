@@ -11,7 +11,7 @@
 | **Category** | VPC Network |
 | **Description** | Ensure that defined custom ports are not open to public. |
 | **More Info** | Security groups should restrict access to ports from known networks. |
-| **GOOGLE Link** | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html |
+| **GOOGLE Link** | https://cloud.google.com/vpc/docs/firewalls |
 | **Recommended Action** | Modify the security group to ensure the defined custom ports are not exposed publicly. |
 
 ## Detailed Remediation Steps
