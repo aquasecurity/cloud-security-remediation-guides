@@ -15,9 +15,10 @@
 | **Recommended Action** | Ensure that log_lock_waits flag is enabled for all PostgreSQL instances. |
 
 ## Detailed Remediation Steps
-1. In the Google Cloud console, create a new Google Cloud console project, or open an existing project by selecting the project name.
-2. Open the instance and click Edit.
-3. Scroll down to the Flags section.
-4. To set a flag that has not been set on the instance before, click Add item, choose the "log_lock_waits" flag from the drop-down menu, and set its value.
-5. Click Save to save your changes.
-6. Confirm your changes under Flags on the Overview page.
+1. Log into the Google Cloud Platform Console.
+2. Scroll down the left navigation panel and click on "SQL". 
+3. On the "SQL" page, select the SQL Instance which needs to be verified by clicking on the checkbox next to its name.
+4. Scroll down to the Flags section.
+5. To set a flag that has not been set on the instance before, click Add item, choose the `log_lock_waits` flag from the drop-down menu, and set its value to `on`.
+6. Click Save to save your changes.
+7. Confirm your changes under Flags on the Overview page.
