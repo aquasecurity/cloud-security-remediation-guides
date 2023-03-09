@@ -15,8 +15,10 @@
 | **Recommended Action** | Ensure that log_min_duration_statement flag is disabled for all PostgreSQL instances. |
 
 ## Detailed Remediation Steps
-1. In the Google Cloud console, create a new Google Cloud console project, or open an existing project by selecting the project name.
-2. Open the instance and click Edit.
-3. Open the Database flags section.
-4. Click the X next to the "log_min_duration_statement" flag.
-5. Click Save to save your changes.
+1. Log into the Google Cloud Platform Console.
+2. Scroll down the left navigation panel and click on "SQL". 
+3. On the "SQL" page, select the SQL Instance which needs to be verified by clicking on the checkbox next to its name.
+4. Scroll down to the Flags section.
+5. To set a flag that has not been set on the instance before, click Add item, choose the `log_min_duration_statement` flag from the drop-down menu, and set its value to `-1`.
+6. Click Save to save your changes.
+7. Confirm your changes under Flags on the Overview page.
