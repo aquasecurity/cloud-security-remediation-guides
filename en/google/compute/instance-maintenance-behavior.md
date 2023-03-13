@@ -23,6 +23,6 @@
 
 3.  On the VM details page, complete the following steps:
 
-    1.  Click the Edit button at the top of the page.
-    2.  Under Availability policies, update the policy as needed. From the Availability policies section, you can set the On host maintenance and Automatic restart options.
-    3.  Click Save.
+    a.  Click the Edit button at the top of the page.
+    b.  Under Availability policies, update the policy as needed. From the Availability policies section, you can set the On host maintenance and Automatic restart options.
+    c.  Click Save.
