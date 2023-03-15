@@ -21,10 +21,10 @@
 
 2.  If prompted, select your project and click Continue.
 
-3.  Click the name of the instance for which you want to toggle deletion protection. The instance details page displays.
+3.  Click the name of the instance for which you want to enable deletion protection. The instance details page displays.
 
 4.  From the instance details page, complete the following steps:
 
     a.  Click the Edit button at the top of the page.
-    b.  Under Deletion Protection, check the box to enable or uncheck the box to disable deletion protection.
+    b.  Under Deletion Protection, check the box to enable deletion protection.
     c.  Save your changes.
