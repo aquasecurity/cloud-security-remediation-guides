@@ -1,3 +1,20 @@
+[![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
+
+# GOOGLE / Compute / Autoscale Minimum CPU Utilization Target
+
+## Quick Info
+
+| | |
+|-|-|
+| **Plugin Title** | Autoscale Minimum CPU Utilization Target |
+| **Cloud** | GOOGLE |
+| **Category** | Compute |
+| **Description** | Ensure that minimum CPU utilization target is greater or equal than set percentage. |
+| **More Info** | The autoscaler treats the target CPU utilization level as a fraction of the average use of all vCPUs over time in the instance group. If the average utilization of your total vCPUs exceeds the target utilization, the autoscaler adds more VM instances. If the average utilization of your total vCPUs is less than the target utilization, the autoscaler removes instances. |
+| **GOOGLE Link** | https://cloud.google.com/compute/docs/autoscaler/scaling-cpu |
+| **Recommended Action** | Ensure all instance groups have Minimum CPU Utilization greater than or equal to target value. |
+
+## Detailed Remediation Steps
 1.  In the console, go to the Instance groups page.
 
     [Go to Instance groups](https://console.cloud.google.com/compute/instanceGroups)
