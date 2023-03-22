@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Compute / Persistent Disk Auto Delete
+# GOOGLE / Compute / Persistent Disks Auto Delete
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Persistent Disk Auto Delete |
+| **Plugin Title** | Persistent Disks Auto Delete |
 | **Cloud** | GOOGLE |
 | **Category** | Compute |
 | **Description** | Automatically delete read/write zonal persistent disks when the associated VM instance is deleted |
