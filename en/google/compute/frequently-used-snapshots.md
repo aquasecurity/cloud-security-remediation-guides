@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Compute / Disk Old Snapshots
+# GOOGLE / Compute / Frequently Used Snapshots
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Disk Old Snapshots |
+| **Plugin Title** | Frequently Used Snapshots |
 | **Cloud** | GOOGLE |
 | **Category** | Compute |
 | **Description** | Ensure that frequently used disks are created from images instead of snapshots to save networking cost. |
