@@ -23,5 +23,4 @@
 6. Set or remove the default Cloud KMS key for the bucket.
     a. If the bucket isn't currently using a Cloud KMS key, select the Customer-managed key radio button, then select one of the available keys in the associated drop-down menu.
     b. If the bucket currently uses a Cloud KMS key, change the Cloud KMS key in the drop-down menu by selecting the Google-managed key radio button.
-
 7. Click Save.
