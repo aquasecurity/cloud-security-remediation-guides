@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Compute / Service Account Token Creator
+# GOOGLE / IAM / Service Account Token Creator
 
 ## Quick Info
 
@@ -8,7 +8,7 @@
 |-|-|
 | **Plugin Title** | Service Account Token Creator |
 | **Cloud** | GOOGLE |
-| **Category** | Compute |
+| **Category** | IAM |
 | **Description** | Ensures that no users have the Service Account Token Creator role. |
 | **More Info** | For best security practices, IAM users should not have Service Account Token Creator role. |
 | **GOOGLE Link** | https://cloud.google.com/compute/docs/disks |
