@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Dataflow / Dataflow Jobns Encryption
+# GOOGLE / Dataflow / Dataflow Jobs Encryption
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Dataflow Jobns Encryption |
+| **Plugin Title** | Dataflow Jobs Encryption |
 | **Cloud** | GOOGLE |
 | **Category** | Datflow |
 | **Description** | Ensure that Google Dataflow jobs are encrypted with desired encryption level. |
