@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / IAM / Service Account User
+# GOOGLE / IAM / Member Admin
 
 ## Quick Info
 
