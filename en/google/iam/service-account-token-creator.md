@@ -22,6 +22,6 @@
 2.  Select a project, folder, or organization (in this case the GCP project).
 
     The Google Cloud console lists all the principals who have been granted roles on your project, folder, or organization. This list includes principals who have inherited roles on the resource from parent resources. For more information about policy inheritance, see [Policy inheritance and the resource hierarchy](https://cloud.google.com/iam/docs/policies#inheritance).
-Check to see if any have the Service Account Access Role.
+3. Check to see if any have the Service Account Access Role.
 
-3.  Optional: To view role grants for [Google-managed service accounts](https://cloud.google.com/iam/docs/service-account-types#google-managed), select the Include Google-provided role grants checkbox.
+4.  Optional: To view role grants for [Google-managed service accounts](https://cloud.google.com/iam/docs/service-account-types#google-managed), select the Include Google-provided role grants checkbox.
