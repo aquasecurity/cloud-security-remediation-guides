@@ -15,15 +15,32 @@
 | **Recommended Action** | Ensure that all Google compute disks have replica zones configured. |
 
 ## Detailed Remediation Steps
-For synchronous and asynchronous application replication:
+You must first create the regional Persistent Disk and then attach it to an existing instance. You can't create regional Persistent Disks as boot disks because they can't be force-attached during a failover.
 
--   Use two instances of the database and VM. In this case the following items determine the total cost:
+Create a regional Persistent Disk using the following steps:
 
-    -   VM instance costs
-    -   Persistent disk costs
-    -   Costs of maintaining application replication
--   Use a single VM with regional persistent disks. To achieve high availability with a regional persistent disk, use the same VM instance and persistent disk components, but also include a regional persistent disk. Regional persistent disks are double the cost per byte compared to zonal persistent disks because they are replicated in two zones.
+1.  In the Google Cloud console, go to the Disks page.
 
-    However, using regional persistent disks might reduce your maintenance cost because the data is automatically replicated to two replicas without the requirement of maintaining application replication.
+    [Go to Disks](https://console.cloud.google.com/compute/disks)
 
--   Do not start the second VM until failover is required. You can reduce host costs even more by starting the back-up VM only on demand during failover rather than maintaining the VM as a hot standby.
+2.  Select the required project.
+
+3.  Click Create disk.
+
+4.  Specify a Name for your disk.
+
+5.  Select the Region and Zone. You must select the same region when you create your VM.
+
+6.  Select the Enable regional disk replication box.
+
+7.  Select the Replicate zone. Make a note of the zones that you select because you must attach the disk to your VM in one of those zones.
+
+8.  Select the Disk source type.
+
+9.  Select the Disk type.
+
+10. Click Create to finish creating your disk.
+
+11. After you create your regional Persistent Disk, [attach it to your instance](https://cloud.google.com/compute/docs/disks/add-persistent-disk#create_disk).
+    
+    When attaching a disk to a VM, if the disk is already attached to another VM, you can force-attach the disk to the VM by selecting the Force-attach disk box on the Attach existing disk page. For more information on use cases for force-attaching regional Persistent Disks, see [Regional Persistent Disk failover](https://cloud.google.com/compute/docs/disks/repd-failover).
