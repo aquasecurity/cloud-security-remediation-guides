@@ -21,3 +21,4 @@
 
 2.  In the Instances list, scroll to the right until you see the Encryption column. In this column, you see Google-managed and Customer-managed.
 3.  Click an instance name to open its Overview page. The customer-managed encryption key is listed in the Configuration pane.
+    - Note that Customer Managed Encryption Keys can only be configured during instance creation.
