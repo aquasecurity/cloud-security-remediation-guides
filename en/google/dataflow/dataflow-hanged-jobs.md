@@ -14,34 +14,16 @@
 | **Recommended Action** | Cancel/stop Dataflow jobs which are in same state for more than set amount of time. |
 
 ## Detailed Remediation Steps
-### Name
+1. The 'gcloud dataflow jobs cancel' commandlet cancels all jobs that match the command line arguments.
 
-gcloud dataflow jobs cancel - cancels all jobs that match the command line arguments
+2. To cancel jobs, log into the Google Cloud Console and open a cloud shell instance. See [Using Cloud Shell](#https://cloud.google.com/shell/docs/using-cloud-shell) for more details on access.
 
-### Synopsis
+3. Run the command in the following manner, replacing the variables with values corresponding to your organization:
+  ```
+  gcloud dataflow jobs cancel JOB_ID [JOB_ID …] [--force] [--region=REGION_ID] [GCLOUD_WIDE_FLAG …]
+  ```
 
-`gcloud dataflow jobs cancel` `*[JOB_ID](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/cancel#JOB_ID)*` [`*[JOB_ID](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/cancel#JOB_ID)*` ...] [`[--force](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/cancel#--force)`] [`[--region](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/cancel#--region)`=`*REGION_ID*`] [`*[GCLOUD_WIDE_FLAG](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/cancel#GCLOUD-WIDE-FLAGS) ...*`]
-
-### Flags
-
-`--force`
-
-Forcibly cancels a Dataflow job, leaking any VMs the Dataflow job created. Regular cancel must have been attempted at least 30 minutes ago for a job to be force cancelled.
-
-`--region`=`*REGION_ID*`
-
-The region ID of the jobs' regional endpoint. Defaults to 'us-central1'.
-
-### GCloud Wide Flags
-
-These flags are available to all commands: `[--access-token-file](https://cloud.google.com/sdk/gcloud/reference#--access-token-file)`, `[--account](https://cloud.google.com/sdk/gcloud/reference#--account)`, `[--billing-project](https://cloud.google.com/sdk/gcloud/reference#--billing-project)`, `[--configuration](https://cloud.google.com/sdk/gcloud/reference#--configuration)`, `[--flags-file](https://cloud.google.com/sdk/gcloud/reference#--flags-file)`, `[--flatten](https://cloud.google.com/sdk/gcloud/reference#--flatten)`, `[--format](https://cloud.google.com/sdk/gcloud/reference#--format)`, `[--help](https://cloud.google.com/sdk/gcloud/reference#--help)`, `[--impersonate-service-account](https://cloud.google.com/sdk/gcloud/reference#--impersonate-service-account)`, `[--log-http](https://cloud.google.com/sdk/gcloud/reference#--log-http)`, `[--project](https://cloud.google.com/sdk/gcloud/reference#--project)`, `[--quiet](https://cloud.google.com/sdk/gcloud/reference#--quiet)`, `[--trace-token](https://cloud.google.com/sdk/gcloud/reference#--trace-token)`, `[--user-output-enabled](https://cloud.google.com/sdk/gcloud/reference#--user-output-enabled)`, `[--verbosity](https://cloud.google.com/sdk/gcloud/reference#--verbosity)`.
-
-Run `$ [gcloud help](https://cloud.google.com/sdk/gcloud/reference)` for details.
-
-### Notes
-
-This variant is also available:
-
-```
-gcloud beta dataflow jobs cancel
-```
+4. This variant is also available:
+  ```
+  gcloud beta dataflow jobs cancel
+  ```
