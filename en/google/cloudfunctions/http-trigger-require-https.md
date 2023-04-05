@@ -30,8 +30,8 @@ a. Using gcloud:
 b. Using Console
 For Cloud Functions (1st gen):
     1. Log into the Google Cloud Platform Console.
-    2. Scroll down the left navigation panel and click on "Cloud Functions". </br> <img src="/resources/google/cloudfunctions/cloud-function-labels-added/step2.png">
-    3. On the "Cloud Functions" page, select the cloud function which needs to change to require https by clicking on the checkbox next to its name.</br> <img src="/resources/google/cloudfunctions/cloud-function-labels-added/step4.png"/>
-    4. In the Trigger type field, select HTTP. </br><img src="/resources/google/cloudfunctions/cloud-function-labels-added/step5.png"/>
-    5. Select the Require HTTPS checkbox to make the function endpoint requires HTTPS.</br><img src="/resources/google/cloudfunctions/cloud-function-labels-added/step6.png"/>
+    2. Scroll down the left navigation panel and click on "Cloud Functions". </br> <img src="/resources/google/cloudfunctions/http-trigger-require-https/step2.png"></br>
+    3. On the "Cloud Functions" page, select the cloud function which needs to change to require https by clicking on the checkbox next to its name.</br> <img src="/resources/google/cloudfunctions/http-trigger-require-https/step4.png"/></br>
+    4. In the Trigger type field, select HTTP. </br><img src="/resources/google/cloudfunctions/http-trigger-require-https/step5.png"/></br>
+    5. Select the Require HTTPS checkbox to make the function endpoint requires HTTPS.</br><img src="/resources/google/cloudfunctions/http-trigger-require-https/step6.png"/></br>
     For more info: https://cloud.google.com/functions/docs/calling/http#gcloud
