@@ -18,7 +18,7 @@
 In Cloud Functions (2nd gen), requests to a function URL always require HTTPS. In Cloud Functions (1st gen), you can choose whether HTTPS is required during deployment.
 Steps to configure Cloud Functions to require HTTPS:
 a. Using gcloud:
-   1. (1st gen) Set `--security-level` flag value to `secure-always` which means HTTPS is required and non-SSL HTTP requests are not supported. 
+   (1st gen) set `--security-level` flag value to `secure-always` which means HTTPS is required and non-SSL HTTP requests are not supported. 
    Example: 
    ```
    gcloud functions deploy YOUR_FUNCTION_NAME \
