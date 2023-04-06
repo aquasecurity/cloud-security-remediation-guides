@@ -16,10 +16,10 @@
 
 ## Detailed Remediation Steps
 1. Sign in to Google Cloud Management Console with the organizational unit credentials.
-2. Click the deployment selector in the upper navigation bar,slect ALL to view a summary of all current deployments, and then pick the Google Cloud organisation you want to look at.
+2. Click the deployment selector in the upper navigation bar, select ALL to view a summary of all current deployments, and then pick the Google Cloud organisation you want to look at.
 3. Navigate to Cloud Identity and Access Management (IAM) [dashboard](#https://console.cloud.google.com/iam-admin/iam).
 4. In the navigation panel, select Organization Policies to view the list of the constraint policies available for your GCP organization.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step4.png"/></br>
 5. Click inside Filter box, select *Name* and *Define allowed external IPs for VM instances* to return the \"Define Allowed External IPs for VM Instances\" policy.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step5.png"/></br>
 6. Click on the GCP organization policy returned at step 5.
-7. On the Policy details page, under Effective policy, check the **Allowed** configuration attribute value. If the **Allowed** attribute value is set to **All**, then all the virtual machine instances created within the selected Google Cloud Platform (GCP) organization are allowed to use external IP addresses.
-8. Click on Manage Policy to \"Define Allowed External IPs for VM Instances\" constraint policy.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step8.png"/></br>
+7. On the Policy details page, check the **Allowed** configuration attribute value. If the **Allowed** attribute value is set to **All**, then all the virtual machine instances created within the selected Google Cloud Platform (GCP) organization are allowed to use external IP addresses.
+8. Click on Manage Policy to define constraint policy.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step8.png"/></br>
