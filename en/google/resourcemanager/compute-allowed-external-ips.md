@@ -15,8 +15,8 @@
 | **Recommended Action** | Ensure that \"Define Allowed External IPs for VM Instances\" constraint is enforced to allow you to define the VM instances that are allowed to use external IP addresses. |
 
 ## Detailed Remediation Steps
-1. Sign in to Google Cloud Management Console with the organizational unit credentials.
-2. Click the deployment selector in the upper navigation bar, select ALL to view a summary of all current deployments, and then pick the Google Cloud organisation you want to look at.
+1. Sign in to Google Cloud Management Console with the organizational unit credentials, then Click the deployment selector in the upper navigation bar.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step1.png"/></br>
+2. Select ALL to view a summary of all current deployments, and then pick the Google Cloud organisation you want to look at.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step2.png"/></br>
 3. Navigate to Cloud Identity and Access Management (IAM) [dashboard](#https://console.cloud.google.com/iam-admin/iam).
 4. In the navigation panel, select Organization Policies to view the list of the constraint policies available for your GCP organization.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step4.png"/></br>
 5. Click inside Filter box, select *Name* and *Define allowed external IPs for VM instances* to return the \"Define Allowed External IPs for VM Instances\" policy.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step5.png"/></br>
