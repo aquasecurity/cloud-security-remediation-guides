@@ -20,6 +20,6 @@
 3. Navigate to Cloud [Identity and Access Management IAM](https://console.cloud.google.com/iam-admin/iam).
 4. In the left navigation panel, select Organization Policies to view the list of the constraint policies available for your GCP organization.</br> <img src="/resources/google/resourcemanager/disable-service-account-creation/step4.png"/></br></br>
 5. Click inside Filter box, filter by **Name**. </br> <img src="/resources/google/resourcemanager/disable-service-account-creation/step5.png"/></br></br>
-6. Type in **Disable Service Account Creation** to return the \"Disable Service Account Creation\" policy.</br> <img src="/resources/google/resourcemanager/disable-service-account-creation/step6.png"/></br></br>
+6. Type in **Disable Service Account Creation** to return the \"Disable Service Account Creation\" policy.</br>
 7. Click on the policy name. </br> <img src="/resources/google/resourcemanager/disable-service-account-creation/step7.png"/></br></br>
 8. On the Policy details page, check the **Status** attribute value. If the **Status** attribute value is set to **Not enforced**, then click on \"Manage Policy\" to edit the policy.</br> <img src="/resources/google/resourcemanager/disable-service-account-creation/step8.png"/></br>
