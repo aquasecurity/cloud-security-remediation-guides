@@ -23,3 +23,7 @@
 6. Click on the GCP organization policy returned at step 5.
 7. On the Policy details page, check the **Allowed** configuration attribute value. If the **Allowed** attribute value is set to **All**, then all the virtual machine instances created within the selected Google Cloud Platform (GCP) organization are allowed to use external IP addresses.
 8. Click on Manage Policy to define constraint policy.</br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step8.png"/></br>
+9. In Edit Policy screen, under \"Applies to\" section, select \"Customize\". Then under policy enforcement: Select Replace. Finally, Click on \"Add Role\".</br></br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step9.png"/></br>
+10. In Add Role expanded Section, for Policy Value: Select "\Deny All\". Then Click on "\Add Condition\"</br></br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step10.png"/></br>
+11. In Edit Condition Screen, Add the required conditions to allow only VM instances taht needs to use external IP addresses </br> <img src="/resources/google/resourcemanager/compute-allowed-external-ips/step11.png"/></br>
+12. Click Save.

@@ -23,3 +23,7 @@
 6. Type in **Disable Guest Attributes of Compute Engine Metadata** to return the \"Disable Guest Attributes of Compute Engine Metadata\" policy.</br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step6.png"/></br>
 7. Click on the policy returned at step 6. </br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step7.png"/></br>
 8. On the Policy details page, check the **Status** configuration attribute value. If the **Status** attribute value is set to **Not enforced**, then click on Manage Policy to edit the policy.</br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step8.png"/></br>
+9. In Edit Policy screen, under \"Applies to\" section, select \"Customize\". Then Click on \"Add Role\". </br></br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step9.png"/></br>
+10. In Add Role expanded Section, under enforcemnt: Select "On".</br></br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step10.png"/></br>
+11. Click Save. </br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step11.png"/></br>
+12. When return to Policy details screen, status will now show "Enforced". </br> <img src="/resources/google/resourcemanager/disable-guest-attributes/step12.png"/></br>

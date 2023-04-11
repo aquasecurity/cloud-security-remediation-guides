@@ -22,4 +22,8 @@
 5. Click inside Filter box, select **Name**. </br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step5.png"/></br>
 6. Type in **Disable Automatic IAM Grants** to return the \"Disable Automatic IAM Grants\" policy.</br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step6.png"/></br>
 7. Click on the GCP organization policy returned at step 6. </br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step7.png"/></br>
-8. On the Policy details page, check the **Status** configuration attribute value. If the **Status** attribute value is set to **Not enforced**, then click on Manage Policy to edit the policy.</br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step8.png"/></br>
+8. On the Policy details page, check the **Status** configuration attribute value. If the **Status** attribute value is set to **Not enforced**, then click on Manage Policy to edit the policy.</br></br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step8.png"/></br>
+9. In Edit Policy screen, under \"Applies to\" section, select \"Customize\". Then Click on \"Add Role\".</br></br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step9.png"/></br>
+10. In Add Role expanded Section, under enforcemnt: Select "On".</br></br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step10.png"/></br>
+11. Click Save. </br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step11.png"/></br>
+12. When return to Policy details screen, status will now show "Enforced". </br> <img src="/resources/google/resourcemanager/disable-automatic-iam-grants/step12.png"/></br>
