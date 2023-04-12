@@ -1,18 +1,18 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Resource Manager / Disable VM IP Forwarding
+# GOOGLE / Resource Manager / Restrict VPN Peer IPs
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Disable VM IP Forwarding |
+| **Plugin Title** | Restrict VPN Peer IPs |
 | **Cloud** | GOOGLE |
 | **Category** | Resource Manager |
-| **Description** | Determine if \"Restrict VM IP Forwarding\" constraint policy is enforced at the GCP organization level. |
-| **More Info** | Enforcing the \"Restrict VM IP Forwarding\" constraint allows you to define the VM instances that can ensble IP forwarding. |
+| **Description** | Determine if \"Restrict VPN Peer IPs\" is enforced on the GCP organization level. |
+| **More Info** | Enforcing the \"Restrict VPN Peer IPs\" constraint allows you to control the IP addresses which can be configured as VPN Peers. |
 | **GOOGLE Link** | https://cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints |
-| **Recommended Action** | Ensure that \"Restrict VM IP Forwarding\" constraint is enforced at the organization level. |
+| **Recommended Action** | Ensure that \"Restrict VPN Peer IPs\" constraint is enforced at the organization level. |
 
 ## Detailed Remediation Steps
 1. Sign in to the Google Cloud console, go to the [Identity and Access Management (IAM)](#https://console.cloud.google.com/iam-admin/iam.) page.
@@ -21,9 +21,9 @@
 
 3. In the navigation panel, select **Organization Policies** to view the list of the cloud organization policies available.
 
-4. In the Filter by constraint section, select `Name` and filter by: `Restrict VM IP Forwarding`.
+4. In the Filter by constraint section, select `Name` and filter by: `Restrict VPN Peer IPs`.
 
-5. Select the `Restrict VM IP Forwarding` organizational policy. 
+5. Select the `Restrict VPN Peer IPs` organizational policy. 
 
 6. In the `Policy details` page, see the `Allowed` configuration attribute value. If the value is set to `All`, select the Manage Policy button in the upper right to modify the policy.
 
