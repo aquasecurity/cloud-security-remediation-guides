@@ -15,7 +15,7 @@
 | **Recommended Action** | Create cryptographic keys according to desired protection level. |
 
 ## Detailed Remediation Steps
-1. In the Google Cloud console, go to the Key Management page. 
+1. In the Google Cloud console, go to the [Key Management](#https://console.cloud.google.com/security/kms) page. 
 
 2. Click the name of the key ring for which you will create a key.
 
