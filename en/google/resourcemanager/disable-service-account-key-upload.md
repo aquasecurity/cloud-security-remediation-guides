@@ -23,7 +23,7 @@
 6. Type in **Disable Service Account Key Upload** to return the \"Disable Service Account Key Upload\" policy.</br><img src="/resources/google/resourcemanager/disable-service-account-key-creation/step6.png"/></br></br>
 7. Click on the policy name. </br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step7.png"/></br></br>
 8. On the Policy details page, check the **Status** attribute value. If the **Status** attribute value is set to **Not enforced**, then click on \"Manage Policy\" to edit the policy.</br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step8.png"/></br></br>
-9. In Edit Policy screen, under \"Applies to\" section, select \"Customize\". Then Click on \"Add Role\".
+9. In Edit Policy screen, under \"Applies to\" section, select \"Customize\". Then Click on \"Add Role\".</br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step9.png"/></br></br>
 10. In Add Role expanded Section, under enforcemnt: Select "On".</br></br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step10.png"/></br>
 11. Click Save. </br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step11.png"/></br>
 12. When return to Policy details screen, status will now show "Enforced". </br> <img src="/resources/google/resourcemanager/disable-service-account-key-creation/step12.png"/></br>
