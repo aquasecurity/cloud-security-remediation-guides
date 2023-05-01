@@ -150,6 +150,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Password Requires Numbers](en/azure/activedirectory/password-requires-numbers.md)
         * [Password Requires Symbols](en/azure/activedirectory/password-requires-symbols.md)
         * [Password Requires Uppercase](en/azure/activedirectory/password-requires-uppercase.md)
+        * [Azure AD App Organisational Directory Access](en/azure/activedirectory/app-orgnaizational-directory-access.md)
     * App Service
         * [.NET Framework Version](en/azure/appservice/.net-framework-version.md)
         * [Authentication Enabled](en/azure/appservice/authentication-enabled.md)
