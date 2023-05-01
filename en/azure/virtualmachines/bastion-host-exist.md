@@ -20,5 +20,5 @@
 2. Select the "Search resources, services, and docs" option at the top and search for Bastions. </br> <img src="/resources/azure/virtualmachines/bastion-host-exist/step2.png"/>
 3. On Bastion Page Click on Create from navigation bar on the page. </br> <img src="/resources/azure/virtualmachines/bastion-host-exist/step3.png"/>
 4. Enter the required information e.g Select subscription, region enter the host name, Instance Count, and virtual network information. For virtual network create a subnet named AzureBastionSubnet with /26.</br> <img src="/resources/azure/virtualmachines/bastion-host-exist/step4.png"/>
-5. After the entering these information Click next on bottom of the page and enter all required information. In the same complete All steps and Review the entered information and Click Create.</br> <img src="/resources/azure/virtualmachines/bastion-host-exist/step5.png"/>
+5. After the entering these information Click next on bottom of the page and enter all required information. In the same way complete All steps and Review the entered information and Click Create.</br> <img src="/resources/azure/virtualmachines/bastion-host-exist/step5.png"/>
 6. After sometime you will be able to see Bastion host up and running.
