@@ -1,16 +1,16 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / PostgreSQL Server / PostgreSQL Server Public Network Access Disabled
+# AZURE / PostgreSQL Server / PostgreSQL Server Access to Azure Services Disabled
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | PostgreSQL Server Public Network Access Disabled |
+| **Plugin Title** | PostgreSQL Server Access to Azure Services Disabled |
 | **Cloud** | AZURE |
 | **Category** | PostgreSQL Server |
-| **Description** | Ensure that Microsoft Azure PostgreSQL database servers have public network access disabled. |
-| **More Info** | Disabling network access to public for PostgreSQL database servers improves security by preventing access from public endpoints and allowing access only from trusted sources. |
+| **Description** | Ensure that Allow access to Azure services for PostgreSQL Database Server is disabled. |
+| **More Info** | If access from Azure services is enabled, the server\'s firewall will accept connections from all Azure resources, including resources not in your subscription. This is usually not a desired configuration. Instead, set up firewall rules to allow access from specific network ranges or VNET rules to allow access from specific virtual networks. |
 | **AZURE Link** | https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-firewall-rules |
 | **Recommended Action** | Disable network access to the public for PostgreSQL database servers. |
 
