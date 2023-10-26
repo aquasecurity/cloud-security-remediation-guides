@@ -20,7 +20,7 @@
 2. Select the "Search resources, services, and docs" option at the top and search for App Services. </br> <img src="/resources/azure/appservice/client-certificates-enabled/step2.png"/>
 3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.</br> <img src="/resources/azure/appservice/client-certificates-enabled/step3.png"/>
 4. On left navigation panel that opens, click on Configuration tab.</br <img src="/resources/azure/appservice/client-certificates-enabled/step4.png"/>
-5. Select General settings tab on the Configuration page that opens. </br> <img src="/resources/azure/appservice/client-certificates-enabled/step5.png"/>
+5. Select General settings tab on the Configurations page. </br> <img src="/resources/azure/appservice/client-certificates-enabled/step5.png"/>
 6. Scroll down to check for Incoming client certificates at the bottom and select one of the following "Required", "Allowed", or "Optional", according to requirement.
 .</br> <img src="/resources/azure/appservice/client-certificates-enabled/step7.png"/>
 7. Repeat above steps to ensures "Client Certificates" are enabled for "App Services", only allowing clients with valid certificates to reach the app. </br>
