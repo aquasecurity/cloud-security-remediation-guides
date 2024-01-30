@@ -9,7 +9,7 @@
 | **Plugin Title** | Topic Encryption Enabled |
 | **Cloud** | GOOGLE |
 | **Category** | Pub/Sub |
-| **Description** | nsure that Google Pub/Sub topics are encrypted with desired encryption level. |
+| **Description** | Ensure that Google Pub/Sub topics are encrypted with desired encryption level. |
 | **More Info** |Google encrypts all messages in topics by default. By using CSEK, only the users with the key can access the disk. Anyone else, including Google, cannot access the disk data. |
 | **GOOGLE Link** | https://cloud.google.com/pubsub/docs/encryption |
 | **Recommended Action** | Ensure that Cloud Pub/Sub topics are encrypted using CSEK keys. |
