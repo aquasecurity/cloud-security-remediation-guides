@@ -18,8 +18,8 @@
 You can configure CMEK using the Google Cloud console or the gcloud command-line tool. For prerequisites, you must have:
 1. Created a key ring and a regional or global key in Cloud KMS. Keys and key rings cannot be deleted.
 2. Enabled the Cloud KMS API.
-You can use the Google Cloud console topic creation dialog to add your encryption keys: </br> <img src="/resources/google/pubsub/topic-encryption-enabled/step1.png">
-To verify that Pub/Sub topic are not encrypted using a Customer-Managed Key (CMK) follow these steps:
+You can use the Google Cloud console topic creation dialog to add your encryption keys: </br> <img src="/resources/google/pubsub/topic-encryption-enabled/step1.png"></br>
+To verify that Pub/Sub topic are not encrypted using a Customer-Managed Key (CMK) follow these steps:</br>
 1. Log into the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose "Pub/Sub".
 3. Select Topics to access the Pub/Sub topics created for the selected GCP project.
