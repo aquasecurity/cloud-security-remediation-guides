@@ -9,6 +9,7 @@
 | **Plugin Title** | Open VNC Client |
 | **Cloud** | AWS |
 | **Category** | EC2 |
+| **Severity** | High |
 | **Description** | Determine if TCP port 5500 for VNC Client is open to the public |
 | **More Info** | While some ports such as HTTP and HTTPS are required to be open to the public to function properly, more sensitive services such as VNC Client should be restricted to known IP addresses. |
 | **AWS Link** | http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/authorizing-access-to-an-instance.html |
