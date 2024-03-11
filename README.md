@@ -67,6 +67,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Open Telnet](en/aws/ec2/open-telnet.md)
         * [Open VNC Client](en/aws/ec2/open-vnc-client.md)
         * [Open VNC Server](en/aws/ec2/open-vnc-server.md)
+        * [Open HTTP](en/aws/ec2/open-http.md)
         * [Overlapping Security Groups](en/aws/ec2/overlapping-security-groups.md)
         * [Public AMI](en/aws/ec2/public-ami.md)
         * [Subnet IP Availability](en/aws/ec2/subnet-ip-availability.md)
