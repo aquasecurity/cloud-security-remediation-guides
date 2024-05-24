@@ -12,4 +12,4 @@
 | **Description** | Ensure that AWS CloudTrail trail uses the designated Amazon S3 bucket. |
 | **More Info** | Ensure that your Amazon CloudTrail trail is configured to use the appropriated S3 bucket in order to meet regulatory compliance requirements within your organization. |
 | **AWS Link** | https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-update-a-trail-console.html |
-| **Recommended Action** | Modify ClouTrail trails to configure designated S3 bucket. |
+| **Recommended Action** | Modify CloudTrail trails to configure designated S3 bucket. |
