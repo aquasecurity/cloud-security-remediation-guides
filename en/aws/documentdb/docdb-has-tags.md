@@ -18,10 +18,10 @@
 1. Log into the AWS Management Console.
 2. Select the "Services" option and search for "DocumentDB" and click on "DocumentDB".</br> <img src="/resources/aws/documentdb/docdb-has-tags/step2.png"/>
 3. On "DocumentDB Dashboard" page Click on "Clusters" from left navigation panel.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step3.png"/>
-4. On documentdb clusters list page Click on the cluster Name which needs to have tags.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step4.png"/>
+4. On documentdb clusters list page Click on the cluster name which needs to have tags.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step4.png"/>
 5. On Cluster details page scroll down and click on the "Events & tags" tab from the bottom panel.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step5.png"/>
 6. Under "Events & tags" tab scroll down to "Tags" section. Click on "Manage Tags" button to manage new tags.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step6.png"/>
-7. On "Manage Tags" page click on "Add new tags" button and enter key-value for the tag and Click on "Save Changes" button.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step7.png"/> 
+7. On "Manage Tags" page click on "Add new tags" button and enter key-value for the tag and Click on "Save" button.</br> <img src="/resources/aws/documentdb/docdb-has-tags/step7.png"/> 
 
 
 
