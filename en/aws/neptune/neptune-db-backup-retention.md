@@ -22,8 +22,8 @@
 5. On Cluster details page click on "Modify" button.</br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step5.png"/>
 6. Scroll to bottom of "Modify Cluster" Page and select "Show more".</br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step6.png"/>
 7. Scroll down and under the "Backup retention period" section select "7 days" or more than 7 days depending on your choice. </br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step7.png"/> 
-8. Scroll to bottom of Page and click "Next" button. </br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step6.png"/> 
-8. Under "Scheduling of modifications" section check "Apply immediately" checkbox and Click on "Submit" button.</br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step8.png"/> 
+8. Scroll to bottom of Page and click "Next" button. </br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step8.png"/> 
+8. Under "Scheduling of modifications" section check "Apply immediately" checkbox and Click on "Submit" button.</br> <img src="/resources/aws/neptune/neptune-db-backup-retention/step9.png"/> 
 
 
 
