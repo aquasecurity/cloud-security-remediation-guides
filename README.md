@@ -363,6 +363,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Database SSL Enabled](en/google/sql/database-ssl-enabled.md)
     * Storage
         * [Bucket Logging](en/google/storage/bucket-logging.md)
+        * [Storage Bucket Retention Policy](en/google/storage/bucket-retention-policy.md)
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)
         * [Storage Bucket All Users Policy](en/google/storage/storage-bucket-all-users-policy.md)
     * VPC Network
