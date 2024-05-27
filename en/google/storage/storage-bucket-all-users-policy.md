@@ -15,5 +15,12 @@
 | **Recommended Action** | Ensure that each storage bucket is configured so that no member is set to allUsers or allAuthenticatedUsers. |
 
 ## Detailed Remediation Steps
-
+1. Log into the Google Cloud Platform Console.
+2. Scroll down the left navigation panel and choose "Cloud Storage" to select the "Buckets" option. </br> <img src="/resources/google/storage/storage-bucket-all-users-policy/step2.png">
+3. On the "Buckets" page, select the bucket which you want to configure by clicking on the checkbox next to its name.</br> <img src="/resources/google/storage/bstorage-bucket-all-users-policy/step3.png"/>
+4. Select the "PERMISSIONS" tab to access the permissions defined for selected bucket.</br> <img src="/resources/google/storage/storage-bucket-all-users-policy/step4.png"/>
+5. Select the "VIEW BY PRINCIPALS" tab to display all IAM members (principals) that have access to the selected resource.. </br> <img src="/resources/google/storage/storage-bucket-all-users-policy/step5.png"/>
+6. Select all the allUsers and allAuthenticatedUsers principals available and choose REMOVE ACCESS to initiate the removal action for the selected bindings.</br><img src="/resources/google/storage/storage-bucket-all-users-policy/step6.png"/>
+7. On the removal confirmation box, choose "CONFIRM" to remove the allUsers and/or allAuthenticatedUsers principals.</br> <img src="/resources/google/storage/storage-bucket-all-users-policy/step7.png"/>
+8. Repeat steps number 4-7 to remove all allUsers or allAuthenticatedUsers access from all other buckets in the project.</br>
 
