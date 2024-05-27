@@ -6,7 +6,7 @@
 
 | | |
 |-|-|
-| **Plugin Title** | BBucket Encryption |
+| **Plugin Title** | Bucket Encryption |
 | **Cloud** | GOOGLE |
 | **Category** | Storage |
 | **Description** | Ensure that Cloud Storage buckets have encryption enabled using desired protection level. |
@@ -17,7 +17,7 @@
 ## Detailed Remediation Steps
 1. Log into the Google Cloud Platform Console.
 2. Scroll down the left navigation panel and choose "Cloud Storage" to select the "Buckets" option. </br> <img src="/resources/google/storage/bucket-encryption/step2.png">
-3. On the "Buckets" page, select the bucket which needs to be configured with the desire encryption level by clicking on the checkbox next to its name.</br> <img src="/resources/google/storage/bucket-encryption/step3.png"/>
+3. On the "Buckets" page, select the bucket which needs to be configured with the desire encryption level .</br> <img src="/resources/google/storage/bucket-encryption/step3.png"/>
 4. Select the "CONFIGURATION" tab to access the configuration defined for selected bucket.</br> <img src="/resources/google/storage/bucket-encryption/step4.png"/>
 5. Select on Encryption type and click on edit option. </br> <img src="/resources/google/storage/bucket-encryption/step5.png"/>
 5. A popup panel will appear on screen.</br>
