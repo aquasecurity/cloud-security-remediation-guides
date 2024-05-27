@@ -18,7 +18,7 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. In search bar at the top search for Load balancers and select "Load Balancers". </br> <img src="/resources/azure/loadbalancer/lb-public-ip/step2.png"/>
-3. Click on the  Create Load balancer option at the top.</br> <img src="/resources/azure/loadbalancer/lb-public-ip/step3.png"/>
+3. Click on the Create Load balancer option at the top.</br> <img src="/resources/azure/loadbalancer/lb-public-ip/step3.png"/>
 4. On the Create load balancer creation page, you will see two type public or internal , choose the type according to your organization's requirements. </br> <img src="/resources/azure/loadbalancer/lb-public-ip/step4.png"/>
 5. check on 'Next: Frontend IP Configuration' at the bottom , to add the IP association to your Load balancer. </br> <img src="/resources/azure/loadbalancer/lb-public-ip/step5.png"/>
 6. Click on 'Add a frontend IP configuration' at the top to add the IP configuration. </br> <img src="/resources/azure/loadbalancer/lb-public-ip/step6.png"/>
