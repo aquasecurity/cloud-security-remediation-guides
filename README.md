@@ -365,6 +365,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Bucket Logging](en/google/storage/bucket-logging.md)
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)
         * [Storage Bucket All Users Policy](en/google/storage/storage-bucket-all-users-policy.md)
+        * [Bucket Encryption](en/google/storage/bucket-encryption.md)
     * VPC Network
         * [Default VPC In Use](en/google/vpcnetwork/default-vpc-in-use.md)
         * [Excessive Firewall Rules](en/google/vpcnetwork/excessive-firewall-rules.md)
