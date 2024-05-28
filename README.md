@@ -184,7 +184,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
-        * [Public Load Balancer](en/azure/loadbalancer/lb-public-ip.md)
+        * [Public Load Balancer](en/azure/loadbalancer/load-balancer-public-ip.md)
     * Log Alerts
         * [Network Security Groups Logging Enabled](en/azure/logalerts/network-security-groups-logging-enabled.md)
         * [Network Security Groups Rule Logging Enabled](en/azure/logalerts/network-security-groups-rule-logging-enabled.md)
