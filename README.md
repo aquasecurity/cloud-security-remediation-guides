@@ -170,7 +170,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * CDN Profiles
         * [Detect Insecure Custom Origin](en/azure/cdnprofiles/detect-insecure-custom-origin.md)
         * [Endpoint Logging Enabled](en/azure/cdnprofiles/endpoint-logging-enabled.md)
-    * Container Apps
+    * Container App
+        * [Container Apps Volume Mount Configured ](en/azure/containerapps/container-apps-volume-mount.md)
         * [Container Apps Has Tags](en/azure/containerapps/container-app-has-tags.md)
     * Container Registry
         * [ACR Admin User](en/azure/containerregistry/acr-admin-user.md)
