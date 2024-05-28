@@ -184,6 +184,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
+        * [Public Load Balancer](en/azure/loadbalancer/public-load-balancer.md)
     * Log Alerts
         * [Network Security Groups Logging Enabled](en/azure/logalerts/network-security-groups-logging-enabled.md)
         * [Network Security Groups Rule Logging Enabled](en/azure/logalerts/network-security-groups-rule-logging-enabled.md)
@@ -363,7 +364,9 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Database SSL Enabled](en/google/sql/database-ssl-enabled.md)
     * Storage
         * [Bucket Logging](en/google/storage/bucket-logging.md)
+        * [Storage Bucket Retention Policy](en/google/storage/storage-bucket-retention-policy.md)
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)
+        * [Bucket Lifecycle Configured](en/google/storage/bucket-lifecycle-configured.md)
         * [Storage Bucket All Users Policy](en/google/storage/storage-bucket-all-users-policy.md)
     * VPC Network
         * [Default VPC In Use](en/google/vpcnetwork/default-vpc-in-use.md)
