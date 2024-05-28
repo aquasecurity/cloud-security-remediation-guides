@@ -20,4 +20,4 @@
 3. On "Neptune Dashboard" page, Click on "Clusters" from left navigation panel.</br> <img src="/resources/aws/neptune/neptune-multi-az/step3.png"/>
 4. On Neptune clusters list page Click on "Create Database".</br> <img src="/resources/aws/neptune/neptune-multi-az/step4.png"/>
 5. On Create Database page scroll down and under "Availability and Durability" section, select the "Create read replica in different zone" checkbox.</br> <img src="/resources/aws/neptune/neptune-multi-az/step5.png"/>
-6. Scroll to bottom of "Create Database" Page and click on "Create Database" button.</br> <img src="/resources/aws/neptune/neptune-multi-az/step6.png"/>
+6. Scroll to bottom of "Create Database" page, and click on "Create Database" button.</br> <img src="/resources/aws/neptune/neptune-multi-az/step6.png"/>
