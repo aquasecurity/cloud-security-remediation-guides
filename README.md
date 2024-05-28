@@ -172,6 +172,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Endpoint Logging Enabled](en/azure/cdnprofiles/endpoint-logging-enabled.md)
     * Container App
         * [Container Apps Volume Mount Configured ](en/azure/containerapps/container-apps-volume-mount.md)
+        * [Container Apps Has Tags](en/azure/containerapps/container-app-has-tags.md)
     * Container Registry
         * [ACR Admin User](en/azure/containerregistry/acr-admin-user.md)
     * File Service
@@ -370,6 +371,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)
         * [Bucket Lifecycle Configured](en/google/storage/bucket-lifecycle-configured.md)
         * [Storage Bucket All Users Policy](en/google/storage/storage-bucket-all-users-policy.md)
+        * [Bucket Encryption](en/google/storage/bucket-encryption.md)
     * VPC Network
         * [Default VPC In Use](en/google/vpcnetwork/default-vpc-in-use.md)
         * [Excessive Firewall Rules](en/google/vpcnetwork/excessive-firewall-rules.md)
