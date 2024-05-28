@@ -16,12 +16,12 @@
 
 ## Detailed Remediation Steps
 1. Log in to the Microsoft Azure Management Console.
-2. Find the search bar at the top and search for Container apps. </br> <img src="/resources/azure/containerapp/container-app-volume-mount/step2.png"/>
-3. Select the "Conatiner App" by clicking on "Name" which needs to configure volume mounts.</br> <img src="/resources/azure/container-app/containerapp-volume-mount/step3.png"/>
-4. Scroll down the left navigation panel and choose "Volume".</br> <img src="/resources/azure/containerapp/container-app-volume-mount/step4.png"/>
-5. Click on add option to add the volume to the container app".</br> <img src="/resources/azure/containerapp/container-app-volume-mount/step5.png"/>
-6. Add the volume type  of your choice to the container app and enable the mount on volume.</br> <img src="/resources/azure/containerapp/container-app-volume-mount/step6.png"/>
+2. Find the search bar at the top and search for Container apps. </br> <img src="/resources/azure/containerapps/container-app-volume-mount/step2.png"/>
+3. Select the "Conatiner App" by clicking on "Name" which needs to configure volume mounts.</br> <img src="/resources/azure/containerapps/container-app-volume-mount/step3.png"/>
+4. Scroll down the left navigation panel and choose "Volume".</br> <img src="/resources/azure/containerapps/container-app-volume-mount/step4.png"/>
+5. Click on add option to add the volume to the container app".</br> <img src="/resources/azure/containerapps/container-app-volume-mount/step5.png"/>
+6. Add the volume type  of your choice to the container app and enable the mount on volume.</br> <img src="/resources/azure/containerapps/container-app-volume-mount/step6.png"/>
 7. Click on save button to save the volume configure with mount. </br> <img src="/resources/azure/containerapp/container-app-volume-mount/step7.png"/>
-8. In case of already present unmounted volume, select on the "volume" by clicking on "Name" .</br> <img src="/resources/azure/containerapp/container-app-volume-mount/step8.png"/>
-9. Configure the mount and click on save button to save the configuration. </br> <img src="/resources/azure/containerapp/container-app-volume-mount/step9.png"/>
+8. In case of already present unmounted volume, select on the "volume" by clicking on "Name" .</br> <img src="/resources/azure/containerapps/container-app-volume-mount/step8.png"/>
+9. Configure the mount and click on save button to save the configuration. </br> <img src="/resources/azure/containerapps/container-app-volume-mount/step9.png"/>
 10. Repeat steps number 4 - 9 to configure container apps with volume mounts.</br>
