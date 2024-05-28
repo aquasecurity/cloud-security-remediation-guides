@@ -20,5 +20,5 @@
 3. On the "Buckets" page, select the bucket which you want to configure by clicking on its name.</br> <img src="/resources/google/storage/bucket-retention-policy/step3.png"/>
 4. Select the "PROTECTION" tab to access the protection configuration defined for selected bucket.</br> <img src="/resources/google/storage/bucket-retention-policy/step4.png"/>
 5. Scroll down to "Bucket retention policy" configuration and click on "SET RETENTION POLICY" to add the retention policy to the selected bucket</br> <img src="/resources/google/storage/bucket-retention-policy/step5.png"/>
-6. A popup panel will appear, select the desired retemtion period and click on "save" to save the retntion policy.</br> <img src="/resources/google/storage/bucket-retention-policy/step6.png"/>
+6. A popup panel will appear, select the desired retention period and click on "save" to save the retention policy.</br> <img src="/resources/google/storage/bucket-retention-policy/step6.png"/>
 7. Repeat steps number 4-6 to add retention policy to all other buckets in the project.</br>
