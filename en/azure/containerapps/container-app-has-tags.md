@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 1. Log in to the Microsoft Azure Management Console.
-2. Find the search bar at the top and search for Container apps. </br> <img src="/resources/azure/containerapps/container-apps-has-tags/step2.png"/>
-3. Select the "Conatiner App" by clicking on "Name" which needs to have tags.</br> <img src="/resources/azure/containerapps/container-apps-has-tags/step3.png"/>
-4. Click on the 'Tags' option from left navigation panel.</br> <img src="/resources/azure/containerapps/container-apps-has-tags/step4.png"/>
-5. Add the name and key-value related to tag and Click on "Apply".</br> <img src="/resources/azure/containerapps/container-apps-has-tags/step5.png"/>
+2. Find the search bar at the top and search for Container apps. </br> <img src="/resources/azure/containerapp/container-app-has-tags/step2.png"/>
+3. Select the "Conatiner App" by clicking on "Name" which needs to have tags.</br> <img src="/resources/azure/container-app/containerapp-has-tags/step2.png"/>
+4. Click on the 'Tags' option from left navigation panel.</br> <img src="/resources/azure/containerapp/container-app-has-tags/step4.png"/>
+5. Add the name and key-value related to tag and Click on "Apply".</br> <img src="/resources/azure/containerapp/container-app-has-tags/step5.png"/>
