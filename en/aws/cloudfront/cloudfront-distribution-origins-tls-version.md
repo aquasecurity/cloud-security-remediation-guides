@@ -19,5 +19,5 @@
 4. Click the name of the CloudFront distribution that you want to Edit.
 5. Select the Origins tab. 
 6. Select the distribution origin that you want to reconfigure then click Edit.
-7. Select the latest supported version of TLS from the Minimum Origin SSL protocol list.</br> <img src="/resources/aws/cloudfront/cloudfront-enable-origin-failover/step7.png"/>
+7. Select the latest supported version of TLS from the Minimum Origin SSL protocol list.</br> <img src="/resources/aws/cloudfront/cloudfront-distribution-origins-tls-version/step7.png"/>
 8. Click Save changes.
