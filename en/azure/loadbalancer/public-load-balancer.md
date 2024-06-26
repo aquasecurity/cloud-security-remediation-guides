@@ -16,6 +16,8 @@
 
 ## Detailed Remediation Steps
 
+**Note: This plugin will always give fail result when the Load Balancer is not configured as public.**
+
 1. Log into the Microsoft Azure Management Console.
 2. In search bar at the top search for Load balancers and select "Load Balancers". </br> <img src="/resources/azure/loadbalancer/lb-public-ip/step2.png"/>
 3. Click on the Create Load balancer option at the top.</br> <img src="/resources/azure/loadbalancer/lb-public-ip/step3.png"/>
