@@ -9,10 +9,10 @@
 | **Plugin Title** | High Severity Alerts Enabled |
 | **Cloud** | AZURE |
 | **Category** | Security Center |
-| **Description** | Ensures that high severity alerts are properly configured. |
+| **Description** | Ensures that high severity alerts are enabled and properly configured. |
 | **More Info** | Enabling high severity alerts ensures that microsoft alerts for potential security issues are sent and allows for quick mitigation of the associated risks. |
-| **AZURE Link** | https://docs.microsoft.com/en-us/azure/security-center/security-center-provide-security-contact-details |
-| **Recommended Action** | Ensure that high severity alerts are configured to be sent. |
+| **AZURE Link** | https://learn.microsoft.com/en-us/azure/defender-for-cloud/configure-email-notifications |
+| **Recommended Action** | Enable email alert notification and configure its severity level. |
 
 ## Detailed Remediation Steps
 
@@ -21,7 +21,4 @@
 3. On the "Microsoft Defender for Cloud" page, scroll down the left navigation panel and choose "Environment Settings".</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step3.png"/>
 4. On the "Environment Settings" page, select the "Subscription" by clicking on the "Name".</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step4.png"/>
 5. Under the "Settings | Defender plans " page, click on the "Email Notifications. "</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step5.png"/>
-6. On the "Settings | Email notifications" page under "Email recipients" if the "Additional email addresses (separated by commas)" is empty and only "owner" is selected in "All users with the following roles" then high severity alerts are not configured to be sent to the admins.</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step6.png"/>
-7. Under "Email recipients", click the dropdown for "All users with the following roles" and check mark "AccountAdmin and "ServiceAdmin" along with owner and enter one or more than one "Email addresses" separated by "comma in section "Additional email addresses (separated by commas)".</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step7.png"/>
-8. Under "Notification types" select "High" from the dropdown next to "Notify about alerts with the following severity (or higher). Click on the "Save" button to make the changes.</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step8.png"/>
-9. Repeat step number 3 - 8 to ensure that high severity alerts are configured to be sent to subscription owners.</br>
+6. Under "Notification types" select the check box next to "Notify about alerts with the following severity (or higher)" then select desired severity level from dropdown and Click save at top of the page..</br> <img src="/resources/azure/securitycenter/high-severity-alerts-enabled/step6.png"/>
