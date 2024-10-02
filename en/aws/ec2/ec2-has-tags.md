@@ -20,6 +20,6 @@
 3. Scroll down the left navigation panel and choose "Instances". </br>  <img src="/resources/aws/ec2/ec2-has-tags/step3.png"/>
 4. Select the "EC2 Instance" for which you want to add tags and Click on the "Tags" tab in navigation panel below. </br> <img src="/resources/aws/ec2/ec2-has-tags/step4.png"/>
 5. On the "Description" tab Click on "Manage Tags" button </br> <img src="/resources/aws/ec2/ec2-has-tags/step5.png"/>
-6. On "Manage Tags" page Click on "Add Tag" button enter key and value for your tag and Click save.</br> <img src="/resources/aws/efs/ec2-has-tags/step6.png"/>
+6. On "Manage Tags" page Click on "Add Tag" button enter key and value for your tag and Click save.</br> <img src="/resources/aws/ec2/ec2-has-tags/step6.png"/>
 
 
