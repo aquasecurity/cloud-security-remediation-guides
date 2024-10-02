@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / EC2 / Instance Has Tags
+# AWS / EC2 / EC2 Has Tags
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Instance Has Tags |
+| **Plugin Title** | EC2 Has Tags |
 | **Cloud** | AWS |
 | **Category** | EC2 |
 | **Description** | Ensure EC2 Instances have tags |
