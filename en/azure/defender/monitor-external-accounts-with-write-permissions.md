@@ -4,15 +4,15 @@
 
 ## Quick Info
 
-| |                                                                                                                 |
-|-|-----------------------------------------------------------------------------------------------------------------|
-| **Plugin Title** | Monitor External Accounts with Write Permissions                                                                |
-| **Cloud** | AZURE                                                                                                           |
-| **Category** | Defender                                                                                                        |
-| **Description** | Ensures that External Accounts with Write Permissions are being Monitored in Microsoft Defender.                                                     |
+| |                                                                                                                |
+|-|----------------------------------------------------------------------------------------------------------------|
+| **Plugin Title** | Monitor External Accounts with Write Permissions                                                               |
+| **Cloud** | AZURE                                                                                                          |
+| **Category** | Defender                                                                                                       |
+| **Description** | Ensures that External Accounts with Write Permissions are being Monitored in Microsoft Defender.                                                    |
 | **More Info** | External Accounts with Write Permissions should be monitored to meet you organization's security compliance requirements. |
-| **AZURE Link** | 'https://learn.microsoft.com/en-us/azure/defender-for-cloud/policy-reference               |
-| **Recommended Action** | Enable Monitor for External Accounts with Write Permissions by ensuring AuditIfNotExists setting is used for 'External accounts with write permissions should be removed from your subscription' from the Microsoft Defender.                               |
+| **AZURE Link** | https://learn.microsoft.com/en-us/azure/defender-for-cloud/policy-reference               |
+| **Recommended Action** | Enable Monitor for External Accounts with Write Permissions by ensuring AuditIfNotExists setting is used for 'External accounts with write permissions should be removed from your subscription' from the Microsoft Defender.                              |
 
 ## Detailed Remediation Steps
 

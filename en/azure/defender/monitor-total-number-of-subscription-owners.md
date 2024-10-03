@@ -26,4 +26,4 @@
 8. In the list search for the setting "A maximum of 3 owners should be designated for your subscription". If it's set to "Disabled" then "Subscription Owner Monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/defender/monitor-total-number-of-subscription-owners/step8.png"/>
 9. To enable "Subscription Owner Monitoring" click to open the dropdown of "A maximum of 3 owners should be designated for your subscription" and select the "AuditIfNotExists" option.</br> <img src="/resources/azure/defender/monitor-total-number-of-subscription-owners/step9.png"/>
 10. Click on the "Review + save" button to make the necessary changes.</br> <img src="/resources/azure/defender/monitor-total-number-of-subscription-owners/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure "System Update monitoring" is configured from the Azure Defender.</br>
+11. Repeat steps number 3 - 10 to ensure "Subscription Owner Monitoring" is configured from the Azure Defender.</br>

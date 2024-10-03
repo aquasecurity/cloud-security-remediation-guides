@@ -24,4 +24,4 @@
 7. Enable the "Guest Configuration agent" by toggling its Status to "On".</br>  <img src="/resources/azure/defender/security-configuration-monitoring/step7.png"/>
 8. On the "Settings & Monitoring" Page, click on the "Continue" Button at the top.</br>  <img src="/resources/azure/defender/security-configuration-monitoring/step8.png"/>
 9. On the "Settings | Defender plans" Page, click on the "Save" Button at the top.</br>  <img src="/resources/azure/defender/security-configuration-monitoring/step9.png"/>
-10. Repeat steps 3 - 7 to ensure Security Configuration Monitoring is configured from Microsoft Defender for Cloud.</br>
+10. Repeat steps 3 - 9 to ensure Security Configuration Monitoring is configured from Microsoft Defender for Cloud.</br>

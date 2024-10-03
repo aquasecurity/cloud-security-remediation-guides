@@ -26,4 +26,4 @@
 8. In the list search for the setting "Management ports of virtual machines should be protected with just-in-time network access control". If it's set to "Disabled" then "JIT Network Access monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/defender/monitor-jit-network-access/step8.png"/>
 9. To enable "JIT Network Access monitoring" click to open the dropdown of "Management ports of virtual machines should be protected with just-in-time network access control" and select the "AuditIfNotExists" option.</br> <img src="/resources/azure/defender/monitor-jit-network-access/step9.png"/>
 10. Click on the "Review + save" button to make the necessary changes.</br> <img src="/resources/azure/defender/monitor-jit-network-access/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure "System Update monitoring" is configured from the Azure Defender.</br>
+11. Repeat steps number 3 - 10 to ensure "Monitor JIT Network Access" is configured from the Azure Defender.</br>

@@ -15,8 +15,6 @@
 | **Recommended Action** | Enable Adaptive Application Controls for Endpoint Protection from the Microsoft Defender by ensuring AuditIfNotExists setting is used to monitor missing Endpoint Protection. |
 
 ## Detailed Remediation Steps
-
-## Detailed Remediation Steps
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/defender/monitor-endpoint-protection/step2.png"/>
 3. Scroll down the left navigation panel and select "Environment Settings" under "Management".</br> <img src="/resources/azure/defender/monitor-endpoint-protection/step3.png"/>
@@ -26,4 +24,4 @@
 7. Enable the "Guest Configuration agent" by toggling its Status to "On".</br>  <img src="/resources/azure/defender/monitor-endpoint-protection/step7.png"/>
 8. On the "Settings & Monitoring" Page, click on the "Continue" Button at the top.</br>  <img src="/resources/azure/defender/monitor-endpoint-protection/step8.png"/>
 9. On the "Settings | Defender plans" Page, click on the "Save" Button at the top.</br>  <img src="/resources/azure/defender/monitor-endpoint-protection/step9.png"/>
-10. Repeat steps 3 - 7 to ensure Security Configuration Monitoring is configured from Microsoft Defender for Cloud.</br>
+10. Repeat steps 3 - 7 to ensure "Endpoint Protection Monitoring" is configured from Microsoft Defender for Cloud.</br>

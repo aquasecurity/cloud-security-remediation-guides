@@ -26,4 +26,4 @@
 8. In the list search for the setting "All Internet traffic should be routed via your deployed Azure Firewall". If it's set to "Disabled" then "Next Generation Firewall Monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/defender/monitor-next-generation-firewall/step8.png"/>
 9. To enable "Next Generation Firewall Monitoring" click to open the dropdown of "All Internet traffic should be routed via your deployed Azure Firewall" and select the "AuditIfNotExists" option.</br> <img src="/resources/azure/defender/monitor-next-generation-firewall/step9.png"/>
 10. Click on the "Review + save" button to make the necessary changes.</br> <img src="/resources/azure/defender/monitor-next-generation-firewall/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure "System Update monitoring" is configured from the Azure Defender.</br>
+11. Repeat steps number 3 - 10 to ensure "Next Generation Firewall Monitoring" is configured from the Azure Defender.</br>

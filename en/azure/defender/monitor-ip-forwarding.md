@@ -26,4 +26,4 @@
 8. In the list search for the setting "IP Forwarding on your virtual machine should be disabled". If it's set to "Disabled" then "IP Forwarding Monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/defender/monitor-ip-forwarding/step8.png"/>
 9. To enable "IP Forwarding Monitoring" click to open the dropdown of "IP Forwarding on your virtual machine should be disabled" and select the "AuditIfNotExists" option.</br> <img src="/resources/azure/defender/monitor-ip-forwarding/step9.png"/>
 10. Click on the "Review + save" button to make the necessary changes.</br> <img src="/resources/azure/defender/monitor-ip-forwarding/step10.png"/>
-11. Repeat steps number 3 - 10 to ensure "System Update monitoring" is configured from the Azure Defender.</br>
+11. Repeat steps number 3 - 10 to ensure "IP Forwarding Monitoring" is configured from the Azure Defender.</br>
