@@ -1,0 +1,14 @@
+name: assert-jira-ticket
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+permissions:
+  id-token: write     # This is required for requesting the JWT for Github OIDC auth
+  pull-requests: read # This is required to read PR contents.
+jobs:
+  assert-jira-ticket:
+    uses: rtkwlf-actions/common-workflows/.github/workflows/assert-jira-ticket.yml@latest
