@@ -175,6 +175,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Container Apps Has Tags](en/azure/containerapps/container-apps-has-tags.md)
     * Container Registry
         * [ACR Admin User](en/azure/containerregistry/acr-admin-user.md)
+    * Cosmos DB
+        * [Cosmosdb Has Tags](en/azure/cosmosdb-has-tags.md)
     * File Service
         * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
     * Key Vaults
