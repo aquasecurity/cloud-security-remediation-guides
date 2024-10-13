@@ -16,15 +16,14 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Security Center. </br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step2.png"/>
-3. Scroll down the "Security Center" and select the "Security policy" option under the "Management" on left navigation panel.</br>
-4. On the "Policy Management" page under "Name" column select the "Subscription Name" that needs to be verified.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step4.png"/>
-5. In the "Security Policy" page scroll down and click on the "Azure Security Benchmark".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step5.png"/>
-6. In the "Azure Security Benchmark" click on the Next button.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step6.png"/>
-7. In the "Azure Security Benchmark", check for the "Internet-facing virtual machines should be protected with network security groups" Parameter and if it's set to "Disable" then the encryption is not enabled.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step7.png"/>
-8. Repeat steps number 2 - 7 to check other "Subscriptions" under the "Security Center."</br>
-9. Navigate to the "Security Center", select the "Security policy" and under "Policy Management" seelct the "Subscription" that needs to enable the "Monitor network security groups setting."</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step9.png"/>
-10. Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings. </br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step10.png"/>
-11. Scroll down the page and under "Parameter" choose the "Internet-facing virtual machines should be protected with network security groups" and select the "AuditIfNotExists" option from the dropdown menu and click on the "Save" button at the bottom to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step11.png"/>
-12. Repeat steps number 9 - 11 to ensure Network Security Group monitoring is configured from the Azure Security Center.</br>
+1. Log in to the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step2.png"/>
+3. Scroll down the left navigation panel and select the "Environment Settings" under "Management".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step3.png"/>
+4. On the "Microsoft Defender for Cloud | Environment settings" page under "Name" column select the "Subscription Name" that needs to be verified by clicking on its Name.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step4.png"/>
+5. On the "Settings" page scroll down the "Policy settings" section and select "Security Policy".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step5.png"/>
+6. On the "Settings | Security policy" page, Select the "Subscription" link under the "Security policy" at the top to get into the configuration settings.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step6.png"/>
+7. On the Settings page, select the "Parameters" tab and uncheck "Only show parameters that need input or review". It will show you a list of parameters.</br>  <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step7.png"/>
+8. In the list search for the setting "Internet-facing virtual machines should be protected with network security groups". If it's set to "Disabled" then "Network Security Group monitoring" is not enabled on the selected "Subscription".</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step8.png"/>
+9. To enable "Network Security Group monitoring" click to open the dropdown of "Internet-facing virtual machines should be protected with network security groups" and select the "AuditIfNotExists" option. Click on the "Review + save" button at the bottom.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step9.png"/>
+10. On the "Review + save" page, click on "Save" button to make the necessary changes.</br> <img src="/resources/azure/securitycenter/monitor-nsg-enabled/step10.png"/>
+11. Repeat steps number 3 - 10 to ensure Network Security Group monitoring is configured from the Azure Security Center.</br>
