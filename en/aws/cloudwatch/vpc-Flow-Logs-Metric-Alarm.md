@@ -19,4 +19,4 @@
 2. Select the "Services" option and search for VPC. Ensure flow logs are created for your required VPCs. If not, choose Create Flow Log and select Cloudwatch as the destination. </br> <img src="/resources/aws/cloudwatch/step1.png"/>
 3. Open Cloudwatch from AWS console. Select the VPC flow log - log group if exists already or create one. </br> <img src="/resources/aws/cloudwatch/step2.png"/>
 4. Create metric filters based on the selected log group. </br>  </br> <img src="/resources/aws/cloudwatch/step3.png"/>
-5. Set up alarms based on the metrics. </br>  </br> <img src="/resources/aws/cloudwatch/step4.png"/>
+5. Set up alarms based on the set metrics. </br>  </br> <img src="/resources/aws/cloudwatch/step4.png"/>
