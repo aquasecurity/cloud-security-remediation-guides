@@ -18,11 +18,11 @@
 
 
 1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/defender/security-contacts-additional-email/step2.png"/>
-3. On the "Microsoft Defender for Cloud" page, scroll down the left navigation panel and choose "Environment Settings". </br> <img src="/resources/azure/defender/security-contacts-additional-email/step3.png"/>
-4. On the "Environment Settings" page, select the "Subscription" by clicking on the "Name". </br> <img src="/resources/azure/defender/security-contacts-additional-email/step4.png"/>
-5. Under the "Settings | Defender plans " page, click on the "Email Notifications". </br> <img src="/resources/azure/defender/security-contacts-additional-email/step5.png"/>
-6. On the "Settings | Email notifications" page under "Email recipients" if the "Additional email addresses (separated by commas)" is empty then the security contacts additional are not configured to be sent to the admins. </br> <img src="/resources/azure/defender/security-contacts-additional-email/step6.png"/>
-7. On the "Additional email addresses (separated by commas) section add the additional email addresses. </br> <img src="/resources/azure/defender/security-contacts-additional-email/step7.png"/>
-8. Under "Notification types" select "High" from the dropdown next to "Notify about alerts with the following severity (or higher). Click on the "Save" button to make the changes. </br> <img src="/resources/azure/defender/security-contacts-additional-email/step8.png"/>
+2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/defender/security-contact-additional-email/step2.png"/>
+3. On the "Microsoft Defender for Cloud" page, scroll down the left navigation panel and choose "Environment Settings". </br> <img src="/resources/azure/defender/security-contact-additional-email/step3.png"/>
+4. On the "Environment Settings" page, select the "Subscription" by clicking on the "Name". </br> <img src="/resources/azure/defender/security-contact-additional-email/step4.png"/>
+5. Under the "Settings | Defender plans " page, click on the "Email Notifications". </br> <img src="/resources/azure/defender/security-contact-additional-email/step5.png"/>
+6. On the "Settings | Email notifications" page under "Email recipients" if the "Additional email addresses (separated by commas)" is empty then the security contacts additional are not configured to be sent to the admins. </br> <img src="/resources/azure/defender/security-contact-additional-email/step6.png"/>
+7. On the "Additional email addresses (separated by commas) section add the additional email addresses. </br> <img src="/resources/azure/defender/security-contact-additional-email/step7.png"/>
+8. Under "Notification types" select "High" from the dropdown next to "Notify about alerts with the following severity (or higher). Click on the "Save" button to make the changes. </br> <img src="/resources/azure/defender/security-contact-additional-email/step8.png"/>
 9. Repeat step number 3 - 8 to ensure to ensure that email notifications are configured to be sent to subscription owners. </br>

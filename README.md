@@ -188,7 +188,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Security Configuration Monitoring](en/azure/defender/security-configuration-monitoring.md)
         * [Security Contact Additional Email](en/azure/defender/security-contact-additional-email.md)
         * [Security Contacts Enabled](en/azure/defender/security-contacts-enabled.md)
-        * [Security Contact Enabled for Subscription Owner](en/azure/defender/security-contacts-enabled-for-subscription-owner.md)
+        * [Security Contact Enabled for Subscription Owner](en/azure/defender/security-contact-enabled-for-subscription-owner.md)
         * [Standard Pricing Enabled](en/azure/defender/standard-pricing-enabled.md)
     * File Service
         * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
