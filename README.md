@@ -129,6 +129,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [S3 Bucket All Users Policy](en/aws/s3/s3-bucket-all-users-policy.md)
         * [S3 Bucket Logging](en/aws/s3/s3-bucket-logging.md)
         * [S3 Bucket Versioning](en/aws/s3/s3-bucket-versioning.md)
+    * SecretsManager
+        * [Secret Has Tags](en/aws/secretsmanager/secret-has-tags.md)
     * SES
         * [Email DKIM Enabled](en/aws/ses/email-dkim-enabled.md)
     * SNS
