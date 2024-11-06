@@ -15,3 +15,13 @@
 | **Recommended Action** | Create IAM user(s) and use them to access AWS services and resources. |
 
 ## Detailed Remediation Steps
+
+1. Log in to the AWS Management Console.
+2. Select Services and search for IAM.  
+   <img src="/resources/aws/iam/iam-user-present/step1.png"/>
+3. In the IAM dashboard, click on Users from the left navigation panel.  
+   <img src="/resources/aws/iam/iam-user-present/step2.png"/>
+4. Click on Add user to create a new IAM user.
+5. Enter a user name and configure the access type, choosing either programmatic access or AWS Management Console access as required.
+6. Follow the prompts to assign permissions, set up tags, and review the settings before creating the user.
+7. Complete the creation and provide the new IAM user with access details. Repeat if additional users are needed.
