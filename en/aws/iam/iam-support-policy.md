@@ -15,3 +15,13 @@
 | **Recommended Action** | Ensure that an IAM role has permission to access support center. |
 
 ## Detailed Remediation Steps
+1. Log in to the AWS Management Console.
+2. Select "Services" and search for IAM.
+        <img src="/resources/aws/iam/iam-support-policy/step1.png"/>
+3. In the IAM dashboard, click on "Roles" from the left navigation panel.
+        <img src="/resources/aws/iam/iam-support-policy/step2.png"/>
+4. Select the role you want to modify to allow access to the AWS Support Center.
+5. In the "Permissions" tab, click on "Attach policies".
+6. Search for and attach the "AWSSupportAccess" policy to enable access to support features.
+        <img src="/resources/aws/iam/iam-support-policy/step3.png"/>
+7. Click "Attach policy" to apply changes. Repeat for other roles, groups, or users as needed.

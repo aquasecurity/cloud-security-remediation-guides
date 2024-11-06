@@ -14,3 +14,13 @@
 | **Recommended Action** | Modify IAM user and attach new permissions or delete the user. |
 
 ## Detailed Remediation Steps
+
+1. Log in to the AWS Management Console.
+2. Select Services and search for IAM.  
+   <img src="/resources/aws/iam/iam-user-without-permissions/step1.png"/>
+3. In the IAM dashboard, click on Users from the left navigation panel.  
+   <img src="/resources/aws/iam/iam-user-without-permissions/step2.png"/>
+4. Select a user from the list and go to the Permissions tab to review any attached policies.
+5. If no policies are attached, either click on Add permissions to assign appropriate permissions or consider deleting the user if no access is needed.  
+   <img src="/resources/aws/iam/iam-user-without-permissions/step3.png"/>
+6. Repeat these steps for other IAM users to ensure all users have the required permissions or are removed if unnecessary.
