@@ -16,7 +16,7 @@
 
 ## Detailed Remediation Steps
 
-1. Log in to the Microsoft Azure Management Console.
+1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Microsoft Defender for Cloud". </br> <img src="/resources/azure/virtualmachines/vm-agent-enabled/step2.png"/>
 3. On the "Microsoft Defender for Cloud" page scroll down the left navigation panel and choose "Environment Settings". </br> <img src="/resources/azure/virtualmachines/vm-agent-enabled/step3.png"/>
 4. On the "Environment Settings" page, select the "Subscription" by clicking on its "Name". </br> <img src="/resources/azure/virtualmachines/vm-agent-enabled/step4.png"/>
