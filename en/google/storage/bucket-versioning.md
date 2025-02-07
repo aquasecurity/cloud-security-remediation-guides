@@ -15,5 +15,7 @@
 | **Recommended Action** | Bucket Versioning can only be enabled by using the Command Line Interface, use this command to enable Versioning: gsutil versioning set on gs://[BUCKET_NAME] |
 
 ## Detailed Remediation Steps
-
-
+1. Log into the Google Cloud Platform Console.
+2. Click on the 'cloud shell' icon on the top left of navigation bar ,as Bucket Versioning can only be enabled by using the CLI (Command Line Interface) .</br> <img src="/resources/google/storage/bucket-versioning/step2.png"/>
+3. Enter the command gsutil versioning set on gs://[BUCKET_NAME] </br> <img src="/resources/google/storage/bucket-versioning/step3.png"/>
+4. Repeat steps 3 to enable versioning to all other buckets in the project.

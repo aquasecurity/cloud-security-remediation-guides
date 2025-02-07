@@ -69,6 +69,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Instance Limit](en/aws/ec2/instance-limit.md)
         * [Managed NAT Gateway In Use](en/aws/ec2/managed-nat-gateway-in-use.md)
         * [NAT Multiple AZ](en/aws/ec2/nat-multiple-az.md)
+        * [Network Acl Has Tags](en/aws/ec2/network-acl-has-tags.md)
         * [Open All Ports Protocols](en/aws/ec2/open-all-ports-protocols.md)
         * [Open CIFS](en/aws/ec2/open-cifs.md)
         * [Open DNS](en/aws/ec2/open-dns.md)
@@ -231,8 +232,26 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * CDN Profiles
         * [Detect Insecure Custom Origin](en/azure/cdnprofiles/detect-insecure-custom-origin.md)
         * [Endpoint Logging Enabled](en/azure/cdnprofiles/endpoint-logging-enabled.md)
+    * Container App
+        * [Container Apps Volume Mount Configured ](en/azure/containerapps/container-apps-volume-mount-configured.md)
+        * [Container Apps Has Tags](en/azure/containerapps/container-apps-has-tags.md)
     * Container Registry
         * [ACR Admin User](en/azure/containerregistry/acr-admin-user.md)
+    * Defender
+        * [Auto Provisioning Enabled](en/azure/defender/auto-provisioning-enabled.md)
+        * [High Severity Alerts Enabled](en/azure/defender/high-severity-alerts-enabled.md)
+        * [Monitor Endpoint Protection](en/azure/defender/monitor-endpoint-protection.md)
+        * [Monitor External Accounts with Write Permissions](en/azure/defender/monitor-external-accounts-with-write-permissions.md)
+        * [Monitor IP Forwarding](en/azure/defender/monitor-ip-forwarding.md)
+        * [Monitor JIT Network Access](en/azure/defender/monitor-jit-network-access.md)
+        * [Monitor Next Generation Firewall](en/azure/defender/monitor-next-generation-firewall.md)
+        * [Monitor System Updates](en/azure/defender/monitor-system-updates.md)
+        * [Monitor Total Number of Subscription Owners](en/azure/defender/monitor-total-number-of-subscription-owners.md)
+        * [Security Configuration Monitoring](en/azure/defender/security-configuration-monitoring.md)
+        * [Security Contact Additional Email](en/azure/defender/security-contact-additional-email.md)
+        * [Security Contacts Enabled](en/azure/defender/security-contacts-enabled.md)
+        * [Security Contact Enabled for Subscription Owner](en/azure/defender/security-contact-enabled-for-subscription-owner.md)
+        * [Standard Pricing Enabled](en/azure/defender/standard-pricing-enabled.md)
     * File Service
         * [File Service All Access ACL](en/azure/fileservice/file-service-all-access-acl.md)
     * Key Vaults
@@ -245,6 +264,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
+        * [Public Load Balancer](en/azure/loadbalancer/public-load-balancer.md)
     * Log Alerts
         * [Network Security Groups Logging Enabled](en/azure/logalerts/network-security-groups-logging-enabled.md)
         * [Network Security Groups Rule Logging Enabled](en/azure/logalerts/network-security-groups-rule-logging-enabled.md)
@@ -313,23 +333,6 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Send Alerts Enabled](en/azure/sqlserver/send-alerts-enabled.md)
         * [Server Auditing Enabled](en/azure/sqlserver/server-auditing-enabled.md)
         * [TDE Protector Encrypted](en/azure/sqlserver/tde-protector-encrypted.md)
-    * Security Center
-        * [Admin Security Alerts Enabled](en/azure/securitycenter/admin-security-alerts-enabled.md)
-        * [Application Whitelisting Enabled](en/azure/securitycenter/application-whitelisting-enabled.md)
-        * [Auto Provisioning Enabled](en/azure/securitycenter/auto-provisioning-enabled.md)
-        * [High Severity Alerts Enabled](en/azure/securitycenter/high-severity-alerts-enabled.md)
-        * [Monitor Blob Encryption](en/azure/securitycenter/monitor-blob-encryption.md)
-        * [Monitor Disk Encryption](en/azure/securitycenter/monitor-disk-encryption.md)
-        * [Monitor Endpoint Protection](en/azure/securitycenter/monitor-endpoint-protection.md)
-        * [Monitor JIT Network Access](en/azure/securitycenter/monitor-jit-network-access.md)
-        * [Monitor NSG Enabled](en/azure/securitycenter/monitor-nsg-enabled.md)
-        * [Monitor SQL Auditing](en/azure/securitycenter/monitor-sql-auditing.md)
-        * [Monitor SQL Encryption](en/azure/securitycenter/monitor-sql-encryption.md)
-        * [Monitor System Updates](en/azure/securitycenter/monitor-system-updates.md)
-        * [Monitor VM Vulnerability](en/azure/securitycenter/monitor-vm-vulnerability.md)
-        * [Security Configuration Monitoring](en/azure/securitycenter/security-configuration-monitoring.md)
-        * [Security Contacts Enabled](en/azure/securitycenter/security-contacts-enabled.md)
-        * [Standard Pricing Enabled](en/azure/securitycenter/standard-pricing-enabled.md)
     * Storage Accounts
         * [Blob Service Encryption](en/azure/storageaccounts/blob-service-encryption.md)
         * [File Service Encryption](en/azure/storageaccounts/file-service-encryption.md)
@@ -356,6 +359,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VM OS Disk Encryption](en/azure/virtualmachines/vm-os-disk-encryption.md)
     * Virtual Networks
         * [Multiple Subnets](en/azure/virtualnetworks/multiple-subnets.md)
+    * Virtual Machine Scale Set
+        * [VM Scale Set Approved Extensions](en/azure/virtualmachinescaleset/vmss-approved-extensions.md)
 * Google
     * CLB
         * [CLB CDN Enabled](en/google/clb/clb-cdn-enabled.md)
@@ -424,8 +429,11 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Database SSL Enabled](en/google/sql/database-ssl-enabled.md)
     * Storage
         * [Bucket Logging](en/google/storage/bucket-logging.md)
+        * [Storage Bucket Retention Policy](en/google/storage/storage-bucket-retention-policy.md)
         * [Bucket Versioning](en/google/storage/bucket-versioning.md)
+        * [Bucket Lifecycle Configured](en/google/storage/bucket-lifecycle-configured.md)
         * [Storage Bucket All Users Policy](en/google/storage/storage-bucket-all-users-policy.md)
+        * [Bucket Encryption](en/google/storage/bucket-encryption.md)
     * VPC Network
         * [Default VPC In Use](en/google/vpcnetwork/default-vpc-in-use.md)
         * [Excessive Firewall Rules](en/google/vpcnetwork/excessive-firewall-rules.md)
