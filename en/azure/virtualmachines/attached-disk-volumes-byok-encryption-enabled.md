@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / Disk Volumes BYOK Encryption Enabled
+# AZURE / Virtual Machines / Attached Disk Volumes BYOK Encryption Enabled
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Disk Volumes BYOK Encryption Enabled |
+| **Plugin Title** | Attached Disk Volumes BYOK Encryption Enabled |
 | **Cloud** | AZURE |
 | **Category** | Virtual Machines |
 | **Description** | Ensures that Azure virtual machine disks have BYOK (Customer-Managed Key) encryption enabled. |
@@ -16,7 +16,6 @@
 
 ## Detailed Remediation Steps
 
-{Listed Remediation Steps}
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for Virtual Machines.
 3. Select the corresponding virtual machine by clicking on the "Name" link.
