@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AWS / SageMaker / Notebook Data Encrypted
+# AWS / AI & ML / Notebook Data Encrypted
 
 ## Quick Info
 
@@ -8,7 +8,7 @@
 |-|-|
 | **Plugin Title** | Notebook Data Encrypted |
 | **Cloud** | AWS |
-| **Category** | SageMaker |
+| **Category** | AI & ML |
 | **Description** | Ensure Notebook data is encrypted |
 | **More Info** | An optional encryption key can be supplied during Notebook Instance creation. |
 | **AWS Link** | https://docs.aws.amazon.com/sagemaker/latest/dg/API_CreateNotebookInstance.html#API_CreateNotebookInstance_RequestSyntax |
