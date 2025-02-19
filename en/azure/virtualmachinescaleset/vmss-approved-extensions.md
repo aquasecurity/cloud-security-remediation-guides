@@ -9,7 +9,7 @@
 | **Plugin Title** | VM Scale Set Approved Extensions |
 | **Cloud** | AZURE |
 | **Category** | Virtual Machine Scale Set |
-| **Description** | Ensures that approved Virtual Machine Scale Set extensions are installed. |
+| **Description** | Ensures that approved Virtual Machine Scale Set extensions are installed |
 | **More Info** | Extensions are small applications that provide post-deployment configuration and automation on Azure VMs. Extensions installed should be approved by the organization to meet the organizational security requirements. |
 | **AZURE Link** | https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/overview |
 | **Recommended Action** | Uninstall unapproved virtual machine scale set extensions. |

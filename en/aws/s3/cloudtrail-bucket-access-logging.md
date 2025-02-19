@@ -13,6 +13,7 @@
 | **More Info** | CloudTrail buckets should utilize access logging for an additional layer of auditing. If the log files are deleted or modified in any way, the additional access logs can help determine who made the changes. |
 | **AWS Link** | http://docs.aws.amazon.com/AmazonS3/latest/UG/ManagingBucketLogging.html |
 | **Recommended Action** | Enable access logging on the CloudTrail bucket from the S3 console. |
+| **Recommended Action** | Enable access logging on the CloudTrail bucket from the S3 console. |
 
 ## Detailed Remediation Steps
 1. Log into the AWS Management Console.
@@ -25,3 +26,4 @@
 8. Click the "Properties" tab from panel to get into Properties configuration options.</br><img src="/resources/aws/s3/cloudtrail-bucket-access-logging/step8.png"/>
 9. From "Server Access Login" check if the "Enabled" checkbox is selected and if the "Disable Logging" checkbox is selected the logging feature is not enabled for the selected "CloudTrail" bucket.</br><img src="/resources/aws/s3/cloudtrail-bucket-access-logging/step9.png"/>
 10. Click on "Enabled" checkbox and specify the "Target bucket" used to store data log files. Provide a "Prefix" that S3 can assign to all log object keys. Save the changes after review. </br> <img src="/resources/aws/s3/cloudtrail-bucket-access-logging/step10.png"/>
+11. Click on "Save changes" after review.

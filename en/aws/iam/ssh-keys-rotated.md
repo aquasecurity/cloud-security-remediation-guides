@@ -15,7 +15,7 @@
 | **Recommended Action** | To rotate an SSH key, first create a new public-private key pair, then upload the public key to AWS and delete the old key. |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
+1. Log in to the AWS Management Console.
 2. Select the "Services" option and search for IAM. </br> <img src="/resources/aws/iam/ssh-keys-rotated/step2.png"/>
 3. Scroll down the left navigation panel and choose "Users". </br><img src="/resources/aws/iam/ssh-keys-rotated/step3.png"/>
 4. Select the "User" that needs to be verified and click on the "User name" to access the selected "IAM User".</br><img src="/resources/aws/iam/ssh-keys-rotated/step4.png"/>

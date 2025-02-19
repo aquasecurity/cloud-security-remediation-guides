@@ -15,15 +15,13 @@
 | **Recommended Action** | Enable a data immutability policy for all storage containers in the Azure storage account. |
 
 ## Detailed Remediation Steps
-
-1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for Storage account. </br> <img src="/resources/azure/blobservice/blob-service-immutable/step2.png"/>
+1. Log in to the Microsoft Azure Management Console.
+2. Find the search bar at the top and search for "Storage accounts". </br> <img src="/resources/azure/blobservice/blob-service-immutable/step2.png"/>
 3. Select the "Storage account" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/blobservice/blob-service-immutable/step3.png"/>
-4. Click on the "Overveiw" in the selected "Storage account" and scroll down the right side of the settings and click on the "Blobs" option. </br> <img src="/resources/azure/blobservice/blob-service-immutable/step4.png"/>
-5. On the "Blobs" page select the "Blob" by clicking on the "Name" as a link to access the configuration changes.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step5.png"/>
-6. In the selected "Blob", click on the "Access Policy" and check the "Permissions" assosciated with the "Blob". If the "Blob" allow full read,add,create,write, delete, or list permissions then the selected "Blob" is not properly configured in blob services to protect critical data against deletion.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step6.png"/>
-7. Repeat steps number 2 - 6 to verify other "Blobs" in the Storage accounts. </br>
-8. Navigate to the "Storage accounts", select the "Storage account" and click on the "Name", select the "Overview" options and select the "Blob" by clicking on the "Name" as a link to access the configurations.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step8.png"/>
-9. On the "Blob" configuration click on the "Access Policy" option and select the "Edit" option to make the changes.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step9.png"/>
-10. Uncheck the "Add/Write/Detele/List" policies under the "Permissions" and click on the "OK" button to make the changes.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step10.png"/>
-11. Repeat steps number 8 - 10 to ensures data immutability is properly configured in blob services to protect critical data against deletion.</br>
+4. In the "Data Management" Section, Click on the "Data protection" tab. Enable the Soft delete for blobs or containers based on your required level and save.</br> <img src="/resources/azure/blobservice/blob-service-immutable/step4.png"/>
+5. Now, in the left navigation panel click on "Containers" under "Data Storage" </br> <img src="/resources/azure/blobservice/blob-service-immutable/step5.png"/>
+6. In the Containers List, select the container by clicking on the triple dots (...) on the extreme right and select "Access Policy".</br> <img src="/resources/azure/blobservice/blob-service-immutable/step6.png"/>
+7. In the "Access Policy" panel, create immutable blob storage access policy in the containers (time-based or legal hold).</br> <img src="/resources/azure/blobservice/blob-service-immutable/step7.png"/>
+8. To create a policy with container scope, don't check the box for Enable version-level immutability and click save.
+9. Repeat steps number 5 - 8 to ensure data immutability is properly configured in blob services to protect critical data against deletion.
+

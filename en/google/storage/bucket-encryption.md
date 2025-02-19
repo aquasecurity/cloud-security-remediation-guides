@@ -1,12 +1,12 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# GOOGLE / Storage / Bucket Uniform Level Access
+# GOOGLE / Storage / Bucket Encryption
 
 ## Quick Info
 
 | | |
 |-|-|
-| **Plugin Title** | Bucket Uniform Level Access |
+| **Plugin Title** | Bucket Encryption |
 | **Cloud** | GOOGLE |
 | **Category** | Storage |
 | **Description** | Ensure that Cloud Storage buckets have encryption enabled using desired protection level. |
@@ -16,11 +16,10 @@
 
 ## Detailed Remediation Steps
 1. Log into the Google Cloud Platform Console.
-2. Scroll down the left navigation panel and choose "Cloud Storage" to select the "Buckets" option.
-3. On the "Buckets" page, select the bucket by clicking on the bucket's name. 
-4. In the bucket details page, click on the Configuration tab.
-5. Click on the Pencil icon associated with the Encryption type entry.
-6. Set or remove the default Cloud KMS key for the bucket.
-    a. If the bucket isn't currently using a Cloud KMS key, select the Customer-managed key radio button, then select one of the available keys in the associated drop-down menu.
-    b. If the bucket currently uses a Cloud KMS key, change the Cloud KMS key in the drop-down menu by selecting the Google-managed key radio button.
-7. Click Save.
+2. Scroll down the left navigation panel and choose "Cloud Storage" to select the "Buckets" option. </br> <img src="/resources/google/storage/bucket-encryption/step2.png">
+3. On the "Buckets" page, select the bucket which needs to be configured with the desire encryption level .</br> <img src="/resources/google/storage/bucket-encryption/step3.png"/>
+4. Select the "CONFIGURATION" tab to access the configuration defined for selected bucket.</br> <img src="/resources/google/storage/bucket-encryption/step4.png"/>
+5. Select on Encryption type and click on edit option. </br> <img src="/resources/google/storage/bucket-encryption/step5.png"/>
+5. A popup panel will appear on screen.</br>
+6. Select the desire encryption level want to set on selected bucket and then click "Save" </br> <img src="/resources/google/storage/bucket-encryption/step6.png"/>
+7. Repeat steps number 4-6 to configure encryption of desire level to all other buckets in the project.</br>

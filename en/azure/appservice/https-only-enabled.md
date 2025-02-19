@@ -18,6 +18,8 @@
 
 1. Log into the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for App Services. </br> <img src="/resources/azure/appservice/https-only-enabled/step2.png"/>
-3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.
-4. Scroll down the selected "App Services" navigation panel and in "Settings" click on the "Configuration" option.
-5. On the "Configuration" page select the General settings tab,scroll down and on the HTTPs Only box. </br> <img src="/resources/azure/appservice/http-2.0-enabled/step3.png"/>
+3. Select the "App Services" by clicking on the "Name" link to access the configuration changes.</br> <img src="/resources/azure/appservice/https-only-enabled/step3.png"/>
+4. Scroll down the selected "App Services" left navigation panel and in "Settings" click on the "Configuration" option.</br> <img src="/resources/azure/appservice/https-only-enabled/step4.png"/>
+5. On the "Configuration" page select the General settings tab, scroll down to "HTTPs Only". If the "App Service" is not using "HTTPS only" then select "On". </br> <img src="/resources/azure/appservice/https-only-enabled/step5.png"/>
+6. Click Save.</br> <img src="/resources/azure/appservice/https-only-enabled/step6.png"/>
+7. Wait for the confirmation box, then click "Continue".</br> <img src="/resources/azure/appservice/https-only-enabled/step7.png"/>

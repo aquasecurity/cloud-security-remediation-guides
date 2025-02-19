@@ -15,11 +15,10 @@
 | **Recommended Action** | Remove access keys for the root account and setup IAM users with limited permissions instead |
 
 ## Detailed Remediation Steps
-1. Log into the AWS Management Console.
-2. Click on the AWS account name at the top on AWS management console and click on the "My Security Credentials" from the menu.</br><img src="/resources/aws/iam/root-access-keys/step2.png"/>
-3. On the "Your Security Credentials" page scroll down and click on the "Access keys (access key ID and secret access key)". Check the "Status" column under "Access Keys" and see if there are any "Active" keys in the root account. If there are one or more active keys than AWS account might get compromised against unauthorized access.</br><img src="/resources/aws/iam/root-access-keys/step3.png"/>
-4. Repeat steps number 2 and 3 for other AWS accounts.</br>
-5. Click on the "Access keys (access key ID and secret access key)" under "Your Security Credentials" page and select the "Access Key" which is "Active" under "Status" column.</br><img src="/resources/aws/iam/root-access-keys/step5.png"/>
-6. Click on the "Delete" option at the extreme right to delete the selected key.</br><img src="/resources/aws/iam/root-access-keys/step6.png"/>
-7. On the "Delete Access Key" tab click on the "Yes" button to delete the selected key.</br><img src="/resources/aws/iam/root-access-keys/step7.png"/>
-8. "Access Key" status will be changed to "Deleted" now. </br><img src="/resources/aws/iam/root-access-keys/step8.png"/>
+1. Log in to the AWS Management Console.
+2. Click on the AWS account name at the top on AWS management console and click on the "Security Credentials" from the menu.</br><img src="/resources/aws/iam/root-access-keys/step2.png"/>
+3. On the "My security credentials" page scroll down to "Access keys for CLI, SDK, & API access". Check the "Status" column under "Access Keys" and see if there are any "Active" keys in the root account. If there are one or more active keys than AWS account might get compromised against unauthorized access.</br><img src="/resources/aws/iam/root-access-keys/step3.png"/>
+4. Select the "Access Key" which is "Active" under "Status" column. Click on the "Delete" option at the extreme right to delete the selected key.</br><img src="/resources/aws/iam/root-access-keys/step4.png"/>
+5. On the "Delete Access Key" pop up click on "Deactivate" button to deactivate the selected key.</br><img src="/resources/aws/iam/root-access-keys/step5.png"/>
+6. To confirm deletion enter the access key ID in the text input field and click on "Delete" button. </br><img src="/resources/aws/iam/root-access-keys/step6.png"/>
+7. Repeat steps number 2 and 6 for other AWS accounts.</br>
