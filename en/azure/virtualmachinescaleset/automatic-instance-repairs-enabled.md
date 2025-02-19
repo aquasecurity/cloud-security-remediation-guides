@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / Automatic Instance Repairs Enabled
+# AZURE / Virtual Machine Scale Set / Automatic Instance Repairs Enabled
 
 ## Quick Info
 
@@ -8,7 +8,7 @@
 |-|-|
 | **Plugin Title** | Automatic Instance Repairs Enabled |
 | **Cloud** | AZURE |
-| **Category** | Virtual Machines |
+| **Category** | Virtual Machine Scale Set |
 | **Description** | Ensures that automatic instance repairs is enabled for Azure virtual machine scale sets. |
 | **More Info** | Enabling automatic instance repairs for Azure virtual machine scale sets helps achieve high availability for applications by maintaining a set of healthy instances. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-instance-repairs |
