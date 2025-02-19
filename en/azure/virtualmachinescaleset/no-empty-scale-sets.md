@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / No Empty Scale Sets
+# AZURE / Virtual Machine Scale Set / No Empty Scale Sets
 
 ## Quick Info
 
@@ -8,7 +8,7 @@
 |-|-|
 | **Plugin Title** | No Empty Scale Sets |
 | **Cloud** | AZURE |
-| **Category** | Virtual Machines |
+| **Category** | Virtual Machine Scale Set |
 | **Description** | Ensures that virtual machine scale sets have virtual machine instances attached. |
 | **More Info** | Azure virtual machine scale sets let you create and manage a group of load balanced VMs. Scale sets with no vm instances should be deleted to save cost of unused resources. |
 | **AZURE Link** | Delete virtual machine scale sets that have no virtual machine instances. |

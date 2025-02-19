@@ -16,10 +16,9 @@
 
 ## Detailed Remediation Steps
 
-1. Log in to the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for "Virtual Machine Scale Set". </br> <img src="/resources/azure/virtualmachinescaleset/vmss-approved-extensions/step2.png"/>
-3. Select the "Scale Set" by clicking on the "Name" link to access the configuration changes. </br> <img src="/resources/azure/virtualmachinescaleset/vmss-approved-extensions/step3.png"/>
-4. In the left navigation panel, click on the "Extensions + applications" under "Settings".</br> <img src="/resources/azure/virtualmachinescaleset/vmss-approved-extensions/step4.png"/>
-5. Select the unapproved "Extension" by clicking on by clicking on its name under Extensions tab. </br> <img src="/resources/azure/virtualmachinescaleset/vmss-approved-extensions/step5.png"/>
-6. On the extension details panel click "Uninstall" button to remove the extension from scale set.</br> <img src="/resources/azure/virtualmachinescaleset/vmss-approved-extensions/step6.png"/>
-7. Repeat step 5-6 to remove all the unapproved extensions from virtual machine scale set.
+1. Log into the Microsoft Azure Management Console.
+2. Select the "Search resources, services, and docs" option at the top and search for "Virtual machine scale sets".
+3. Select the corresponding scale set by clicking on the "name" link
+4. Once the scale set is selected, select "Extensions + Applications".
+5. Review the list of installed extensions and verify that only approved extensions are present. Uninstall any unapproved extensions if found.
+6. Repeat steps 3-5 for all applicable scale set instances.

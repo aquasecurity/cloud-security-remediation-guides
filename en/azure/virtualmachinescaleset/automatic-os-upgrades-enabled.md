@@ -1,6 +1,6 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / Automatic OS Upgrades Enabled
+# AZURE / Virtual Machine Scale Set / Automatic OS Upgrades Enabled
 
 ## Quick Info
 
@@ -8,7 +8,7 @@
 |-|-|
 | **Plugin Title** | Automatic OS Upgrades Enabled |
 | **Cloud** | AZURE |
-| **Category** | Virtual Machines |
+| **Category** | Virtual Machine Scale Set |
 | **Description** | Ensure that automatic operating system (OS) upgrades are enabled for Microsoft Azure virtual machine scale sets. |
 | **More Info** | Enabling automatic OS image upgrades on your scale set helps ease update management by safely and automatically upgrading the OS disk for all instances in the scale set. |
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade |
