@@ -1,13 +1,13 @@
 [![CloudSploit](https://cloudsploit.com/img/logo-new-big-text-100.png "CloudSploit")](https://cloudsploit.com)
 
-# AZURE / Virtual Machines / Scale Sets Autoscale Notifications Enabled
+# AZURE / Virtual Machine Scale Set / Scale Sets Autoscale Notifications Enabled
 ## Quick Info
 
 | | |
 |-|-|
 | **Plugin Title** | Scale Sets Autoscale Notifications Enabled |
 | **Cloud** | AZURE |
-| **Category** | Virtual Machines |
+| **Category** | Virtual Machine Scale Set |
 | **Description** | Ensures that Virtual Machine scale sets have autoscale notifications enabled. |
 | **More Info** | Autoscale automatically creates new instances when certain metrics are surpassed, or can destroy instances that are being underutilized. Autoscale notifications should be enabled to know about the status of autoscale operation.|
 | **AZURE Link** | https://docs.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview |
