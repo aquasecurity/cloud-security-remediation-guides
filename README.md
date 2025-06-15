@@ -281,6 +281,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Storage Accounts Encryption](en/azure/storageaccounts/storage-accounts-encryption.md)
         * [Storage Accounts HTTPS](en/azure/storageaccounts/storage-accounts-https.md)
         * [Trusted MS Access Enabled](en/azure/storageaccounts/trusted-ms-access-enabled.md)
+        * [Storage Account Has Tags](en/azure/storageaccounts/storage-account-has-tags.md)
     * Table Service
         * [Table Service All Access ACL](en/azure/tableservice/table-service-all-access-acl.md)
     * Virtual Machines
