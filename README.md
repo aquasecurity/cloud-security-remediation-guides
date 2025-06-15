@@ -196,6 +196,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Key Expiration Enabled](en/azure/keyvaults/key-expiration-enabled.md)
         * [Key Vault Recovery Enabled](en/azure/keyvaults/key-vault-recovery-enabled.md)
         * [Secret Expiration Enabled](en/azure/keyvaults/secret-expiration-enabled.md)
+        * [Key Vault Has Tags](en/azure/keyvaults/key-vault-has-tags.md)
     * Kubernetes Service
         * [Kubernetes Latest Version](en/azure/kubernetesservice/kubernetes-latest-version.md)
         * [Kubernetes RBAC Enabled](en/azure/kubernetesservice/kubernetes-rbac-enabled.md)
