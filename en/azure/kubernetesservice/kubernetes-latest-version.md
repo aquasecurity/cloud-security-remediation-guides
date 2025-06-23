@@ -11,7 +11,7 @@
 | **Category** | Kubernetes Service |
 | **Description** | Ensures the latest version of Kubernetes is installed on AKS clusters |
 | **More Info** | AKS supports provisioning clusters from several versions of Kubernetes. Clusters should be kept up to date to ensure Kubernetes security patches are applied. |
-| **AZURE Link** | https://docs.microsoft.com/en-us/azure/aks/aad-integration |
+| **AZURE Link** | https://learn.microsoft.com/en-us/azure/aks/upgrade-aks-cluster?tabs=azure-portal |
 | **Recommended Action** | Upgrade the version of Kubernetes on all AKS clusters to the latest available version. |
 
 ## Detailed Remediation Steps
