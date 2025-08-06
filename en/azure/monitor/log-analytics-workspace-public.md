@@ -19,7 +19,7 @@
 1. Log in to the Microsoft Azure Management Console.
 2. Select the "Search resources, services, and docs" option at the top and search for "Log Analytics workspaces". </br> 
 3. On the "Log Analytics Workspaces" page select the resource and click on its Name to reach its configuration page.</br>
-<img src="/resources/azure/monitor/log-analytics-workspace-public/step1.png"/> 
+<img src="/resources/azure/monitor/log-analytics-workspace-public/step1.png"/>  
 4. On the "Log Analytics Workspaces - resource" page, scroll down the left navigation panel and choose "Network Isolation".</br> <img src="/resources/azure/monitor/log-analytics-workspace-public/step2.png"/> 
 5. Under "Public access" tab, you will see "Ingestion access" and "Query access" sections. Click on the "Manage" button to configure public network access.</br>
 6. In the "Public network access" pop-up window that appears, under "Ingestion access", select "Secured by perimeter" to disable public ingestion access.</br>
