@@ -6,7 +6,7 @@
 
 | | |
 |-|-|
-| **Plugin Title** | Log Analytics Workspace Public Access |
+| **Plugin Title** | Log Analytics Public Workspace |
 | **Cloud** | AZURE |
 | **Category** | Monitor |
 | **Description** | Ensures Log Analytics Workspace is not publicly accessible |
