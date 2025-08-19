@@ -160,6 +160,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Java Version](en/azure/appservice/java-version.md)
         * [PHP Version](en/azure/appservice/php-version.md)
         * [Python Version](en/azure/appservice/python-version.md)
+        * [NodeJS Version](en/azure/appservice/nodejs-version.md)
         * [TLS Version Check](en/azure/appservice/tls-version-check.md)
     * Azure Policy
         * [Resource Location Matches Resource Group](en/azure/azurepolicy/resource-location-matches-resource-group.md)
