@@ -295,6 +295,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VM Endpoint Protection](en/azure/virtualmachines/vm-endpoint-protection.md)
         * [VM Instance Limit](en/azure/virtualmachines/vm-instance-limit.md)
         * [VM OS Disk Encryption](en/azure/virtualmachines/vm-os-disk-encryption.md)
+        * [Snapshot Has Tags](en/azure/virtualmachines/snapshotHasTags.md)
     * Virtual Networks
         * [Multiple Subnets](en/azure/virtualnetworks/multiple-subnets.md)
     * Virtual Machine Scale Set
