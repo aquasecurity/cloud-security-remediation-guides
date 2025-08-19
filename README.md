@@ -199,6 +199,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
     * Kubernetes Service
         * [Kubernetes Latest Version](en/azure/kubernetesservice/kubernetes-latest-version.md)
         * [Kubernetes RBAC Enabled](en/azure/kubernetesservice/kubernetes-rbac-enabled.md)
+        * [AKS Has Tags](en/azure/kubernetes/aks-has-tags.md)
     * Load Balancer
         * [LB HTTPS Only](en/azure/loadbalancer/lb-https-only.md)
         * [LB No Instances](en/azure/loadbalancer/lb-no-instances.md)
@@ -295,6 +296,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VM Endpoint Protection](en/azure/virtualmachines/vm-endpoint-protection.md)
         * [VM Instance Limit](en/azure/virtualmachines/vm-instance-limit.md)
         * [VM OS Disk Encryption](en/azure/virtualmachines/vm-os-disk-encryption.md)
+        * [Disk Has Tags](en/azure/virtualmachines/disk-has-tags.md)
     * Virtual Networks
         * [Multiple Subnets](en/azure/virtualnetworks/multiple-subnets.md)
     * Virtual Machine Scale Set
