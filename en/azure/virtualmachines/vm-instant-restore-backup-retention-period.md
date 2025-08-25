@@ -16,12 +16,28 @@
 
 ## Detailed Remediation Steps
 
-1. Log into the Microsoft Azure Management Console.
-2. Select the "Search resources, services, and docs" option at the top and search for "Recovery Services vaults". </br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step2.png"/>
-3. After searching the "Recovery Vaults", this screen will appear. From here, click on the vault that you have created.</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step3.png"/>
-4. After clicking on the vault, a left sidebar will appear, where you can see the "Manage" section.
+1. Log in to the Microsoft Azure Management Console.
+
+2. In the search bar at the top, select Search resources, services, and docs and search for "Recovery Services vaults".
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step2.png"/>
+
+3. In the search results for "Recovery Vaults", select the vault you have created.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step3.png"/>
+
+4. After selecting the vault, a left sidebar will appear. Locate the Manage section.
 </br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step4.png"/>
 
-5. Click on "Backup Policies". On the right side, the list of policies will be displayed. Choose the backup policy linked to your VM. </br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step5.png"/>
+5. Click on Backup Policies. The list of policies will appear on the right. Select the backup policy linked to your VM. If no policy is available, click the Add icon to create a new backup policy.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step5.png"/>
 
-6. Under the "Instant Restore" section, locate the field labeled "Retain instant recovery snapshot(s) for [5] Day(s)". Update the number of days according to your desired retention period, and then click the "Update" button to save the changes. </br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step6.png"/>
+6. When creating a new policy, select Azure Virtual Machine as the policy type.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step6.png"/>
+
+7. Choose Enhanced, provide a name for the policy, and then click Create.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step7.png"/>
+
+8. After successfully creating the policy, click on it to modify the Instant Restore settings.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step8.png"/>
+
+9. The Instant Restore value will be displayed (default is 7 days). If you require more instant restore days, edit the field and click Update.
+</br> <img src="/resources/azure/virtualmachines/vm-instant-restore-backup-retention-period/step9.png"/>
