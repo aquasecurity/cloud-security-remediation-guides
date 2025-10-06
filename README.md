@@ -142,14 +142,14 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Notebook Data Encrypted](en/aws/sagemaker/notebook-data-encrypted.md)
         * [Notebook Direct Internet Access](en/aws/sagemaker/notebook-direct-internet-access.md)
 * Azure
-    * Active Directory
-        * [Ensure No Guest User](en/azure/activedirectory/ensure-no-guest-user.md)
-        * [Minimum Password Length](en/azure/activedirectory/minimum-password-length.md)
-        * [No Custom Owner Roles](en/azure/activedirectory/no-custom-owner-roles.md)
-        * [Password Requires Lowercase](en/azure/activedirectory/password-requires-lowercase.md)
-        * [Password Requires Numbers](en/azure/activedirectory/password-requires-numbers.md)
-        * [Password Requires Symbols](en/azure/activedirectory/password-requires-symbols.md)
-        * [Password Requires Uppercase](en/azure/activedirectory/password-requires-uppercase.md)
+    * Entra ID
+        * [Ensure No Guest User](en/azure/entraid/ensure-no-guest-user.md)
+        * [Minimum Password Length](en/azure/entraid/minimum-password-length.md)
+        * [No Custom Owner Roles](en/azure/entraid/no-custom-owner-roles.md)
+        * [Password Requires Lowercase](en/azure/entraid/password-requires-lowercase.md)
+        * [Password Requires Numbers](en/azure/entraid/password-requires-numbers.md)
+        * [Password Requires Symbols](en/azure/entraid/password-requires-symbols.md)
+        * [Password Requires Uppercase](en/azure/entraid/password-requires-uppercase.md)
     * App Service
         * [.NET Framework Version](en/azure/appservice/.net-framework-version.md)
         * [Authentication Enabled](en/azure/appservice/authentication-enabled.md)
@@ -265,7 +265,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Advanced Data Security Enabled](en/azure/sqlserver/advanced-data-security-enabled.md)
         * [Audit Action Groups Enabled](en/azure/sqlserver/audit-action-groups-enabled.md)
         * [Audit Retention Policy](en/azure/sqlserver/audit-retention-policy.md)
-        * [Azure Active Directory Admin Enabled](en/azure/sqlserver/azure-active-directory-admin-enabled.md)
+        * [Azure Entra ID Admin Enabled](en/azure/sqlserver/azure-active-directory-admin-enabled.md)
         * [Email Account Admins Enabled](en/azure/sqlserver/email-account-admins-enabled.md)
         * [SQL Server Public Access](en/azure/sqlserver/sql-server-public-access.md)
         * [Send Alerts Enabled](en/azure/sqlserver/send-alerts-enabled.md)
