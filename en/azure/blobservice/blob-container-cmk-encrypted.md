@@ -65,17 +65,4 @@ Before configuring CMK encryption for blob containers, ensure you have:
 3. Alternatively, you can verify by checking the encryption scopes:
    - Go to **Encryption** under **Security + networking**, then click on the **Encryption scopes** tab
    - Confirm that your encryption scope is listed with **Status** showing as **Enabled**
-
-### Step 4: Migrate Existing Data (If Applicable)
-
-For existing blob containers that do not have CMK encryption:
-
-1. **Note**: You cannot change the encryption scope of an existing container. You must create a new container with CMK encryption.
-2. Create a new container following **Step 2** above with CMK encryption enabled.
-3. Use Azure Storage tools (Azure Portal, Azure CLI, Azure PowerShell, or Azure Storage Explorer) to copy blobs from the old container to the new CMK-encrypted container.
-4. Update your applications to reference the new container.
-5. Once migration is complete and verified, you can delete the old container if no longer needed.
-
-### Step 5: Repeat for All Storage Accounts
-
-Repeat steps 1-4 for all storage accounts in your Azure subscription to ensure all new blob containers are created with CMK encryption enabled.
+4. **Note**: You cannot change the encryption scope of an existing container. You must create a new container with CMK encryption. 
