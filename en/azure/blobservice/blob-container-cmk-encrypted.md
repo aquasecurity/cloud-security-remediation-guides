@@ -46,7 +46,7 @@ Before configuring CMK encryption for blob containers, ensure you have:
 8. Review all settings, then click the **Create** button at the bottom of the panel to save the encryption scope.
 9. Wait for the encryption scope to be created successfully. You should see it listed on the **Encryption scopes** page with **Status** showing as **Enabled**.
 
-### Step 2: Create New Blob Containers with CMK Encryption
+### Step 2: Create New Blob Containers with CMK Encryption 
 
 1. In the left navigation panel of your Storage account, click on **Containers** under **Data storage**. </br> <img src="/resources/azure/blobservice/blob-container-cmk-encrypted/step4.png"/>
 2. Click on the **+ Container** button at the top to create a new container.
