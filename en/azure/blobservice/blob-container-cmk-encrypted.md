@@ -31,9 +31,9 @@ Before configuring CMK encryption for blob containers, ensure you have:
 
 1. Log in to the Microsoft Azure Management Console.
 2. Find the search bar at the top and search for **Storage account**. </br> <img src="/resources/azure/blobservice/blob-container-cmk-encrypted/step1.png"/>
-3. Select the **Storage account** by clicking on the **Name** link to access the configuration changes. </br>
+3. Select the **Storage account** by clicking on the **Name** link to access the configuration changes.
 4. In the left navigation panel, scroll down and click on **Encryption** under **Security + networking**. </br> <img src="/resources/azure/blobservice/blob-container-cmk-encrypted/step2.png"/>
-5. On the **Encryption** page, click on the **Encryption scopes** tab (if not already selected), then click on the **+ Add** button at the top to create a new encryption scope. </br>
+5. On the **Encryption** page, click on the **Encryption scopes** tab (if not already selected), then click on the **+ Add** button at the top to create a new encryption scope.
 6. In the **Create encryption scope** panel that opens on the right:
    - Enter a **Name** for the encryption scope in the **Encryption scope name** field (e.g., "cmk-encryption-scope")
    - Under **Encryption type**, select the radio button for **Customer-managed keys** (this should be selected by default)
@@ -42,20 +42,20 @@ Before configuring CMK encryption for blob containers, ensure you have:
    - **Subscription**: Select your subscription from the dropdown
    - **Key vault** (required): Click the dropdown and select your Key Vault from the list. If you see an access denied message, ensure the storage account has the necessary permissions (Get, Unwrap Key, Wrap Key) on the Key Vault.
    - **Key** (required): Click the dropdown and select the key from your Key Vault
-   - **Infrastructure encryption**: Leave as **Disabled** (default) unless you require double encryption </br>
-8. Review all settings, then click the **Create** button at the bottom of the panel to save the encryption scope. </br>
+   - **Infrastructure encryption**: Leave as **Disabled** (default) unless you require double encryption
+8. Review all settings, then click the **Create** button at the bottom of the panel to save the encryption scope.
 9. Wait for the encryption scope to be created successfully. You should see it listed on the **Encryption scopes** page with **Status** showing as **Enabled**.
 
 ### Step 2: Create New Blob Containers with CMK Encryption
 
 1. In the left navigation panel of your Storage account, click on **Containers** under **Data storage**. </br> <img src="/resources/azure/blobservice/blob-container-cmk-encrypted/step4.png"/>
-2. Click on the **+ Container** button at the top to create a new container. </br>
+2. Click on the **+ Container** button at the top to create a new container.
 3. In the **New container** panel:
    - Enter a **Name** for the container
    - Select the **Public access level** (recommended: **Private (no anonymous access)**)
    - Under **Encryption scope**, select **Use a specific encryption scope**
    - In the **Encryption scope** dropdown, select the CMK encryption scope you created in Step 1
-   - Click **Create** </br> 
+   - Click **Create**
 4. The new container will be created with CMK encryption enabled. All blobs uploaded to this container will be encrypted using the customer-managed key from your Key Vault.
 
 ### Step 3: Verify CMK Encryption
