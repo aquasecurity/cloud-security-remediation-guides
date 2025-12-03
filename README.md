@@ -73,6 +73,8 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [VPC Elastic IP Limit](en/aws/ec2/vpc-elastic-ip-limit.md)
         * [VPC Flow Logs Enabled](en/aws/ec2/vpc-flow-logs-enabled.md)
         * [VPC Multiple Subnets](en/aws/ec2/vpc-multiple-subnets.md)
+    * ECR
+        * [ECR Repository Has Tags](en/aws/ecr/ecr-repository-has-tags.md)    
     * ELB
         * [ELB HTTPS Only](en/aws/elb/elb-https-only.md)
         * [ELB Logging Enabled](en/aws/elb/elb-logging-enabled.md)
