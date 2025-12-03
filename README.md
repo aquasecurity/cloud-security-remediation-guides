@@ -133,6 +133,7 @@ This repository is an extension of CloudSploit's [open-source scanning engine](h
         * [Email DKIM Enabled](en/aws/ses/email-dkim-enabled.md)
     * SNS
         * [SNS Topic Policies](en/aws/sns/sns-topic-policies.md)
+        * [SNS Topic Has Tags](en/aws/sns/sns-topic-has-tags.md)
     * SQS
         * [SQS Cross Account Access](en/aws/sqs/sqs-cross-account-access.md)
         * [SQS Encrypted](en/aws/sqs/sqs-encrypted.md)
